@@ -1,8 +1,7 @@
 # Blue Carbon Eelgrass Workshop
 
-Materials from the **Blue Carbon Eelgrass Workshop** — a hands-on introduction to
-quantifying sediment carbon stocks in eelgrass (*Zostera marina*) meadows, using
-sediment cores from the **Bay of Islands, West Coast Newfoundland**.
+Materials from the **Blue Carbon Eelgrass Workshop**
+
 
 This repository contains everything covered in the workshop: the presentation
 slides, the sample field data, and a complete, reproducible R analysis pipeline
@@ -16,6 +15,10 @@ that takes raw core measurements all the way through to spatial carbon-stock map
 |------|-------------|
 | `BlueCarbon_EelgrassPPT_FinalV1.pptx` | Workshop slide deck — background on blue carbon, eelgrass ecology, field methods, and an overview of the analysis. |
 | `EelgrassWorkshop/` | The full R analysis project: numbered scripts, sample data, and a rendered Quarto report. See [`EelgrassWorkshop/README.md`](EelgrassWorkshop/README.md) for details. |
+
+Sampling design tool library
+https://github.com/WWF-Canada-SKI/Carbon-Measurement/tree/main/Blue%20Carbon/Sampling%20Design%20Tools
+
 
 ---
 
