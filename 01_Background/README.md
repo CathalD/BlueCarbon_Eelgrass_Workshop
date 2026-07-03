@@ -1,0 +1,78 @@
+# 1 — Background
+
+*Blue carbon, eelgrass, and why sediment carbon matters.*
+
+[← Back to main guide](../README.md) · Next: [2 — Project Planning →](../02_Project_Planning/)
+
+---
+
+## What is blue carbon?
+
+**Blue carbon** is the organic carbon captured and stored by coastal and marine
+ecosystems — principally **seagrass meadows, tidal salt marshes, and mangroves**.
+These habitats are among the most efficient carbon sinks on Earth: per unit area
+they can bury organic carbon far faster than terrestrial forests, and — because it
+is locked into waterlogged, low-oxygen sediment — that carbon can remain stored for
+centuries to millennia.
+
+Two things make these systems valuable from a climate perspective:
+
+1. **Sequestration** — living plants pull CO₂ out of the water and atmosphere.
+2. **Storage** — the bulk of the carbon accumulates in the *sediment* beneath the
+   meadow, not in the plants themselves. This is why our sampling focuses on
+   sediment cores rather than biomass alone.
+
+> 📷 *Screenshot placeholder — blue carbon overview slide from the workshop PPT.
+> Drop image into `images/` and reference it here.*
+
+---
+
+## Eelgrass (*Zostera marina*)
+
+Eelgrass is the dominant temperate seagrass across the North Atlantic, including the
+coastal waters of Newfoundland. As a foundation species it stabilises sediment, slows
+water flow (which encourages more particles to settle and be buried), and supports
+fisheries and biodiversity — while continuously adding organic carbon to the seabed.
+
+Eelgrass sediments typically hold **lower organic carbon concentrations than salt
+marsh or mangrove soils**, which is reflected in the quality-control thresholds used
+later in the analysis (see Section 4).
+
+> 📷 *Screenshot placeholder — eelgrass ecology / Zostera marina slide.*
+
+---
+
+## Interactive: Ecosystem Carbon Accumulation Visualizer
+
+Explore how carbon accumulates in coastal ecosystems over time with the interactive
+tool built for this workshop:
+
+**👉 https://cathald.github.io/CarbonAccumulationVisualizer/**
+
+> 📷 *Screenshot placeholder — visualizer screenshot with a short caption on how to use it.*
+
+---
+
+## Key references
+
+The workshop follows the internationally recognised methods for coastal blue carbon
+assessment. The primary reference is the **"Blue Carbon Manual"**:
+
+> Howard, J., Hoyt, S., Isensee, K., Telszewski, M., & Pidgeon, E. (eds.) (2014).
+> *Coastal Blue Carbon: Methods for assessing carbon stocks and emissions factors in
+> mangroves, tidal salt marshes, and seagrass meadows.* Conservation International,
+> Intergovernmental Oceanographic Commission of UNESCO, International Union for
+> Conservation of Nature. Arlington, Virginia, USA.
+
+*(Additional references to be added — e.g. region-specific eelgrass carbon studies
+and any Newfoundland-specific sources cited in the presentation.)*
+
+---
+
+## In this section
+
+- `images/` — presentation screenshots and figures for this section.
+
+> **Iteration note:** this page is scaffolded. Paste in your PPT screenshots
+> (into `images/`) and any additional citations, and we'll expand the narrative
+> around them.
