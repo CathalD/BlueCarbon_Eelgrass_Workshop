@@ -1,8 +1,7 @@
 # Blue Carbon Eelgrass Workshop
 
-A hands-on guide to measuring sediment carbon stocks in eelgrass (*Zostera marina*)
-meadows — from the science of blue carbon, through planning a sampling campaign and
-collecting cores in the field, to analysing the results in R.
+Materials from the **Blue Carbon Eelgrass Workshop**
+
 
 This repository is organised as a **four-part guide**. Work through it in order,
 or jump to the section you need.
@@ -17,6 +16,10 @@ or jump to the section you need.
 | 2 | [**Project Planning**](02_Project_Planning/) | How many samples to take and where — area-based sample-size calculation (Cochran's formula) and stratified allocation tools. |
 | 3 | [**Field Methods**](03_Field_Methods/) | Core collection basics, equipment list, field data sheets, and coring how-to videos. |
 | 4 | [**Data Interpretation**](04_Data_Interpretation/) | Submitting samples to a lab, understanding lab results, and the full eelgrass carbon analysis workflow in R. |
+
+Sampling design tool library
+https://github.com/WWF-Canada-SKI/Carbon-Measurement/tree/main/Blue%20Carbon/Sampling%20Design%20Tools
+
 
 ---
 
