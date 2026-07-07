@@ -9,7 +9,7 @@
 ## What is blue carbon?
 
 **Blue carbon** is the organic carbon captured and stored by coastal and marine
-ecosystems — principally **seagrass meadows, tidal salt marshes, and mangroves**.
+ecosystems — principally **seagrass/eelgrass meadows and tidal salt marshes**.
 These habitats are among the most efficient carbon sinks on Earth: per unit area
 they can bury organic carbon far faster than terrestrial forests, and — because it
 is locked into waterlogged, low-oxygen sediment — that carbon can remain stored for
@@ -21,24 +21,26 @@ Two things make these systems valuable from a climate perspective:
 2. **Storage** — the bulk of the carbon accumulates in the *sediment* beneath the
    meadow, not in the plants themselves. This is why our sampling focuses on
    sediment cores rather than biomass alone.
+   
+<img width="2400" height="1350" alt="image" src="https://github.com/user-attachments/assets/afbcd0f7-4380-42b4-8376-d2a94bae6109" />
 
-> 📷 *Screenshot placeholder — blue carbon overview slide from the workshop PPT.
-> Drop image into `images/` and reference it here.*
 
 ---
 
 ## Eelgrass (*Zostera marina*)
 
-Eelgrass is the dominant temperate seagrass across the North Atlantic, including the
-coastal waters of Newfoundland. As a foundation species it stabilises sediment, slows
+Eelgrass is the dominant temperate seagrass across the North Atlantic. As a foundation species it stabilises sediment, slows
 water flow (which encourages more particles to settle and be buried), and supports
 fisheries and biodiversity — while continuously adding organic carbon to the seabed.
+
+<img width="2400" height="1350" alt="image" src="https://github.com/user-attachments/assets/ee974671-e167-4d17-b7b4-491188c83123" />
+
 
 Eelgrass sediments typically hold **lower organic carbon concentrations than salt
 marsh or mangrove soils**, which is reflected in the quality-control thresholds used
 later in the analysis (see Section 4).
 
-> 📷 *Screenshot placeholder — eelgrass ecology / Zostera marina slide.*
+<img width="2400" height="1350" alt="image" src="https://github.com/user-attachments/assets/109307fa-6ff4-4f80-bb2a-c1251366dce9" />
 
 ---
 
@@ -49,7 +51,8 @@ tool built for this workshop:
 
 **👉 https://cathald.github.io/CarbonAccumulationVisualizer/**
 
-> 📷 *Screenshot placeholder — visualizer screenshot with a short caption on how to use it.*
+
+
 
 ---
 
