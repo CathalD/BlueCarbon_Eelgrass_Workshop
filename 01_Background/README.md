@@ -58,17 +58,13 @@ tool built for this workshop:
 
 ## Key references
 
-The workshop follows the internationally recognised methods for coastal blue carbon
-assessment. The primary reference is the **"Blue Carbon Manual"**:
+The workshop follows methods distilled from coastal blue carbon guides, particularily those focussed on the role of the practitioner on the groudn and the project coordinator to plan the project. A consistent guide referenced throughout is the **"Blue Carbon Manual"**:
 
 > Howard, J., Hoyt, S., Isensee, K., Telszewski, M., & Pidgeon, E. (eds.) (2014).
 > *Coastal Blue Carbon: Methods for assessing carbon stocks and emissions factors in
 > mangroves, tidal salt marshes, and seagrass meadows.* Conservation International,
-> Intergovernmental Oceanographic Commission of UNESCO, International Union for
-> Conservation of Nature. Arlington, Virginia, USA.
 
-*(Additional references to be added — e.g. region-specific eelgrass carbon studies
-and any Newfoundland-specific sources cited in the presentation.)*
+*(Additional references to be added )*
 
 ---
 
@@ -76,6 +72,3 @@ and any Newfoundland-specific sources cited in the presentation.)*
 
 - `images/` — presentation screenshots and figures for this section.
 
-> **Iteration note:** this page is scaffolded. Paste in your PPT screenshots
-> (into `images/`) and any additional citations, and we'll expand the narrative
-> around them.
