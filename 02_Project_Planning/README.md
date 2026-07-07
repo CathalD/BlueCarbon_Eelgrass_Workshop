@@ -8,12 +8,12 @@
 
 ## Why planning matters
 
-A carbon-stock estimate is only as good as the sampling behind it. Too few cores and
-the estimate carries wide uncertainty; poorly placed cores and it may be biased. The
-aim of this stage is a **defensible sampling design**: enough samples, allocated
-across the meadow, to estimate carbon stock to a target level of precision.
+Before getting out into the field, there are two questions that need adressing, these are:
+How many samples should we take? And where should we take them?
+Answering these questions is the aim of a **sampling design**: do we have enough samples, allocated
+across the ecosystem, to estimate carbon stock to meet our projects goals?
 
-We follow the sampling-design guidance in the Howard et al. blue carbon manual
+Here we follow both the WWF-Canada Sampling Design guide (see the sampling-design guidance in the Howard et al. blue carbon manual
 (see [Section 1](../01_Background/)), implemented through two practical tools.
 
 ---
