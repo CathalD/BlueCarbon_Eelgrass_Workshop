@@ -3,8 +3,8 @@
 Materials from the **Blue Carbon Eelgrass Workshop**
 
 
-This repository is organised as a **four-part guide**. Work through it in order,
-or jump to the section you need.
+This workshop folder is organised in **four-parts**. You can go through it in order,
+or jump to any section you want to.
 
 ---
 
@@ -17,22 +17,24 @@ or jump to the section you need.
 | 3 | [**Field Methods**](03_Field_Methods/) | Core collection basics, equipment list, field data sheets, and coring how-to videos. |
 | 4 | [**Data Interpretation**](04_Data_Interpretation/) | Submitting samples to a lab, understanding lab results, and the full eelgrass carbon analysis workflow in R. |
 
-Sampling design tool library
+Sampling design tool library:
+Link to sampling design tools: https://blue-carbon-hub.projects.earthengine.app/
+Link to code:
 https://github.com/WWF-Canada-SKI/Carbon-Measurement/tree/main/Blue%20Carbon/Sampling%20Design%20Tools
 
 
 ---
 
-## The big picture
+## Objectives
 
-The goal of the workshop is to answer one question end-to-end:
+The goal of the workshop is to a) Learn about blue carbon in Canada b) learn some field methods for measuring it c) Be able to convert these field measuremnts to learn about the ecosystem and inform decisions
 
-> **How much carbon is stored in the sediment beneath an eelgrass meadow, and how confident are we in that number?**
+> **A good question to start with: How much carbon is stored in the sediment beneath an eelgrass meadow, and how confident are we in that number?**
 
 Getting there means making good decisions at every stage — enough samples in the
-right places (Section 2), collected correctly (Section 3), measured by a lab, and
+right places (Section 2), collected samples correctly (Section 3), measured by a lab, and
 analysed with methods that account for compaction, differing sample depths, and
-spatial variation (Section 4). Section 1 sets out why any of this matters.
+spatial variation (Section 4). Section 1 provides background context and explains why blue carbon matters in Canada.
 
 **How carbon stock is calculated:**
 
@@ -40,7 +42,7 @@ spatial variation (Section 4). Section 1 sets out why any of this matters.
 Carbon stock (kg C/m²) = SOC (g/kg) × bulk density (g/cm³) × layer thickness (cm) ÷ 100
 ```
 
-Higher organic carbon concentration, denser sediment, and thicker layers all mean
+Higher organic carbon concentration, denser sediment (higher bulk density), and deeper sediment (larger total core thickness) all mean
 more carbon stored per square metre.
 
 ---
@@ -58,6 +60,3 @@ more carbon stored per square metre.
 - **Ecosystem Carbon Accumulation Visualizer** — https://cathald.github.io/CarbonAccumulationVisualizer/
 - **WWF-Canada Blue Carbon Sampling Design Tools** — https://github.com/WWF-Canada-SKI/Carbon-Measurement/tree/main/Blue%20Carbon/Sampling%20Design%20Tools
 
----
-
-*Workshop materials — Bay of Islands, West Coast Newfoundland.*
