@@ -10,23 +10,23 @@
 
 Before getting out into the field, there are two questions that need adressing, these are:
 How many samples should we take? And where should we take them?
-Answering these questions is the aim of a **sampling design**: do we have enough samples, allocated
+Answering these questions is the aim of a **sampling design**: In other words, do we have enough samples, allocated
 across the ecosystem, to estimate carbon stock to meet our projects goals?
 
-Here we follow both the WWF-Canada Sampling Design guide (see the sampling-design guidance in the Howard et al. blue carbon manual
-(see [Section 1](../01_Background/)), implemented through two practical tools.
+Here we follow both the WWF-Canada Sampling Design guide (see here: 02_Project_Planning/Sampling-Design-Eng-2026.pdf), as well as the sampling-design guidance present in the Howard et al. blue carbon manual
+(see [Section 1](../01_Background/))
 
 ---
 
 ## How many samples? — Area-based sample-size calculation
 
-The number of cores needed is estimated with **Cochran's formula** for a desired
+The number of cores needed can be estimated using an area-based appraoch with **Cochran's formula** for a desired
 margin of error and confidence level, given the variability (standard deviation) of
 carbon in the ecosystem. This is provided as a spreadsheet calculator:
 
 **📄 [`SampleDesign_SampleAllocationCalculator_WithStrata.xlsx`](SampleDesign_SampleAllocationCalculator_WithStrata.xlsx)**
 
-The workbook has three sheets:
+The spreadsheet has three sheets: 
 
 ### Sheet 1 — Sample Allocation Calculator
 Estimates the total number of plots/cores (*n*) for the whole study area.
@@ -65,6 +65,22 @@ estimate for the same number of cores and ensures no part of the site is missed.
 *(This maps directly onto the analysis in Section 4, where cores carry a `stratum`
 label and water depth is used as a spatial predictor in kriging.)*
 
+<img width="2400" height="1350" alt="image" src="https://github.com/user-attachments/assets/19e30448-624d-460d-98da-93acce8724c5" />
+
+
+<img width="2400" height="1350" alt="image" src="https://github.com/user-attachments/assets/a2d13fda-6c63-417d-aad6-b506be50a59d" />
+
+
+<img width="2400" height="1350" alt="image" src="https://github.com/user-attachments/assets/d5d1f4f8-7040-434c-8a72-41f3a88cec09" />
+
+
+
+<img width="2400" height="1350" alt="image" src="https://github.com/user-attachments/assets/080e16d2-3be6-4da8-a0d1-bb4154c82e96" />
+
+
+<img width="2400" height="1350" alt="image" src="https://github.com/user-attachments/assets/1cf7295f-9143-4637-84dc-b6daab789f85" />
+
+
 ---
 
 ## Companion tools — WWF-Canada Blue Carbon Sampling Design Tools
@@ -74,8 +90,7 @@ developed previously for blue carbon work:
 
 **👉 https://github.com/WWF-Canada-SKI/Carbon-Measurement/tree/main/Blue%20Carbon/Sampling%20Design%20Tools**
 
-*(We'll add notes here on which tool to use when, and how they complement the
-spreadsheet calculator.)*
+
 
 ---
 
@@ -84,5 +99,4 @@ spreadsheet calculator.)*
 - `SampleDesign_SampleAllocationCalculator_WithStrata.xlsx` — the Cochran's-formula calculator.
 - `images/` — screenshots of the calculator and planning materials.
 
-> **Iteration note:** scaffolded page. Paste in calculator/planning screenshots and
-> we'll add worked examples using the workshop site's numbers.
+
