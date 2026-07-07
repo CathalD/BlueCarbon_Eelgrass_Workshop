@@ -47,7 +47,7 @@ more carbon stored per square metre.
 
 ---
 
-## Also in this repository
+## Some resources to find in this workshop
 
 - `BlueCarbon_EelgrassPPT_FinalV1.pptx` — the full workshop slide deck.
 - `02_Project_Planning/SampleDesign_SampleAllocationCalculator_WithStrata.xlsx` — the sample-size calculator.
