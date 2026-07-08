@@ -18,9 +18,9 @@ any section you wish.
 | # | Section | What it covers |
 |---|---------|----------------|
 | 1 | [**Background**](01_Background/) | What blue carbon is and why it matters; key references (the [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)); the workshop [slide deck](01_Background/BlueCarbon_EelgrassPPT_FinalV1.pdf).|
-| 2 | [**Project Planning**](02_Project_Planning/) | How many samples to take and where: area-based sample-size calculation (Cochran's formula) in the Excel calculator, stratified allocation, and the WWF-Canada sampling-design guide + tools. |
-| 3 | [**Field Methods**](03_Field_Methods/) | Collecting sediment cores: equipment, the step-by-step coring workflow, the eelgrass field datasheet, and coring how-to videos. |
-| 4 | [**Data Interpretation**](04_Data_Interpretation/) | Submitting samples to a lab, reading lab results, and the full eelgrass carbon analysis workflow (and report) in R. |
+| 2 | [**Project Planning**](02_Project_Planning/) | How many samples to take and where: area-based sample-size calculations, stratified allocation, and the WWF-Canada sampling-design guide + tools. |
+| 3 | [**Field Methods**](03_Field_Methods/) | Collecting sediment cores: equipment, step-by-step coring methods and coring how-to videos, and accompanying datasheets. |
+| 4 | [**Data Interpretation**](04_Data_Interpretation/) | Submitting samples to a lab, reading lab results, and the full carbon analysis. |
 
 
 ### Useful links
@@ -39,7 +39,7 @@ The goal of the workshop is to:
 
 1. **Learn about blue carbon in Canada** — what it is and why it matters.
 2. **Learn field methods for measuring it** — how to collect and process sediment cores.
-3. **Turn measurements into insight** — convert field data into an understanding of the ecosystem to inform decisions.
+3. **Turn measurements into outputs** — convert field data into carbon analyses to inform decision making.
 
 > **A good question to start with: How much carbon is stored in the sediment beneath an eelgrass meadow, and how confident are we in that number?**
 
@@ -47,12 +47,13 @@ Getting there means making good decisions at every stage — enough samples in t
 places ([Section 2](02_Project_Planning/)), collected correctly ([Section 3](03_Field_Methods/)),
 measured by a lab, and analysed with methods that account for compaction, differing sample
 depths, and spatial variation ([Section 4](04_Data_Interpretation/)).
+
 [Section 1](01_Background/) provides background context and explains why blue carbon matters in Canada.
 
 **TLDR: How carbon stock is calculated:**
 
-1. Collect a sediment core
-2. Measure how much sediment and carbon is in the core
+1. [Collect a sediment core](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd)
+2. Measure [how much sediment](https://www.youtube.com/watch?v=BuLRrFD78Fs&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=11) and [how much carbon](https://www.youtube.com/watch?v=_Zm9R-kGiE8) is in the core
 3. Multiply these values
 ```
 Carbon stock (kg C/m²) = SOC (g/kg) × bulk density (g/cm³) × layer thickness (cm) ÷ 100
