@@ -13,8 +13,14 @@ How many samples should we take? And where should we take them?
 Answering these questions is the aim of a **sampling design**: In other words, do we have enough samples, allocated
 across the ecosystem, to estimate carbon stock to meet our projects goals?
 
-Here we follow both the WWF-Canada Sampling Design guide (see here: 02_Project_Planning/Sampling-Design-Eng-2026.pdf), as well as the sampling-design guidance present in the Howard et al. blue carbon manual
-(see [Section 1](../01_Background/))
+Here we follow both the WWF-Canada [Sampling Design guide](Sampling-Design-Eng-2026.pdf), as well as the sampling-design guidance present in the [Howard et al. blue carbon manual](https://www.thebluecarboninitiative.org/manual)
+(see [Section 1](../01_Background/)).
+
+> "A sampling design is a framework for choosing what and where to sample to estimate
+> the carbon stored in a larger ecosystem area. Sampling designs allow for the strategic
+> measurement of smaller sections (i.e., sites and plots) within the larger study area."
+>
+> — WWF-Canada, *[Measuring Carbon in Coastal Sediments](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)* (2026), p.5
 
 ---
 
@@ -62,8 +68,24 @@ samples are allocated across them (Sheet 2 above). Stratifying by features that 
 carbon variability — meadow density, water depth, sediment type — gives a more precise
 estimate for the same number of cores and ensures no part of the site is missed.
 
-*(This maps directly onto the analysis in Section 4, where cores carry a `stratum`
-label and water depth is used as a spatial predictor in kriging.)*
+> "stratification (optional) is used to divide the study area into smaller distinct
+> sites. This process can reduce the cost of sampling by increasing the statistical
+> power of your field data."
+>
+> — WWF-Canada, *[Measuring Carbon in Coastal Sediments](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)* (2026), p.6
+
+For eelgrass specifically, the field guide recommends a shoreline-aligned transect layout:
+
+> "seagrass meadows should be sampled along transects that run parallel to the shoreline
+> and align with the depth of the sediment. Within each site, a random or probability-based
+> grid sampling strategy is recommended, with at least two replicates per site."
+>
+> — WWF-Canada, *[Measuring Carbon in Coastal Sediments](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)* (2026), p.7
+
+*(This maps directly onto the analysis in [Section 4](../04_Data_Interpretation/), where
+cores carry a `stratum` label and water depth is used as a spatial predictor in kriging.)*
+
+> 🎥 **CHECK OUT THE VIDEO** — *"Site Selection and Required Materials"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd) *(swap in the direct video link)*
 
 <img width="2400" height="1350" alt="image" src="https://github.com/user-attachments/assets/19e30448-624d-460d-98da-93acce8724c5" />
 
@@ -88,7 +110,11 @@ label and water depth is used as a spatial predictor in kriging.)*
 The area-based calculator here is part of a broader set of sampling-design tools
 developed previously for blue carbon work:
 
-**👉 https://github.com/WWF-Canada-SKI/Carbon-Measurement/tree/main/Blue%20Carbon/Sampling%20Design%20Tools**
+- **Interactive tool:** [Blue Carbon Hub sampling-design app](https://blue-carbon-hub.projects.earthengine.app/)
+- **Source code:** [WWF-Canada-SKI/Carbon-Measurement — Sampling Design Tools](https://github.com/WWF-Canada-SKI/Carbon-Measurement/tree/main/Blue%20Carbon/Sampling%20Design%20Tools)
+
+> 📸 **[SCREENSHOT NEEDED]** — the [Blue Carbon Hub sampling-design tool](https://blue-carbon-hub.projects.earthengine.app/)
+> with a study area outlined and strata drawn.
 
 
 
@@ -96,7 +122,8 @@ developed previously for blue carbon work:
 
 ## In this section
 
-- `SampleDesign_SampleAllocationCalculator_WithStrata.xlsx` — the Cochran's-formula calculator.
+- [`SampleDesign_SampleAllocationCalculator_WithStrata.xlsx`](SampleDesign_SampleAllocationCalculator_WithStrata.xlsx) — the Cochran's-formula calculator.
+- [`Sampling-Design-Eng-2026.pdf`](Sampling-Design-Eng-2026.pdf) — the WWF-Canada sampling-design guide.
 - `images/` — screenshots of the calculator and planning materials.
 
 
