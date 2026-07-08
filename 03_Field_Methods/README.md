@@ -8,76 +8,139 @@
 
 ## Overview
 
-Once the sampling design is set (Section 2), the field team collects **sediment cores**
-at the planned locations. Good field practice is what makes the lab and analysis stages
-meaningful — consistent coring, careful compaction measurement, and complete data
-sheets prevent problems that can't be fixed later.
+Once the sampling design is set ([Section 2](../02_Project_Planning/)), the field team
+collects **sediment cores** at the planned locations. Good field practice is what makes
+the lab and analysis stages meaningful — consistent coring, careful compaction
+measurement, and complete data sheets prevent problems that can't be fixed later.
+
+This section follows WWF-Canada's field guide (*Part 2: Obtaining Sediment Cores*,
+pp. 8–14 of the [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf))
+and its companion videos. The method shown is push (percussion) coring with a PVC tube:
+
+> "Here, and in the accompanying videos, we will be presenting a push coring method
+> using a PVC pipe — a method that is commonly used in coastal ecosystems."
+>
+> — WWF-Canada, *[Measuring Carbon in Coastal Sediments](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)* (2026), p.8
+
+> 🎥 **CHECK OUT THE VIDEO** — *"Introduction to Sediment Cores"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd) *(swap in the direct video link)*
 
 ---
 
-## Core collection basics
+## Equipment
 
-The essentials the analysis depends on:
+Before heading out, gather and lay out the coring kit. Per the guide, the corer is made
+from PVC tubing "as long as the target depth for the core (usually between 30 cm and 1 m),
+with approximately 20 cm of additional headspace" (p.8).
 
-1. **Locate the core** — record GPS position (latitude/longitude) and water depth, and
-   note which stratum it belongs to.
-2. **Drive the core** — insert the coring tube to the target depth.
-3. **Measure compaction** — percussion coring compresses sediment. Before extraction,
-   record the three measurements the correction depends on:
-   - `sampler_length` — total length of the coring tube
-   - `internal_distance` — tube top → sediment surface **inside** the tube
-   - `external_distance` — tube top → sediment surface **outside** the tube
-   These feed directly into the decompaction step in Section 4.
-4. **Extract, label, and section** the core into depth intervals.
-5. **Store and transport** samples for lab analysis.
+> 🎥 **CHECK OUT THE VIDEO** — *"Site Selection and Required Materials"* and *"Core Extrusion – Required Materials"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd) *(swap in the direct video links)*
 
-> 📷 *Screenshot placeholders — coring steps / field photos.*
+> ⚙️ *Draft equipment list — please review and adjust for your setup.*
 
----
-
-## Equipment list
-
-> ⚙️ *Draft — please review and adjust for your setup.*
-
-- Percussion corer / coring tubes (with known `sampler_length`)
-- Core extraction equipment (e.g. core catcher, extruder)
-- Measuring tape / ruler (for compaction measurements)
-- GPS unit (for core coordinates)
-- Depth sounder or measured line (for water depth)
-- Sample bags / containers, labelled
-- Cooler with ice packs for sample storage
-- Field data sheets (see below), clipboard, waterproof pens/pencils
+- PVC coring tube(s), 3–4″ diameter, cut to target depth + ~20 cm headspace, bevelled at one end
+- Top and bottom endcaps to fit each tube
+- Sledgehammer and a piece of lumber (impact platform for hammering)
+- Shovel (to dig around the tube for extraction)
+- Custom extruding device (piston that fits the tube, metal rod, stable platform)
+- PVC collar(s) of the desired slice thickness (e.g. 2 cm), and a paint scraper / plexiglass / serrated knife for slicing
+- Measuring tape / ruler (for compaction and depth measurements)
+- Soil probe or auger (to find a representative location and the depth of refusal)
+- GPS unit; tide/weather reference
+- Prelabelled Ziploc bags, permanent marker, notebook / datasheet, gloves
+- Cooler with ice packs (samples go to a −20 °C freezer for storage)
 - Waders / boat, as appropriate for the site
-- Camera
 
-*(Add or remove items to match the workshop's actual kit.)*
-
----
-
-## Field data sheets
-
-Blank data sheets for recording core locations, sample depths, and compaction
-measurements will live in **[`datasheets/`](datasheets/)**.
-
-> 📄 *Placeholder — add the workshop data sheets (PDF/printable) to `datasheets/`.
-> These should capture the same fields the analysis expects: core ID, coordinates,
-> water depth, stratum, depth intervals, and the three compaction measurements.*
+> 📸 **[SCREENSHOT NEEDED]** — the equipment laid out pre-fieldwork, so participants
+> can see a complete kit at a glance.
 
 ---
 
-## Coring how-to videos
+## Collecting a core, step by step
 
-> 🎥 *Placeholder — add links to coring demonstration videos here.*
+### 1. Select the location and record conditions
+Within each plot, pick a spot representative of the plot. The guide recommends probing
+the sediment on a grid to find the **depth of refusal** (where the corer can no longer
+be pushed — the transition from carbon-rich organic to carbon-poor mineral sediment):
 
-- *(video link + short description)*
-- *(video link + short description)*
+> "It is important to collect samples to the depth of refusal as this is the only way to
+> measure the true carbon stock of the ecosystem."
+>
+> — WWF-Canada, *[Measuring Carbon in Coastal Sediments](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)* (2026), p.9
+
+Record date/time, site conditions, weather, and tidal conditions — and the core's
+latitude/longitude (and, for our analysis, its stratum and water depth).
+
+> 🎥 **CHECK OUT THE VIDEO** — *"Core Depths"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd) *(swap in the direct video link)*
+
+### 2. Insert the corer
+A **team of three** is needed: two hold the lumber across the tube top, one hammers.
+Keep the tube straight and hammer to the target depth (or depth of refusal). Mark ruler
+graduations on the outside of the tube so you can read insertion depth.
+
+> 🎥 **CHECK OUT THE VIDEO** — *"Sediment Coring"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd) *(swap in the direct video link)*
+
+### 3. Measure compaction
+Hammering compresses the sediment, and this must be measured — it's the input the
+analysis uses to "decompact" the core later.
+
+> "The difference between these two measurements is the amount of compaction."
+>
+> — WWF-Canada, *[Measuring Carbon in Coastal Sediments](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)* (2026), p.11
+
+With the tube fully inserted, measure from the top of the tube to the sediment surface
+**outside** and **inside** the tube. These map onto the analysis fields in
+[Section 4](../04_Data_Interpretation/):
+
+| Field-guide measurement | Analysis field |
+|---|---|
+| Total length of the coring tube | `sampler_length` |
+| Top of corer → sediment surface **inside** the tube | `internal_distance` |
+| Top of corer → sediment surface **outside** the tube | `external_distance` |
+
+Then cap the top of the tube.
+
+> 🎥 **CHECK OUT THE VIDEO** — *"Sediment Compaction"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd) *(swap in the direct video link)*
+
+### 4. Extract the core
+Dig alongside the tube with a shovel (or rock it gently) to release suction, cap the
+**bottom** so no sediment is lost, and keep the core **upright** so layers don't mix.
+The guide notes this is especially tricky in waterlogged seagrass sediments.
+
+> 🎥 **CHECK OUT THE VIDEO** — *"Sediment Core Extraction"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd) *(swap in the direct video link)*
+
+### 5. Extrude and section
+Transfer the core onto the extruding device, then push it up and slice off subsections
+with a PVC collar (typically 2 cm). Slide each slice into its prelabelled bag, recording
+Core ID, sample number, and top/bottom depths. Record the total core length once done,
+and keep bags cold.
+
+> 🎥 **CHECK OUT THE VIDEO** — *"Preparing for Core Extrusions"*, *"Transferring Cores to the Extruding Device Stand"*, and *"Slicing and Sub-sectioning Sediment Cores"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd) *(swap in the direct video links)*
+
+> 📸 **[SCREENSHOT NEEDED]** — the team coring / extruding in the field (a real workshop
+> photo), to anchor these steps visually.
+
+---
+
+## Field data sheet
+
+The workshop data sheet is included: **[`Eelgrass_Carbon_Datasheet_v2.pdf`](../Eelgrass_Carbon_Datasheet_v2.pdf)**
+(blank copies for printing can also live in [`datasheets/`](datasheets/)). It captures
+exactly the fields the analysis expects:
+
+- **Plot notes** — Plot ID, date, study area, time, study site, weather/conditions, project name
+- **Core notes** (once per core) — Core ID, latitude, longitude, depth of corer inserted, length of core extracted
+- **Sample data** (per slice) — Core ID, sample #, top (cm), bottom (cm), notes
+
+> 📸 **[SCREENSHOT NEEDED]** — a completed example datasheet, so participants can see
+> how to fill one in correctly.
 
 ---
 
 ## In this section
 
-- `datasheets/` — blank field data sheets.
+- [`Eelgrass_Carbon_Datasheet_v2.pdf`](../Eelgrass_Carbon_Datasheet_v2.pdf) — the workshop field data sheet.
+- [`datasheets/`](datasheets/) — blank/printable data sheets.
 - `images/` — field method photos and diagrams.
 
-> **Iteration note:** scaffolded page. Send the data sheets, video links, and any
-> corrections to the equipment list, and we'll finalise this section.
+> **Iteration note:** video callouts link the [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd)
+> and name the specific title to look for — swap in the direct per-video URLs when
+> available. Quotes are verified against the field-guide PDF (pp. 8–14).
