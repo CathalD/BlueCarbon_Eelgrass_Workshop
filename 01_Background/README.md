@@ -128,16 +128,40 @@ environmental and human-caused disturbances.
 </tr>
 </table>
 
-We can visualize this with a graph. Here is an ecosystem carbon curve — the balance of
-carbon entering the ecosystem (green), the loss of carbon (red), and the net balance of
-these two processes (black):
+We can visualize this with a graph — the balance of carbon entering the ecosystem
+(green), the loss of carbon (red), and the net balance of these two processes (black).
+
+<table>
+<tr>
+<td width="60%">
 
 <img width="100%" alt="Ecosystem carbon curve — baseline accumulation" src="images/download.gif">
 
-And here is the same ecosystem, but with a disturbance that causes a loss and recovery
-of carbon:
+</td>
+<td width="40%">
+
+Here is an ecosystem carbon curve, showing the baseline accumulation of carbon over
+time as sequestration consistently outpaces loss.
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="60%">
 
 <img width="100%" alt="Ecosystem carbon curve — disturbance and recovery" src="images/download%20(1).gif">
+
+</td>
+<td width="40%">
+
+And here is the same ecosystem, but with a disturbance that causes a loss and
+recovery of carbon.
+
+</td>
+</tr>
+</table>
 
 However, if/when multiple overlapping disturbances occur, the ecosystem can continue to
 degrade over time, becoming a net emitter of carbon and losing the carbon it had stored.
