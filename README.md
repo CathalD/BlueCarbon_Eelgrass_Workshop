@@ -5,11 +5,11 @@
 # Blue Carbon Eelgrass Workshop
 
 Materials from the **Blue Carbon Eelgrass Workshop** — measuring sediment carbon stocks in
-eelgrass (*Zostera marina*) meadows, from the background science through field methods to
-analysis in R.
+seagrass and eelgrass (*Zostera marina*) meadows, from the background, through field methods, to
+analysis in R and reporting
 
 This workshop is organised in **four parts**. You can go through it in order, or jump to
-any section you want to.
+any section you wish.
 
 ---
 
@@ -17,7 +17,7 @@ any section you want to.
 
 | # | Section | What it covers |
 |---|---------|----------------|
-| 1 | [**Background**](01_Background/) | What blue carbon is and why eelgrass matters; key references (the Howard et al. Blue Carbon Manual); the workshop slide deck; and the interactive [Carbon Accumulation Visualizer](https://cathald.github.io/CarbonAccumulationVisualizer/). |
+| 1 | [**Background**](01_Background/) | What blue carbon is and why it matters; key references (the Howard et al. Blue Carbon Manual); the workshop [slide deck]().|
 | 2 | [**Project Planning**](02_Project_Planning/) | How many samples to take and where: area-based sample-size calculation (Cochran's formula) in the Excel calculator, stratified allocation, and the WWF-Canada sampling-design guide + tools. |
 | 3 | [**Field Methods**](03_Field_Methods/) | Collecting sediment cores: equipment, the step-by-step coring workflow, the eelgrass field datasheet, and coring how-to videos. |
 | 4 | [**Data Interpretation**](04_Data_Interpretation/) | Submitting samples to a lab, reading lab results, and the full eelgrass carbon analysis workflow (and report) in R. |
