@@ -6,6 +6,11 @@
 
 ---
 
+[Workshop Presentation Slides](01_Background/BlueCarbon_EelgrassPPT_FinalV1.pptx)
+[WWF-Canada Coastal Blue Carbon Guide](https://wwf.ca/wp-content/uploads/2026/04/Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)
+[Howard et al. (2014) Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
+
+
 ## What is blue carbon?
 
 **Blue carbon** is the organic carbon captured and stored by coastal and marine
@@ -44,6 +49,13 @@ later in the analysis (see Section 4).
 
 ---
 
+Eelgrass Ecosystems accumulate carbon based on 2 principles
+
+1. The accumulation of plant materials growing within the ecosytem that deposits over time - Called Authocthonous
+2. The accumulation of sediment and plant materials transported into the ecosystem from sorrounding environments - Called Allochthonous
+
+The balance of these processes is countered by the decomposition of organic materials via soil microbial processes, and the transport of materials out of ecosystem from tidal processes. The more sediemnt accumulates, the more loss occurs over time, until the ecosystem reaches a balance - Referred to as a the ecoystems Carbon Equilibrium state or simply "Net Ecosystem Carbon Balance"
+
 ## Interactive: Ecosystem Carbon Accumulation Visualizer
 
 Explore how carbon accumulates in coastal ecosystems over time with the interactive
@@ -51,8 +63,23 @@ tool built for this workshop:
 
 **👉 https://cathald.github.io/CarbonAccumulationVisualizer/**
 
+Add in Screenrecording of carbon accumulating over time with description
 
 
+**Healthy ecosystems accumulate carbon over time, so when a disturbance occurs in the ecosytem, they respond by recovering this quickly.
+
+** Show disturbance and recovery curve**
+
+However, if/when multiple overlapping disturbances occur, the ecosystem can conitnue to degrade over time, becoming net emitters of carbon over time, losing the carbon that was stored
+
+* Show recording of this here *
+
+
+Back to ppt
+
+Show how sediments accumulate in layers, and therefore the newer sediments are on the top, and the older are on the bottom
+
+Introduce "5 steps to planning a project, and link to 02_ProjectPlanning"
 
 ---
 
@@ -66,9 +93,5 @@ The workshop follows methods distilled from coastal blue carbon guides, particul
 
 *(Additional references to be added )*
 
----
 
-## In this section
-
-- `images/` — presentation screenshots and figures for this section.
 
