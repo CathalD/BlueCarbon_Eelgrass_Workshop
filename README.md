@@ -17,10 +17,17 @@ or jump to any section you want to.
 | 3 | [**Field Methods**](03_Field_Methods/) | Core collection basics, equipment list, field data sheets, and coring how-to videos. |
 | 4 | [**Data Interpretation**](04_Data_Interpretation/) | Submitting samples to a lab, understanding lab results, and the full eelgrass carbon analysis workflow in R. |
 
+
+Useful links:
+WWF-Carbon measurment library (link here) https://wwf.ca/carbon-measurement/
+
+Coastal Blue Carbon Guide - (Insert link here) and Video (Lnk here  - https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd)
+
+Howard et al. Blue Carbon Manual - https://www.thebluecarboninitiative.org/manual
+
 Sampling design tool library:
 Link to sampling design tools: https://blue-carbon-hub.projects.earthengine.app/
-Link to code:
-https://github.com/WWF-Canada-SKI/Carbon-Measurement/tree/main/Blue%20Carbon/Sampling%20Design%20Tools
+Link to code: https://github.com/WWF-Canada-SKI/Carbon-Measurement/tree/main/Blue%20Carbon/Sampling%20Design%20Tools
 
 
 ---
