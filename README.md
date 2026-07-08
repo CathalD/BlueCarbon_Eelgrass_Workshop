@@ -43,12 +43,14 @@ right places (Section 2), collected samples correctly (Section 3), measured by a
 analysed with methods that account for compaction, differing sample depths, and
 spatial variation (Section 4). Section 1 provides background context and explains why blue carbon matters in Canada.
 
-**How carbon stock is calculated:**
+**TLDR: How carbon stock is calculated:**
 
+1. Collect a sediment core
+2. Measure how much sediment and carbon is in the core
+3. Multiply these values
 ```
 Carbon stock (kg C/m²) = SOC (g/kg) × bulk density (g/cm³) × layer thickness (cm) ÷ 100
 ```
-
 Higher organic carbon concentration, denser sediment (higher bulk density), and deeper sediment (larger total core thickness) all mean
 more carbon stored per square metre.
 
@@ -57,12 +59,12 @@ more carbon stored per square metre.
 ## Some resources to find in this workshop
 
 - `BlueCarbon_EelgrassPPT_FinalV1.pptx` — the full workshop slide deck.
-- `02_Project_Planning/SampleDesign_SampleAllocationCalculator_WithStrata.xlsx` — the sample-size calculator.
-- `04_Data_Interpretation/EelgrassWorkshop/` — the complete R analysis pipeline (with its own README).
-
+-  Coastal Blue Carbon Guide - (Insert link here) and
+-  Video (Lnk here  - https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd)
+- `04_Data_Interpretation/EelgrassWorkshop/` — the complete R analysis and report writing
 ---
 
-## Related resources
+## Extra resources
 
 - **Ecosystem Carbon Accumulation Visualizer** — https://cathald.github.io/CarbonAccumulationVisualizer/
 - **WWF-Canada Blue Carbon Sampling Design Tools** — https://github.com/WWF-Canada-SKI/Carbon-Measurement/tree/main/Blue%20Carbon/Sampling%20Design%20Tools
