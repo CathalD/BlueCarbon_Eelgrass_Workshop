@@ -17,7 +17,7 @@ any section you wish.
 
 | # | Section | What it covers |
 |---|---------|----------------|
-| 1 | [**Background**](01_Background/) | What blue carbon is and why it matters; key references (the Howard et al. Blue Carbon Manual); the workshop [slide deck](01_Background/BlueCarbon_EelgrassPPT_FinalV1.pdf).|
+| 1 | [**Background**](01_Background/) | What blue carbon is and why it matters; key references (the [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)); the workshop [slide deck](01_Background/BlueCarbon_EelgrassPPT_FinalV1.pdf).|
 | 2 | [**Project Planning**](02_Project_Planning/) | How many samples to take and where: area-based sample-size calculation (Cochran's formula) in the Excel calculator, stratified allocation, and the WWF-Canada sampling-design guide + tools. |
 | 3 | [**Field Methods**](03_Field_Methods/) | Collecting sediment cores: equipment, the step-by-step coring workflow, the eelgrass field datasheet, and coring how-to videos. |
 | 4 | [**Data Interpretation**](04_Data_Interpretation/) | Submitting samples to a lab, reading lab results, and the full eelgrass carbon analysis workflow (and report) in R. |
