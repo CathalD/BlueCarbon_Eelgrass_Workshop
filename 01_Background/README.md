@@ -7,14 +7,16 @@
 ---
 
 [Workshop Presentation Slides](01_Background/BlueCarbon_EelgrassPPT_FinalV1.pptx)
+
 [WWF-Canada Coastal Blue Carbon Guide](https://wwf.ca/wp-content/uploads/2026/04/Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)
+
 [Howard et al. (2014) Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
 
 
 ## What is blue carbon?
 
 **Blue carbon** is the organic carbon captured and stored by coastal and marine
-ecosystems — principally **seagrass/eelgrass meadows and tidal salt marshes**.
+ecosystems. In Canada, this is principally **seagrass/eelgrass meadows and tidal salt marshes**.
 These habitats are among the most efficient carbon sinks on Earth: per unit area
 they can bury organic carbon far faster than terrestrial forests, and — because it
 is locked into waterlogged, low-oxygen sediment — that carbon can remain stored for
@@ -36,7 +38,7 @@ Two things make these systems valuable from a climate perspective:
 </td>
 <td width="55%">
 
-*Add a brief description of this slide here.*
+*The plants, the soil, the water and the air in this diagraph represent the carbon pools or "stocks", the places that house carbon at any point in time and can be directly measured. the arrows represent the processess or "fluxes" that show how carbon moves between the different carbon pools. Fluxes over time control the pools, and ultaimately the net sequesrtation.
 
 </td>
 </tr>
@@ -60,7 +62,11 @@ fisheries and biodiversity — while continuously adding organic carbon to the s
 </td>
 <td width="55%">
 
-*Add a brief description of this slide here.*
+*
+Eelgrass Ecosystems accumulate carbon based on 2 principles
+
+1. The accumulation of plant materials growing within the ecosytem that deposits over time - Called Authocthonous
+2. The accumulation of sediment and plant materials transported into the ecosystem from sorrounding environments - Called Allochthonous*
 
 </td>
 </tr>
@@ -88,12 +94,38 @@ later in the analysis (see Section 4).
 
 ---
 
-Eelgrass Ecosystems accumulate carbon based on 2 principles
+<table>
+<tr>
+<td width="45%">
 
-1. The accumulation of plant materials growing within the ecosytem that deposits over time - Called Authocthonous
-2. The accumulation of sediment and plant materials transported into the ecosystem from sorrounding environments - Called Allochthonous
+<Add image here>
 
-The balance of these processes is countered by the decomposition of organic materials via soil microbial processes, and the transport of materials out of ecosystem from tidal processes. The more sediemnt accumulates, the more loss occurs over time, until the ecosystem reaches a balance - Referred to as a the ecoystems Carbon Equilibrium state or simply "Net Ecosystem Carbon Balance"
+</td>
+<td width="55%">
+
+*The balance of these processes is countered by the decomposition of organic materials via soil microbial processes, and the transport of materials out of ecosystem from tidal processes. The more sediemnt accumulates, the more loss occurs over time, until the ecosystem reaches a balance - Referred to as a the ecoystems Carbon Equilibrium state or simply "Net Ecosystem Carbon Balance"*
+
+</td>
+</tr>
+</table>
+
+--------
+
+
+<table>
+<tr>
+<td width="45%">
+
+<Image heere>
+
+</td>
+<td width="55%">
+
+*Add a brief description of this slide here.*
+
+</td>
+</tr>
+</table>
 
 ## Interactive: Ecosystem Carbon Accumulation Visualizer
 
