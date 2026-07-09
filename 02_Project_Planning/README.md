@@ -69,7 +69,7 @@ The guide breaks *applying* a sampling design into five steps.
 1 - Using area based sampling (cochrane formula from the UNFCCC sample size calculator)
 2 - Show sample size in 2-dimensional cartesian plne vs (Insert variable suggestion)
 3 - Have slots where the user can adjust size, precision (alpha), margin of error, estimated mean and std, etc
-4 - Have an example ecosystem that in a 2-dimensional raster showing a "prior estimate" wher ethe user can select the ecosystem and the tier 2-3 IPCC default vlaues for mean and std across the ecosystem. Then as each sample is collected, how this changes the prior and updates. the user should be able to select random, systematic linear or systematic grid, or stratified. therefore the ecosytem variation underlying this should be preset (i.e. The true carbon stock map). Then using the different method the different samplign technqiues "reveal this" with a level of error, up until 99.9999% (appraoching 100%) confidence in this estimate"
+4 - Have an example ecosystem in a 2-dimensional raster showing a "prior estimate," where the user chooses between two options: **Tier 2** — the provided IPCC default values for mean and std across the ecosystem, or **Tier 1** — the user's own measured mean and std, entered as the prior. Then as each sample is collected, show how this changes the prior and updates it. the user should be able to select random, systematic linear or systematic grid, or stratified. therefore the ecosytem variation underlying this should be preset (i.e. The true carbon stock map). Then using the different method the different samplign technqiues "reveal this" with a level of error, up until 99.9999% (appraoching 100%) confidence in this estimate"
 
 * Note to self
 
@@ -218,7 +218,7 @@ Estimates the total number of plots/cores (*n*) for the whole study area.
 | Size of total study area (m²) | The area you want to characterise |
 | Margin of error | Acceptable relative error (e.g. `0.2` = ±20%) |
 | Confidence level (alpha) | Precision level (e.g. `0.1` → 90% confidence) |
-| Carbon mean & standard deviation | Expected carbon and its variability — defaults come from the WWF-Canada carbon map and can be overwritten with local values |
+| Carbon mean & standard deviation | Expected carbon and its variability. Two options: **Tier 2** — use the provided WWF-Canada carbon-map defaults, or **Tier 1** — enter your own measured mean and standard deviation as the prior |
 
 **Output:** number of plots *n* needed to hit the target precision.
 
