@@ -2,13 +2,15 @@
   <img src="images/banner_planning.svg" alt="Project Planning — Blue Carbon Eelgrass Workshop banner" width="100%">
 </p>
 
-# 2 — Project Planning
-
-*How many samples to take, and where to take them.*
-
+---
 [← 1 — Background](../01_Background/) · [Back to main guide](../README.md) · Next: [3 — Field Methods →](../03_Field_Methods/)
 
 ---
+
+# 2 — Project Planning: Connecting the collection of data to project goals
+
+*Here we will determinem how many samples to take, and where to take them.*
+
 
 **Quick links:** [Sampling Design Guide](Sampling-Design-Eng-2026.pdf) · [Sample Allocation Calculator](SampleDesign_SampleAllocationCalculator_WithStrata.xlsx) · [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf) · [Howard et al. (2014) Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
 
@@ -17,17 +19,17 @@
 ## Why planning matters
 
 Before heading into the field, two questions need answering: **how many samples should
-we take, and where should we take them?** Answering these is the aim of a **sampling
-design** — in other words, having enough samples, allocated across the ecosystem, to
+we take, and where should we take them?** 
+Answering these is the aim of a **sampling design**, in other words, having enough samples, allocated across the ecosystem, to
 estimate carbon stock and meet the project's goals.
 
+**What is a sampling design?**
 > "A sampling design is a framework for choosing what and where to sample to estimate
 > the carbon stored in a larger ecosystem area. Sampling designs allow for the strategic
 > measurement of smaller sections (i.e., sites and plots) within the larger study area.
 > Combining measurements from multiple plots allows us to estimate the value for the
 > study area."
->
-> — WWF-Canada, *[Carbon Measurement: Sampling Design](Sampling-Design-Eng-2026.pdf)* (2026), p.4
+
 
 We follow this WWF-Canada [Sampling Design guide](Sampling-Design-Eng-2026.pdf), as well
 as the sampling-design guidance in the [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
@@ -35,9 +37,7 @@ as the sampling-design guidance in the [Howard et al. Blue Carbon Manual](https:
 
 ### The five steps to a sampling design
 
-The guide breaks *applying* a sampling design into five steps. A full-scale project
-works through all five; this page focuses on the two most relevant at workshop scale —
-**how many** samples (Step 3) and **where** they go (Steps 2 and 4).
+The guide breaks *applying* a sampling design into five steps.
 
 1. Identify the boundary of the study area
 2. Stratify the study area *(see "Where to sample?" below)*
@@ -47,9 +47,84 @@ works through all five; this page focuses on the two most relevant at workshop s
 
 *Source: WWF-Canada, [Carbon Measurement: Sampling Design](Sampling-Design-Eng-2026.pdf) (2026), p.13, "5 steps to applying a sampling design."*
 
+
+---
+## Step 1: Identify the boudnary of the study area
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="45%">
+
+<img width="100%" alt="Sample Allocation Visualization chart">
+img:<img width="2400" height="1350" alt="image" src="https://github.com/user-attachments/assets/68df05eb-c707-4cab-ab86-ec5117165b06" />
+
+</td>
+<td width="55%">
+
+*This can be a simple polygon drawn on a map, [such as here] (insert link to GEE draw tools)
+Or a pre-defined area
+
+Alternatively, if you run transects or know the general area you are interested in, a simple estimate of the area can be very informative here,
+For this step, its not crucial to measure the exact boundary, but a rough guess can be very informative*
+
+</td>
+</tr>
+</table>
+
 ---
 
-## How many samples? — Sample allocation
+## Step 2 (Optional) Stratify your site
+In other words, divide your site into distinct areas.
+
+Why? Because we are collecting data at 1 point, and using this to extrpolate to the larger the area, the more similar the area you are extrpolating to is to the measured value, the more accurate your estiamtes will be. For example, you wouldn't want to use an sediment sample from eelgrass to estimate the sediment in an upland marsh, you would get more accurate results if you made the distinction between these two ecosystems.
+
+Stratification can be done manually (insert link to manual stratification), or using remote sensing techniques (insert automatic stratification)
+
+<table>
+<tr>
+<td width="45%">
+
+<img width="100%" alt="Sample Allocation Visualization chart">
+img:<img width="2400" height="1350" alt="image" src="https://github.com/user-attachments/assets/0aec62d8-db94-4ca2-8962-96d74799d016" />
+
+</td>
+<td width="55%">
+
+* Stratification divides ecosystems into distinct areas, such that the data we collect in one area is only applied within that ecosystem.
+In addition to distinguishing ecosystems, stratification can also be used to compare different management techniques, restoration years, etc *
+
+</td>
+</tr>
+</table>
+
+--- 
+
+## Step 3: What to measure
+
+
+<table>
+<tr>
+<td width="45%">
+
+<img width="100%" alt="Sample Allocation Visualization chart">
+img: <img width="2400" height="1350" alt="image" src="https://github.com/user-attachments/assets/a7ea0100-6160-4498-a282-5d44db722a59" />
+
+</td>
+<td width="55%">
+
+*Select the **carbon pool** you wish to measure
+This can be fromt he water, the plant, or the sediments*
+
+</td>
+</tr>
+</table>
+
+---
+
+## Step 4: How many samples? — Sample allocation
 
 The number of cores needed can be estimated using an area-based approach with
 **Cochran's formula** for a desired margin of error and confidence level, given the
@@ -140,7 +215,7 @@ size across confidence levels.)*
 
 ---
 
-## Where to sample? — Stratification & sample distribution
+## Step 5: Where to sample? — Stratification & sample distribution
 
 Rather than scattering cores at random, the meadow is divided into **strata** and
 samples are allocated across them (Sheet 2 above). Stratifying by features that drive
