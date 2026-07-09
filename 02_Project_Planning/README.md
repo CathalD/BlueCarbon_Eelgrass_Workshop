@@ -375,6 +375,46 @@ with a study area outlined and strata drawn.)*
 </table>
 
 ---
+## Putting it into practice - Examples of implementing this workflow
+
+**Scenario** You are interested in understanding a baseline carbon stock in an inlet containing Eelgrass. For planning, you need to know
+
+A) How many samples to take
+B) Where to take them
+
+So you begin to implement the steps:
+
+Step 1 - Area
+Using Google Earth Engine Sampling Design tool, you draw a rough outline of the area you know is mostly eelgrass
+(Insert video GIF clip of this)
+
+Step 2 - You know there is slight differences across the site, so you use the "Auto-Stratification" tool to help dilineate unique areas
+
+Step 3 - You only want to measure sediments in this area
+
+Step 4 - You calculate the required number of samples in this area based on:
+Total Area =
+Level of precision =
+Margin of error =
+Dafault estiamte for C stock and variation =
+
+Using the tools built in calculation function
+
+Step 5 - You allocate this number of samples proportionally across the two strata
+
+Next you send these coordinates to your team to go and collect these samples
+
+Summary of what to expect
+Given the size of the area and your intended goals, we "Insert summary"
+
+
+
+
+
+
+
+
+---
 
 ## In this section
 
