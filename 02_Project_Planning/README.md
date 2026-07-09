@@ -8,7 +8,7 @@
 
 ---
 
-# 2 — Project Planning: Connecting Data Collection to Project Goals
+# 2 — Project Planning: Connecting data collection to project goals
 
 *Here we'll determine how many samples to take, and where to take them.*
 
@@ -21,7 +21,7 @@
 
 Before heading into the field, two questions need answering: **how many samples should
 we take, and where should we take them?** Answering these is the aim of a **sampling
-design** — in other words, having enough samples, allocated across the ecosystem, to
+design**; in other words, having enough samples, allocated across the ecosystem, to
 estimate carbon stock and meet the project's goals.
 
 **What is a sampling design?**
@@ -31,11 +31,9 @@ estimate carbon stock and meet the project's goals.
 > measurement of smaller sections (i.e., sites and plots) within the larger study area.
 > Combining measurements from multiple plots allows us to estimate the value for the
 > study area."
->
-> — WWF-Canada, *[Carbon Measurement: Sampling Design](Sampling-Design-Eng-2026.pdf)* (2026), p.4
 
-We follow this WWF-Canada [Sampling Design guide](Sampling-Design-Eng-2026.pdf), as well
-as the sampling-design guidance in the [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
+The following methods are based on WWF-Canada's [Sampling Design guide](Sampling-Design-Eng-2026.pdf), as well
+as the sampling-design guidance provided in the [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
 (see [Section 1](../01_Background/)).
 
 ### The five steps to a sampling design
@@ -48,7 +46,18 @@ The guide breaks *applying* a sampling design into five steps.
 4. Determine the sample distribution *(Step 5 — "Where to sample?", below)*
 5. Select a plot design *(for eelgrass sediment cores, see [Section 3 — Field Methods](../03_Field_Methods/))*
 
-*Source: WWF-Canada, [Carbon Measurement: Sampling Design](Sampling-Design-Eng-2026.pdf) (2026), p.13, "5 steps to applying a sampling design."*
+*** Insert slides here ***
+
+1 - we sample when the thing we are interested in measuring cant be counted, so we take a small proportion of the total, and use this to infer the whole. This is called "probability-based sampling". With probability based sampling, each estimate provided includes a number and a degree of error associated with that number. the goal is to reasonably close to the estimate of the larger number by reducing this degree of error in our estimate. To do this, we collect multiple samples.
+
+**Insert sample size visualization tool** This tool should look very similar in style to the carbon accumulation curve. What the tool should should include:
+1 - Using area based sampling (cochrane formula from the UNFCCC sample size calculator)
+2 - Show sample size in 2-dimensional cartesian plne vs (Insert variable suggestion)
+3 - Have slots where the user can adjust size, precision (alpha), margin of error, estimated mean and std, etc
+4 - Have an example ecosystem that in a 2-dimensional raster showing a "prior estimate" wher ethe user can select the ecosystem and the tier 2-3 IPCC default vlaues for mean and std across the ecosystem. Then as each sample is collected, how this changes the prior and updates. the user should be able to select random, systematic linear or systematic grid, or stratified. therefore the ecosytem variation underlying this should be preset (i.e. The true carbon stock map). Then using the different method the different samplign technqiues "reveal this" with a level of error, up until 99.9999% (appraoching 100%) confidence in this estimate"
+
+* Note to self
+
 
 
 ---
