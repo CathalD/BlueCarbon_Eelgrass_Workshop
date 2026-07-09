@@ -3,13 +3,14 @@
 </p>
 
 ---
+
 [← 1 — Background](../01_Background/) · [Back to main guide](../README.md) · Next: [3 — Field Methods →](../03_Field_Methods/)
 
 ---
 
-# 2 — Project Planning: Connecting the collection of data to project goals
+# 2 — Project Planning: Connecting Data Collection to Project Goals
 
-*Here we will determinem how many samples to take, and where to take them.*
+*Here we'll determine how many samples to take, and where to take them.*
 
 
 **Quick links:** [Sampling Design Guide](Sampling-Design-Eng-2026.pdf) · [Sample Allocation Calculator](SampleDesign_SampleAllocationCalculator_WithStrata.xlsx) · [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf) · [Howard et al. (2014) Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
@@ -19,17 +20,19 @@
 ## Why planning matters
 
 Before heading into the field, two questions need answering: **how many samples should
-we take, and where should we take them?** 
-Answering these is the aim of a **sampling design**, in other words, having enough samples, allocated across the ecosystem, to
+we take, and where should we take them?** Answering these is the aim of a **sampling
+design** — in other words, having enough samples, allocated across the ecosystem, to
 estimate carbon stock and meet the project's goals.
 
 **What is a sampling design?**
+
 > "A sampling design is a framework for choosing what and where to sample to estimate
 > the carbon stored in a larger ecosystem area. Sampling designs allow for the strategic
 > measurement of smaller sections (i.e., sites and plots) within the larger study area.
 > Combining measurements from multiple plots allows us to estimate the value for the
 > study area."
-
+>
+> — WWF-Canada, *[Carbon Measurement: Sampling Design](Sampling-Design-Eng-2026.pdf)* (2026), p.4
 
 We follow this WWF-Canada [Sampling Design guide](Sampling-Design-Eng-2026.pdf), as well
 as the sampling-design guidance in the [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
@@ -39,36 +42,34 @@ as the sampling-design guidance in the [Howard et al. Blue Carbon Manual](https:
 
 The guide breaks *applying* a sampling design into five steps.
 
-1. Identify the boundary of the study area
-2. Stratify the study area *(see "Where to sample?" below)*
-3. Determine the sample allocation *(see "How many samples?" below)*
-4. Determine the sample distribution *(see "Where to sample?" below)*
+1. Identify the boundary of the study area *(Step 1, below)*
+2. Stratify the study area *(Step 2, below)*
+3. Determine the sample allocation *(Step 4 — "How many samples?", below)*
+4. Determine the sample distribution *(Step 5 — "Where to sample?", below)*
 5. Select a plot design *(for eelgrass sediment cores, see [Section 3 — Field Methods](../03_Field_Methods/))*
 
 *Source: WWF-Canada, [Carbon Measurement: Sampling Design](Sampling-Design-Eng-2026.pdf) (2026), p.13, "5 steps to applying a sampling design."*
 
 
 ---
-## Step 1: Identify the boudnary of the study area
-</td>
-</tr>
-</table>
+
+## Step 1: Identify the boundary of the study area
 
 <table>
 <tr>
 <td width="45%">
 
-<img width="100%" alt="Sample Allocation Visualization chart">
-img:<img width="2400" height="1350" alt="image" src="https://github.com/user-attachments/assets/68df05eb-c707-4cab-ab86-ec5117165b06" />
+<img width="100%" alt="Study area boundary — example" src="https://github.com/user-attachments/assets/68df05eb-c707-4cab-ab86-ec5117165b06">
 
 </td>
 <td width="55%">
 
-*This can be a simple polygon drawn on a map, [such as here] (insert link to GEE draw tools)
-Or a pre-defined area
+This can be a simple polygon drawn on a map — such as a boundary drawn in Google Earth
+Engine *(link to be added)* — or a pre-defined area.
 
-Alternatively, if you run transects or know the general area you are interested in, a simple estimate of the area can be very informative here,
-For this step, its not crucial to measure the exact boundary, but a rough guess can be very informative*
+Alternatively, if you run transects or already know the general area you're interested
+in, a simple estimate of the area can be very informative here. For this step, it's not
+crucial to measure the exact boundary — a rough guess can be very informative.
 
 </td>
 </tr>
@@ -76,25 +77,31 @@ For this step, its not crucial to measure the exact boundary, but a rough guess 
 
 ---
 
-## Step 2 (Optional) Stratify your site
+## Step 2: Stratify your site (optional)
+
 In other words, divide your site into distinct areas.
 
-Why? Because we are collecting data at 1 point, and using this to extrpolate to the larger the area, the more similar the area you are extrpolating to is to the measured value, the more accurate your estiamtes will be. For example, you wouldn't want to use an sediment sample from eelgrass to estimate the sediment in an upland marsh, you would get more accurate results if you made the distinction between these two ecosystems.
+Why? Because we're collecting data at a single point and using it to extrapolate across
+a larger area — the more similar that area is to where we sampled, the more accurate our
+estimates will be. For example, you wouldn't want to use a sediment sample from an
+eelgrass meadow to estimate carbon in an upland marsh; distinguishing between the two
+ecosystems gives more accurate results.
 
-Stratification can be done manually (insert link to manual stratification), or using remote sensing techniques (insert automatic stratification)
+Stratification can be done manually, or using remote sensing techniques *(links to be added)*.
 
 <table>
 <tr>
 <td width="45%">
 
-<img width="100%" alt="Sample Allocation Visualization chart">
-img:<img width="2400" height="1350" alt="image" src="https://github.com/user-attachments/assets/0aec62d8-db94-4ca2-8962-96d74799d016" />
+<img width="100%" alt="Stratification example — slide" src="https://github.com/user-attachments/assets/0aec62d8-db94-4ca2-8962-96d74799d016">
 
 </td>
 <td width="55%">
 
-* Stratification divides ecosystems into distinct areas, such that the data we collect in one area is only applied within that ecosystem.
-In addition to distinguishing ecosystems, stratification can also be used to compare different management techniques, restoration years, etc *
+Stratification divides ecosystems into distinct areas, such that the data we collect in
+one area is only applied within that ecosystem. In addition to distinguishing
+ecosystems, stratification can also be used to compare different management
+techniques, restoration years, etc.
 
 </td>
 </tr>
@@ -109,14 +116,13 @@ In addition to distinguishing ecosystems, stratification can also be used to com
 <tr>
 <td width="45%">
 
-<img width="100%" alt="Sample Allocation Visualization chart">
-img: <img width="2400" height="1350" alt="image" src="https://github.com/user-attachments/assets/a7ea0100-6160-4498-a282-5d44db722a59" />
+<img width="100%" alt="Carbon pools — slide" src="https://github.com/user-attachments/assets/a7ea0100-6160-4498-a282-5d44db722a59">
 
 </td>
 <td width="55%">
 
-*Select the **carbon pool** you wish to measure
-This can be fromt he water, the plant, or the sediments*
+Select the **carbon pool** you wish to measure. This can be from the water, the plant,
+or the sediment.
 
 </td>
 </tr>

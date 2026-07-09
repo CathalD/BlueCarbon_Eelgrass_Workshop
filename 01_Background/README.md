@@ -1,10 +1,16 @@
-# 1 — Background
+<p align="center">
+  <img src="images/banner_background.svg" alt="Background — Blue Carbon Eelgrass Workshop banner" width="100%">
+</p>
 
-*Blue carbon, eelgrass, and why sediment carbon matters.*
+---
 
 [← Back to main guide](../README.md) · Next: [2 — Project Planning →](../02_Project_Planning/)
 
 ---
+
+# 1 — Background
+
+*Blue carbon, eelgrass, and why sediment carbon matters.*
 
 **Quick links:** [Workshop Presentation Slides](BlueCarbon_EelgrassPPT_FinalV1.pptx) · [WWF-Canada Coastal Blue Carbon Guide](https://wwf.ca/wp-content/uploads/2026/04/Coastal-Blue-Carbon-Field-Guide-FINAL.pdf) · [Howard et al. (2014) Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
 
@@ -81,8 +87,9 @@ Eelgrass ecosystems can accumulate carbon derived from two places:
 </td>
 <td width="55%">
 
-Eelgrass sediments typically hold **lower organic carbon concentrations compared to other coastal ecosystems**, but due to
-the deep sediment pools, typically store more compares to terrestrial forests
+Eelgrass sediments typically hold **lower organic carbon concentrations compared to
+other coastal ecosystems**, but thanks to their deep sediment pools, they typically
+store more carbon overall than terrestrial forests.
 
 </td>
 </tr>
@@ -140,7 +147,8 @@ We can visualize this with a graph: The balance of carbon entering the ecosystem
 <td width="40%">
 
 Here is an ecosystem carbon curve, showing the baseline accumulation of carbon over
-time as sequestration (carbon in) eventually = carbon out, and thus the amount of carbon entering the ecosystem reaches a "peak"
+time. As sequestration (carbon in) and loss (carbon out) converge, the amount of carbon
+stored in the ecosystem levels off at a "peak," or equilibrium.
 
 </td>
 </tr>
@@ -178,8 +186,9 @@ tool built for this workshop:
 ---
 ## What is sediment anyway?
 
-Over periods of time, as particles are tranported into an ecosystem, or plants that grow in an ecosystem (remember the autothnonous vs allocthonous carbon)
-these materials settle and can be build up over time. 
+Over time, as particles are transported into an ecosystem, or as plants growing within
+it contribute organic matter (recall the allochthonous vs. autochthonous distinction),
+these materials settle and build up, forming sediment.
 
 <table>
 <tr>
@@ -199,14 +208,18 @@ Taking a section of the sediment reveals the layers of accumulation over time.
 ---
 ## So how do you measure sediment carbon?
 
-Measuring carbon requires collecting a **sediment core**, determining how much sediement is there (**Volume * weight**), and measuring how much of the sediemnt consists of carbon (**Organic carbon**)
+Measuring carbon requires collecting a **sediment core**, determining how much
+sediment is there (**volume * weight**), and measuring how much of that sediment
+consists of carbon (**organic carbon**).
 
-However, as simple as this sounds, aligning the actually measurement in the context of larger project goals can ensure that the samples you are collecting are
-most effectively being applied. To do this there are 4 basic steps:
-Apply a **Sampling Design**
-Obtain **sediment core samples**
-**Analyse** the samples
-**Calculate carbon** and **interpret** the results
+However, as simple as this sounds, aligning the actual measurements with the project's
+larger goals ensures the samples you collect are applied as effectively as possible. To
+do this, there are 4 basic steps:
+
+1. Apply a **sampling design**
+2. Obtain **sediment core samples**
+3. **Analyse** the samples
+4. **Calculate carbon** and **interpret** the results
 
 <table>
 <tr>
@@ -226,14 +239,16 @@ The four steps to completing a carbon project.
 ---
 
 ## In the next section
-we will start with **Project Planning** where we will learn to build a sampling plan, determine how many samples to take and where to take them,
-that best aligns with our team, organization, and community goals
+
+We'll start with **Project Planning** — building a sampling plan and determining how
+many samples to take and where to take them, in a way that best aligns with our team's,
+organization's, and community's goals.
 
 ## Key references
 
-> Coastal Blue Carbon Guide WWF- Canada
+> WWF-Canada. (2026). *Measuring Carbon in Coastal Sediments.*
 
-> Howard, J., Hoyt, S., Isensee, K., Telszewski, M., & Pidgeon, E. (eds.) (2014). *Coastal Blue Carbon: Methods for assessing carbon stocks and emissions factors in mangroves, tidal salt marshes, and seagrass meadows.* Conservation International,
+> Howard, J., Hoyt, S., Isensee, K., Telszewski, M., & Pidgeon, E. (eds.) (2014). *Coastal Blue Carbon: Methods for assessing carbon stocks and emissions factors in mangroves, tidal salt marshes, and seagrass meadows.* Conservation International, Intergovernmental Oceanographic Commission of UNESCO, International Union for Conservation of Nature. Arlington, Virginia, USA.
 
 
 
