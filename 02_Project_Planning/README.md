@@ -75,37 +75,6 @@ The guide breaks *applying* a sampling design into five steps.
 
 ---
 
-<table>
-<tr>
-<td width="45%">
-
-<img width="100%" alt="Site and plot selection — slide" src="https://github.com/user-attachments/assets/a2d13fda-6c63-417d-aad6-b506be50a59d">
-
-</td>
-<td width="55%">
-
-*Add a brief description of this slide here.*
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="45%">
-
-<img width="100%" alt="Site and plot selection — slide" src="https://github.com/user-attachments/assets/d5d1f4f8-7040-434c-8a72-41f3a88cec09">
-
-</td>
-<td width="55%">
-
-*Add a brief description of this slide here.*
-
-</td>
-</tr>
-</table>
-
-
 ---
 
 ## Step 1: Identify the boundary of the study area
@@ -308,6 +277,36 @@ size across confidence levels.)*
 ---
 
 ## Step 5: Where to sample? — Stratification & sample distribution
+
+<table>
+<tr>
+<td width="45%">
+
+<img width="100%" alt="Site and plot selection — slide" src="https://github.com/user-attachments/assets/a2d13fda-6c63-417d-aad6-b506be50a59d">
+
+</td>
+<td width="55%">
+
+*Add a brief description of this slide here.*
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="45%">
+
+<img width="100%" alt="Site and plot selection — slide" src="https://github.com/user-attachments/assets/d5d1f4f8-7040-434c-8a72-41f3a88cec09">
+
+</td>
+<td width="55%">
+
+*Add a brief description of this slide here.*
+
+</td>
+</tr>
+</table>
 
 Rather than scattering cores at random, the meadow is divided into **strata** and
 samples are allocated across them (Sheet 2 above). Stratifying by features that drive
