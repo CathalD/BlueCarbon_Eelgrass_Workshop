@@ -4,8 +4,8 @@
 
 # Blue Carbon Eelgrass Workshop
 
-Materials from the **Blue Carbon Eelgrass Workshop** — measuring sediment carbon stocks in
-seagrass and eelgrass (*Zostera marina*) meadows, from the background, through field methods, to
+Materials from the **Blue Carbon Eelgrass Workshop** on measuring sediment carbon stocks in
+seagrass/eelgrass meadows, from the background, through field methods, to
 analysis in R and reporting
 
 This workshop is organised in **four parts**. You can go through it in order, or jump to
@@ -41,6 +41,9 @@ The goal of the workshop is to:
 2. **Learn field methods for measuring it** — how to collect and process sediment cores.
 3. **Turn measurements into outputs** — convert field data into carbon analyses to inform decision making.
 
+
+**TLDR**
+
 > **A good question to start with: How much carbon is stored in the sediment beneath an eelgrass meadow, and how confident are we in that number?**
 
 Getting there means making good decisions at every stage — enough samples in the right
@@ -48,9 +51,8 @@ places ([Section 2](02_Project_Planning/)), collected correctly ([Section 3](03_
 measured by a lab, and analysed with methods that account for compaction, differing sample
 depths, and spatial variation ([Section 4](04_Data_Interpretation/)).
 
-[Section 1](01_Background/) provides background context and explains why blue carbon matters in Canada.
 
-**TLDR: How carbon stock is calculated:**
+**How carbon stock is calculated:**
 
 1. [Collect a sediment core](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd)
 2. Measure [how much sediment](https://www.youtube.com/watch?v=BuLRrFD78Fs&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=11) and [how much carbon](https://www.youtube.com/watch?v=_Zm9R-kGiE8) is in the core
