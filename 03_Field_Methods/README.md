@@ -8,14 +8,16 @@
 
 ## Overview
 
-Once the sampling design is set ([Section 2](../02_Project_Planning/)), the field team
-collects **sediment cores** at the planned locations. Good field practice is what makes
-the lab and analysis stages meaningful — consistent coring, careful compaction
-measurement, and complete data sheets prevent problems that can't be fixed later.
+Once the sampling design is set ([Section 2](../02_Project_Planning/)), its time for the field team
+collect **sediment cores** at the planned locations. Here we will cover the neccessary equipement, tips for consistent coring, careful compaction
+measurement, and complete data sheets to prevent problems that can't be fixed later.
 
 This section follows WWF-Canada's field guide (*Part 2: Obtaining Sediment Cores*,
 pp. 8–14 of the [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf))
 and its companion videos. The method shown is push (percussion) coring with a PVC tube:
+
+**Important Note** Seagrass/Eelgrass ecosystems tend to be fully covered by the tides, and it is therefore typical for coring to take place underwater.
+there are methods for handlign this, and importantly, some equipment that is specialized to collect underwater cores. The methods are the same, just with 1 additional piece of equipment to take those underwater samples
 
 > "Here, and in the accompanying videos, we will be presenting a push coring method
 > using a PVC pipe — a method that is commonly used in coastal ecosystems."
@@ -49,8 +51,12 @@ with approximately 20 cm of additional headspace" (p.8).
 - Cooler with ice packs (samples go to a −20 °C freezer for storage)
 - Waders / boat, as appropriate for the site
 
-> 📸 **[SCREENSHOT NEEDED]** — the equipment laid out pre-fieldwork, so participants
-> can see a complete kit at a glance.
+
+**Screenshot of equipment list**
+
+<img width="386" height="317" alt="image" src="https://github.com/user-attachments/assets/cb225954-81d7-414b-b307-cd05f962f37c" />
+
+Video of equipment (https://www.youtube.com/watch?v=C0A0yCbXdhw&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=2)
 
 ---
 
