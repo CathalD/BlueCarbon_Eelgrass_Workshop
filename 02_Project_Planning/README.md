@@ -26,11 +26,26 @@ estimate carbon stock and meet the project's goals.
 
 **What is a sampling design?**
 
-> "A sampling design is a framework for choosing what and where to sample to estimate
+
+<table>
+<tr>
+<td width="45%">
+
+<img width="100%" alt="Site and plot selection — slide" src="https://github.com/user-attachments/assets/19e30448-624d-460d-98da-93acce8724c5">
+
+</td>
+<td width="55%">
+
+*> "A sampling design is a framework for choosing what and where to sample to estimate
 > the carbon stored in a larger ecosystem area. Sampling designs allow for the strategic
 > measurement of smaller sections (i.e., sites and plots) within the larger study area.
 > Combining measurements from multiple plots allows us to estimate the value for the
-> study area."
+> study area."*
+
+</td>
+</tr>
+</table>
+
 
 The following methods are based on WWF-Canada's [Sampling Design guide](Sampling-Design-Eng-2026.pdf), as well
 as the sampling-design guidance provided in the [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
@@ -58,6 +73,37 @@ The guide breaks *applying* a sampling design into five steps.
 
 * Note to self
 
+---
+
+<table>
+<tr>
+<td width="45%">
+
+<img width="100%" alt="Site and plot selection — slide" src="https://github.com/user-attachments/assets/a2d13fda-6c63-417d-aad6-b506be50a59d">
+
+</td>
+<td width="55%">
+
+*Add a brief description of this slide here.*
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="45%">
+
+<img width="100%" alt="Site and plot selection — slide" src="https://github.com/user-attachments/assets/d5d1f4f8-7040-434c-8a72-41f3a88cec09">
+
+</td>
+<td width="55%">
+
+*Add a brief description of this slide here.*
+
+</td>
+</tr>
+</table>
 
 
 ---
@@ -145,6 +191,37 @@ The number of cores needed can be estimated using an area-based approach with
 **Cochran's formula** for a desired margin of error and confidence level, given the
 variability (standard deviation) of carbon in the ecosystem. This is provided as a
 spreadsheet calculator:
+
+<table>
+<tr>
+<td width="45%">
+
+<img width="100%" alt="Site and plot selection — slide" src="https://github.com/user-attachments/assets/080e16d2-3be6-4da8-a0d1-bb4154c82e96">
+
+</td>
+<td width="55%">
+
+*Add a brief description of this slide here.*
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="45%">
+
+<img width="100%" alt="Site and plot selection — slide" src="https://github.com/user-attachments/assets/1cf7295f-9143-4637-84dc-b6daab789f85">
+
+</td>
+<td width="55%">
+
+*Add a brief description of this slide here.*
+
+</td>
+</tr>
+</table>
+
 
 **📄 [`SampleDesign_SampleAllocationCalculator_WithStrata.xlsx`](SampleDesign_SampleAllocationCalculator_WithStrata.xlsx)**
 
@@ -268,80 +345,7 @@ cores carry a `stratum` label and water depth is used as a spatial predictor in 
 
 > 🎥 **CHECK OUT THE VIDEO** — *"Site Selection and Required Materials"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd) *(swap in the direct video link)*
 
-<table>
-<tr>
-<td width="45%">
 
-<img width="100%" alt="Site and plot selection — slide" src="https://github.com/user-attachments/assets/19e30448-624d-460d-98da-93acce8724c5">
-
-</td>
-<td width="55%">
-
-*Add a brief description of this slide here.*
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="45%">
-
-<img width="100%" alt="Site and plot selection — slide" src="https://github.com/user-attachments/assets/a2d13fda-6c63-417d-aad6-b506be50a59d">
-
-</td>
-<td width="55%">
-
-*Add a brief description of this slide here.*
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="45%">
-
-<img width="100%" alt="Site and plot selection — slide" src="https://github.com/user-attachments/assets/d5d1f4f8-7040-434c-8a72-41f3a88cec09">
-
-</td>
-<td width="55%">
-
-*Add a brief description of this slide here.*
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="45%">
-
-<img width="100%" alt="Site and plot selection — slide" src="https://github.com/user-attachments/assets/080e16d2-3be6-4da8-a0d1-bb4154c82e96">
-
-</td>
-<td width="55%">
-
-*Add a brief description of this slide here.*
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="45%">
-
-<img width="100%" alt="Site and plot selection — slide" src="https://github.com/user-attachments/assets/1cf7295f-9143-4637-84dc-b6daab789f85">
-
-</td>
-<td width="55%">
-
-*Add a brief description of this slide here.*
-
-</td>
-</tr>
-</table>
 
 ---
 
