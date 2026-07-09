@@ -15,8 +15,8 @@
 **Blue carbon** is the organic carbon captured and stored by coastal and marine
 ecosystems. In Canada, this is principally **seagrass/eelgrass meadows and tidal salt
 marshes**. These habitats are among the most efficient carbon sinks on Earth: per unit
-area they can bury organic carbon far faster than terrestrial forests, and — because it
-is locked into waterlogged, low-oxygen sediment — that carbon can remain stored for
+area they can bury organic carbon far faster than terrestrial forests, and because it
+is locked into waterlogged, low-oxygen sediment, that carbon can remain stored for
 centuries to millennia.
 
 Two things make these systems valuable from a climate perspective:
@@ -51,7 +51,7 @@ sequestration.
 
 Eelgrass is the dominant temperate seagrass across the North Atlantic. As a foundation
 species it stabilises sediment, slows water flow (which encourages more particles to
-settle and be buried), and supports fisheries and biodiversity — while continuously
+settle and be buried), and supports fisheries and biodiversity, while continuously
 adding organic carbon to the seabed.
 
 <table>
@@ -63,7 +63,7 @@ adding organic carbon to the seabed.
 </td>
 <td width="55%">
 
-Eelgrass ecosystems accumulate carbon based on two principles:
+Eelgrass ecosystems can accumulate carbon derived from two places:
 
 1. **Autochthonous** — the accumulation of plant material growing within the ecosystem, deposited over time.
 2. **Allochthonous** — the accumulation of sediment and plant material transported into the ecosystem from surrounding environments.
@@ -81,9 +81,8 @@ Eelgrass ecosystems accumulate carbon based on two principles:
 </td>
 <td width="55%">
 
-Eelgrass sediments typically hold **lower organic carbon concentrations than salt
-marsh or mangrove soils**, which is reflected in the quality-control thresholds used
-later in the analysis (see [Section 4](../04_Data_Interpretation/)).
+Eelgrass sediments typically hold **lower organic carbon concentrations compared to other coastal ecosystems**, but due to
+the deep sediment pools, typically store more compares to terrestrial forests
 
 </td>
 </tr>
@@ -102,11 +101,11 @@ later in the analysis (see [Section 4](../04_Data_Interpretation/)).
 </td>
 <td width="55%">
 
-The balance of these processes is countered by the decomposition of organic material
+The balance of these carbon accumulating processes is countered by the decomposition of organic material
 via soil microbial processes, and the transport of material out of the ecosystem by
 tidal processes. The more sediment accumulates, the more loss occurs over time, until
-the ecosystem reaches a balance — referred to as the ecosystem's **carbon equilibrium
-state**, or simply "net ecosystem carbon balance."
+the ecosystem reaches a balance, referred to as the ecosystem's **carbon equilibrium
+state**, or simply **"net ecosystem carbon balance."**
 
 </td>
 </tr>
@@ -128,7 +127,7 @@ environmental and human-caused disturbances.
 </tr>
 </table>
 
-We can visualize this with a graph — the balance of carbon entering the ecosystem
+We can visualize this with a graph: The balance of carbon entering the ecosystem
 (green), the loss of carbon (red), and the net balance of these two processes (black).
 
 <table>
@@ -141,7 +140,7 @@ We can visualize this with a graph — the balance of carbon entering the ecosys
 <td width="40%">
 
 Here is an ecosystem carbon curve, showing the baseline accumulation of carbon over
-time as sequestration consistently outpaces loss.
+time as sequestration (carbon in) eventually = carbon out, and thus the amount of carbon entering the ecosystem reaches a "peak"
 
 </td>
 </tr>
@@ -168,7 +167,6 @@ degrade over time, becoming a net emitter of carbon and losing the carbon it had
 
 > 🎥 *Placeholder — add a recording/animation showing this compounding-disturbance case.*
 
----
 
 ## Interactive: Ecosystem Carbon Accumulation Visualizer
 
@@ -176,6 +174,12 @@ Explore how carbon accumulates in coastal ecosystems over time with the interact
 tool built for this workshop:
 
 **👉 [cathald.github.io/CarbonAccumulationVisualizer](https://cathald.github.io/CarbonAccumulationVisualizer/)**
+
+---
+## What is sediment anyway?
+
+Over periods of time, as particles are tranported into an ecosystem, or plants that grow in an ecosystem (remember the autothnonous vs allocthonous carbon)
+these materials settle and can be build up over time. 
 
 <table>
 <tr>
@@ -191,6 +195,18 @@ Taking a section of the sediment reveals the layers of accumulation over time.
 </td>
 </tr>
 </table>
+
+---
+## So how do you measure sediment carbon?
+
+Measuring carbon requires collecting a **sediment core**, determining how much sediement is there (**Volume * weight**), and measuring how much of the sediemnt consists of carbon (**Organic carbon**)
+
+However, as simple as this sounds, aligning the actually measurement in the context of larger project goals can ensure that the samples you are collecting are
+most effectively being applied. To do this there are 4 basic steps:
+Apply a **Sampling Design**
+Obtain **sediment core samples**
+**Analyse** the samples
+**Calculate carbon** and **interpret** the results
 
 <table>
 <tr>
@@ -209,17 +225,15 @@ The four steps to completing a carbon project.
 
 ---
 
+## In the next section
+we will start with **Project Planning** where we will learn to build a sampling plan, determine how many samples to take and where to take them,
+that best aligns with our team, organization, and community goals
+
 ## Key references
 
-The workshop follows methods distilled from coastal blue carbon guides, particularly
-those focused on the role of the practitioner on the ground, and the project
-coordinator planning the project. A consistent guide referenced throughout is the
-**"Blue Carbon Manual"**:
+> Coastal Blue Carbon Guide WWF- Canada
 
-> Howard, J., Hoyt, S., Isensee, K., Telszewski, M., & Pidgeon, E. (eds.) (2014).
-> *Coastal Blue Carbon: Methods for assessing carbon stocks and emissions factors in
-> mangroves, tidal salt marshes, and seagrass meadows.* Conservation International,
-> Intergovernmental Oceanographic Commission of UNESCO, International Union for
-> Conservation of Nature. Arlington, Virginia, USA.
+> Howard, J., Hoyt, S., Isensee, K., Telszewski, M., & Pidgeon, E. (eds.) (2014). *Coastal Blue Carbon: Methods for assessing carbon stocks and emissions factors in mangroves, tidal salt marshes, and seagrass meadows.* Conservation International,
 
-*(Additional references to be added.)*
+
+
