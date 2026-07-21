@@ -8,7 +8,7 @@
 
 ---
 
-# 2 — Project Planning: Connecting data collection to project goals
+# Part 2 — Project Planning: Connecting Data to Project Goals
 
 *Here we'll determine how many samples to take, and where to take them.*
 
@@ -30,21 +30,26 @@ as the sampling-design guidance provided in the [Howard et al. Blue Carbon Manua
 (see [Section 1](../01_Background/)).
 
 ---
-## Let's consider the following scenario:
+## First, let's consider the following scenario:
 
-You and your team of 4 are tasked with assessing the baseline measurements of an eelgrass ecosystem before protection and restoration measures are implemented.
+You and your team of 4 are tasked with **assessing the baseline measurements of an eelgrass ecosystem before protection and restoration** measures are implemented.
 
-You want to know the average carbon stock across the meadow, and want to be able to compare these measurements between different areas of the eelgrass, as well as to future measurements to assess how different management practices are affecting the ecosystem.
+You want to know the 
 
-How would you accomplish this?
+A) The **average carbon stock** across the meadow, and want to be able to 
+B) **Compare these measurements** between different areas of the eelgrass, as well as to future measurements
+
+to assess how different management practices are affecting the ecosystem.
+
+## How would you accomplish this?
 
 Let's break the scenario into digestible parts.
 
-First, you want a rough idea of the different areas you're interested in. This doesn't have to be precise, but it helps to have a general understanding of where those areas are and their boundaries. This helps constrain "where" the measurements will be made. By dividing up the ecosystem, you not only ensure all areas of interest are measured, but you also sample more effectively.
+**First**, you want a rough idea of the different areas you're interested in. *This doesn't have to be precise, but it helps to have a general understanding of where those areas are and their boundaries. This helps constrain "where" the measurements will be made. By dividing up the ecosystem, you not only ensure all areas of interest are measured, but you also sample more effectively.*
 
-Second, you want to collect samples from within these different areas, so you can "measure" the amount of carbon in these ecosystems. But how do you know how many samples to collect and exactly where to take them?
+**Second**, you want to collect samples from within these different areas, so you can "measure" the amount of carbon in these ecosystems. 
 
-This can be answered with a sampling design, so let's break it down further.
+But how do you know how many samples to collect and exactly where to take them? This can be answered with a **sampling design**, so let's break it down further.
 
 ---
 **What is a sampling design?**
