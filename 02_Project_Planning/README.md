@@ -29,34 +29,24 @@ The following methods are based on WWF-Canada's [Sampling Design guide](Sampling
 as the sampling-design guidance provided in the [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
 (see [Section 1](../01_Background/)).
 
-### The five steps to a sampling design
+---
+## Lets consider the following scenario:
 
-The guide breaks *applying* a sampling design into five steps.
+You and you're team of 4 are tasked with assessing the baseline measurments of an eelgrass ecosystem before protection and resotoration measures are implemented.
 
-1. Identify the boundary of the study area *(Step 1, below)*
-2. Stratify the study area *(Step 2, below)*
-3. Determine the sample allocation *(Step 4 — "How many samples?", below)*
-4. Determine the sample distribution *(Step 5 — "Where to sample?", below)*
-5. Select a plot design *(for eelgrass sediment cores, see [Section 3 — Field Methods](../03_Field_Methods/))*
+You want to know the average carbon stock across the meadow, and want to be able to compare these measurments within different areas of the eelgrass, as well as to future measurements to assess how different managment practices are affecting ecosystem.
 
-<table>
-<tr>
-<td width="45%">
+How would you accomplish this?
 
-<Add in image of probaility-based sampling>
+Lets break the scenario into digestible parts.
 
-</td>
-<td width="55%">
+First you want to have a rough idea of the different areas you are intested in. This doesn't have to be precise, but it helps to have a general understanding of the different areas, where they are and the boundary of those area. This helps constrain "where" the measurments will be made. By dividing up the ecosystem, not only do you ensure all areas of interest are measured, but it also is the effective method.
 
-What is sampling?
+Second you want to collect samples from within these different areas, so you can "measure" the amount of carbon in these ecosystems. But how do you know how many samples to collect and where exactly to take those samples?
 
-Sampling comes from the discipline of "Probability-based sampling estimation". This method is applied in scenarios when  you want to measure the amount fo something, but it is not feasible to physically measure it because it is too large. Therefore, a small "sample", or portion, of the larger whole is taken to estimate the value of the whole. Therefore, each measurement has an associated "probability", which is the liklihood the estimate is equal to the value of the whole, as well as the margin of error, which describes the range of values that the estimate is within given the probability. Therefor, each estimate has 3 values, an estimate, a probability, and a margin of error.
+This can be answered with a sampling design, so lets break it down further
 
-</td>
-</tr>
-</table>
-
-
+---
 **What is a sampling design?**
 
 
@@ -79,7 +69,47 @@ Sampling comes from the discipline of "Probability-based sampling estimation". T
 </tr>
 </table>
 
+---
+
+### The five steps to a sampling design
+
+The guide breaks *applying* a sampling design into five steps.
+
+1. Identify the boundary of the study area *(Step 1, below)*
+2. Stratify the study area *(Step 2, below)*
+3. Determine the sample allocation *(Step 4 — "How many samples?", below)*
+4. Determine the sample distribution *(Step 5 — "Where to sample?", below)*
+5. Select a plot design *(for eelgrass sediment cores, see [Section 3 — Field Methods](../03_Field_Methods/))*
+
+
+Before we dive into to applying these steps, lets first take a step and consider what we even mean by sampling?
+
+<table>
+<tr>
+<td width="45%">
+
+<Add in image of probaility-based sampling>
+
+</td>
+<td width="55%">
+
+What is sampling?
+
+Sampling comes from the discipline of "Probability-based sampling estimation". This method is applied in scenarios when  you want to measure the amount fo something, but it is not feasible to physically measure it because it is too large. Therefore, a small "sample", or portion, of the larger whole is taken to estimate the value of the whole. Therefore, each measurement has an associated "probability", which is the liklihood the estimate is equal to the value of the whole, as well as the margin of error, which describes the range of values that the estimate is within given the probability. Therefor, each estimate has 3 values, an estimate, a probability, and a margin of error.
+
+</td>
+</tr>
+</table>
+
+
+
 1 - we sample when the thing we are interested in measuring cant be counted, so we take a small proportion of the total, and use this to infer the whole. This is called "probability-based sampling". With probability based sampling, each estimate provided includes a number and a degree of error associated with that number. the goal is to reasonably close to the estimate of the larger number by reducing this degree of error in our estimate. To do this, we collect multiple samples.
+
+
+To better understand this, lets use the **Sample Allocation Visualizer**
+NOTE: There is a lot of information in this tool, but over the course of this module we will break down each component so by the end, it will be clear what is means, and how it can be used to inform your projects.
+
+
 
 ---
 
