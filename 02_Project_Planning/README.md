@@ -59,11 +59,7 @@ This can be answered with a sampling design, so lets break it down further
 </td>
 <td width="55%">
 
-*> "A sampling design is a framework for choosing what and where to sample to estimate
-> the carbon stored in a larger ecosystem area. Sampling designs allow for the strategic
-> measurement of smaller sections (i.e., sites and plots) within the larger study area.
-> Combining measurements from multiple plots allows us to estimate the value for the
-> study area."*
+A sampling design is a framework for choosing what and where to sample to estimate the carbon stored in a larger ecosystem area. Sampling designs allow for the strategic measurement of smaller sections (i.e., sites and plots) within the larger study area. Combining measurements from multiple plots allows us to estimate the value for the study area
 
 </td>
 </tr>
@@ -109,12 +105,58 @@ Sampling comes from the discipline of "Probability-based sampling estimation". T
 To better understand this, lets use the **Sample Allocation Visualizer**
 NOTE: There is a lot of information in this tool, but over the course of this module we will break down each component so by the end, it will be clear what is means, and how it can be used to inform your projects.
 
+<table>
+<tr>
+<td width="45%">
 
+<Add inmage here>
+
+</td>
+<td width="55%">
+
+For starters, lets take a look at the bottom left map. Here we can switch betweent the "True value" of carbon across the ecosystem. This is a hypothetical visual representing a world as if we could actual measure the entire ecosystem. In the second tab "Revealed", it shows what are estimate is. With each samples collected, the estimate for the area changes. As we keep adding more and more samples, we see that the "True map" lying beneath is being revealed more and more. However, it will take thousands of samples to full uncover it, we are only interested in obtaining a reasonable estimate.
+
+
+</td>
+</tr>
+</table>
+
+
+<table>
+<tr>
+<td width="45%">
+
+<Add inmage here>
+
+</td>
+<td width="55%">
+
+Swithing our attention to the right side of app, here we see the dashed blue line, which is equal to that "true value" we are trying to obtain. As we add more and more samples, we can see how our estimate compares to this value. In the begining (with only a few samples), we can see our estimate differs from the true value, and the error range (in purple) is large,
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="45%">
+
+<Add inmage here>
+
+</td>
+<td width="55%">
+
+As we add more and more samples, this error is reduced, and our estimate gets closer and closer to the "true value". 
+
+</td>
+</tr>
+</table>
 
 ---
 
-
 ## The Five Steps
+
+Now that we have a better understanding of what sampling is, and how more samples provides more accurate estimates comapred to less, we can start to plan carbon sampling project from scratch, following the 5 steps to compelting a samplign design.
 ---
 ## Step 1: Identify the boundary of the study area
 
