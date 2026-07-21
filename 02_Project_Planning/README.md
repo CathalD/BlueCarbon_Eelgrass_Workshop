@@ -84,7 +84,8 @@ Before we dive into to applying these steps, lets first take a step and consider
 <tr>
 <td width="45%">
 
-<Add in image of probaility-based sampling>
+<<img width="2400" height="1350" alt="image" src="https://github.com/user-attachments/assets/0c8db857-b05b-4969-936c-711d563e1978" />
+>
 
 </td>
 <td width="55%">
@@ -109,7 +110,7 @@ NOTE: There is a lot of information in this tool, but over the course of this mo
 <tr>
 <td width="45%">
 
-<Add inmage here>
+<Add .gif labelled "download (2)" >
 
 </td>
 <td width="55%">
@@ -126,7 +127,7 @@ For starters, lets take a look at the bottom left map. Here we can switch betwee
 <tr>
 <td width="45%">
 
-<Add inmage here>
+<Add .gif file lablled "download (3)>
 
 </td>
 <td width="55%">
@@ -137,26 +138,14 @@ Swithing our attention to the right side of app, here we see the dashed blue lin
 </tr>
 </table>
 
-<table>
-<tr>
-<td width="45%">
 
-<Add inmage here>
+As we add more and more samples, this error is reduced, and our estimate gets closer and closer to the "true value"
 
-</td>
-<td width="55%">
-
-As we add more and more samples, this error is reduced, and our estimate gets closer and closer to the "true value". 
-
-</td>
-</tr>
-</table>
-
+Now that we have a better understanding of what sampling is, and how more samples provides more accurate estimates comapred to less, we can start to plan carbon sampling project from scratch, following the 5 steps to compelting a samplign design.
 ---
 
 ## The Five Steps
 
-Now that we have a better understanding of what sampling is, and how more samples provides more accurate estimates comapred to less, we can start to plan carbon sampling project from scratch, following the 5 steps to compelting a samplign design.
 ---
 ## Step 1: Identify the boundary of the study area
 
@@ -179,6 +168,9 @@ crucial to measure the exact boundary — a rough guess can be very informative.
 </td>
 </tr>
 </table>
+
+
+** Add in example .gif in file "download(4) Format this in an approporiate way
 
 ---
 
@@ -211,6 +203,8 @@ techniques, restoration years, etc.
 </td>
 </tr>
 </table>
+
+Add image "Screenshot 2026-0-21 at 10.46.13.png" which shows the same boundary beign stratified
 
 --- 
 
@@ -251,7 +245,7 @@ spreadsheet calculator:
 </td>
 <td width="55%">
 
-*Add a brief description of this slide here.*
+Provide and area size, allowable error and precision, and the spreadsheet will provide an estimate for the number of samples to collect
 
 </td>
 </tr>
@@ -266,7 +260,7 @@ spreadsheet calculator:
 </td>
 <td width="55%">
 
-*Add a brief description of this slide here.*
+A model is only as useful as the information you provide to it. Here we use the same formula, but we provide more information to it, this is a study area boundary, that provides the model more precise measure of area, and a regional estimate for the mean and stdof the estimated carbon stock.
 
 </td>
 </tr>
@@ -281,13 +275,10 @@ Sampling Design guide's Step 3:
 > "This framework uses the central limit theorem to estimate the minimum number of
 > plots needed to meet a desired level of accuracy and precision for estimating the
 > carbon stock of a large area."
->
-> — WWF-Canada, *[Carbon Measurement: Sampling Design](Sampling-Design-Eng-2026.pdf)* (2026), p.16
 
-> "For example, if the study area is 10,000 km² and the allowable error is 10%, 43 plots
-> will need to be set up."
->
-> — WWF-Canada, *[Carbon Measurement: Sampling Design](Sampling-Design-Eng-2026.pdf)* (2026), p.16
+> "For example, if the study area is 10,000 km² and the allowable error is 10%, 43 plots will need to be set up."
+
+For more information, please see The WWF-Canada, *[Carbon Measurement: Sampling Design](Sampling-Design-Eng-2026.pdf)* (2026), p.16
 
 The spreadsheet has three sheets:
 
@@ -315,49 +306,12 @@ describes for stratified-random sampling:
 >
 > — WWF-Canada, *[Carbon Measurement: Sampling Design](Sampling-Design-Eng-2026.pdf)* (2026), p.17
 
-### Sheet 3 — Sample Allocation Visualization
-Shows how the required *n* scales with study-area size at different confidence levels
-(80 / 85 / 90 / 95%), to help you see the trade-off between effort and precision.
-
-<table>
-<tr>
-<td width="45%">
-
-<img width="100%" alt="Sample Allocation Calculator — filled-in example">
-
-</td>
-<td width="55%">
-
-*Add a brief description of this screenshot here.*
-
-*(Suggested: the calculator open in Excel with a filled-in worked example — study area,
-margin of error, confidence level → resulting* n *.)*
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="45%">
-
-<img width="100%" alt="Sample Allocation Visualization chart">
-
-</td>
-<td width="55%">
-
-*Add a brief description of this screenshot here.*
-
-*(Suggested: the Sheet 3 visualization chart, showing how* n *scales with study-area
-size across confidence levels.)*
-
-</td>
-</tr>
-</table>
 
 ---
 
 ## Step 5: Where to sample? — Stratification & sample distribution
+
+Lastly, where to take these samples?
 
 <table>
 <tr>
@@ -368,7 +322,9 @@ size across confidence levels.)*
 </td>
 <td width="55%">
 
-*Add a brief description of this slide here.*
+There are different strategies for distributing samples, aptly refered to as "Sampling Strategies"
+
+These include conveneint, linear, grid, and stratified sampling
 
 </td>
 </tr>
@@ -383,7 +339,7 @@ size across confidence levels.)*
 </td>
 <td width="55%">
 
-*Add a brief description of this slide here.*
+For eelgrass, some considerations include how the eelgrass might vary relative to the shore, both parralell and perpedicular
 
 </td>
 </tr>
@@ -404,28 +360,17 @@ depends on how much you already know about the site:
 | **Stratified-random** | Study area divided into strata first, then plots randomly assigned within each — most accurate and cost-effective when variability is known. **This is the strategy used here.** |
 | **Convenience/practical** | Plots placed wherever is accessible — not statistically rigorous, but useful for a low-cost initial assessment. |
 
-*Source: WWF-Canada, [Carbon Measurement: Sampling Design](Sampling-Design-Eng-2026.pdf) (2026), pp.5–6, "Sampling strategy types."*
 
-> "stratification (optional) is used to divide the study area into smaller distinct
-> sites. This process can reduce the cost of sampling by increasing the statistical
-> power of your field data."
->
-> — WWF-Canada, *[Measuring Carbon in Coastal Sediments](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)* (2026), p.6
+stratification (optional) is used to divide the study area into smaller distinct sites. This process can reduce the cost of sampling by increasing the statistical power of your field data
+
+For more information please see: WWF-Canada, *[Measuring Carbon in Coastal Sediments](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)* (2026), p.6
 
 For eelgrass specifically, the field guide recommends a shoreline-aligned transect layout:
 
-> "seagrass meadows should be sampled along transects that run parallel to the shoreline
-> and align with the depth of the sediment. Within each site, a random or probability-based
-> grid sampling strategy is recommended, with at least two replicates per site."
->
-> — WWF-Canada, *[Measuring Carbon in Coastal Sediments](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)* (2026), p.7
+seagrass meadows should be sampled along transects that run parallel to the shoreline and align with the depth of the sediment. Within each site, a random or probability-based  grid sampling strategy is recommended, with at least two replicates per site
 
-*(This maps directly onto the analysis in [Section 4](../04_Data_Interpretation/), where
-cores carry a `stratum` label and water depth is used as a spatial predictor in kriging.)*
 
 > 🎥 **CHECK OUT THE VIDEO** — *"Site Selection and Required Materials"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd) *(swap in the direct video link)*
-
-
 
 ---
 
@@ -441,19 +386,25 @@ developed previously for blue carbon work:
 <tr>
 <td width="45%">
 
-<img width="100%" alt="Blue Carbon Hub sampling-design tool">
+I want to add in a side by side here, with this image below shoing the sample visualization tool
+and to the right of it showing the sampling allocation tool and how they relate
+<>
 
 </td>
 <td width="55%">
 
-*Add a brief description of this screenshot here.*
-
-*(Suggested: the [Blue Carbon Hub sampling-design tool](https://blue-carbon-hub.projects.earthengine.app/)
-with a study area outlined and strata drawn.)*
 
 </td>
 </tr>
 </table>
+
+* Below the panels above I want this description on the left
+
+The sample size visualizer shows how you can reveal the "True Carbon" using sampling. How many samples required to reach a goal can vary based on the adjustable parameters listed:
+
+And on the right
+
+This sampling tool helps to implement this in a practical way, allowing the user to adjust the these parameters over user defined study area. the user can shoose if/how they wanto to divide up (stratify) there study area, and allocate their samples.
 
 ---
 ## Putting it into practice - Examples of implementing this workflow
