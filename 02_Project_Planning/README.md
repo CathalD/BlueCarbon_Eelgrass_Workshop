@@ -30,21 +30,21 @@ as the sampling-design guidance provided in the [Howard et al. Blue Carbon Manua
 (see [Section 1](../01_Background/)).
 
 ---
-## Lets consider the following scenario:
+## Let's consider the following scenario:
 
-You and you're team of 4 are tasked with assessing the baseline measurments of an eelgrass ecosystem before protection and resotoration measures are implemented.
+You and your team of 4 are tasked with assessing the baseline measurements of an eelgrass ecosystem before protection and restoration measures are implemented.
 
-You want to know the average carbon stock across the meadow, and want to be able to compare these measurments within different areas of the eelgrass, as well as to future measurements to assess how different managment practices are affecting ecosystem.
+You want to know the average carbon stock across the meadow, and want to be able to compare these measurements between different areas of the eelgrass, as well as to future measurements to assess how different management practices are affecting the ecosystem.
 
 How would you accomplish this?
 
-Lets break the scenario into digestible parts.
+Let's break the scenario into digestible parts.
 
-First you want to have a rough idea of the different areas you are intested in. This doesn't have to be precise, but it helps to have a general understanding of the different areas, where they are and the boundary of those area. This helps constrain "where" the measurments will be made. By dividing up the ecosystem, not only do you ensure all areas of interest are measured, but it also is the effective method.
+First, you want a rough idea of the different areas you're interested in. This doesn't have to be precise, but it helps to have a general understanding of where those areas are and their boundaries. This helps constrain "where" the measurements will be made. By dividing up the ecosystem, you not only ensure all areas of interest are measured, but you also sample more effectively.
 
-Second you want to collect samples from within these different areas, so you can "measure" the amount of carbon in these ecosystems. But how do you know how many samples to collect and where exactly to take those samples?
+Second, you want to collect samples from within these different areas, so you can "measure" the amount of carbon in these ecosystems. But how do you know how many samples to collect and exactly where to take them?
 
-This can be answered with a sampling design, so lets break it down further
+This can be answered with a sampling design, so let's break it down further.
 
 ---
 **What is a sampling design?**
@@ -78,21 +78,20 @@ The guide breaks *applying* a sampling design into five steps.
 5. Select a plot design *(for eelgrass sediment cores, see [Section 3 — Field Methods](../03_Field_Methods/))*
 
 
-Before we dive into to applying these steps, lets first take a step and consider what we even mean by sampling?
+Before we dive into applying these steps, let's first take a step back and consider what we even mean by sampling.
 
 <table>
 <tr>
 <td width="45%">
 
-<<img width="2400" height="1350" alt="image" src="https://github.com/user-attachments/assets/0c8db857-b05b-4969-936c-711d563e1978" />
->
+<img width="100%" alt="What is sampling? — probability-based sampling explainer" src="https://github.com/user-attachments/assets/0c8db857-b05b-4969-936c-711d563e1978">
 
 </td>
 <td width="55%">
 
-What is sampling?
+**What is sampling?**
 
-Sampling comes from the discipline of "Probability-based sampling estimation". This method is applied in scenarios when  you want to measure the amount fo something, but it is not feasible to physically measure it because it is too large. Therefore, a small "sample", or portion, of the larger whole is taken to estimate the value of the whole. Therefore, each measurement has an associated "probability", which is the liklihood the estimate is equal to the value of the whole, as well as the margin of error, which describes the range of values that the estimate is within given the probability. Therefor, each estimate has 3 values, an estimate, a probability, and a margin of error.
+Sampling comes from the discipline of "probability-based sampling estimation." This method is applied when you want to measure the amount of something, but it's not feasible to physically measure it because it's too large. Therefore, a small "sample," or portion, of the larger whole is taken to estimate the value of the whole. Each measurement has an associated "probability" — the likelihood the estimate equals the value of the whole — as well as a margin of error, which describes the range of values the estimate falls within, given that probability. Therefore, each estimate has 3 values: an estimate, a probability, and a margin of error.
 
 </td>
 </tr>
@@ -100,53 +99,49 @@ Sampling comes from the discipline of "Probability-based sampling estimation". T
 
 
 
-1 - we sample when the thing we are interested in measuring cant be counted, so we take a small proportion of the total, and use this to infer the whole. This is called "probability-based sampling". With probability based sampling, each estimate provided includes a number and a degree of error associated with that number. the goal is to reasonably close to the estimate of the larger number by reducing this degree of error in our estimate. To do this, we collect multiple samples.
+We sample when the thing we're interested in measuring can't be counted directly, so we take a small proportion of the total and use it to infer the whole. This is called "probability-based sampling." With probability-based sampling, each estimate comes with a number and a degree of error associated with that number. The goal is to get reasonably close to the true value by reducing that degree of error, and we do this by collecting multiple samples.
 
-
-To better understand this, lets use the **Sample Allocation Visualizer**
-NOTE: There is a lot of information in this tool, but over the course of this module we will break down each component so by the end, it will be clear what is means, and how it can be used to inform your projects.
+To better understand this, let's use the **Sample Allocation Visualizer**.
+NOTE: There is a lot of information in this tool, but over the course of this module we'll break down each component, so by the end it will be clear what it means and how it can be used to inform your projects.
 
 <table>
 <tr>
-<td width="45%">
+<td width="60%">
 
-<Add .gif labelled "download (2)" >
+<img width="100%" alt="Sample Allocation Visualizer — revealing the true carbon map as samples accumulate" src="images/download%20(2).gif">
 
 </td>
-<td width="55%">
+<td width="40%">
 
-For starters, lets take a look at the bottom left map. Here we can switch betweent the "True value" of carbon across the ecosystem. This is a hypothetical visual representing a world as if we could actual measure the entire ecosystem. In the second tab "Revealed", it shows what are estimate is. With each samples collected, the estimate for the area changes. As we keep adding more and more samples, we see that the "True map" lying beneath is being revealed more and more. However, it will take thousands of samples to full uncover it, we are only interested in obtaining a reasonable estimate.
-
+For starters, let's take a look at the bottom left map. Here we can switch between the "True value" of carbon across the ecosystem — a hypothetical visual representing a world where we could actually measure the entire ecosystem — and the "Revealed" tab, which shows what our estimate is. With each sample collected, the estimate for the area changes. As we keep adding more samples, we see the "True map" lying beneath being revealed more and more. However, it would take thousands of samples to fully uncover it; we're only interested in obtaining a reasonable estimate.
 
 </td>
 </tr>
 </table>
 
-
 <table>
 <tr>
-<td width="45%">
+<td width="60%">
 
-<Add .gif file lablled "download (3)>
+<img width="100%" alt="Sample Allocation Visualizer — estimate converging on the true value as sample size grows" src="images/download%20(3).gif">
 
 </td>
-<td width="55%">
+<td width="40%">
 
-Swithing our attention to the right side of app, here we see the dashed blue line, which is equal to that "true value" we are trying to obtain. As we add more and more samples, we can see how our estimate compares to this value. In the begining (with only a few samples), we can see our estimate differs from the true value, and the error range (in purple) is large,
+Switching our attention to the right side of the app, here we see the dashed blue line, which is equal to the "true value" we're trying to obtain. As we add more samples, we can see how our estimate compares to this value. In the beginning (with only a few samples), our estimate differs from the true value, and the error range (in purple) is large.
+
+As we add more and more samples, this error is reduced, and our estimate gets closer and closer to the true value.
 
 </td>
 </tr>
 </table>
 
+Now that we have a better understanding of what sampling is, and how more samples provide more accurate estimates compared to fewer, we can start to plan a carbon sampling project from scratch, following the 5 steps to completing a sampling design.
 
-As we add more and more samples, this error is reduced, and our estimate gets closer and closer to the "true value"
-
-Now that we have a better understanding of what sampling is, and how more samples provides more accurate estimates comapred to less, we can start to plan carbon sampling project from scratch, following the 5 steps to compelting a samplign design.
 ---
 
 ## The Five Steps
 
----
 ## Step 1: Identify the boundary of the study area
 
 <table>
@@ -170,7 +165,21 @@ crucial to measure the exact boundary — a rough guess can be very informative.
 </table>
 
 
-** Add in example .gif in file "download(4) Format this in an approporiate way
+<table>
+<tr>
+<td width="60%">
+
+<img width="100%" alt="Drawing a study area boundary in Google Earth Engine" src="images/download%20(4).gif">
+
+</td>
+<td width="40%">
+
+Drawing the boundary in practice: outlining a rough study area directly on the map in
+Google Earth Engine.
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -204,7 +213,22 @@ techniques, restoration years, etc.
 </tr>
 </table>
 
-Add image "Screenshot 2026-0-21 at 10.46.13.png" which shows the same boundary beign stratified
+<table>
+<tr>
+<td width="60%">
+
+<img width="100%" alt="Blue Carbon Stratified Sampling Tool — drawing and stratifying a study area" src="images/Screenshot%202026-07-21%20at%2010.46.13.png">
+
+</td>
+<td width="40%">
+
+The same boundary being stratified in practice: the [Blue Carbon Hub sampling-design tool](https://blue-carbon-hub.projects.earthengine.app/)
+draws the area of interest (Step 1), then applies automatic stratification (Step 2) to
+split it into distinct strata before calculating the sample size (Step 3).
+
+</td>
+</tr>
+</table>
 
 --- 
 
@@ -240,12 +264,12 @@ spreadsheet calculator:
 <tr>
 <td width="45%">
 
-<img width="100%" alt="Site and plot selection — slide" src="https://github.com/user-attachments/assets/080e16d2-3be6-4da8-a0d1-bb4154c82e96">
+<img width="100%" alt="Sample allocation calculator — basic inputs" src="https://github.com/user-attachments/assets/080e16d2-3be6-4da8-a0d1-bb4154c82e96">
 
 </td>
 <td width="55%">
 
-Provide and area size, allowable error and precision, and the spreadsheet will provide an estimate for the number of samples to collect
+Provide an area size, allowable error, and precision, and the spreadsheet will provide an estimate for the number of samples to collect.
 
 </td>
 </tr>
@@ -255,12 +279,12 @@ Provide and area size, allowable error and precision, and the spreadsheet will p
 <tr>
 <td width="45%">
 
-<img width="100%" alt="Site and plot selection — slide" src="https://github.com/user-attachments/assets/1cf7295f-9143-4637-84dc-b6daab789f85">
+<img width="100%" alt="Sample allocation calculator — with study area boundary and regional estimates" src="https://github.com/user-attachments/assets/1cf7295f-9143-4637-84dc-b6daab789f85">
 
 </td>
 <td width="55%">
 
-A model is only as useful as the information you provide to it. Here we use the same formula, but we provide more information to it, this is a study area boundary, that provides the model more precise measure of area, and a regional estimate for the mean and stdof the estimated carbon stock.
+A model is only as useful as the information you provide it. Here we use the same formula, but provide more information: a study area boundary, which gives the model a more precise measure of area, and a regional estimate for the mean and std of the estimated carbon stock.
 
 </td>
 </tr>
@@ -278,7 +302,7 @@ Sampling Design guide's Step 3:
 
 > "For example, if the study area is 10,000 km² and the allowable error is 10%, 43 plots will need to be set up."
 
-For more information, please see The WWF-Canada, *[Carbon Measurement: Sampling Design](Sampling-Design-Eng-2026.pdf)* (2026), p.16
+For more information, please see WWF-Canada, *[Carbon Measurement: Sampling Design](Sampling-Design-Eng-2026.pdf)* (2026), p.16.
 
 The spreadsheet has three sheets:
 
@@ -317,14 +341,14 @@ Lastly, where to take these samples?
 <tr>
 <td width="45%">
 
-<img width="100%" alt="Site and plot selection — slide" src="https://github.com/user-attachments/assets/a2d13fda-6c63-417d-aad6-b506be50a59d">
+<img width="100%" alt="Sampling strategies — slide" src="https://github.com/user-attachments/assets/a2d13fda-6c63-417d-aad6-b506be50a59d">
 
 </td>
 <td width="55%">
 
-There are different strategies for distributing samples, aptly refered to as "Sampling Strategies"
+There are different strategies for distributing samples, aptly referred to as "sampling strategies."
 
-These include conveneint, linear, grid, and stratified sampling
+These include convenient, linear, grid, and stratified sampling.
 
 </td>
 </tr>
@@ -334,12 +358,12 @@ These include conveneint, linear, grid, and stratified sampling
 <tr>
 <td width="45%">
 
-<img width="100%" alt="Site and plot selection — slide" src="https://github.com/user-attachments/assets/d5d1f4f8-7040-434c-8a72-41f3a88cec09">
+<img width="100%" alt="Eelgrass-specific sampling considerations — slide" src="https://github.com/user-attachments/assets/d5d1f4f8-7040-434c-8a72-41f3a88cec09">
 
 </td>
 <td width="55%">
 
-For eelgrass, some considerations include how the eelgrass might vary relative to the shore, both parralell and perpedicular
+For eelgrass, some considerations include how the eelgrass might vary relative to the shore, both parallel and perpendicular.
 
 </td>
 </tr>
@@ -361,13 +385,13 @@ depends on how much you already know about the site:
 | **Convenience/practical** | Plots placed wherever is accessible — not statistically rigorous, but useful for a low-cost initial assessment. |
 
 
-stratification (optional) is used to divide the study area into smaller distinct sites. This process can reduce the cost of sampling by increasing the statistical power of your field data
+Stratification (optional) is used to divide the study area into smaller, distinct sites. This process can reduce the cost of sampling by increasing the statistical power of your field data.
 
-For more information please see: WWF-Canada, *[Measuring Carbon in Coastal Sediments](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)* (2026), p.6
+For more information, please see WWF-Canada, *[Measuring Carbon in Coastal Sediments](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)* (2026), p.6.
 
 For eelgrass specifically, the field guide recommends a shoreline-aligned transect layout:
 
-seagrass meadows should be sampled along transects that run parallel to the shoreline and align with the depth of the sediment. Within each site, a random or probability-based  grid sampling strategy is recommended, with at least two replicates per site
+Seagrass meadows should be sampled along transects that run parallel to the shoreline and align with the depth of the sediment. Within each site, a random or probability-based grid sampling strategy is recommended, with at least two replicates per site.
 
 
 > 🎥 **CHECK OUT THE VIDEO** — *"Site Selection and Required Materials"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd) *(swap in the direct video link)*
@@ -384,60 +408,66 @@ developed previously for blue carbon work:
 
 <table>
 <tr>
-<td width="45%">
+<td width="50%">
 
-I want to add in a side by side here, with this image below shoing the sample visualization tool
-and to the right of it showing the sampling allocation tool and how they relate
-<>
+<img width="100%" alt="Blue Carbon Hub sampling-design tool — drawing and stratifying a study area" src="images/Screenshot%202026-07-21%20at%2010.46.13.png">
 
 </td>
-<td width="55%">
+<td width="50%">
 
+<img width="100%" alt="Blue Carbon Hub sampling-design tool — stratified sample allocation results" src="images/Screenshot%202026-07-21%20at%2010.47.16.png">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+The sample size visualizer shows how you can reveal the "true carbon" using sampling.
+How many samples are required to reach a goal can vary based on the adjustable
+parameters listed.
+
+</td>
+<td width="50%">
+
+This sampling tool helps implement this in a practical way, allowing the user to adjust
+these parameters over a user-defined study area. The user can choose if/how they want
+to divide up (stratify) their study area, and allocate their samples.
 
 </td>
 </tr>
 </table>
 
-* Below the panels above I want this description on the left
-
-The sample size visualizer shows how you can reveal the "True Carbon" using sampling. How many samples required to reach a goal can vary based on the adjustable parameters listed:
-
-And on the right
-
-This sampling tool helps to implement this in a practical way, allowing the user to adjust the these parameters over user defined study area. the user can shoose if/how they wanto to divide up (stratify) there study area, and allocate their samples.
-
 ---
-## Putting it into practice - Examples of implementing this workflow
+## Putting it into practice — examples of implementing this workflow
 
-**Scenario** You are interested in understanding a baseline carbon stock in an inlet containing Eelgrass. For planning, you need to know
+**Scenario:** You are interested in understanding a baseline carbon stock in an inlet containing eelgrass. For planning, you need to know:
 
 A) How many samples to take
 B) Where to take them
 
 So you begin to implement the steps:
 
-Step 1 - Area
-Using Google Earth Engine Sampling Design tool, you draw a rough outline of the area you know is mostly eelgrass
-(Insert video GIF clip of this)
+**Step 1 — Area.** Using the Google Earth Engine sampling-design tool, you draw a rough outline of the area you know is mostly eelgrass.
 
-Step 2 - You know there is slight differences across the site, so you use the "Auto-Stratification" tool to help dilineate unique areas
+<img width="60%" alt="Drawing a study area boundary in Google Earth Engine" src="images/download%20(4).gif">
 
-Step 3 - You only want to measure sediments in this area
+**Step 2 — Stratify.** You know there are slight differences across the site, so you use the "Auto-Stratification" tool to help delineate unique areas.
 
-Step 4 - You calculate the required number of samples in this area based on:
-Total Area =
-Level of precision =
-Margin of error =
-Dafault estiamte for C stock and variation =
+**Step 3 — What to measure.** You only want to measure sediments in this area.
 
-Using the tools built in calculation function
+**Step 4 — How many samples.** You calculate the required number of samples in this area based on:
+- Total area =
+- Level of precision =
+- Margin of error =
+- Default estimate for C stock and variation =
 
-Step 5 - You allocate this number of samples proportionally across the two strata
+...using the calculator's built-in calculation function.
 
-Next you send these coordinates to your team to go and collect these samples
+**Step 5 — Where to sample.** You allocate this number of samples proportionally across the two strata.
 
-Summary of what to expect
-Given the size of the area and your intended goals, we "Insert summary"
+Next, you send these coordinates to your team to go and collect the samples.
+
+**Summary of what to expect:** *Given the size of the area and your intended goals, we "insert summary."*
 
 
 
