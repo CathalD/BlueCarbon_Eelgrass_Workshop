@@ -8,9 +8,9 @@
 
 ---
 
-# 1 — Background
+# Part1 — Background
 
-*Blue carbon, eelgrass, and why sediment carbon matters.*
+*Intro to blue carbon in eelgrass ecosystems, and why sediment carbon matters.*
 
 **Quick links:** [Workshop Presentation Slides](BlueCarbon_EelgrassPPT_FinalV1.pptx) · [WWF-Canada Coastal Blue Carbon Guide](https://wwf.ca/wp-content/uploads/2026/04/Coastal-Blue-Carbon-Field-Guide-FINAL.pdf) · [Howard et al. (2014) Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
 
@@ -19,16 +19,16 @@
 ## What is blue carbon?
 
 **Blue carbon** is the organic carbon captured and stored by coastal and marine
-ecosystems. In Canada, this is principally **seagrass/eelgrass meadows and tidal salt
-marshes**. These habitats are among the most efficient carbon sinks on Earth: per unit
-area they can bury organic carbon far faster than terrestrial forests, and because it
+ecosystems. In Canada, this is primarily **seagrass/eelgrass meadows and tidal salt
+marshes**. These habitats are among the most efficient carbon sinks on Earth: For example, per unit
+area, eelgrass ecosystems can bury organic carbon faster than terrestrial forests, and because it
 is locked into waterlogged, low-oxygen sediment, that carbon can remain stored for
 centuries to millennia.
 
-Two things make these systems valuable from a climate perspective:
+Two common concepts used to describe blue carbon ecosystems are **sequestration** and **storage**
 
-1. **Sequestration** — living plants pull CO₂ out of the water and atmosphere.
-2. **Storage** — the bulk of the carbon accumulates in the *sediment* beneath the
+1. **Sequestration** — Describes the process of living plants pulling CO₂ out of the water and atmosphere.
+2. **Storage** — The sequestered carbon remains in the ecosystem, we say it is a "carbon store". The bulk of the carbon accumulates in the *sediment* beneath the
    meadow, not in the plants themselves. This is why our sampling focuses on
    sediment cores rather than biomass alone.
 
@@ -42,7 +42,7 @@ Two things make these systems valuable from a climate perspective:
 <td width="55%">
 
 The plants, the soil, the water, and the air in this diagram represent the carbon
-**pools** ("stocks") — the places that hold carbon at any point in time and can be
+**pools** ("stocks"), the places that hold carbon at any point in time and can be
 directly measured. The arrows represent the **processes** ("fluxes") that move carbon
 between the pools. Fluxes over time control the pools, and ultimately the net
 sequestration.
@@ -71,8 +71,9 @@ adding organic carbon to the seabed.
 
 Eelgrass ecosystems can accumulate carbon derived from two places:
 
-1. **Autochthonous** — the accumulation of plant material growing within the ecosystem, deposited over time.
-2. **Allochthonous** — the accumulation of sediment and plant material transported into the ecosystem from surrounding environments.
+  1. "Autochthonous" carbon describes the accumulation of plant material growing within the ecosystem, deposited over time.
+     
+  2. "Allochthonous" carbon describes the accumulation of sediment and plant material transported into the ecosystem from surrounding environments.
 
 </td>
 </tr>
@@ -87,8 +88,8 @@ Eelgrass ecosystems can accumulate carbon derived from two places:
 </td>
 <td width="55%">
 
-Eelgrass sediments typically hold **lower organic carbon concentrations compared to
-other coastal ecosystems**, but thanks to their deep sediment pools, they typically
+Eelgrass sediments typically hold lower organic carbon concentrations compared to
+other coastal ecosystems, but thanks to their deep sediment pools, they typically
 store more carbon overall than terrestrial forests.
 
 </td>
@@ -111,8 +112,8 @@ store more carbon overall than terrestrial forests.
 The balance of these carbon accumulating processes is countered by the decomposition of organic material
 via soil microbial processes, and the transport of material out of the ecosystem by
 tidal processes. The more sediment accumulates, the more loss occurs over time, until
-the ecosystem reaches a balance, referred to as the ecosystem's **carbon equilibrium
-state**, or simply **"net ecosystem carbon balance."**
+the ecosystem reaches a balance, referred to as the ecosystem's "carbon equilibrium
+state", or simply "net ecosystem carbon balance"
 
 </td>
 </tr>
@@ -148,7 +149,7 @@ We can visualize this with a graph: The balance of carbon entering the ecosystem
 
 Here is an ecosystem carbon curve, showing the baseline accumulation of carbon over
 time. As sequestration (carbon in) and loss (carbon out) converge, the amount of carbon
-stored in the ecosystem levels off at a "peak," or equilibrium.
+stored in the ecosystem levels off at a "peak," or equilibrium (represented by the dashed line)
 
 </td>
 </tr>
@@ -171,9 +172,22 @@ recovery of carbon.
 </table>
 
 However, if/when multiple overlapping disturbances occur, the ecosystem can continue to
-degrade over time, becoming a net emitter of carbon and losing the carbon it had stored.
+degrade over time, becoming a net emitter of carbon and losing the carbon it had stored. This is common in ecosystems experiences "multiple stressors", cumulative effects, and altered distrubance regimes
 
-> 🎥 *Placeholder — add a recording/animation showing this compounding-disturbance case.*
+<table>
+<tr>
+<td width="60%">
+
+<Add .Gif here>
+
+</td>
+<td width="40%">
+
+"Add text here"
+
+</td>
+</tr>
+</table>
 
 
 ## Interactive: Ecosystem Carbon Accumulation Visualizer
@@ -187,7 +201,7 @@ tool built for this workshop:
 ## What is sediment anyway?
 
 Over time, as particles are transported into an ecosystem, or as plants growing within
-it contribute organic matter (recall the allochthonous vs. autochthonous distinction),
+it contribute organic matter (recall the allochthonous vs. autochthonous distinction, respectively),
 these materials settle and build up, forming sediment.
 
 <table>
@@ -210,10 +224,10 @@ Taking a section of the sediment reveals the layers of accumulation over time.
 
 Measuring carbon requires collecting a **sediment core**, determining how much
 sediment is there (**volume * weight**), and measuring how much of that sediment
-consists of carbon (**organic carbon**).
+consists of carbon (**organic carbon concentration**).
 
 However, as simple as this sounds, aligning the actual measurements with the project's
-larger goals ensures the samples you collect are applied as effectively as possible. To
+larger goals ensures the samples you collect are used as effectively as possible. To
 do this, there are 4 basic steps:
 
 1. Apply a **sampling design**
@@ -240,15 +254,11 @@ The four steps to completing a carbon project.
 
 ## In the next section
 
-We'll start with **Project Planning** — building a sampling plan and determining how
-many samples to take and where to take them, in a way that best aligns with our team's,
-organization's, and community's goals.
+We'll start with **Project Planning**, here we will work on building a sampling plan, determining how
+many samples to take and where to take them, in a way that best aligns with team,
+organization, and community goals.
 
-## Key references
 
-> WWF-Canada. (2026). *Measuring Carbon in Coastal Sediments.*
-
-> Howard, J., Hoyt, S., Isensee, K., Telszewski, M., & Pidgeon, E. (eds.) (2014). *Coastal Blue Carbon: Methods for assessing carbon stocks and emissions factors in mangroves, tidal salt marshes, and seagrass meadows.* Conservation International, Intergovernmental Oceanographic Commission of UNESCO, International Union for Conservation of Nature. Arlington, Virginia, USA.
 
 
 
