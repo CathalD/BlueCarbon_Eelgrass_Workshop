@@ -31,7 +31,6 @@ as the sampling-design guidance provided in the [Howard et al. Blue Carbon Manua
 
 ---
 ## First, let's consider the following scenario:
-
 You and your team of 4 are tasked with **assessing the baseline measurements of an eelgrass ecosystem before protection and restoration** measures are implemented.
 
 You want to know the 
@@ -41,8 +40,7 @@ B) **Compare these measurements** between different areas of the eelgrass, as we
 
 to assess how different management practices are affecting the ecosystem.
 
-## How would you accomplish this?
-
+**How would you accomplish this?**
 Let's break the scenario into digestible parts.
 
 **First**, you want a rough idea of the different areas you're interested in. *This doesn't have to be precise, but it helps to have a general understanding of where those areas are and their boundaries. This helps constrain "where" the measurements will be made. By dividing up the ecosystem, you not only ensure all areas of interest are measured, but you also sample more effectively.*
@@ -72,18 +70,7 @@ A sampling design is a framework for choosing what and where to sample to estima
 
 ---
 
-### The five steps to a sampling design
-
-The guide breaks *applying* a sampling design into five steps.
-
-1. Identify the boundary of the study area *(Step 1, below)*
-2. Stratify the study area *(Step 2, below)*
-3. Determine the sample allocation *(Step 4 — "How many samples?", below)*
-4. Determine the sample distribution *(Step 5 — "Where to sample?", below)*
-5. Select a plot design *(for eelgrass sediment cores, see [Section 3 — Field Methods](../03_Field_Methods/))*
-
-
-Before we dive into applying these steps, let's first take a step back and consider what we even mean by sampling.
+Before we dive into sampling design, let's first take a step back and consider what we even mean by sampling.
 
 <table>
 <tr>
@@ -144,8 +131,15 @@ As we add more and more samples, this error is reduced, and our estimate gets cl
 Now that we have a better understanding of what sampling is, and how more samples provide more accurate estimates compared to fewer, we can start to plan a carbon sampling project from scratch, following the 5 steps to completing a sampling design.
 
 ---
+### The five steps to a sampling design
 
-## The Five Steps
+The guide breaks *applying* a sampling design into five steps.
+
+1. Identify the boundary of the study area *(Step 1, below)*
+2. Stratify the study area *(Step 2, below)*
+3. Determine the sample allocation *(Step 4 — "How many samples?", below)*
+4. Determine the sample distribution *(Step 5 — "Where to sample?", below)*
+5. Select a plot design *(for eelgrass sediment cores, see [Section 3 — Field Methods](../03_Field_Methods/))*
 
 ## Step 1: Identify the boundary of the study area
 
