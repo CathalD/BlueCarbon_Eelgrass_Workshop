@@ -24,6 +24,39 @@ we take, and where should we take them?** Answering these is the aim of a **samp
 design**; in other words, having enough samples, allocated across the ecosystem, to
 estimate carbon stock and meet the project's goals.
 
+
+The following methods are based on WWF-Canada's [Sampling Design guide](Sampling-Design-Eng-2026.pdf), as well
+as the sampling-design guidance provided in the [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
+(see [Section 1](../01_Background/)).
+
+### The five steps to a sampling design
+
+The guide breaks *applying* a sampling design into five steps.
+
+1. Identify the boundary of the study area *(Step 1, below)*
+2. Stratify the study area *(Step 2, below)*
+3. Determine the sample allocation *(Step 4 — "How many samples?", below)*
+4. Determine the sample distribution *(Step 5 — "Where to sample?", below)*
+5. Select a plot design *(for eelgrass sediment cores, see [Section 3 — Field Methods](../03_Field_Methods/))*
+
+<table>
+<tr>
+<td width="45%">
+
+<Add in image of probaility-based sampling>
+
+</td>
+<td width="55%">
+
+What is sampling?
+
+Sampling comes from the discipline of "Probability-based sampling estimation". This method is applied in scenarios when  you want to measure the amount fo something, but it is not feasible to physically measure it because it is too large. Therefore, a small "sample", or portion, of the larger whole is taken to estimate the value of the whole. Therefore, each measurement has an associated "probability", which is the liklihood the estimate is equal to the value of the whole, as well as the margin of error, which describes the range of values that the estimate is within given the probability. Therefor, each estimate has 3 values, an estimate, a probability, and a margin of error.
+
+</td>
+</tr>
+</table>
+
+
 **What is a sampling design?**
 
 
@@ -46,37 +79,13 @@ estimate carbon stock and meet the project's goals.
 </tr>
 </table>
 
-
-The following methods are based on WWF-Canada's [Sampling Design guide](Sampling-Design-Eng-2026.pdf), as well
-as the sampling-design guidance provided in the [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
-(see [Section 1](../01_Background/)).
-
-### The five steps to a sampling design
-
-The guide breaks *applying* a sampling design into five steps.
-
-1. Identify the boundary of the study area *(Step 1, below)*
-2. Stratify the study area *(Step 2, below)*
-3. Determine the sample allocation *(Step 4 — "How many samples?", below)*
-4. Determine the sample distribution *(Step 5 — "Where to sample?", below)*
-5. Select a plot design *(for eelgrass sediment cores, see [Section 3 — Field Methods](../03_Field_Methods/))*
-
-*** Insert slides here ***
-
 1 - we sample when the thing we are interested in measuring cant be counted, so we take a small proportion of the total, and use this to infer the whole. This is called "probability-based sampling". With probability based sampling, each estimate provided includes a number and a degree of error associated with that number. the goal is to reasonably close to the estimate of the larger number by reducing this degree of error in our estimate. To do this, we collect multiple samples.
 
-**Insert sample size visualization tool** This tool should look very similar in style to the carbon accumulation curve. What the tool should should include:
-1 - Using area based sampling (cochrane formula from the UNFCCC sample size calculator)
-2 - Show sample size in 2-dimensional cartesian plne vs (Insert variable suggestion)
-3 - Have slots where the user can adjust size, precision (alpha), margin of error, estimated mean and std, etc
-4 - Have an example ecosystem in a 2-dimensional raster showing a "prior estimate," where the user chooses between two options: **Tier 2** — the provided IPCC default values for mean and std across the ecosystem, or **Tier 1** — the user's own measured mean and std, entered as the prior. Then as each sample is collected, show how this changes the prior and updates it. the user should be able to select random, systematic linear or systematic grid, or stratified. therefore the ecosytem variation underlying this should be preset (i.e. The true carbon stock map). Then using the different method the different samplign technqiues "reveal this" with a level of error, up until 99.9999% (appraoching 100%) confidence in this estimate"
-
-* Note to self
-
 ---
 
----
 
+## The Five Steps
+---
 ## Step 1: Identify the boundary of the study area
 
 <table>
