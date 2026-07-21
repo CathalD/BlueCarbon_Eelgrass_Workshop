@@ -36,8 +36,8 @@ You and your team of 4 are tasked with **assessing the baseline measurements of 
 You want to know the 
 
 A) The **average carbon stock** across the meadow, and want to be able to 
-B) **Compare these measurements** between different areas of the eelgrass, as well as to future measurements
 
+B) **Compare these measurements** between different areas of the eelgrass, as well as to future measurements
 to assess how different management practices are affecting the ecosystem.
 
 **How would you accomplish this?**
@@ -52,6 +52,7 @@ But how do you know how many samples to collect and exactly where to take them? 
 ---
 **What is a sampling design?**
 
+A sampling design is a framework for choosing what and where to sample to estimate the carbon stored in a larger ecosystem area. 
 
 <table>
 <tr>
@@ -62,7 +63,7 @@ But how do you know how many samples to collect and exactly where to take them? 
 </td>
 <td width="55%">
 
-A sampling design is a framework for choosing what and where to sample to estimate the carbon stored in a larger ecosystem area. Sampling designs allow for the strategic measurement of smaller sections (i.e., sites and plots) within the larger study area. Combining measurements from multiple plots allows us to estimate the value for the study area
+Sampling designs allow for the strategic measurement of smaller sections (i.e., sites and plots) within the larger study area. Combining measurements from multiple plots allows us to estimate the value for the study area
 
 </td>
 </tr>
