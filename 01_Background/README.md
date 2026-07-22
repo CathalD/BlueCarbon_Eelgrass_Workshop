@@ -121,12 +121,12 @@ state", or simply "net ecosystem carbon balance"
 
 <table>
 <tr>
-<td width="45%">
+<td width="60%">
 
 <img width="100%" alt="Ecosystem resilience — slide" src="https://github.com/user-attachments/assets/d4b48a1e-6681-4803-843e-a9a593ea2c83">
 
 </td>
-<td width="55%">
+<td width="40%">
 
 Healthy ecosystems accumulate carbon over time and respond resiliently to
 environmental and human-caused disturbances.
