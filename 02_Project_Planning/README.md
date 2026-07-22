@@ -506,25 +506,32 @@ So you begin to implement the steps:
 
 **Step 1 — Area.** Using the Google Earth Engine sampling-design tool, you draw a rough outline of the area you know is mostly eelgrass.
 
-<img width="60%" alt="Drawing a study area boundary in Google Earth Engine" src="images/download%20(4).gif">
+<img width="60%" alt="Drawing a study area boundary in Google Earth Engine" src="images/download%20(5).gif"> #changed to dowload(5).gif file
 
 **Step 2 — Stratify.** You know there are slight differences across the site, so you use the "Auto-Stratification" tool to help delineate unique areas.
+
+Add in dowload(7).gif here found in same folder as this <img width="60%" alt="Drawing a study area boundary in Google Earth Engine" src="images/download%20(5).gif"> #changed to dowload(5).gif file
 
 **Step 3 — What to measure.** You only want to measure sediments in this area.
 
 **Step 4 — How many samples.** You calculate the required number of cores for this area based on:
 - Total area = **50,000 m²** (5 ha inlet) → with a 0.0079 m² core footprint, $N$ is effectively very large, so the finite-population term drops out
 - Confidence level = **90%** → $z = 1.645$
-- Margin of error = **±10%** ($E = 0.10$)
+- Margin of error = **±20%** ($E = 0.10$)
 - Prior estimate for C stock and variation = **mean ≈ 120 Mg C ha⁻¹, SD ≈ 60** (from the regional WWF-Canada carbon map, Tier 2) → $CV = 60/120 = 0.5$
 
-Plugging in: $n \geq \dfrac{1.645^2 \times 0.5^2}{0.10^2} \approx 68$ cores. Padding for ~70% usable-sample recovery (attrition, lost cores, non-response) → **≈ 98 cores** to be safe.
+#I changed these parameters
+  
+
+Plugging in: $n \geq \dfrac{1.645^2 \times 0.5^2}{0.10^2} \approx 38$ cores. Padding for ~70% usable-sample recovery (attrition, lost cores, non-response) → **≈ 98 cores** to be safe.
 
 ...using the calculator's built-in calculation function.
 
 **Step 5 — Where to sample.** You allocate those ~98 cores proportionally across the two strata (e.g. a dense meadow twice the area of the sparse fringe gets roughly twice the cores), keeping a **minimum of 5 per stratum**.
 
 Next, you send these coordinates to your team to go and collect the samples.
+
+Add in .gif file download(6).gif found in same folder as this <img width="60%" alt="Drawing a study area boundary in Google Earth Engine" src="images/download%20(5).gif"> #changed to dowload(5).gif file
 
 **Summary of what to expect:** *Given a 5 ha inlet and a target of ±10% at 90% confidence, plan for roughly 70 cores of usable data (about 98 collected after padding), split proportionally between the dense and sparse strata. If the meadow turns out patchier than the CV prior assumed, expect to either add cores or report a slightly wider interval — which is exactly why oversampling at the design stage is worth it.*
 
