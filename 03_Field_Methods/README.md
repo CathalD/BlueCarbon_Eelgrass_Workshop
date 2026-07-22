@@ -244,7 +244,7 @@ This step has four short companion videos:
 > 📸 **[SCREENSHOT NEEDED]** — the team coring / extruding in the field (a real workshop
 > photo), to anchor these steps visually.
 
-**DIY extrusion device blueprint.** <!-- TODO (Cathal): insert link to the extrusion-device blueprint PDF here. --> *(link to be added)*
+**DIY extrusion device blueprint.**  - *** Path to PDF here - 03_Field_Methods/Making a soil core extractor doc.pdf
 *** Note to CLaude - The image size of teh first is good, but the second is much longer and thinner, it should go above the first. They should be the same width, but the thinner image should be sized thinner 
 <table>
 <tr>
