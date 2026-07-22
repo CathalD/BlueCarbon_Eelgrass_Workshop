@@ -20,7 +20,7 @@ the conditions you are working in.
 
 **⚠️ Important note — coring underwater.** The videos show coring in tidal marsh ecosystems, *above* the water table, whereas seagrass/eelgrass ecosystems tend to be fully covered by the tides — so coring typically takes place **underwater**. The good news: the method is essentially the same, with **one additional piece of equipment** to take those underwater samples (see [Equipment](#equipment), below).
 
-For more detailed infromation on push coring, please see the the WWF-Canada 
+For more detailed information on push coring, please see the WWF-Canada
 *[Measuring Carbon in Coastal Sediments](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)* (2026), p.8.
 
 And watch the following video playlists:
@@ -35,29 +35,22 @@ And watch the following video playlists:
 
 Before heading out, gather and lay out the coring kit. There are many types of corers
 available, each with distinct advantages and limitations; here we use a push coring method
-with a PVC pipe. Per the guide, the corer is made from PVC tubing, which length should be as long as the target depth
-for the core (usually between 30 cm and 1 m), with approximately 20 cm of additional
-headspace. Three- or four-inch diameter tubing is usually used, and you will need top and
-bottom endcaps to fit each tube.
+with a PVC pipe. Per the guide, the corer is made from PVC tubing, which should be as long as
+the target depth for the core (usually between 30 cm and 1 m), with approximately 20 cm of
+additional headspace. Three- or four-inch diameter tubing is usually used, and you will need
+top and bottom endcaps to fit each tube.
 
 The kit breaks into three groups: setting up the plot,
 taking the sediment core, and extruding, packaging and processing the core.
 
 <table>
 <tr>
-<td width="40%">
+<td width="45%">
 
-**( For claude - match each image ina  seperate row with the three groups in order ***
-
-First image - <img width="447" height="116" alt="image" src="https://github.com/user-attachments/assets/207bfdca-fec5-4976-a68d-1c48f2b5a305" />
-
-Second image - <img width="437" height="151" alt="image" src="https://github.com/user-attachments/assets/27962b3c-742c-45af-908a-8bc58860769a" />
-
-Third Image - <img width="460" height="115" alt="image" src="https://github.com/user-attachments/assets/3d851407-b3a1-4947-ab72-d0927fc3fb3c" />
-
+<img width="100%" alt="Equipment for setting up the plot" src="https://github.com/user-attachments/assets/207bfdca-fec5-4976-a68d-1c48f2b5a305">
 
 </td>
-<td width="60%">
+<td width="55%">
 
 **1 · For setting up the plot**
 
@@ -67,6 +60,16 @@ Third Image - <img width="460" height="115" alt="image" src="https://github.com/
 - Notebook and pencil/pen (or printed datasheet)
 - Quadrat *(optional — for measuring vegetation biomass)*
 - Tide/weather reference
+
+</td>
+</tr>
+<tr>
+<td width="45%">
+
+<img width="100%" alt="Equipment for taking a sediment core" src="https://github.com/user-attachments/assets/27962b3c-742c-45af-908a-8bc58860769a">
+
+</td>
+<td width="55%">
 
 **2 · For taking a sediment core**
 
@@ -80,6 +83,16 @@ Third Image - <img width="460" height="115" alt="image" src="https://github.com/
 - Prelabelled Ziploc bags, permanent marker
 - Waders / boat, as appropriate for the site
 - **Underwater (eelgrass) only:** a **stop-cap** mechanism (see below)
+
+</td>
+</tr>
+<tr>
+<td width="45%">
+
+<img width="100%" alt="Equipment for core extrusion, packaging and processing" src="https://github.com/user-attachments/assets/3d851407-b3a1-4947-ab72-d0927fc3fb3c">
+
+</td>
+<td width="55%">
 
 **3 · For core extrusion, packaging and processing**
 
@@ -101,8 +114,8 @@ additional **stop-cap** mechanism that creates a vacuum seal underwater. This pr
 from flowing in through the top of the corer, and applies a gravimetric force on the core
 upon extrusion. For more information, see the [Universal Corer — Aquatic Research Shop](https://aquaticresearchshop.com/product/universal-corer/).
 
-
-# Note to self to add in photos of the corer from NFLD HERE #
+> 📸 **[PHOTO NEEDED]** — corer photos from Newfoundland (NFLD), for the underwater / stop-cap section.
+<!-- TODO (Cathal): add the NFLD corer photos here. -->
 
 > 🎥 **Watch:** [*"Site Selection and Required Materials"*](https://www.youtube.com/watch?v=C0A0yCbXdhw&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=2)
 > · *Core Extrusion – Required Materials* is video **#7** in the same playlist.
