@@ -51,6 +51,8 @@ sequestration.
 </tr>
 </table>
 
+*** Check out this video -https://www.youtube.com/watch?v=A2es2qv3bPE&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=3 on carbon stocks in sediment cores ***
+
 ---
 
 ## Eelgrass (*Zostera marina*)
