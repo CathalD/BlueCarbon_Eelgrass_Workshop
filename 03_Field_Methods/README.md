@@ -14,22 +14,18 @@ equipment, tips for consistent coring, careful compaction measurement, and compl
 sheets to prevent problems that can't be fixed later.
 
 This section follows WWF-Canada's field guide (*Part 2: Obtaining Sediment Cores*,
-pp. 8–14 of the [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf))
-and its companion videos. The method shown is push (percussion) coring with a PVC pipe — a
-method that is commonly used in coastal ecosystems. Note that equipment requirements are
+pp. 8–14 of the [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)), as well as some accompanying videos. The method shown is push (percussion) coring with a PVC pipe, a method that is commonly used in coastal ecosystems. Note that equipment requirements are
 similar for both salt marsh and seagrass ecosystems, and the method may need to be adapted for
 the conditions you are working in.
 
-> **⚠️ Important note — coring underwater.** The videos show coring in tidal marsh
-> ecosystems, *above* the water table, whereas seagrass/eelgrass ecosystems tend to be
-> fully covered by the tides — so coring typically takes place **underwater**. The good
-> news: the method is essentially the same, with **one additional piece of equipment** to
-> take those underwater samples (see [Equipment](#equipment), below).
+**⚠️ Important note — coring underwater.** The videos show coring in tidal marsh ecosystems, *above* the water table, whereas seagrass/eelgrass ecosystems tend to be fully covered by the tides — so coring typically takes place **underwater**. The good news: the method is essentially the same, with **one additional piece of equipment** to take those underwater samples (see [Equipment](#equipment), below).
 
-For more information on push coring in coastal ecosystems, see WWF-Canada,
+For more detailed infromation on push coring, please see the the WWF-Canada 
 *[Measuring Carbon in Coastal Sediments](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)* (2026), p.8.
 
-> 🎥 **Watch:** [*"Introduction to Sediment Cores"* — workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd)
+And watch the following video playlists:
+
+> 🎥 [*"Introduction to Sediment Cores"* — workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd)
 >
 > 🎥 **Eelgrass-specific videos:** [IORA Blue Carbon Hub playlist](https://www.youtube.com/playlist?list=PL9pJDSsl2ZslDVZ5oZ5MFkykY2Kn9rDS8)
 
@@ -39,19 +35,26 @@ For more information on push coring in coastal ecosystems, see WWF-Canada,
 
 Before heading out, gather and lay out the coring kit. There are many types of corers
 available, each with distinct advantages and limitations; here we use a push coring method
-with a PVC pipe. Per the guide, the corer is made from PVC tubing as long as the target depth
+with a PVC pipe. Per the guide, the corer is made from PVC tubing, which length should be as long as the target depth
 for the core (usually between 30 cm and 1 m), with approximately 20 cm of additional
 headspace. Three- or four-inch diameter tubing is usually used, and you will need top and
 bottom endcaps to fit each tube.
 
-The kit breaks into three groups, matching the field guide (pp. 8, 20): setting up the plot,
+The kit breaks into three groups: setting up the plot,
 taking the sediment core, and extruding, packaging and processing the core.
 
 <table>
 <tr>
 <td width="40%">
 
-<img width="100%" alt="Coring equipment laid out — workshop screenshot" src="https://github.com/user-attachments/assets/cb225954-81d7-414b-b307-cd05f962f37c">
+**( For claude - match each image ina  seperate row with the three groups in order ***
+
+First image - <img width="447" height="116" alt="image" src="https://github.com/user-attachments/assets/207bfdca-fec5-4976-a68d-1c48f2b5a305" />
+
+Second image - <img width="437" height="151" alt="image" src="https://github.com/user-attachments/assets/27962b3c-742c-45af-908a-8bc58860769a" />
+
+Third Image - <img width="460" height="115" alt="image" src="https://github.com/user-attachments/assets/3d851407-b3a1-4947-ab72-d0927fc3fb3c" />
+
 
 </td>
 <td width="60%">
@@ -97,6 +100,9 @@ taking the sediment core, and extruding, packaging and processing the core.
 additional **stop-cap** mechanism that creates a vacuum seal underwater. This prevents water
 from flowing in through the top of the corer, and applies a gravimetric force on the core
 upon extrusion. For more information, see the [Universal Corer — Aquatic Research Shop](https://aquaticresearchshop.com/product/universal-corer/).
+
+
+# Note to self to add in photos of the corer from NFLD HERE #
 
 > 🎥 **Watch:** [*"Site Selection and Required Materials"*](https://www.youtube.com/watch?v=C0A0yCbXdhw&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=2)
 > · *Core Extrusion – Required Materials* is video **#7** in the same playlist.
