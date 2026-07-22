@@ -24,6 +24,8 @@ And
 
 🎥 **CHECK OUT THE VIDEO PLAYLIST** — *"Introduction to Sediment Cores"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd) *(swap in the direct video link)*
 
+For eelgrass specific videos, please also see the IORA Blue Carbon Hub https://www.youtube.com/playlist?list=PL9pJDSsl2ZslDVZ5oZ5MFkykY2Kn9rDS8
+
 ---
 
 ## Equipment
@@ -169,8 +171,12 @@ exactly the fields the analysis expects:
 - **Core notes** (once per core) — Core ID, latitude, longitude, depth of corer inserted, length of core extracted
 - **Sample data** (per slice) — Core ID, sample #, top (cm), bottom (cm), notes
 
-> 📸 **[SCREENSHOT NEEDED]** — a completed example datasheet, so participants can see
-> how to fill one in correctly.
+Screenshot of a black data sheet - <img width="359" height="319" alt="image" src="https://github.com/user-attachments/assets/e137cd19-865a-4ffe-afb2-bcae8abe57c1" />
+
+
+Screenshot of the datasheet filled in from an example of a site from out "Project planning"
+<img width="320" height="348" alt="image" src="https://github.com/user-attachments/assets/db130d40-1347-4a8d-8b46-bc02469f26a1" />
+
 
 ---
 
