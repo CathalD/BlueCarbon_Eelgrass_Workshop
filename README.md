@@ -46,7 +46,7 @@ The goal of the workshop is to:
 
 > **A good question to start with: How much carbon is stored in the sediment beneath an eelgrass meadow, and how confident are we in that number?**
 
-Answering this question involves connecting each step to the project goals,for example, are there enough samples from the right
+Answering this question involves connecting each step to the project goals, for example, are there enough samples from the right
 places? ([Section 2](02_Project_Planning/)) Are they collected correctly? ([Section 3](03_Field_Methods/)). Have they been
 measured by a lab, and analysed with methods that account for compaction, differing sample
 depths, and spatial variation? ([Section 4](04_Data_Interpretation/)).
