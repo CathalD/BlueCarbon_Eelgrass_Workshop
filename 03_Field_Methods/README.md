@@ -38,6 +38,15 @@ Before heading out, gather and lay out the coring kit. Per the guide, the corer 
 from PVC tubing "as long as the target depth for the core (usually between 30 cm and 1 m),
 with approximately 20 cm of additional headspace" (p.8).
 
+***For this table, break into 3 parts
+
+1 - Setting up the plot
+
+2 - For taking sediment cores in salt marsh (add the stop valve for eelgrasses
+
+3 - For core extrusion and packaging the core
+
+
 <table>
 <tr>
 <td width="45%">
@@ -236,7 +245,7 @@ This step has four short companion videos:
 > photo), to anchor these steps visually.
 
 **DIY extrusion device blueprint.** <!-- TODO (Cathal): insert link to the extrusion-device blueprint PDF here. --> *(link to be added)*
-
+*** Note to CLaude - The image size of teh first is good, but the second is much longer and thinner, it should go above the first. They should be the same width, but the thinner image should be sized thinner 
 <table>
 <tr>
 <td width="70%">
