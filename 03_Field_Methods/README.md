@@ -1,4 +1,4 @@
-# 3 — Field Methods
+# Part 3 — Field Methods
 
 *Collecting sediment cores in the field.*
 
@@ -16,15 +16,13 @@ This section follows WWF-Canada's field guide (*Part 2: Obtaining Sediment Cores
 pp. 8–14 of the [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf))
 and its companion videos. The method shown is push (percussion) coring with a PVC tube:
 
-**Important Note** Seagrass/Eelgrass ecosystems tend to be fully covered by the tides, and it is therefore typical for coring to take place underwater.
-there are methods for handlign this, and importantly, some equipment that is specialized to collect underwater cores. The methods are the same, just with 1 additional piece of equipment to take those underwater samples
+**Important Note** The videos show coring in tidal marsh ecosystems, above the water table, whereare Seagrass/Eelgrass ecosystems tend to be fully covered by the tides, and it is therefore typical for coring to take place underwater. **Good thing is**, there are methods for handlign this, and importantly, some equipment that is specialized to collect underwater cores. The methods are the same, just with 1 additional piece of equipment to take those underwater samples (see below)
 
-> "Here, and in the accompanying videos, we will be presenting a push coring method
-> using a PVC pipe — a method that is commonly used in coastal ecosystems."
->
-> — WWF-Canada, *[Measuring Carbon in Coastal Sediments](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)* (2026), p.8
+For more infromation on push coring in coastal ecosytems, please see **WWF-Canada, *[Measuring Carbon in Coastal Sediments](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)* (2026), p.8**
 
-> 🎥 **CHECK OUT THE VIDEO** — *"Introduction to Sediment Cores"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd) *(swap in the direct video link)*
+And
+
+🎥 **CHECK OUT THE VIDEO PLAYLIST** — *"Introduction to Sediment Cores"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd) *(swap in the direct video link)*
 
 ---
 
@@ -35,6 +33,8 @@ from PVC tubing "as long as the target depth for the core (usually between 30 cm
 with approximately 20 cm of additional headspace" (p.8).
 
 > 🎥 **CHECK OUT THE VIDEO** — *"Site Selection and Required Materials"* and *"Core Extrusion – Required Materials"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd) *(swap in the direct video links)*
+
+For coring underwater, the tool we recomend is an additional **Stop Cap** mechanism that creates a vaccumm seal underwater. This prevents water from flowing in through the top of the corer, and applies a gravimetric force on the core upon extrusion. For more information, please see https://aquaticresearchshop.com/product/universal-corer/
 
 > ⚙️ *Draft equipment list — please review and adjust for your setup.*
 
@@ -52,6 +52,8 @@ with approximately 20 cm of additional headspace" (p.8).
 - Waders / boat, as appropriate for the site
 
 
+***Note to Claude - Mke this image a side by side table, with photo abd the list beside - Make it big to please***
+
 **Screenshot of equipment list**
 
 <img width="386" height="317" alt="image" src="https://github.com/user-attachments/assets/cb225954-81d7-414b-b307-cd05f962f37c" />
@@ -61,6 +63,8 @@ Video of equipment (https://www.youtube.com/watch?v=C0A0yCbXdhw&list=PLLsjpJMfND
 ---
 
 ## Collecting a core, step by step
+
+***NOTE to Claude - Make this a side by side table, with room for a photo which I will paste, the description on the right, and below we will have a link to the video and an attached qoute *** Also note we will divide the steps by line ---- and when needed additional infromation (such as the table oin step 3, etc) ***
 
 ### 1. Select the location and record conditions
 Within each plot, pick a spot representative of the plot. The guide recommends probing
@@ -77,12 +81,16 @@ latitude/longitude (and, for our analysis, its stratum and water depth).
 
 > 🎥 **CHECK OUT THE VIDEO** — *"Core Depths"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd) *(swap in the direct video link)*
 
+** Actual link here - https://www.youtube.com/watch?v=C0A0yCbXdhw&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=2
+
 ### 2. Insert the corer
 A **team of three** is needed: two hold the lumber across the tube top, one hammers.
 Keep the tube straight and hammer to the target depth (or depth of refusal). Mark ruler
 graduations on the outside of the tube so you can read insertion depth.
 
 > 🎥 **CHECK OUT THE VIDEO** — *"Sediment Coring"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd) *(swap in the direct video link)*
+
+
 
 ### 3. Measure compaction
 Hammering compresses the sediment, and this must be measured — it's the input the
