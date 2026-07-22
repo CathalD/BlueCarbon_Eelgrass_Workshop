@@ -94,30 +94,52 @@ Sampling implies we are collecting small portions of a larger whole to estimate 
 </tr>
 </table>
 
-The more samples that are taken, the more likely it is that the estimate is closer to that "True Value", which is the value as if you were to measure the entire whole. This is represented in this simple formula below , that relates the number of samples, the variation of those samples, and provides a estimate, probability and margin of error.
+The more samples that are taken, the more likely it is that the estimate is closer to that "True Value" — the value you'd get if you could measure the *entire* ecosystem. The relationship between how many samples you take, how variable those samples are, and how good your estimate ends up is captured by a single family of formulas. Reporting a carbon estimate therefore means reporting **three things together**, never just a number:
 
-Each estimate consists of three components: (1) the estimated mean (Qˉst\bar{Q}_{st}Qˉ​st​), calculated from the stratified sample; (2) the confidence level (1−α1-\alpha1−α), which represents the probability that the confidence interval contains the true population mean; and (3) the margin of error (EEE), which defines the range around the estimate within which the true value is expected to fall at the selected confidence level.
+| Component | Symbol | Plain-English meaning |
+|---|---|---|
+| **Estimate** (the mean) | $\bar{x}$ | Your best guess at the true carbon value, averaged across all the plots you measured. |
+| **Confidence level** | $1-\alpha$ | How often this *procedure* would capture the true value if you repeated it. "95% confidence" means 95 of every 100 such surveys would bracket the truth. |
+| **Margin of error** | $E$ | The half-width of the interval around your estimate. Reported relative to the mean (e.g. ±10%), it says how tight the estimate is. |
 
-(Fix this table)
+Put together, a result reads: *"mean carbon = $\bar{x}$, with 95% confidence, ±10%."* The estimate is what you use; the confidence and margin of error are what make it defensible.
 
-| Quantity         | Formula                                                   |
-| ---------------- | --------------------------------------------------------- |
-| Estimate (mean)  |                |
-| Confidence level |                                               |
-| Margin of error  |  |
+<details>
+<summary><b>The symbols, and how they map to the UNFCCC sampling tool</b></summary>
 
+This guide uses ecological notation. If you're cross-referencing the [UNFCCC A6.4 Sampling & Surveys tool](Sampling-Design-Eng-2026.pdf) or its calculator, here's the crosswalk:
 
-Thus, before we sample we can rearrange these concepts to solve to for (ni = number of samples) by providing our best estimates for the the other variables. These are:
+| This guide | UNFCCC tool | Meaning |
+|---|---|---|
+| $z$ | $Z_{\alpha/2}$ | z-multiplier set by confidence level (1.645 → 90%, 1.96 → 95%) |
+| $E$ | $e_{abs}$ | target **relative** precision (0.10 = ±10% of the mean) |
+| $s$ | $SD$ | expected standard deviation (your prior) |
+| $\bar{x}$ | mean | expected mean (your prior) |
+| $CV$ | $CV$ | coefficient of variation, $s/\bar{x}$ |
+| $N$ | $N$ | population size (see note below on how this is derived) |
+| $n$ | $n$ | number of plots/cores to collect |
 
-Ni maximun number of plots (plot size/ total study area)
-alpha = probabiity value is within margin of error
-margin of error = 
-Estimated mean = 
-estimated standard deviation = 
+</details>
 
-Doing this, we can show a rough estimate for what the expected number of plots will be within these parameters.
+### Rearranging to plan: solving for *n*
 
-With these parameters met, we can be confident in our estimates, and begin to ask the important questions...
+The same relationship can be flipped. Instead of collecting samples and *reporting* a margin of error, we set the margin of error we're willing to accept and **solve for the number of plots** needed to get there. For a continuous variable like carbon stock:
+
+$$n \geq \frac{z^2\, N\, CV^2}{(N-1)\,E^2 + z^2\, CV^2}, \qquad CV=\frac{s}{\bar{x}}$$
+
+To use it, you supply your best estimate for each input:
+
+| Input | What it is | Where it comes from |
+|---|---|---|
+| $N$ | Max possible plots = total study area ÷ plot footprint | Your Step 1 boundary |
+| $1-\alpha$ | Confidence level → sets $z$ | You choose (usually 90% or 95%) |
+| $E$ | Acceptable margin of error | You choose (e.g. ±10%) |
+| $\bar{x}$ | Expected mean carbon | Prior study, regional map, or pilot data |
+| $s$ | Expected standard deviation | Prior study, regional map, or pilot data |
+
+> **Note on $N$ — this is where the two calculators differ.** The core formula is identical in the WWF-Canada area-based calculator and the UNFCCC A6.4 tool. They only differ in how $N$ is obtained: the WWF tool derives it from **total area ÷ plot size**, while the UNFCCC tool takes a **population count** ($N$) directly. Because $(N-1)$ barely moves the result once $N$ is large, both converge on the same answer.
+
+Doing this gives a defensible, up-front estimate of how many plots your campaign needs. With that number in hand, we can start asking the important questions...
 
 To better understand this, let's use the **Sample Allocation Visualizer**.
 
@@ -280,7 +302,20 @@ or the sediment.
 
 ## Step 4: How many samples? — Sample allocation
 
-The number of cores needed to meet projects goals. We use the exact same formula that was provided above. Therefore, as a project planner, I define the desired margin of error and confidence level, state the  of carbon in the ecosystem. This is provided as a spreadsheet calculator:
+This step answers **how many cores** you need to meet the project's goals. It uses the exact formula introduced above — as the planner, you set the desired margin of error and confidence level, and provide a prior estimate of the mean and variability of carbon in the ecosystem:
+
+$$n \geq \frac{z^2\, N\, CV^2}{(N-1)\,E^2 + z^2\, CV^2}, \qquad CV=\frac{s}{\bar{x}}$$
+
+The whole calculation is driven by **CV** (variability relative to the mean): a patchy meadow needs more cores than a uniform one to reach the same precision. Two rules of thumb are worth remembering:
+
+- **Halving your margin of error roughly quadruples $n$** — because $E$ is squared in the denominator.
+- **A poor CV prior is the biggest planning risk.** Pad your variability estimate; the UNFCCC tool only accepts a completed survey if the observed SD is within ~10% of the planning SD *and* $n \geq 100$.
+
+For a **proportion** parameter instead (e.g. % of cores containing a peat horizon, % meadow still vegetated), swap in the proportion form — use $p = 0.5$ when you have no prior, since it gives the largest, most conservative $n$:
+
+$$n \geq \frac{z^2\, N\, p\,q}{(N-1)\,E^2 p^2 + z^2\, p\, q}, \qquad q = 1-p$$
+
+This is provided as a spreadsheet calculator:
 
 <table>
 <tr>
@@ -477,19 +512,21 @@ So you begin to implement the steps:
 
 **Step 3 — What to measure.** You only want to measure sediments in this area.
 
-**Step 4 — How many samples.** You calculate the required number of samples in this area based on:
-- Total area =
-- Level of precision =
-- Margin of error =
-- Default estimate for C stock and variation =
+**Step 4 — How many samples.** You calculate the required number of cores for this area based on:
+- Total area = **50,000 m²** (5 ha inlet) → with a 0.0079 m² core footprint, $N$ is effectively very large, so the finite-population term drops out
+- Confidence level = **90%** → $z = 1.645$
+- Margin of error = **±10%** ($E = 0.10$)
+- Prior estimate for C stock and variation = **mean ≈ 120 Mg C ha⁻¹, SD ≈ 60** (from the regional WWF-Canada carbon map, Tier 2) → $CV = 60/120 = 0.5$
+
+Plugging in: $n \geq \dfrac{1.645^2 \times 0.5^2}{0.10^2} \approx 68$ cores. Padding for ~70% usable-sample recovery (attrition, lost cores, non-response) → **≈ 98 cores** to be safe.
 
 ...using the calculator's built-in calculation function.
 
-**Step 5 — Where to sample.** You allocate this number of samples proportionally across the two strata.
+**Step 5 — Where to sample.** You allocate those ~98 cores proportionally across the two strata (e.g. a dense meadow twice the area of the sparse fringe gets roughly twice the cores), keeping a **minimum of 5 per stratum**.
 
 Next, you send these coordinates to your team to go and collect the samples.
 
-**Summary of what to expect:** *Given the size of the area and your intended goals, we "insert summary."*
+**Summary of what to expect:** *Given a 5 ha inlet and a target of ±10% at 90% confidence, plan for roughly 70 cores of usable data (about 98 collected after padding), split proportionally between the dense and sparse strata. If the meadow turns out patchier than the CV prior assumed, expect to either add cores or report a slightly wider interval — which is exactly why oversampling at the design stage is worth it.*
 
 
 
