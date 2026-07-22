@@ -242,12 +242,6 @@ do this, there are 4 basic steps:
 <img width="100%" alt="Four steps of a carbon project — slide" src="https://github.com/user-attachments/assets/58bcd1bd-ff1b-4fa6-b46d-b156a653ae8a">
 
 </td>
-<td width="0%">
-
-The four steps to completing a carbon project.
-
-
-</td>
 </tr>
 </table>
 
