@@ -22,24 +22,24 @@
 ecosystems. In Canada, this is primarily **seagrass/eelgrass meadows and tidal salt
 marshes**. These habitats are among the most efficient carbon sinks on Earth: For example, per unit
 area, eelgrass ecosystems can bury organic carbon faster than terrestrial forests, and because it
-is locked into waterlogged, low-oxygen sediment, that carbon can remain stored for
+is locked away in waterlogged, low-oxygen sediment, that carbon can remain stored for
 centuries to millennia.
 
 Two common concepts used to describe blue carbon ecosystems are **sequestration** and **storage**
 
 1. **Sequestration** — Describes the process of living plants pulling CO₂ out of the water and atmosphere.
-2. **Storage** — The sequestered carbon remains in the ecosystem, we say it is a "carbon store". The bulk of the carbon accumulates in the *sediment* beneath the
+2. **Storage** — When sequestered carbon remains in the ecosystem, we say it is a "carbon store". The bulk of the carbon accumulates in the *sediment* beneath the
    meadow, not in the plants themselves. This is why our sampling focuses on
    sediment cores rather than biomass alone.
 
 <table>
 <tr>
-<td width="45%">
+<td width="60%">
 
 <img width="100%" alt="What is blue carbon? — slide" src="https://github.com/user-attachments/assets/afbcd0f7-4380-42b4-8376-d2a94bae6109">
 
 </td>
-<td width="55%">
+<td width="40%">
 
 The plants, the soil, the water, and the air in this diagram represent the carbon
 **pools** ("stocks"), the places that hold carbon at any point in time and can be
@@ -62,12 +62,12 @@ adding organic carbon to the seabed.
 
 <table>
 <tr>
-<td width="45%">
+<td width="60%">
 
 <img width="100%" alt="Eelgrass (Zostera marina) — slide" src="https://github.com/user-attachments/assets/ee974671-e167-4d17-b7b4-491188c83123">
 
 </td>
-<td width="55%">
+<td width="40%">
 
 Eelgrass ecosystems can accumulate carbon derived from two places:
 
@@ -81,12 +81,12 @@ Eelgrass ecosystems can accumulate carbon derived from two places:
 
 <table>
 <tr>
-<td width="45%">
+<td width="60%">
 
 <img width="100%" alt="Eelgrass sediment carbon — slide" src="https://github.com/user-attachments/assets/109307fa-6ff4-4f80-bb2a-c1251366dce9">
 
 </td>
-<td width="55%">
+<td width="40%">
 
 Eelgrass sediments typically hold lower organic carbon concentrations compared to
 other coastal ecosystems, but thanks to their deep sediment pools, they typically
@@ -102,16 +102,16 @@ store more carbon overall than terrestrial forests.
 
 <table>
 <tr>
-<td width="45%">
+<td width="60%">
 
 <img width="100%" alt="Carbon pool equilibrium — slide" src="https://github.com/user-attachments/assets/377d197c-1b1c-4850-9eeb-6a0a8a8a1162">
 
 </td>
-<td width="55%">
+<td width="40%">
 
 The balance of these carbon accumulating processes is countered by the decomposition of organic material
 via soil microbial processes, and the transport of material out of the ecosystem by
-tidal processes. The more sediment accumulates, the more loss occurs over time, until
+tidal processes. The more sediment that accumulates, the more loss occurs over time, until
 the ecosystem reaches a balance, referred to as the ecosystem's "carbon equilibrium
 state", or simply "net ecosystem carbon balance"
 
@@ -201,17 +201,17 @@ tool built for this workshop:
 ## What is sediment anyway?
 
 Over time, as particles are transported into an ecosystem, or as plants growing within
-it contribute organic matter (recall the allochthonous vs. autochthonous distinction, respectively),
+it contribute organic matter (recall the allochthonous vs. autochthonous distinction),
 these materials settle and build up, forming sediment.
 
 <table>
 <tr>
-<td width="45%">
+<td width="60%">
 
 <img width="100%" alt="Sediment core cross-section — slide" src="https://github.com/user-attachments/assets/5cdfbdec-7faf-4261-bd21-3ac4e66c3ea6">
 
 </td>
-<td width="55%">
+<td width="40%">
 
 Taking a section of the sediment reveals the layers of accumulation over time.
 
@@ -237,14 +237,15 @@ do this, there are 4 basic steps:
 
 <table>
 <tr>
-<td width="45%">
+<td width="100%">
 
 <img width="100%" alt="Four steps of a carbon project — slide" src="https://github.com/user-attachments/assets/58bcd1bd-ff1b-4fa6-b46d-b156a653ae8a">
 
 </td>
-<td width="55%">
+<td width="0%">
 
 The four steps to completing a carbon project.
+
 
 </td>
 </tr>
