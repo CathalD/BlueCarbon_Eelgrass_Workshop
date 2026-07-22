@@ -19,9 +19,9 @@
 
 ## Why planning matters
 
-Before heading into the field, two questions need answering: **how many samples should
-we take, and where should we take them?** Answering these is the aim of a **sampling
-design**; in other words, having enough samples, allocated across the ecosystem, to
+Before heading into the field, two questions are worth considering: **how many samples should
+you take, and where should you take them?** Answering these is the aim of a **sampling
+design**. Sampling designs ensure you having enough samples, allocated across the ecosystem, to
 estimate carbon stock and meet the project's goals.
 
 
@@ -30,7 +30,7 @@ as the sampling-design guidance provided in the [Howard et al. Blue Carbon Manua
 (see [Section 1](../01_Background/)).
 
 ---
-## First, let's consider the following scenario:
+## First, let's consider the following scenario: (For notes - how can this be made better?)
 You and your team of 4 are tasked with **assessing the baseline measurements of an eelgrass ecosystem before protection and restoration** measures are implemented.
 
 You want to know the 
@@ -56,12 +56,12 @@ A sampling design is a framework for choosing what and where to sample to estima
 
 <table>
 <tr>
-<td width="45%">
+<td width="60%">
 
 <img width="100%" alt="Site and plot selection — slide" src="https://github.com/user-attachments/assets/19e30448-624d-460d-98da-93acce8724c5">
 
 </td>
-<td width="55%">
+<td width="40%">
 
 Sampling designs allow for the strategic measurement of smaller sections (i.e., sites and plots) within the larger study area. Combining measurements from multiple plots allows us to estimate the value for the study area
 
@@ -72,6 +72,8 @@ Sampling designs allow for the strategic measurement of smaller sections (i.e., 
 ---
 
 Before we dive into sampling design, let's first take a step back and consider what we even mean by sampling.
+
+**Sampling** is based on probability-based estimation methods. It is used when directly measuring an entire population or area is impractical because of its size. Instead, a small sample is measured and used to estimate the value of the whole. Each estimate is accompanied by two measures of uncertainty: a confidence level (the probability that the estimate reflects the true value) and a margin of error (the range within which the true value is expected to fall). As a result, every estimate has three components: the estimate itself, a confidence level, and a margin of error.
 
 <table>
 <tr>
@@ -84,15 +86,34 @@ Before we dive into sampling design, let's first take a step back and consider w
 
 **What is sampling?**
 
-Sampling comes from the discipline of "probability-based sampling estimation." This method is applied when you want to measure the amount of something, but it's not feasible to physically measure it because it's too large. Therefore, a small "sample," or portion, of the larger whole is taken to estimate the value of the whole. Each measurement has an associated "probability" — the likelihood the estimate equals the value of the whole — as well as a margin of error, which describes the range of values the estimate falls within, given that probability. Therefore, each estimate has 3 values: an estimate, a probability, and a margin of error.
+Sampling implies we are collecting small portions of a larger whole to estimate a "value" (in this case carbon) of that larger whole
 
 </td>
 </tr>
 </table>
 
+The more samples that are taken, the more likely it is that the estimate is closer to that "True Value", which is the value as if you were to measure the entire whole. This is represented in this simple formula below , that relates the number of samples, the variation of those samples, and provides a estimate, probability and margin of error.
+
+Each estimate consists of three components: (1) the estimated mean (Qˉst\bar{Q}_{st}Qˉ​st​), calculated from the stratified sample; (2) the confidence level (1−α1-\alpha1−α), which represents the probability that the confidence interval contains the true population mean; and (3) the margin of error (EEE), which defines the range around the estimate within which the true value is expected to fall at the selected confidence level.
+
+| Quantity         | Formula                                                   |
+| ---------------- | --------------------------------------------------------- |
+| Estimate (mean)  | $$\bar{Q}_{st}=\sum_{i=1}^{L}W_i\bar{Q}_i$$               |
+| Confidence level | $$1-\alpha$$                                              |
+| Margin of error  | $$E=z_{\alpha/2}\sqrt{\operatorname{Var}(\bar{Q}_{st})}$$ |
 
 
-We sample when the thing we're interested in measuring can't be counted directly, so we take a small proportion of the total and use it to infer the whole. This is called "probability-based sampling." With probability-based sampling, each estimate comes with a number and a degree of error associated with that number. The goal is to get reasonably close to the true value by reducing that degree of error, and we do this by collecting multiple samples.
+Thus, before we sample we can rearrange these concepts to solve to for (ni = number of samples) by providing our best estimates for the the other variables. These are:
+
+Ni maximun number of plots (plot size/ total study area)
+alpha = probabiity value is within margin of error
+margin of error = 
+Estimated mean = 
+estimated standard deviation = 
+
+Doing this, we can show a rough estimate for what the expected number of plots will be within these parameters.
+
+With these parameters met, we can be confident in our estimates, and begin to ask the important questions...
 
 To better understand this, let's use the **Sample Allocation Visualizer**.
 NOTE: There is a lot of information in this tool, but over the course of this module we'll break down each component, so by the end it will be clear what it means and how it can be used to inform your projects.
