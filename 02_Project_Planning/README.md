@@ -30,10 +30,11 @@ as the sampling-design guidance provided in the [Howard et al. Blue Carbon Manua
 (see [Section 1](../01_Background/)).
 
 ---
-## First, let's consider the following scenario: (For notes - how can this be made better?)
+## First, let's consider the following scenario
+
 You and your team of 4 are tasked with **assessing the baseline measurements of an eelgrass ecosystem before protection and restoration** measures are implemented.
 
-You want to know the 
+You want to know two things:
 
 A) The **average carbon stock** across the meadow, and want to be able to 
 
@@ -181,13 +182,15 @@ Now that we have a better understanding of what sampling is, and how more sample
 ---
 ### The five steps to a sampling design
 
-The guide breaks *applying* a sampling design into five steps.
+The guide breaks *applying* a sampling design into five steps, each covered in a section below:
 
-1. Identify the boundary of the study area *(Step 1, below)*
-2. Stratify the study area *(Step 2, below)*
-3. Determine the sample allocation *(Step 4 — "How many samples?", below)*
-4. Determine the sample distribution *(Step 5 — "Where to sample?", below)*
-5. Select a plot design *(for eelgrass sediment cores, see [Section 3 — Field Methods](../03_Field_Methods/))*
+1. **Identify the boundary** of the study area *(Step 1)*
+2. **Stratify** the study area *(Step 2)*
+3. **Choose what to measure** — the carbon pool *(Step 3)*
+4. **Determine how many samples** to take *(Step 4)*
+5. **Determine where to sample** — sample distribution *(Step 5)*
+
+Selecting a plot design (the physical layout of each core) follows from these; for eelgrass sediment cores, see [Section 3 — Field Methods](../03_Field_Methods/).
 
 ## Step 1: Identify the boundary of the study area
 
@@ -387,6 +390,21 @@ describes for stratified-random sampling:
 >
 > — WWF-Canada, *[Carbon Measurement: Sampling Design](Sampling-Design-Eng-2026.pdf)* (2026), p.17
 
+<!-- TODO (Cathal): the intro above says the workbook has THREE sheets, but only Sheet 1 and Sheet 2 are documented. Add a "Sheet 3" description here, or change "three sheets" to "two sheets". -->
+
+
+### After the campaign: did you actually hit your precision target?
+
+Sample-size planning uses *expected* variability. Once real cores come back, the observed spread can differ — so before trusting the estimate, check the **achieved** precision against your target. For a mean parameter:
+
+$$\text{RME} = \frac{z \cdot SE}{\bar{x}}, \qquad SE = \sqrt{\left(1-\tfrac{n}{N}\right)\frac{s^2}{n}}$$
+
+where $s$ and $\bar{x}$ are now the *sample* standard deviation and mean, and $\text{RME}$ (relative margin of error) is compared to your target $E$. If $\text{RME} \le E$, the estimate meets its reliability criterion and you're done.
+
+**If you miss it:** work down the ladder — scrutinize the raw data for outliers or skew, then post-stratify, then add cores; only as a last resort, report the conservative confidence bound (the interval end that *understates* carbon) so the estimate is defensible. The calculator's post-survey check cells compute $\text{RME}$ for you.
+
+<!-- TODO (Cathal): a small screenshot/GIF of the calculator's "check precision after survey" cells (SRS-Mean rows for SE, t-value, relative precision) would slot in well here. -->
+
 
 ---
 
@@ -430,6 +448,12 @@ Rather than scattering cores at random, the meadow is divided into **strata** an
 samples are allocated across them (Sheet 2 above). Stratifying by features that drive
 carbon variability — meadow density, water depth, sediment type — gives a more precise
 estimate for the same number of cores and ensures no part of the site is missed.
+
+**How the total $n$ is split across strata.** Once Step 4 gives you a total sample size $n$, each stratum receives a share proportional to its area:
+
+$$n_h = \frac{g_h}{N}\times n$$
+
+where $g_h$ is the size of stratum $h$ and $N$ is the total study area. So a stratum covering half the meadow gets roughly half the cores. Two practical adjustments (both built into the calculator's Stratified tabs): round each $n_h$ **up** to a whole core, and enforce a **minimum of 5 cores per stratum** so even small strata yield a usable estimate. These two rules mean the strata totals usually sum to slightly more than $n$ — that headroom is a feature, not an error.
 
 The guide names four sampling strategies for deciding *where* plots go; which one fits
 depends on how much you already know about the site:
@@ -506,32 +530,34 @@ So you begin to implement the steps:
 
 **Step 1 — Area.** Using the Google Earth Engine sampling-design tool, you draw a rough outline of the area you know is mostly eelgrass.
 
-<img width="60%" alt="Drawing a study area boundary in Google Earth Engine" src="images/download%20(5).gif"> #changed to dowload(5).gif file
+<img width="60%" alt="Drawing a study area boundary in Google Earth Engine" src="images/download%20(5).gif">
 
 **Step 2 — Stratify.** You know there are slight differences across the site, so you use the "Auto-Stratification" tool to help delineate unique areas.
 
-Add in dowload(7).gif here found in same folder as this <img width="60%" alt="Drawing a study area boundary in Google Earth Engine" src="images/download%20(5).gif"> #changed to dowload(5).gif file
+<img width="60%" alt="Auto-stratifying the study area into distinct strata" src="images/download%20(7).gif">
 
 **Step 3 — What to measure.** You only want to measure sediments in this area.
 
 **Step 4 — How many samples.** You calculate the required number of cores for this area based on:
 - Total area = **50,000 m²** (5 ha inlet) → with a 0.0079 m² core footprint, $N$ is effectively very large, so the finite-population term drops out
 - Confidence level = **90%** → $z = 1.645$
-- Margin of error = **±20%** ($E = 0.10$)
+- Margin of error = **±10%** ($E = 0.10$)
 - Prior estimate for C stock and variation = **mean ≈ 120 Mg C ha⁻¹, SD ≈ 60** (from the regional WWF-Canada carbon map, Tier 2) → $CV = 60/120 = 0.5$
 
-#I changed these parameters
-  
+Plugging in: $n \geq \dfrac{1.645^2 \times 0.5^2}{0.10^2} \approx 68$ cores. Padding for ~70% usable-sample recovery (attrition, lost cores, non-response) → **≈ 98 cores** to be safe.
 
-Plugging in: $n \geq \dfrac{1.645^2 \times 0.5^2}{0.10^2} \approx 38$ cores. Padding for ~70% usable-sample recovery (attrition, lost cores, non-response) → **≈ 98 cores** to be safe.
+<!-- TODO (Cathal): you'd changed this example to "±20%" and "≈ 38 cores" in your edit, but that combination isn't internally consistent:
+       • at E=0.10 (±10%), n ≈ 68  → padded ≈ 98
+       • at E=0.20 (±20%), n ≈ 17  → padded ≈ 25
+     Neither gives 38. Your "$E=0.10$", the "98" padding, and the Summary below all still say ±10%, so I kept the whole example at ±10% / 68 → 98 for consistency. If you meant ±20%, say so and I'll switch every number (target, n, padded n, and the summary) to the 17 → 25 set. -->
 
 ...using the calculator's built-in calculation function.
 
 **Step 5 — Where to sample.** You allocate those ~98 cores proportionally across the two strata (e.g. a dense meadow twice the area of the sparse fringe gets roughly twice the cores), keeping a **minimum of 5 per stratum**.
 
-Next, you send these coordinates to your team to go and collect the samples.
+<img width="60%" alt="Allocating samples across strata over the study area" src="images/download%20(6).gif">
 
-Add in .gif file download(6).gif found in same folder as this <img width="60%" alt="Drawing a study area boundary in Google Earth Engine" src="images/download%20(5).gif"> #changed to dowload(5).gif file
+Next, you send these coordinates to your team to go and collect the samples.
 
 **Summary of what to expect:** *Given a 5 ha inlet and a target of ±10% at 90% confidence, plan for roughly 70 cores of usable data (about 98 collected after padding), split proportionally between the dense and sparse strata. If the meadow turns out patchier than the CV prior assumed, expect to either add cores or report a slightly wider interval — which is exactly why oversampling at the design stage is worth it.*
 
