@@ -4,8 +4,10 @@ A reproducible R pipeline for estimating sediment carbon stocks in an eelgrass
 (*Zostera marina*) meadow, from raw sediment-core measurements through to
 spatially interpolated carbon-stock maps.
 
-**Site:** Bay of Islands, West Coast Newfoundland
-**Data:** 6 sediment cores (EG01–EG06), 38 sediment samples
+**Site:** Tsawwassen Beach, BC — *worked teaching example* (constructed data; see
+[`Worked_Example/`](../../Worked_Example/))
+**Data:** 6 sediment cores (WWF-01-A…F) — 3 salt marsh + 3 eelgrass — 32 sediment samples,
+exported from the digital data sheet
 
 ---
 
@@ -41,9 +43,10 @@ EelgrassWorkshop/
 ```r
 install.packages(c(
   "dplyr", "readr", "tidyr", "ggplot2", "knitr",  # data wrangling + plots
-  "BlueCarbon",                                     # compaction correction
-  "sf", "gstat", "sp"                              # spatial analysis / kriging
+  "sf", "gstat", "sp"                             # spatial analysis / kriging
 ))
+# Optional — only for the compaction cross-check in 01b (USE_BLUECARBON = TRUE):
+# install.packages("BlueCarbon")
 ```
 
 | Package | Used for |
@@ -51,11 +54,25 @@ install.packages(c(
 | `dplyr`, `readr`, `tidyr` | Data loading and manipulation |
 | `ggplot2` | All plots |
 | `knitr` | Report tables |
-| `BlueCarbon` | Core decompaction (`decompact()`, `estimate_h()`) |
 | `sf`, `sp`, `gstat` | Spatial data handling and kriging |
+| `BlueCarbon` | **Optional** — compaction cross-check only (`decompact()`); not required to run |
 
-The pipeline **degrades gracefully**: if `BlueCarbon` is not installed, depth
-harmonization falls back to the raw (uncorrected) cores instead of failing.
+### What is from-scratch vs. from a package
+
+So a reviewer can see exactly what the workshop implements itself versus what it borrows:
+
+| Step | Method | Source |
+|------|--------|--------|
+| Compaction factor, in-situ depths, per-slice carbon stock | plain arithmetic | **from scratch** (mirrors the digital data sheet) |
+| Depth harmonization | monotone Hermite spline + exponential-decay extrapolation | base R `splinefun` + **from scratch** |
+| Compaction decompaction cross-check | `decompact()` | **BlueCarbon** (optional, off by default) |
+| Mean stocks, confidence intervals | t / z intervals | **from scratch** |
+| Spatial interpolation (kriging) | `variogram`, `fit.variogram`, `krige` | **gstat** |
+| Spatial data handling / projection | `st_as_sf`, `st_transform` | **sf**, **sp** |
+
+Because compaction is now plain arithmetic, the pipeline no longer depends on
+`BlueCarbon` to run — depth correction always happens (from scratch), and BlueCarbon
+is invoked only if you switch on the optional cross-check in `01b`.
 
 ---
 
@@ -84,6 +101,11 @@ source("02_exploratory_analysis.R")
 Open `eelgrass_carbon_report.html` in any web browser. It's fully self-contained
 (embedded plots and tables) — no R required.
 
+> ⚠️ **Being rebuilt.** The `.qmd`/`.html` report still reflects the previous dataset and
+> recomputes compaction with the old field-measurement schema. It needs re-rendering against
+> the Tsawwassen data and the new compaction model — tracked as a follow-up. The scripts
+> (`00`–`05`) are the current source of truth.
+
 > **Working directory:** scripts use relative paths (`data/…`), so run them from
 > inside the `EelgrassWorkshop/` folder (or open the folder as an RStudio project).
 
@@ -103,15 +125,19 @@ sample layer, and flags samples that fall outside QC thresholds. Produces
 `cores_raw`.
 
 ### `01b_compaction_correction.R` — Compaction correction
-Percussion coring compresses sediment, so recovered core length is shorter than
-the sediment column it came from. Using the field measurements in
-`core_compaction.csv`, this computes a **compaction ratio** per core and uses the
-`BlueCarbon` package to "stretch" depths back to true values and adjust bulk
-density accordingly. Produces `cores_decompacted`.
+Percussion coring compresses sediment, so the recovered core is shorter than the
+sediment column it came from. Using the field measurements in `core_compaction.csv`,
+this computes a **compaction factor** per core and stretches the sample **depths**
+back to their in-situ positions — the same arithmetic the digital data sheet uses,
+so the two agree. Produces `cores_decompacted`.
 
-- `recovered_length = sampler_length − internal_distance`
-- `true_length = sampler_length − external_distance`
-- `compaction_ratio = recovered_length / true_length` (< 1 means compression)
+- `compaction_factor = outside_depth / inside_depth` (≥ 1; > 1 means compression)
+- `in-situ depth = measured depth × compaction_factor`
+
+Bulk density and carbon stock stay on the **measured** interval on purpose (the dry
+mass already came from the taller in-situ column — applying the factor again would
+double-count it). The `BlueCarbon` package is used only as an **optional cross-check**
+(`USE_BLUECARBON <- FALSE` by default), so the pipeline has no hard dependency on it.
 
 ### `02_exploratory_analysis.R` — Exploratory analysis
 SOC and bulk-density depth profiles, a map of core locations coloured by water
@@ -169,9 +195,13 @@ Zone 21N), and map predictions plus prediction standard error.
 | Column | Type | Description |
 |--------|------|-------------|
 | `core_id` | text | Links to `core_locations.csv` |
-| `sampler_length` | number | Total length of the coring tube (cm) |
-| `internal_distance` | number | Tube top → sediment surface *inside* the tube (cm) |
-| `external_distance` | number | Tube top → sediment surface *outside* the tube (cm) |
+| `corer_diameter_cm` | number | Measured internal diameter of the corer (cm) |
+| `outside_depth_cm` | number | How far the corer was driven in — penetration (cm) |
+| `inside_depth_cm` | number | Length of core actually recovered (cm) |
+| `compaction_factor` | number | `outside_depth / inside_depth` (≥ 1); recomputed if blank |
+
+> These are the same field measurements the digital data sheet's *Plot & Core Log*
+> records, so `core_compaction.csv` is a direct export of that tab.
 
 ---
 
