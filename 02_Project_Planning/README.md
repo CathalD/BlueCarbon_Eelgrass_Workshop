@@ -19,10 +19,14 @@
 
 ## Why planning matters
 
-Before heading into the field, two questions are worth considering: **how many samples should
-you take, and where should you take them?** Answering these is the aim of a **sampling
-design**. Sampling designs ensure you having enough samples, allocated across the ecosystem, to
-estimate carbon stock and meet the project's goals.
+This section is **side 2 of the workshop — making the data useful** (see the
+[main guide](../README.md)). Before you collect a single core to fill in the
+[data sheet](../04_Data_Interpretation/), it's worth making sure the samples you plan to take
+will actually answer your team's questions. That's what a **sampling design** does.
+
+Two questions are worth considering: **how many samples should you take, and where should you
+take them?** A sampling design ensures you have enough samples, allocated across the ecosystem,
+to estimate carbon stock and meet the project's goals.
 
 
 The following methods are based on WWF-Canada's [Sampling Design guide](Sampling-Design-Eng-2026.pdf), as well
