@@ -42,6 +42,10 @@ The goal of the workshop is to:
 3. **Turn measurements into outputs** — convert field data into carbon analyses to inform decision making.
 
 
+***Add in Eelgrass Workshop Skills Checklist****
+
+
+
 **TLDR**
 
 > **A good question to start with: How much carbon is stored in the sediment beneath an eelgrass meadow, and how confident are we in that number?**
