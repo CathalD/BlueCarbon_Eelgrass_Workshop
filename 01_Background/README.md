@@ -173,8 +173,9 @@ recovery of carbon.
 </tr>
 </table>
 
+*** To Edit ***
 However, if/when multiple overlapping disturbances occur, the ecosystem can continue to
-degrade over time, becoming a net emitter of carbon and losing the carbon it had stored. This is common in ecosystems experiences "multiple stressors", cumulative effects, and altered distrubance regimes
+degrade over time, becoming a net emitter of carbon and losing the carbon it had stored. This is common in ecosystems experiencing "multiple stressors", cumulative effects, and/or altered distrubance regimes
 
 <table>
 <tr>
