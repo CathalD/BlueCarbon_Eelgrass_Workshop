@@ -32,6 +32,8 @@ labelled Ziploc bags, and a completed data sheet.
 > 📸 **[SCREENSHOT NEEDED]** — the bagged samples alongside the completed field data sheet,
 > so the reader can see what "arriving back from the field" actually looks like.
 
+*** For claude *** organize these as they would show in a spreadsheet, like a table *** add in descriptors in appropropraite places ***
+
 From these we have the **Sample ID**, the **top and bottom depth** of each slice, the **depth
 the corer was inserted**, and any **notes**. From that we can calculate the **depth interval**
 of each sample and the **volume** of each sample.
@@ -46,10 +48,12 @@ Using a corer with a 7.62 cm (3″) internal diameter:
 ```
 area = π × (7.62 / 2)²  =  π × 3.81²  =  45.60 cm²
 ```
+*** Same here, integrate this with a table shwoing the calculation with an example in an appropraite way***
 
 So for each sample we multiply the depth interval by 45.60 cm² to obtain its volume in cm³.
 A standard 2 cm slice therefore has a volume of 2 × 45.60 = **91.2 cm³**, matching the worked
 example in the field guide (p.17).
+
 
 > ⚠️ **Measure your actual internal diameter.** Nominal pipe size is not internal diameter —
 > a "3-inch" Schedule 40 PVC pipe has an internal diameter noticeably larger than 7.62 cm, and
@@ -58,11 +62,12 @@ example in the field guide (p.17).
 > bulk density, and therefore into every carbon stock, in the entire dataset. Measure the ID
 > of the tubing you actually used with calipers and use that value.
 
+*** Now we are showing what the table looks like, this can be a link to the spreadsheet found in "files", with a small description***
+
 To make things easier, we have attached a spreadsheet where you can enter the field values
 directly from the datasheet, and it will automatically populate the remaining columns.
 
-<!-- TODO (Cathal): add the spreadsheet file to the repo and link it here, then paste a screenshot of it below. -->
-**📄 Data-entry spreadsheet:** *(link to be added)*
+Link to spreasheet in file "
 
 > 📸 **[SCREENSHOT NEEDED]** — the spreadsheet with the example rows filled in, showing which
 > columns are typed by hand and which auto-calculate.
