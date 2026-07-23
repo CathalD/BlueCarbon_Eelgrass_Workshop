@@ -30,8 +30,8 @@ cat("Kriging", nrow(core_stocks), "core locations\n")
 # ── Convert to sf ────────────────────────────────────────────────────────────
 cores_sf <- st_as_sf(core_stocks, coords = c("longitude", "latitude"), crs = 4326)
 
-# Project to UTM Zone 21N (appropriate for western Newfoundland)
-cores_utm <- st_transform(cores_sf, crs = 32621)
+# Project to UTM Zone 10N (appropriate for southwestern BC / Tsawwassen)
+cores_utm <- st_transform(cores_sf, crs = 32610)
 coords_utm <- st_coordinates(cores_utm)
 cores_utm$x <- coords_utm[, 1]
 cores_utm$y <- coords_utm[, 2]
@@ -46,7 +46,7 @@ grid_pts <- expand.grid(
   x = seq(bbox["xmin"] - buffer, bbox["xmax"] + buffer, by = grid_res),
   y = seq(bbox["ymin"] - buffer, bbox["ymax"] + buffer, by = grid_res)
 )
-grid_sf <- st_as_sf(grid_pts, coords = c("x", "y"), crs = 32621)
+grid_sf <- st_as_sf(grid_pts, coords = c("x", "y"), crs = 32610)
 
 # Assign water depth to grid by IDW from core locations (simple approximation)
 # In practice you'd use a bathymetry raster here
@@ -71,7 +71,7 @@ sp_cores_df <- SpatialPointsDataFrame(
     total_stock = cores_utm$total_stock_kg_m2,
     water_depth_m = cores_utm$water_depth_m
   ),
-  proj4string = CRS("+init=epsg:32621")
+  proj4string = CRS("+init=epsg:32610")
 )
 
 # Empirical variogram
@@ -104,7 +104,7 @@ print(p_vario_ok)
 sp_grid_ok <- SpatialPointsDataFrame(
   coords = cbind(grid_pts$x, grid_pts$y),
   data = grid_pts,
-  proj4string = CRS("+init=epsg:32621")
+  proj4string = CRS("+init=epsg:32610")
 )
 
 ok_result <- krige(total_stock ~ 1,
@@ -178,7 +178,7 @@ print(p_vario_uk)
 sp_grid_uk <- SpatialPointsDataFrame(
   coords = cbind(grid_pts$x, grid_pts$y),
   data = grid_pts,
-  proj4string = CRS("+init=epsg:32621")
+  proj4string = CRS("+init=epsg:32610")
 )
 
 uk_result <- krige(total_stock ~ water_depth_m,
