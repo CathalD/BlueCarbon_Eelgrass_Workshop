@@ -22,6 +22,11 @@ After sampling there are three next steps we will cover:
 2. **Data analysis** — [The eelgrass R workflow](#2-the-eelgrass-r-workflow)
 3. **[Reporting and using the results](#3-reporting-and-using-the-results)**
 
+> 🧭 **The worked example.** Throughout this section we follow a single dataset — six cores
+> from a small inlet at **Tsawwassen Beach, BC** (plot `WWF-01`), three in **salt marsh** and
+> three in **eelgrass**. Every table below is taken directly from that dataset, so you can
+> follow one core all the way from a bagged sample to a carbon stock.
+
 ---
 
 ## 1.1 Organizing data and submitting to a lab
@@ -32,7 +37,54 @@ labelled Ziploc bags, and a completed data sheet.
 > 📸 **[SCREENSHOT NEEDED]** — the bagged samples alongside the completed field data sheet,
 > so the reader can see what "arriving back from the field" actually looks like.
 
-*** For claude *** organize these as they would show in a spreadsheet, like a table *** add in descriptors in appropropraite places ***
+### What comes back from the field
+
+The paper datasheet records information at two levels, and the spreadsheet keeps them on two
+separate tabs for exactly that reason: some things are true of the **whole core**, and some
+are true of a **single slice**.
+
+**Recorded once per core** — this is the *Plot & Core Log* tab:
+
+| Field | What it is | Example (`WWF-01-A`) |
+|---|---|---|
+| Plot ID | The plot the core was taken in | `WWF-01` |
+| Core ID | Unique identifier: site, plot, sampling location | `WWF-01-A` |
+| Date / Time | When the core was taken | 2025-06-25, 11:32 |
+| Study area / site | Location and stratum | Tsawwassen Beach — salt marsh |
+| Latitude / Longitude | Coordinates of the core | 49.003354, −123.131287 |
+| Photo series ID | Links the core to its photo record | `WWF-01-A-P` |
+| Weather / tidal conditions | Context for the sampling day | Slightly overcast, 17 °C; low tide 18:02 (1.429 m) |
+| Corer internal diameter (cm) | Sets the cross-sectional area — **measure it, don't assume it** | 7.62 |
+| Outside depth (cm) | How far the corer was driven in (penetration) | 65.0 |
+| Inside depth (cm) | Length of core actually recovered | 58.0 |
+
+**Recorded once per slice** — this is the *Sample Data* tab:
+
+| Field | What it is | Example (`WWF-01-A`, slice 1) |
+|---|---|---|
+| Core ID | Must match the Core Log exactly | `WWF-01-A` |
+| Sample ID | Slice number, counting down from the surface | 1 |
+| Top depth (cm) | Top of the slice, measured down the core | 0 |
+| Bottom depth (cm) | Bottom of the slice | 5 |
+| Notes | Texture, colour, roots, shell, rocks | Dense live root mat, dark brown silty clay |
+
+Laid out as it appears in the spreadsheet, the six slices of core `WWF-01-A` look like this:
+
+| Core ID | Sample ID | Top depth (cm) | Bottom depth (cm) | Notes |
+|---|---|---|---|---|
+| WWF-01-A | 1 | 0 | 5 | Dense live root mat, dark brown silty clay |
+| WWF-01-A | 2 | 5 | 10 | Root mat thinning, dark brown silty clay |
+| WWF-01-A | 3 | 10 | 15 | Fine roots, dark grey-brown silt |
+| WWF-01-A | 4 | 15 | 25 | Occasional root fragments, grey silty clay |
+| WWF-01-A | 5 | 25 | 40 | Grey silt, faint organic banding, few roots |
+| WWF-01-A | 6 | 40 | 58 | Firm grey silt grading to fine sand at base |
+
+Note two things about that table. The slices get **thicker with depth** — 5 cm near the
+surface where carbon changes fastest, coarser further down — which is a deliberate sampling
+choice, not an inconsistency. And the bottom depth of the last slice (58 cm) equals the
+**inside depth** on the Core Log, which is a useful check that no slice went unrecorded.
+
+### Calculating depth interval and volume
 
 From these we have the **Sample ID**, the **top and bottom depth** of each slice, the **depth
 the corer was inserted**, and any **notes**. From that we can calculate the **depth interval**
@@ -48,12 +100,24 @@ Using a corer with a 7.62 cm (3″) internal diameter:
 ```
 area = π × (7.62 / 2)²  =  π × 3.81²  =  45.60 cm²
 ```
-*** Same here, integrate this with a table shwoing the calculation with an example in an appropraite way***
 
 So for each sample we multiply the depth interval by 45.60 cm² to obtain its volume in cm³.
 A standard 2 cm slice therefore has a volume of 2 × 45.60 = **91.2 cm³**, matching the worked
 example in the field guide (p.17).
 
+Applied to core `WWF-01-A`, where the slices are of different thicknesses:
+
+| Sample ID | Top (cm) | Bottom (cm) | Depth interval (cm)<br>*= bottom − top* | Volume (cm³)<br>*= 45.60 × interval* |
+|---|---|---|---|---|
+| 1 | 0 | 5 | 5 | 228.02 |
+| 2 | 5 | 10 | 5 | 228.02 |
+| 3 | 10 | 15 | 5 | 228.02 |
+| 4 | 15 | 25 | 10 | 456.04 |
+| 5 | 25 | 40 | 15 | 684.06 |
+| 6 | 40 | 58 | 18 | 820.87 |
+
+Both columns are calculated for you in the spreadsheet — you only ever type the top and
+bottom depths.
 
 > ⚠️ **Measure your actual internal diameter.** Nominal pipe size is not internal diameter —
 > a "3-inch" Schedule 40 PVC pipe has an internal diameter noticeably larger than 7.62 cm, and
@@ -62,14 +126,28 @@ example in the field guide (p.17).
 > bulk density, and therefore into every carbon stock, in the entire dataset. Measure the ID
 > of the tubing you actually used with calipers and use that value.
 
-*** Now we are showing what the table looks like, this can be a link to the spreadsheet found in "files", with a small description***
+### The digital data sheet
 
 To make things easier, we have attached a spreadsheet where you can enter the field values
 directly from the datasheet, and it will automatically populate the remaining columns.
 
-Link to spreasheet in file google sheet - https://docs.google.com/spreadsheets/d/1XMA_zaFNKtxCw2tAiQa3gHaIiT_wJAecmwW7Rz4hhaQ/edit?usp=sharing
+**📊 [Open the digital data sheet in Google Sheets](https://docs.google.com/spreadsheets/d/1XMA_zaFNKtxCw2tAiQa3gHaIiT_wJAecmwW7Rz4hhaQ/edit?usp=sharing)**
+· blank copy: [`files/Eelgrass_Carbon_DigitalData_BlankSheet.xlsx`](files/Eelgrass_Carbon_DigitalData_BlankSheet.xlsx)
 
-Also available as a blanl sheet in 04_Data_Interpretation/files/Eelgrass_Carbon_DigitalData_BlankSheet.xlsx
+The workbook has four tabs, following the same order as the workflow:
+
+| Tab | What it holds | Do you type in it? |
+|---|---|---|
+| **1. Instructions** | Legend, colour key, units, and the field names the R pipeline expects | No |
+| **2. Plot & Core Log** | One row per core — plot/core notes, corer diameter, insertion depths | Yes |
+| **3. Sample Data** | One row per slice, in four bands: field · calculated · lab · calculated | Yes |
+| **4. Core Summary** | Per-core totals, calculated automatically | No |
+
+Only the **yellow cells** are for typing. Everything grey is a formula — the depth interval,
+the volume, the compaction factor, and after the lab results arrive, the bulk density and
+carbon stock. The compaction factor and corer diameter are looked up from the Core Log by
+Core ID, so **the Core ID on the Sample Data tab must match the Core Log exactly**; if it
+doesn't, those cells stay blank rather than silently using another core's geometry.
 
 > 📸 **[SCREENSHOT NEEDED]** — the spreadsheet with the example rows filled in, showing which
 > columns are typed by hand and which auto-calculate.
@@ -132,6 +210,16 @@ provide:
 - **Packaging and shipping arrangements** — frozen vs. dried, courier, and arrival timing so
   samples are not sitting at a loading dock over a weekend.
 
+The manifest is simply the field columns plus the volume you calculated, which the lab needs
+if they are also determining bulk density:
+
+| Core ID | Sample ID | Top (cm) | Bottom (cm) | Volume (cm³) | Analyses requested |
+|---|---|---|---|---|---|
+| WWF-01-A | 1 | 0 | 5 | 228.02 | DBD, %C<sub>org</sub> |
+| WWF-01-A | 2 | 5 | 10 | 228.02 | DBD, %C<sub>org</sub> |
+| WWF-01-A | 3 | 10 | 15 | 228.02 | DBD, %C<sub>org</sub> |
+| … | … | … | … | … | … |
+
 > 📸 **[SCREENSHOT NEEDED]** — the example lab submission sheet from our *Practical
 > Implementation Example*, filled in, so readers can see how the field datasheet transfers
 > across.
@@ -149,6 +237,24 @@ The lab returns two quantities per sample slice, which map onto the analysis inp
 |---|---|---|
 | Organic carbon | `soc_g_kg` | Often measured by loss-on-ignition (LOI₅₅₀); for best accuracy the guide recommends total carbon on an elemental analyser (p.16) |
 | Dry bulk density | `bulk_density_g_cm3` | Dry mass ÷ original sample volume (p.17) |
+
+Coming back to core `WWF-01-A`, the lab returns the wet and dry weights and the carbon
+concentration (the three yellow columns), and the spreadsheet calculates the rest:
+
+| Sample | Volume (cm³) | Wet wt (g) | Dry wt (g) | %C | → Bulk density (g/cm³)<br>*= dry ÷ volume* | → Carbon density (g C/cm³)<br>*= BD × %C/100* | → Stock (g C/cm²)<br>*= C density × interval* |
+|---|---|---|---|---|---|---|---|
+| 1 | 228.02 | 299.28 | 95.77 | 6.20 | 0.420 | 0.0260 | 0.1302 |
+| 2 | 228.02 | 304.03 | 109.45 | 5.40 | 0.480 | 0.0259 | 0.1296 |
+| 3 | 228.02 | 298.60 | 125.41 | 4.30 | 0.550 | 0.0237 | 0.1182 |
+| 4 | 456.04 | 598.54 | 287.30 | 3.20 | 0.630 | 0.0202 | 0.2016 |
+| 5 | 684.06 | 912.07 | 492.52 | 2.30 | 0.720 | 0.0166 | 0.2484 |
+| 6 | 820.87 | 1126.95 | 664.90 | 1.60 | 0.810 | 0.0130 | 0.2333 |
+| | | | | | | **Core total** | **1.0613 g C/cm² = 10.61 kg C/m²** |
+
+This is the field guide's equations 3–6 running down the table: carbon density per slice
+(Eq 3), stock per slice (Eq 4), summed over the core (Eq 5), then ×10 into kg C/m² (Eq 6).
+Notice the inverse pattern in the two lab columns — bulk density **rises** with depth as
+carbon **falls**, which is the relationship described further down this page.
 
 <details>
 <summary><b>🔬 How the lab measures carbon</b> — LOI and elemental analysis (click to expand)</summary>
@@ -256,6 +362,11 @@ or showed *no distinct pattern* with depth. Profiles dominated by eelgrass-deriv
 tended to be the high-carbon ones, while low-carbon profiles were dominated by planktonic and
 macroalgal material.
 
+Our worked example shows both behaviours: the marsh cores decline steadily with depth, while
+eelgrass core `WWF-01-E` carries a **buried organic layer at 10–20 cm** where bulk density dips
+and carbon rises again. A core like that is not an error to be smoothed away — it is a
+depositional signal, and averaging it out of your profile discards real information.
+
 The practical consequence: **extrapolating a whole-core stock from a shallow core is
 unreliable**, which is exactly why the field guide insists on coring to the depth of refusal
 ([Section 3](../03_Field_Methods/)). Plot your own depth profiles before assuming any trend —
@@ -272,7 +383,9 @@ consistently negative (often exponential).
 | Salt marsh, high marsh (BC) | 0.53 ± 0.14 | Boundary Bay, BC |
 | Salt marsh, low marsh (BC) | 0.69 ± 0.16 | Boundary Bay, BC |
 | Salt marsh (Mediterranean, by species) | 0.50–0.75 | Venice Lagoon |
-| Sandy eelgrass meadow | *(add your measured values)* | <!-- TODO (Cathal): insert DBD from the NFLD/BC eelgrass cores — sandy eelgrass sediments sit well above marsh values, but I'd rather cite your own data than a generic figure. --> |
+| Sandy eelgrass meadow | *(add your measured values)* | — |
+
+<!-- TODO (Cathal): the eelgrass DBD row still needs your real NFLD/BC measurements. I have deliberately NOT put the Tsawwassen worked-example numbers here — this is a literature comparison table and the example dataset is illustrative, not measured. -->
 
 Because eelgrass meadows in Atlantic Canada are typically sandy, expect **higher** bulk
 densities than the marsh values above. Note the compensating effect: low %C paired with high
@@ -281,6 +394,33 @@ stock, not either input alone.
 
 > 📸 **[SCREENSHOT NEEDED]** — an example lab result sheet, with notes on how to read the
 > columns and map them onto `soc_g_kg` and `bulk_density_g_cm3`.
+
+### The worked example, end to end
+
+Running all six Tsawwassen cores through the spreadsheet gives:
+
+| Core | Stratum | Slices | Core depth (cm) | Mean DBD (g/cm³) | Mean %C | Stock (kg C/m²) |
+|---|---|---|---|---|---|---|
+| WWF-01-A | Salt marsh | 6 | 65 | 0.602 | 3.83 | 10.61 |
+| WWF-01-C | Salt marsh | 6 | 72 | 0.572 | 4.25 | 11.98 |
+| WWF-01-D | Salt marsh | 6 | 58 | 0.703 | 2.83 | 8.41 |
+| WWF-01-B | Eelgrass | 5 | 30 | 1.216 | 0.78 | 2.16 |
+| WWF-01-E | Eelgrass | 5 | 35 | 1.140 | 0.99 | 3.21 |
+| WWF-01-F | Eelgrass | 4 | 26 | 1.300 | 0.51 | 1.33 |
+
+Salt marsh averages **10.3 kg C/m²** and eelgrass **2.2 kg C/m²** — roughly a **4.6 : 1**
+contrast, driven by the marsh's much higher carbon concentration more than offsetting its
+lower bulk density. The eelgrass mean (2,232 g C m⁻²) sits comfortably inside the published
+range for Pacific Canadian eelgrass quoted above.
+
+Note that core depth differs by a factor of nearly three across the six cores, so these totals
+are **not directly comparable to each other** until they are standardised to a common depth —
+which is what [`03_depth_harmonization.R`](EelgrassWorkshop/03_depth_harmonization.R) is for.
+
+> ⚠️ **Provenance.** The Tsawwassen dataset is a **teaching example**. The coordinates and
+> layout are realistic and the values are constructed to sit within published ranges for BC
+> salt marsh and eelgrass, but they are **not field measurements** and must not be cited as
+> such. Cite the primary sources listed at the end of this page instead.
 
 ---
 
@@ -303,6 +443,10 @@ The pipeline in brief:
 | Estimation | [`04_simple_extrapolation.R`](EelgrassWorkshop/04_simple_extrapolation.R) | Mean stocks + confidence intervals |
 | Spatial analysis | [`05_kriging.R`](EelgrassWorkshop/05_kriging.R) | Interpolate stocks across the meadow |
 
+The two columns the pipeline reads from the spreadsheet are `bulk_density_g_cm3` and
+`soc_g_kg`, which are named exactly that way on the *Sample Data* tab so the sheet can be
+exported and loaded without renaming anything.
+
 A pre-rendered report — [`EelgrassWorkshop/eelgrass_carbon_report.html`](EelgrassWorkshop/eelgrass_carbon_report.html)
 — walks through the whole analysis and can be opened in any browser without running R.
 
@@ -324,6 +468,14 @@ multiplies by the depth interval to get g C/cm², sums the slices, and ×10 to r
 kg C/m². Because organic carbon in g/kg is ten times %C, that whole chain reduces to the
 one formula above — then summing slices per core, averaging across cores, and scaling by
 area gives the site total (guide equations 7–10).
+
+> 🧮 **Compaction corrects depths, not stocks.** The carbon stock of a slice uses the
+> **measured** depth interval, not the decompacted one. The dry mass in the tube already came
+> from a taller in-situ column, so applying the compaction factor a second time would
+> double-count it. The corrected depths exist to tell you *which in-situ depth each slice
+> represents*, which is what depth harmonisation needs. A useful check: the deepest corrected
+> depth should equal the outside (penetration) depth on the Core Log — for `WWF-01-A`,
+> 58 cm recovered × 1.121 = 65 cm penetrated.
 
 ---
 
@@ -372,9 +524,11 @@ regulator can act on.
 ## In this section
 
 - [`EelgrassWorkshop/`](EelgrassWorkshop/) — the R analysis pipeline (with its own detailed README).
+- [`files/Eelgrass_Carbon_DigitalData_BlankSheet.xlsx`](files/Eelgrass_Carbon_DigitalData_BlankSheet.xlsx) — blank digital data sheet.
 - [`Lab-Guide-Eng-2026.pdf`](Lab-Guide-Eng-2026.pdf) — WWF-Canada laboratory procedures guide.
 - `images/` — lab result screenshots and analysis figures.
 
 > **Iteration note:** the R pipeline under `EelgrassWorkshop/` was left untouched in this
-> docs pass. Language is aligned to the field-guide PDF (pp. 15–19); video callouts now use
-> the direct per-video URLs.
+> docs pass. Language is aligned to the field-guide PDF (pp. 15–19); video callouts use the
+> direct per-video URLs. Tables in Section 1 are generated from the Tsawwassen worked example
+> so they stay consistent with the spreadsheet.
