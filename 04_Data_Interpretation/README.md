@@ -67,7 +67,9 @@ example in the field guide (p.17).
 To make things easier, we have attached a spreadsheet where you can enter the field values
 directly from the datasheet, and it will automatically populate the remaining columns.
 
-Link to spreasheet in file "
+Link to spreasheet in file google sheet - https://docs.google.com/spreadsheets/d/1XMA_zaFNKtxCw2tAiQa3gHaIiT_wJAecmwW7Rz4hhaQ/edit?usp=sharing
+
+Also available as a blanl sheet in 04_Data_Interpretation/files/Eelgrass_Carbon_DigitalData_BlankSheet.xlsx
 
 > 📸 **[SCREENSHOT NEEDED]** — the spreadsheet with the example rows filled in, showing which
 > columns are typed by hand and which auto-calculate.
