@@ -47,7 +47,13 @@ The goal of the workshop is to:
 
 
 **TLDR**
+*** Were going to replace this section with an intro to the data sheet - how we will fill this in, understanding each compoenent along the way. How each part represents a part of teh ecosystem we measure, and how once this is filled we will be able to make conculsions, comparisons, and infrom decisions with these results ***
 
+
+*** We will start with the data sheet - here link in the google sheet ***
+
+**then populate a table with jus thte headers, and below explain each, and link to the part of the workflow that talk about it in more detail***
+*** expand this section below to what questions we can answer with this data ***
 > **A good question to start with: How much carbon is stored in the sediment beneath an eelgrass meadow, and how confident are we in that number?**
 
 Answering this question involves connecting each step to the project goals, for example, are there enough samples from the right
@@ -56,6 +62,7 @@ measured by a lab, and analysed with methods that account for compaction, differ
 depths, and spatial variation? ([Section 4](04_Data_Interpretation/)).
 
 
+*** edit this so it flows with the data sheet population narrative ***
 **In a nutshell, how carbon stock is calculated**
 
 1. [Collect a sediment core](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd)
