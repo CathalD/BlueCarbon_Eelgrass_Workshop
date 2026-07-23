@@ -238,6 +238,19 @@ do this, there are 4 basic steps:
 3. **Analyse** the samples
 4. **Calculate carbon** and **interpret** the results
 
+*** Edit this
+Conceptually, there are two useful ways to think about it
+1. Collecting the data itself - Think about the datasheet we want to fill out, and what it takes to do this
+2. The second is making sure the data you are collecting is the most useful for you and your teams goals
+
+In the next section we will focus on 2 - Before going and collecting any samples, making sure that the data that **will be collected** is done so effectevly.
+
+The in part 3 - we will dive into **Collecting** the data to fill in the data sheet
+
+By completing parts 2 and 3 - we can ensure that the samples being collected were done so effectievly, using the best practices, which together, ensure the data is being used to most effectielvy suuport our project, and overall organizational goals
+
+***
+
 <table>
 <tr>
 <td width="100%">
@@ -249,6 +262,20 @@ do this, there are 4 basic steps:
 </table>
 
 ---
+
+Edit below with this info (also edi thte info) *** 
+
+Conceptually, there are two useful ways to think about it
+1. Collecting the data itself - Think about the datasheet we want to fill out, and what it takes to do this
+2. The second is making sure the data you are collecting is the most useful for you and your teams goals
+
+In the next section we will focus on 2 - Before going and collecting any samples, making sure that the data that **will be collected** is done so effectevly.
+
+The in part 3 - we will dive into **Collecting** the data to fill in the data sheet
+
+By completing parts 2 and 3 - we can ensure that the samples being collected were done so effectievly, using the best practices, which together, ensure the data is being used to most effectielvy suuport our project, and overall organizational goals
+
+***
 
 ## In the next section
 
