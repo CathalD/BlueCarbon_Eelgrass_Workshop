@@ -8,70 +8,133 @@
 
 ## Overview
 
-This section covers what happens after the cores come out of the field: sending samples
-to a lab, understanding what the lab returns, analysing those results and interpresting them for reporting and planning. Here we follow WWF-Canada's field guide (*Part 3: Sample
-Analysis* and *Part 4: Calculating Carbon Stocks*, pp. 15–19 of the
+This section covers what happens after the cores come out of the field: organizing your
+field data, sending samples to a lab, understanding what the lab returns, analysing those
+results, and interpreting them for reporting and planning. Here we follow WWF-Canada's field
+guide (*Part 3: Sample Analysis* and *Part 4: Calculating Carbon Stocks*, pp. 15–19 of the
 [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)), with a
-dedicated [Lab Guide](Lab-Guide-Eng-2026.pdf) for the laboratory procedures, as well as Howard et al. 2014 guide, utlizing the "BlueCarbon" package in R.
+dedicated [Lab Guide](Lab-Guide-Eng-2026.pdf) for the laboratory procedures, alongside
+Howard et al. (2014), and using the `BlueCarbon` package in R.
 
-After sampling there are 3 next steps we will cover
+After sampling there are three next steps we will cover:
 
-1. Organizing Data + [Submitting to a lab](#1-submitting-to-a-lab) + [Expected lab results](#2-expected-lab-results)
-2. Data analysis [The eelgrass R workflow](#3-the-eelgrass-r-workflow)
-3. Reproting and using the results
+1. **Organizing data and getting it analysed** — [Organizing data + submitting to a lab](#11-organizing-data-and-submitting-to-a-lab) · [Expected lab results](#12-expected-lab-results)
+2. **Data analysis** — [The eelgrass R workflow](#2-the-eelgrass-r-workflow)
+3. **[Reporting and using the results](#3-reporting-and-using-the-results)**
 
 ---
 
-## 1.1 Organizing Data and Submitting to a lab
+## 1.1 Organizing data and submitting to a lab
 
-Consider the data collected from the field in the previous module, we have bagged samples, in labelled ziploc bags, and a data sheet
-Show screenshot of samples + the data sheet. From this we have the Sample ID, the top and bottom depth of the core, the depth the core was inserted, and some notes.
-We can therefore calculate "Depth interval of each sample", and the volume of each sample
+Consider the data collected from the field in the previous module: we have bagged samples in
+labelled Ziploc bags, and a completed data sheet.
 
-Depth interval = Bottom depth (cm) - top depth (cm)
+> 📸 **[SCREENSHOT NEEDED]** — the bagged samples alongside the completed field data sheet,
+> so the reader can see what "arriving back from the field" actually looks like.
 
-Volume = depth interval (cm) * by area of the circular face of the corer = pi * r^2
-Since we used at corer with a 7.62 cm diameter opening, we know its area = pi * (7.62/2)^2 = 45.60 cm in area.
+From these we have the **Sample ID**, the **top and bottom depth** of each slice, the **depth
+the corer was inserted**, and any **notes**. From that we can calculate the **depth interval**
+of each sample and the **volume** of each sample.
 
-So for each sample we multiply the depth increment by 45.60 cm to obtain its volume in cm^3
+**Depth interval (cm)** = bottom depth (cm) − top depth (cm)
 
-To make things easier, we have attached a spreadsheet where you can add the field values, directly form the field to the spreadsheet and it will automatically populate the rest of the columns.
+**Volume (cm³)** = depth interval (cm) × area of the circular face of the corer, where
+area = π r²
 
-***Link in and show spreadhsheet here ***
+Using a corer with a 7.62 cm (3″) internal diameter:
 
+```
+area = π × (7.62 / 2)²  =  π × 3.81²  =  45.60 cm²
+```
 
+So for each sample we multiply the depth interval by 45.60 cm² to obtain its volume in cm³.
+A standard 2 cm slice therefore has a volume of 2 × 45.60 = **91.2 cm³**, matching the worked
+example in the field guide (p.17).
 
+> ⚠️ **Measure your actual internal diameter.** Nominal pipe size is not internal diameter —
+> a "3-inch" Schedule 40 PVC pipe has an internal diameter noticeably larger than 7.62 cm, and
+> wall thickness varies by schedule and supplier. Because volume enters the bulk-density
+> denominator directly, an unchecked diameter propagates as a **systematic bias** into every
+> bulk density, and therefore into every carbon stock, in the entire dataset. Measure the ID
+> of the tubing you actually used with calipers and use that value.
+
+To make things easier, we have attached a spreadsheet where you can enter the field values
+directly from the datasheet, and it will automatically populate the remaining columns.
+
+<!-- TODO (Cathal): add the spreadsheet file to the repo and link it here, then paste a screenshot of it below. -->
+**📄 Data-entry spreadsheet:** *(link to be added)*
+
+> 📸 **[SCREENSHOT NEEDED]** — the spreadsheet with the example rows filled in, showing which
+> columns are typed by hand and which auto-calculate.
 
 For every core sampling location, the calculation ultimately needs three things:
-**sediment depth (cm)**, **dry bulk density (g/cm³)**, and **organic carbon (%)**
+**sediment depth (cm)**, **dry bulk density (g/cm³)**, and **organic carbon (%)**.
 
-**Bulk density** can be measured with a scale and drying oven
+- **Bulk density** can be measured with a scale and a drying oven.
+- **Carbon analysis** requires more equipment, and at this stage samples are usually sent to a
+  laboratory specializing in carbon analysis.
 
-**Carbon analysis** requires more equipment, and often at this stage, the samples will be sent to a laboratory specializing in carbon analysis
-
-Samples should be frozen at −20 °C for storage, then thawed at 5–6 °C for 2–5 days,
-dried at 65 °C to a stable weight, and ground homogeneous before analysis. See the
+Samples should be frozen at −20 °C for storage, then thawed at 5–6 °C for 2–5 days, dried at
+65 °C to a stable weight, and ground homogeneous before analysis. See the
 [Lab Guide](Lab-Guide-Eng-2026.pdf) for the full procedure and packaging requirements.
 
-> 🎥 **CHECK OUT THE VIDEO** — *"Core Sample Analysis"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd)
-Actual link is here : https://www.youtube.com/watch?v=BuLRrFD78Fs&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=11
-Another link from IORA is here https://www.youtube.com/watch?v=_Zm9R-kGiE8&list=PL9pJDSsl2ZslDVZ5oZ5MFkykY2Kn9rDS8&index=6&pp=iAQB
+> 🎥 **Watch:** [*"Core Sample Analysis"*](https://www.youtube.com/watch?v=BuLRrFD78Fs&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=11) — workshop playlist
+>
+> 🎥 **Also:** [IORA Blue Carbon Hub — sample analysis](https://www.youtube.com/watch?v=_Zm9R-kGiE8&list=PL9pJDSsl2ZslDVZ5oZ5MFkykY2Kn9rDS8&index=6)
 
-*** Make this a dropdown table of labs we can fill in ***
-Lab name - website - Contact - analysis - costs + date
+### Finding a lab
 
-Another section to add - What the lab needs - Submitting to the lab
+<details>
+<summary><b>📋 Laboratories offering sediment carbon analysis</b> (click to expand)</summary>
 
-Example data sheet from our "Practical implementation example"
+<br>
 
+<!-- TODO (Cathal): fill in as you confirm labs, quotes and turnaround. Keep the "quoted on" date so costs can be re-checked — prices go stale fast. -->
 
-From the data you collected in the field, you will transfer this infromation to the lab so they can perform the analysis
+| Lab | Website | Contact | Analyses offered | Cost (per sample) | Quoted on |
+|---|---|---|---|---|---|
+| *(add lab)* | | | | | |
+| *(add lab)* | | | | | |
+| *(add lab)* | | | | | |
+| *(add lab)* | | | | | |
 
+**Notes when comparing quotes**
+- Confirm whether the price is per sample or per batch, and whether it includes drying/grinding.
+- Ask whether **inorganic carbon** is removed (acidification) or reported separately — this
+  changes what "total carbon" means on your results sheet.
+- Ask for the **method detection limit**; eelgrass sediments are often low-carbon and can sit
+  near the limit of some methods.
+- Ask whether **replicates and reference standards** are run, and whether you are charged for them.
+- Confirm minimum sample mass and packaging, and whether they accept frozen or dried samples.
 
+</details>
+
+### What the lab needs — submitting samples
+
+<!-- TODO (Cathal): confirm the specifics below against whichever lab you go with, and against the Lab Guide. -->
+
+Before shipping, confirm the lab's own requirements — they vary. In general you will need to
+provide:
+
+- **The samples themselves**, labelled with the Core ID convention from
+  [Section 3](../03_Field_Methods/) (site, plot, sampling location, depth interval).
+- **A sample manifest** — one row per sample, matching the bag labels exactly. This is the
+  same table you built in the spreadsheet above.
+- **The analyses you want** — dry bulk density, organic carbon, and whether you also want
+  inorganic carbon, total carbon, N, or isotopes.
+- **Packaging and shipping arrangements** — frozen vs. dried, courier, and arrival timing so
+  samples are not sitting at a loading dock over a weekend.
+
+> 📸 **[SCREENSHOT NEEDED]** — the example lab submission sheet from our *Practical
+> Implementation Example*, filled in, so readers can see how the field datasheet transfers
+> across.
+
+The information you collected in the field transfers directly onto this submission sheet, so
+the lab can perform the analysis and return results that map back onto your cores.
 
 ---
 
-## 1.2. Expected lab results
+## 1.2 Expected lab results
 
 The lab returns two quantities per sample slice, which map onto the analysis inputs:
 
@@ -80,26 +143,141 @@ The lab returns two quantities per sample slice, which map onto the analysis inp
 | Organic carbon | `soc_g_kg` | Often measured by loss-on-ignition (LOI₅₅₀); for best accuracy the guide recommends total carbon on an elemental analyser (p.16) |
 | Dry bulk density | `bulk_density_g_cm3` | Dry mass ÷ original sample volume (p.17) |
 
+<details>
+<summary><b>🔬 How the lab measures carbon</b> — LOI and elemental analysis (click to expand)</summary>
 
-*** Make this a dropdown menu *** How the lab measures carbon stock
-Loss-on-Igntiion (LOI) takes a dried and ground portion of each sample, and burns it in a muffle furnace at 550 degrees C. Through this process, the organic materials present in the sample (composed of what used to be plant materials), are ignited and converted into gaseous carbon dioxide and water, and exit the furnace via a fume hood. Its the same process that occurs when ypu make a camp fire. The wood (organic materials) burn at their combustion temperature, converting the carbohydrates in the wood into C02 and H20. Whats left over in the morning, are a pile of ashes, these are the non-organic materials left over that do not burn (or atleast not at the same temperate). Since we know how much organic matter is composed of carbon, we can estimate this using the carbon conversion factor.
+<br>
 
-***For claude - Add in a similar description for elemental analysis, determining the total carbon in a sample, as well as H and N ***
+**Loss-on-ignition (LOI)**
 
+LOI takes a dried and ground portion of each sample and burns it in a muffle furnace at
+550 °C. Through this process the organic materials present in the sample (composed of what
+used to be plant material) are ignited and converted into gaseous carbon dioxide and water,
+which exit the furnace via a fume hood.
 
-For the most accurate results, samples should be sent to a laboratory for total carbon measurement using an elemental analyser
+It is the same process that occurs when you make a campfire. The wood (organic material) burns
+at its combustion temperature, converting the carbohydrates in the wood into CO₂ and H₂O.
+What is left over in the morning is a pile of ashes — the non-organic material that does not
+burn, or at least not at the same temperature.
 
+By weighing the sample before and after, we know the mass of organic matter lost. Since we
+know roughly how much of that organic matter is carbon, we can estimate organic carbon using a
+**carbon conversion factor**.
 
+> ⚠️ **The conversion factor is the weak link.** LOI measures *organic matter*, not carbon, so
+> a factor is applied to convert one to the other. A commonly used value for seagrass sediments
+> is ~0.43 (Fourqurean et al. 2012, for sediments with >0.2% OM), but the true ratio varies
+> with organic-matter source and mineralogy. Clay-rich samples can also lose structural water
+> at 550 °C, inflating apparent organic matter. If carbon numbers need to withstand scrutiny —
+> for example for a credited project — validate LOI against elemental analysis on a subset of
+> samples and report the relationship you used.
 
-What to expect with eelgrass sediemnts - Typical eelgrass sediments return **lower organic carbon** when comapred to salt-marsh or mangrove
-soils, however can range widely - from ***Insert stat about the range of carbon values spatially from studies as well as with depth so teh user can gauge what to expect in terms of carbon stocks from their samples. Do this as well for Bulk density. Comapre among salt marsh ecosystems, and non-vegetated (just oceanic sediemnts) ***
+**Elemental analysis (CHN / CHNS)**
+
+An elemental analyser measures carbon directly rather than inferring it from mass loss. A
+small, precisely weighed aliquot of dried, ground sample (typically a few milligrams, sealed
+in a tin capsule) is dropped into a combustion column at roughly 950–1150 °C in an
+oxygen-enriched atmosphere. Everything combusts completely; the resulting gas stream is passed
+through reduction and separation stages, and the CO₂, H₂O and N₂ produced are quantified —
+usually by thermal conductivity detection — against standards of known composition.
+
+Because each element is measured as its own gas, the instrument reports **total carbon**,
+**hydrogen** and **nitrogen** as a percentage of sample dry mass in a single run. That gives
+you more than just a carbon number:
+
+- **Carbon (C)** — total carbon. If the sediment contains shell fragments or other carbonates,
+  this includes inorganic carbon, so samples are usually **acidified** first (or inorganic
+  carbon is measured separately and subtracted) to isolate organic carbon.
+- **Nitrogen (N)** — lets you calculate the **C:N ratio**, which is a source indicator. Low
+  C:N generally points to marine/algal or planktonic material; higher C:N points to vascular
+  plant or terrestrial input. Paired with δ¹³C, this is how you distinguish carbon the meadow
+  produced itself (autochthonous) from carbon it trapped from elsewhere (allochthonous) — a
+  distinction that matters for crediting.
+- **Hydrogen (H)** — largely a diagnostic of organic-matter type and combustion completeness;
+  it is reported routinely but is used less often in blue carbon accounting.
+
+The trade-off is cost and access: elemental analysis is more expensive per sample and requires
+a specialized lab, whereas LOI is cheap and uses the same equipment already needed for bulk
+density. A common compromise is to run **LOI on all samples and elemental analysis on a
+representative subset**, then use the calibration to correct the LOI series.
+
+</details>
+
+For the most accurate results, samples should be sent to a laboratory for total carbon
+measurement using an elemental analyser.
+
+### What to expect from eelgrass sediments
+
+Eelgrass sediments typically return **lower organic carbon** than salt-marsh or mangrove
+soils, but the range is wide — spanning more than an order of magnitude between meadows, and
+sometimes between cores in the same meadow. The values below are for gauging whether your
+results are plausible, **not** for substituting for your own measurements.
+
+**Organic carbon content, by ecosystem**
+
+| Ecosystem | Typical %C<sub>org</sub> (dry mass) | Source |
+|---|---|---|
+| Salt marsh | mean 5.0%, median ~3.0% | EURO-CARBON database (Europe, all depths) |
+| Seagrass / eelgrass | mean ~2.4%; temperate *Z. marina* average 1.4 ± 0.4% | EURO-CARBON; Röhr et al. 2018 |
+| Bare / unvegetated marine sediment | mean 1.9%, median ~1.2% | EURO-CARBON database |
+
+The ordering — **salt marsh > seagrass > bare sediment** — is consistent, but the
+distributions overlap heavily. Across all habitats and depths the EURO-CARBON compilation
+spans <0.1% to 41.6%, so a single value is close to meaningless without context.
+
+**Spatial variation within eelgrass alone**
+
+| Region | %C<sub>org</sub> | Stock context |
+|---|---|---|
+| Pacific coast of Canada (Clayoquot Sound, BC) | did not exceed 1.30% | stocks averaged 1,343 ± 482 g C m⁻² |
+| Baltic Sea | 0.25 ± 0.21% | 635 ± 321 g C m⁻² |
+| Kattegat–Skagerrak | 3.25 ± 2.78% | 3,457 ± 3,382 g C m⁻² |
+| Four European regions (Portugal → Black Sea) | 2.79 ± 0.50% down to 0.17 ± 0.02% | Dahl et al. 2016 |
+| Global temperate *Z. marina* (54 meadows) | 1.4 ± 0.4% | stocks 318–26,523 g C m⁻² (0–25 cm), mean 2,721 |
+
+**The Canadian numbers are the relevant benchmark for this workshop:** BC eelgrass sediments
+did not exceed 1.30% C<sub>org</sub>, with stocks well below global averages, attributed to
+shallow rooting, patchy meadows, sandy sediment and shallow sedimentation. If your Atlantic
+Canadian cores return values in the same broad range, that is expected — low numbers are a
+real result, not a failed analysis.
+
+**Variation with depth**
+
+Do not assume carbon declines smoothly downcore. In a 141-core, 47-site global eelgrass
+dataset, depth profiles fell into **three patterns** — organic carbon *increased*, *decreased*,
+or showed *no distinct pattern* with depth. Profiles dominated by eelgrass-derived material
+tended to be the high-carbon ones, while low-carbon profiles were dominated by planktonic and
+macroalgal material.
+
+The practical consequence: **extrapolating a whole-core stock from a shallow core is
+unreliable**, which is exactly why the field guide insists on coring to the depth of refusal
+([Section 3](../03_Field_Methods/)). Plot your own depth profiles before assuming any trend —
+[`02_exploratory_analysis.R`](EelgrassWorkshop/02_exploratory_analysis.R) does this.
+
+**Dry bulk density**
+
+Bulk density is inversely related to organic carbon — organic-rich sediments are lighter and
+more porous, mineral/sandy sediments are denser. Reported relationships between DBD and %C are
+consistently negative (often exponential).
+
+| Ecosystem | Typical DBD (g/cm³) | Source |
+|---|---|---|
+| Salt marsh, high marsh (BC) | 0.53 ± 0.14 | Boundary Bay, BC |
+| Salt marsh, low marsh (BC) | 0.69 ± 0.16 | Boundary Bay, BC |
+| Salt marsh (Mediterranean, by species) | 0.50–0.75 | Venice Lagoon |
+| Sandy eelgrass meadow | *(add your measured values)* | <!-- TODO (Cathal): insert DBD from the NFLD/BC eelgrass cores — sandy eelgrass sediments sit well above marsh values, but I'd rather cite your own data than a generic figure. --> |
+
+Because eelgrass meadows in Atlantic Canada are typically sandy, expect **higher** bulk
+densities than the marsh values above. Note the compensating effect: low %C paired with high
+bulk density can still yield a moderate carbon stock, since stock is their product. Judge the
+stock, not either input alone.
 
 > 📸 **[SCREENSHOT NEEDED]** — an example lab result sheet, with notes on how to read the
 > columns and map them onto `soc_g_kg` and `bulk_density_g_cm3`.
 
 ---
 
-## 3. The eelgrass R workflow
+## 2. The eelgrass R workflow
 
 A complete, reproducible R pipeline takes the lab results through compaction correction,
 depth harmonisation, carbon-stock estimation, and spatial interpolation.
@@ -142,6 +320,48 @@ area gives the site total (guide equations 7–10).
 
 ---
 
+## 3. Reporting and using the results
+
+<!-- TODO (Cathal): this section is a skeleton — the headings below are my read of what belongs here based on the workshop's arc. Add, cut or reorder. -->
+
+Once stocks are estimated, the final step is turning them into something a partner, funder or
+regulator can act on.
+
+**What to report**
+
+- Carbon stock with an explicit **uncertainty estimate**, not a bare point value.
+- The **depth interval** the stock refers to (e.g. 0–30 cm vs. to depth of refusal) — stocks
+  are not comparable without it.
+- **Sample sizes**: number of cores, number of slices, and how many sites they represent.
+- **Methods**: LOI or elemental analysis, and any conversion factor applied.
+
+**Interpreting the numbers**
+
+*(to be written)*
+
+**Communicating with partners**
+
+*(to be written)*
+
+> 📸 **[SCREENSHOT NEEDED]** — an example summary figure or one-page results summary from the
+> Practical Implementation Example.
+
+---
+
+## References for the expected-values section
+
+- Dahl, M. et al. (2016). Sediment properties as important predictors of carbon storage in *Zostera marina* meadows: a comparison of four European areas. *PLoS ONE*.
+- EURO-CARBON: a marine and salt marsh sediment organic carbon database for European regional seas (2025). *Data in Brief*.
+- Kindeberg, T. et al. (2019). Variation of carbon contents in eelgrass (*Zostera marina*) sediments implied from depth profiles. *Biology Letters* 15: 20180831. DOI: 10.1098/rsbl.2018.0831
+- Postlethwaite, V.R. et al. (2018). Low blue carbon storage in eelgrass (*Zostera marina*) meadows on the Pacific Coast of Canada. *PLoS ONE*. DOI: 10.1371/journal.pone.0198348
+- Röhr, M.E. et al. (2018). Blue carbon storage capacity of temperate eelgrass (*Zostera marina*) meadows. *Global Biogeochemical Cycles* 32: 1457–1475. DOI: 10.1029/2018GB005941
+- Gailis, M. et al. / Boundary Bay salt marsh blue carbon studies (BC) — for marsh dry bulk density comparisons.
+- Howard, J. et al. (2014). *Coastal Blue Carbon: Methods for assessing carbon stocks and emissions factors.*
+
+<!-- TODO (Cathal): tidy these into your preferred citation style and confirm the Boundary Bay reference you want to use. -->
+
+---
+
 ## In this section
 
 - [`EelgrassWorkshop/`](EelgrassWorkshop/) — the R analysis pipeline (with its own detailed README).
@@ -149,6 +369,5 @@ area gives the site total (guide equations 7–10).
 - `images/` — lab result screenshots and analysis figures.
 
 > **Iteration note:** the R pipeline under `EelgrassWorkshop/` was left untouched in this
-> docs pass. Quotes are verified against the field-guide PDF (pp. 15–19); the video link
-> points to the [playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd)
-> with the title to look for.
+> docs pass. Language is aligned to the field-guide PDF (pp. 15–19); video callouts now use
+> the direct per-video URLs.
