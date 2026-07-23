@@ -1,4 +1,4 @@
-# Part 4 — Data Interpretation
+# Part 4 — Data
 
 *From sediment samples to carbon-stock estimates.*
 
@@ -16,13 +16,31 @@ dedicated [Lab Guide](Lab-Guide-Eng-2026.pdf) for the laboratory procedures, as 
 
 After sampling there are 3 next steps we will cover
 
-1. [Submitting to a lab](#1-submitting-to-a-lab) + [Expected lab results](#2-expected-lab-results)
+1. Organizing Data + [Submitting to a lab](#1-submitting-to-a-lab) + [Expected lab results](#2-expected-lab-results)
 2. Data analysis [The eelgrass R workflow](#3-the-eelgrass-r-workflow)
 3. Reproting and using the results
 
 ---
 
-## 1. Submitting to a lab
+## 1.1 Organizing Data and Submitting to a lab
+
+Consider the data collected from the field in the previous module, we have bagged samples, in labelled ziploc bags, and a data sheet
+Show screenshot of samples + the data sheet. From this we have the Sample ID, the top and bottom depth of the core, the depth the core was inserted, and some notes.
+We can therefore calculate "Depth interval of each sample", and the volume of each sample
+
+Depth interval = Bottom depth (cm) - top depth (cm)
+
+Volume = depth interval (cm) * by area of the circular face of the corer = pi * r^2
+Since we used at corer with a 7.62 cm diameter opening, we know its area = pi * (7.62/2)^2 = 45.60 cm in area.
+
+So for each sample we multiply the depth increment by 45.60 cm to obtain its volume in cm^3
+
+To make things easier, we have attached a spreadsheet where you can add the field values, directly form the field to the spreadsheet and it will automatically populate the rest of the columns.
+
+***Link in and show spreadhsheet here ***
+
+
+
 
 For every core sampling location, the calculation ultimately needs three things:
 **sediment depth (cm)**, **dry bulk density (g/cm³)**, and **organic carbon (%)**
@@ -53,7 +71,7 @@ From the data you collected in the field, you will transfer this infromation to 
 
 ---
 
-## 2. Expected lab results
+## 1.2. Expected lab results
 
 The lab returns two quantities per sample slice, which map onto the analysis inputs:
 
@@ -62,13 +80,19 @@ The lab returns two quantities per sample slice, which map onto the analysis inp
 | Organic carbon | `soc_g_kg` | Often measured by loss-on-ignition (LOI₅₅₀); for best accuracy the guide recommends total carbon on an elemental analyser (p.16) |
 | Dry bulk density | `bulk_density_g_cm3` | Dry mass ÷ original sample volume (p.17) |
 
-> "for the most accurate results, samples should be sent to a laboratory for total carbon
-> measurement using an elemental analyser."
->
-> — WWF-Canada, *[Measuring Carbon in Coastal Sediments](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)* (2026), p.16
 
-Typical eelgrass sediments return **lower organic carbon than salt-marsh or mangrove
-soils** — the analysis QC thresholds reflect this (SOC flagged above 200 g/kg).
+*** Make this a dropdown menu *** How the lab measures carbon stock
+Loss-on-Igntiion (LOI) takes a dried and ground portion of each sample, and burns it in a muffle furnace at 550 degrees C. Through this process, the organic materials present in the sample (composed of what used to be plant materials), are ignited and converted into gaseous carbon dioxide and water, and exit the furnace via a fume hood. Its the same process that occurs when ypu make a camp fire. The wood (organic materials) burn at their combustion temperature, converting the carbohydrates in the wood into C02 and H20. Whats left over in the morning, are a pile of ashes, these are the non-organic materials left over that do not burn (or atleast not at the same temperate). Since we know how much organic matter is composed of carbon, we can estimate this using the carbon conversion factor.
+
+***For claude - Add in a similar description for elemental analysis, determining the total carbon in a sample, as well as H and N ***
+
+
+For the most accurate results, samples should be sent to a laboratory for total carbon measurement using an elemental analyser
+
+
+
+What to expect with eelgrass sediemnts - Typical eelgrass sediments return **lower organic carbon** when comapred to salt-marsh or mangrove
+soils, however can range widely - from ***Insert stat about the range of carbon values spatially from studies as well as with depth so teh user can gauge what to expect in terms of carbon stocks from their samples. Do this as well for Bulk density. Comapre among salt marsh ecosystems, and non-vegetated (just oceanic sediemnts) ***
 
 > 📸 **[SCREENSHOT NEEDED]** — an example lab result sheet, with notes on how to read the
 > columns and map them onto `soc_g_kg` and `bulk_density_g_cm3`.
