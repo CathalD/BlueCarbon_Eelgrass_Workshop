@@ -173,9 +173,8 @@ recovery of carbon.
 </tr>
 </table>
 
-*** To Edit ***
 However, if/when multiple overlapping disturbances occur, the ecosystem can continue to
-degrade over time, becoming a net emitter of carbon and losing the carbon it had stored. This is common in ecosystems experiencing "multiple stressors", cumulative effects, and/or altered distrubance regimes
+degrade over time, becoming a net emitter of carbon and losing the carbon it had stored. This is common in ecosystems experiencing "multiple stressors", cumulative effects, and/or altered disturbance regimes
 
 <table>
 <tr>
@@ -238,18 +237,19 @@ do this, there are 4 basic steps:
 3. **Analyse** the samples
 4. **Calculate carbon** and **interpret** the results
 
-*** Edit this
-Conceptually, there are two useful ways to think about it
-1. Collecting the data itself - Think about the datasheet we want to fill out, and what it takes to do this
-2. The second is making sure the data you are collecting is the most useful for you and your teams goals
+These four steps map onto the two sides of getting the data sheet right (see the
+[main guide](../README.md)):
 
-In the next section we will focus on 2 - Before going and collecting any samples, making sure that the data that **will be collected** is done so effectevly.
+- **Making the data useful** (step 1) — *before* collecting anything, design the sampling so
+  the data you'll gather actually answers your team's questions. That's
+  [Section 2 — Project Planning](../02_Project_Planning/).
+- **Collecting the data** (step 2) — obtain the cores that fill the sheet, using best practices.
+  That's [Section 3 — Field Methods](../03_Field_Methods/).
 
-The in part 3 - we will dive into **Collecting** the data to fill in the data sheet
-
-By completing parts 2 and 3 - we can ensure that the samples being collected were done so effectievly, using the best practices, which together, ensure the data is being used to most effectielvy suuport our project, and overall organizational goals
-
-***
+Steps 3 and 4 — analysing the samples and calculating carbon — are
+[Section 4 — Data Interpretation](../04_Data_Interpretation/). Done together, they ensure the
+samples you collect are used as effectively as possible to support your project and
+organizational goals.
 
 <table>
 <tr>
@@ -262,20 +262,6 @@ By completing parts 2 and 3 - we can ensure that the samples being collected wer
 </table>
 
 ---
-
-Edit below with this info (also edi thte info) *** 
-
-Conceptually, there are two useful ways to think about it
-1. Collecting the data itself - Think about the datasheet we want to fill out, and what it takes to do this
-2. The second is making sure the data you are collecting is the most useful for you and your teams goals
-
-In the next section we will focus on 2 - Before going and collecting any samples, making sure that the data that **will be collected** is done so effectevly.
-
-The in part 3 - we will dive into **Collecting** the data to fill in the data sheet
-
-By completing parts 2 and 3 - we can ensure that the samples being collected were done so effectievly, using the best practices, which together, ensure the data is being used to most effectielvy suuport our project, and overall organizational goals
-
-***
 
 ## In the next section
 

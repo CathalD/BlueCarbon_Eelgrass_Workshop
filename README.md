@@ -42,29 +42,39 @@ The goal of the workshop is to:
 3. **Turn measurements into outputs** — convert field data into carbon analyses to inform decision making.
 
 
-***Add in Eelgrass Workshop Skills Checklist****
+<!-- TODO (Cathal): add an "Eelgrass Workshop Skills Checklist" here. -->
 
+## How to think about this workshop
 
+Everything in this workshop builds toward filling in one thing: **a data sheet**. Each field
+on it represents something real we measure in the ecosystem — a depth, a weight, a carbon
+concentration — and once the sheet is complete, those numbers let us calculate carbon stock,
+compare areas, and inform decisions.
 
-**TLDR**
-*** Were going to replace this section with an intro to the data sheet - how we will fill this in, understanding each compoenent along the way. How each part represents a part of teh ecosystem we measure, and how once this is filled we will be able to make conculsions, comparisons, and infrom decisions with these results ***
+There are two sides to getting that sheet right:
 
-Conceptually, there are two useful ways to think about it
-1. Collecting the data itself - Think about the datasheet we want to fill out, and what it takes to do this
-2. The second is making sure the data you are collecting is the most useful for you and your teams goals
+1. **Collecting the data** — what the sheet asks for, and what it takes in the field to fill it
+   in properly.
+2. **Making the data useful** — making sure that *before* you collect anything, the samples you
+   plan to take will actually answer your team's questions.
 
-In the next section we will focus on 2 - Before going and collecting any samples, making sure that the data that **will be collected** is done so effectevly.
+[**Section 2 — Project Planning**](02_Project_Planning/) covers side 2: designing the sampling
+so the data you'll collect is worth collecting. [**Section 3 — Field Methods**](03_Field_Methods/)
+covers side 1: collecting the cores that fill the sheet. Done together, they ensure your samples
+are collected effectively and with best practices — so the data genuinely supports your project
+and organizational goals. [**Section 4 — Data Interpretation**](04_Data_Interpretation/) then
+turns the completed sheet into carbon estimates.
 
-The in part 3 - we will dive into **Collecting** the data to fill in the data sheet
+**👉 The data sheet we're building toward:** [digital data sheet (Google Sheets)](https://docs.google.com/spreadsheets/d/1XMA_zaFNKtxCw2tAiQa3gHaIiT_wJAecmwW7Rz4hhaQ/edit?usp=sharing)
+· a fully worked copy lives in [`Worked_Example/`](Worked_Example/).
 
-By completing parts 2 and 3 - we can ensure that the samples being collected were done so effectievly, using the best practices, which together, ensure the data is being used to most effectielvy suuport our project, and overall organizational goals
+| What the sheet captures | Filled in during | Covered in |
+|---|---|---|
+| Plot & core log (location, depths, corer) | the field | [Section 3](03_Field_Methods/) |
+| Sample slices (depths, notes) | the field | [Section 3](03_Field_Methods/) |
+| Lab results (weights, %C) | after the lab | [Section 4](04_Data_Interpretation/) |
+| Bulk density, carbon stock | calculated for you | [Section 4](04_Data_Interpretation/) |
 
-***
-
-*** We will start with the data sheet - here link in the google sheet ***
-
-**then populate a table with jus thte headers, and below explain each, and link to the part of the workflow that talk about it in more detail***
-*** expand this section below to what questions we can answer with this data ***
 > **A good question to start with: How much carbon is stored in the sediment beneath an eelgrass meadow, and how confident are we in that number?**
 
 Answering this question involves connecting each step to the project goals, for example, are there enough samples from the right
@@ -72,18 +82,20 @@ places? ([Section 2](02_Project_Planning/)) Are they collected correctly? ([Sect
 measured by a lab, and analysed with methods that account for compaction, differing sample
 depths, and spatial variation? ([Section 4](04_Data_Interpretation/)).
 
+**In a nutshell, once the sheet is filled, how carbon stock is calculated**
 
-*** edit this so it flows with the data sheet population narrative ***
-**In a nutshell, how carbon stock is calculated**
+Each row of the sheet is one slice of a core. For every slice you [collect a sediment
+core](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd), then measure
+[how much sediment](https://www.youtube.com/watch?v=BuLRrFD78Fs&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=11)
+(bulk density) and [how much carbon](https://www.youtube.com/watch?v=_Zm9R-kGiE8) it holds, then
+multiply them together:
 
-1. [Collect a sediment core](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd)
-2. Measure [how much sediment](https://www.youtube.com/watch?v=BuLRrFD78Fs&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=11) and [how much carbon](https://www.youtube.com/watch?v=_Zm9R-kGiE8) is in the core
-3. Multiply these values
 ```
 Carbon stock (kg C/m²) = SOC (g/kg) × bulk density (g/cm³) × layer thickness (cm) ÷ 100
 ```
+
 Higher organic carbon concentration, denser sediment (higher bulk density), and deeper sediment (larger total core thickness) all mean
-more carbon stored per square metre.
+more carbon stored per square metre. The sheet does this arithmetic for every slice and sums it per core.
 
 ---
 
