@@ -1,4 +1,4 @@
-# 4 — Data Interpretation
+# Part 4 — Data Interpretation
 
 *From sediment samples to carbon-stock estimates.*
 
@@ -9,17 +9,16 @@
 ## Overview
 
 This section covers what happens after the cores come out of the field: sending samples
-to a lab, understanding what the lab returns, and analysing those results with the
-eelgrass carbon workflow in R. It follows WWF-Canada's field guide (*Part 3: Sample
+to a lab, understanding what the lab returns, analysing those results and interpresting them for reporting and planning. Here we follow WWF-Canada's field guide (*Part 3: Sample
 Analysis* and *Part 4: Calculating Carbon Stocks*, pp. 15–19 of the
 [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)), with a
-dedicated [Lab Guide](Lab-Guide-Eng-2026.pdf) for the laboratory procedures.
+dedicated [Lab Guide](Lab-Guide-Eng-2026.pdf) for the laboratory procedures, as well as Howard et al. 2014 guide, utlizing the "BlueCarbon" package in R.
 
-The three stages:
+After sampling there are 3 next steps we will cover
 
-1. [Submitting to a lab](#1-submitting-to-a-lab)
-2. [Expected lab results](#2-expected-lab-results)
-3. [The eelgrass R workflow](#3-the-eelgrass-r-workflow)
+1. [Submitting to a lab](#1-submitting-to-a-lab) + [Expected lab results](#2-expected-lab-results)
+2. Data analysis [The eelgrass R workflow](#3-the-eelgrass-r-workflow)
+3. Reproting and using the results
 
 ---
 
@@ -27,22 +26,30 @@ The three stages:
 
 For every core sampling location, the calculation ultimately needs three things:
 **sediment depth (cm)**, **dry bulk density (g/cm³)**, and **organic carbon (%)**
-(field guide, p.15). Bulk density can be measured with a scale and drying oven; carbon
-usually goes to a specialist lab:
 
-> "Carbon analysis requires more equipment, and often at this stage, the samples will be
-> sent to a laboratory specializing in carbon analysis."
->
-> — WWF-Canada, *[Measuring Carbon in Coastal Sediments](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)* (2026), p.15
+**Bulk density** can be measured with a scale and drying oven
+
+**Carbon analysis** requires more equipment, and often at this stage, the samples will be sent to a laboratory specializing in carbon analysis
 
 Samples should be frozen at −20 °C for storage, then thawed at 5–6 °C for 2–5 days,
 dried at 65 °C to a stable weight, and ground homogeneous before analysis. See the
 [Lab Guide](Lab-Guide-Eng-2026.pdf) for the full procedure and packaging requirements.
 
-> 🎥 **CHECK OUT THE VIDEO** — *"Core Sample Analysis"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd) *(swap in the direct video link)*
+> 🎥 **CHECK OUT THE VIDEO** — *"Core Sample Analysis"* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd)
+Actual link is here : https://www.youtube.com/watch?v=BuLRrFD78Fs&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=11
+Another link from IORA is here https://www.youtube.com/watch?v=_Zm9R-kGiE8&list=PL9pJDSsl2ZslDVZ5oZ5MFkykY2Kn9rDS8&index=6&pp=iAQB
 
-> 📝 *To add — which lab(s) you use, turnaround expectations, and how much material to
-> send per depth interval.*
+*** Make this a dropdown table of labs we can fill in ***
+Lab name - website - Contact - analysis - costs + date
+
+Another section to add - What the lab needs - Submitting to the lab
+
+Example data sheet from our "Practical implementation example"
+
+
+From the data you collected in the field, you will transfer this infromation to the lab so they can perform the analysis
+
+
 
 ---
 
