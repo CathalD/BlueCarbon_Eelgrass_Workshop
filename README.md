@@ -41,22 +41,23 @@ The goal of the workshop is to:
 2. **Learn field methods for measuring it** — how to collect and process sediment cores.
 3. **Turn measurements into outputs** — convert field data into carbon analyses to inform decision making.
 
-
 <!-- TODO (Cathal): add an "Eelgrass Workshop Skills Checklist" here. -->
 
 ## How to think about this workshop
 
-Everything in this workshop builds toward filling in one thing: **a data sheet**. Each field
-on it represents something real we measure in the ecosystem — a depth, a weight, a carbon
-concentration — and once the sheet is complete, those numbers let us calculate carbon stock,
+As a conceptual excercise, we begin by looking at what this workshop is working toward. Simply put, we are aiming to fill in this **data sheet**. Each field
+on it represents something real we measure in the ecosystem, a depth of sediment, a weight, a carbon
+concentration, and once the sheet is complete, those numbers let us calculate carbon stock,
 compare areas, and inform decisions.
 
-There are two sides to getting that sheet right:
+ Through this workshop, we will focus on prioritizing 2 things:
 
-1. **Collecting the data** — what the sheet asks for, and what it takes in the field to fill it
-   in properly.
-2. **Making the data useful** — making sure that *before* you collect anything, the samples you
-   plan to take will actually answer your team's questions.
+1. **Collecting the data** following best practices, in-line with what **data sheet** asks for.
+   
+2. **Making the data useful** by making sure that *before* you collect anything, the samples you
+   plan to take will actually answer your team's questions, and contribute to your organizational goals.
+
+Please take some time to explore this example datasheet (Link in the filled sheet here). This data was made up to provide a user with a example they can follow along with. This workshop will cover why we collect a bit of data, understand what we are collecting, how it is measured and how it connects with our goals.
 
 [**Section 2 — Project Planning**](02_Project_Planning/) covers side 2: designing the sampling
 so the data you'll collect is worth collecting. [**Section 3 — Field Methods**](03_Field_Methods/)
@@ -75,12 +76,6 @@ turns the completed sheet into carbon estimates.
 | Lab results (weights, %C) | after the lab | [Section 4](04_Data_Interpretation/) |
 | Bulk density, carbon stock | calculated for you | [Section 4](04_Data_Interpretation/) |
 
-> **A good question to start with: How much carbon is stored in the sediment beneath an eelgrass meadow, and how confident are we in that number?**
-
-Answering this question involves connecting each step to the project goals, for example, are there enough samples from the right
-places? ([Section 2](02_Project_Planning/)) Are they collected correctly? ([Section 3](03_Field_Methods/)). Have they been
-measured by a lab, and analysed with methods that account for compaction, differing sample
-depths, and spatial variation? ([Section 4](04_Data_Interpretation/)).
 
 **In a nutshell, once the sheet is filled, how carbon stock is calculated**
 
