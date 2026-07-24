@@ -16,11 +16,13 @@ guide (*Part 3: Sample Analysis* and *Part 4: Calculating Carbon Stocks*, pp. 15
 dedicated [Lab Guide](Lab-Guide-Eng-2026.pdf) for the laboratory procedures, alongside
 Howard et al. (2014), and using the `BlueCarbon` package in R.
 
-After sampling there are three next steps we will cover:
+After sampling, three steps take you from bagged samples to a reportable carbon estimate:
 
-1. **Organizing data and getting it analysed** — [Organizing data + submitting to a lab](#11-organizing-data-and-submitting-to-a-lab) · [Expected lab results](#12-expected-lab-results)
-2. **Data analysis** — [The eelgrass R workflow](#2-the-eelgrass-r-workflow)
-3. **[Reporting and using the results](#3-reporting-and-using-the-results)**
+| # | Step | Answers | Covered in |
+|---|------|---------|------------|
+| 1 | **Organize data and get it analysed** | *How do I get my samples measured?* | [§1.1](#11-organizing-data-and-submitting-to-a-lab) · [§1.2](#12-expected-lab-results) |
+| 2 | **Analyse the data** | *How do I turn lab numbers into carbon stocks?* | [§2 — the R workflow](#2-the-eelgrass-r-workflow) |
+| 3 | **Report and use the results** | *How do I communicate and act on it?* | [§3](#3-reporting-and-using-the-results) |
 
 > 🧭 **The worked example.** Throughout this section we follow a single dataset — six cores
 > from a small inlet at **Tsawwassen Beach, BC** (plot `WWF-01`), three in **salt marsh** and
@@ -30,6 +32,8 @@ After sampling there are three next steps we will cover:
 ---
 
 ## 1.1 Organizing data and submitting to a lab
+
+*What do I send, and to whom?*
 
 Consider the data collected from the field in the previous module: we have bagged samples in
 labelled Ziploc bags, and a completed data sheet.
@@ -231,6 +235,8 @@ the lab can perform the analysis and return results that map back onto your core
 
 ## 1.2 Expected lab results
 
+*What comes back from the lab, and what does it mean?*
+
 The lab returns two quantities per sample slice, which map onto the analysis inputs:
 
 | Lab measurement | Analysis field | Notes |
@@ -426,6 +432,8 @@ which is what [`03_depth_harmonization.R`](EelgrassWorkshop/03_depth_harmonizati
 
 ## 2. The eelgrass R workflow
 
+*How do I turn lab numbers into carbon stocks?*
+
 A complete, reproducible R pipeline takes the lab results through compaction correction,
 depth harmonisation, carbon-stock estimation, and spatial interpolation.
 
@@ -480,6 +488,8 @@ area gives the site total (guide equations 7–10).
 ---
 
 ## 3. Reporting and using the results
+
+*How do I communicate and act on the numbers?*
 
 <!-- TODO (Cathal): this section is a skeleton — the headings below are my read of what belongs here based on the workshop's arc. Add, cut or reorder. -->
 
