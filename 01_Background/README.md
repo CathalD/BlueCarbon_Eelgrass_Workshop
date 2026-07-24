@@ -240,8 +240,7 @@ do this, there are 4 basic steps:
 3. **Analyse** the samples
 4. **Calculate carbon** and **interpret** the results
 
-These four steps map onto the two sides of getting the data sheet right (see the
-[main guide](../README.md)):
+The first two steps are the workshop's two core jobs (see the [main guide](../README.md)):
 
 - **Making the data useful** (step 1) — *before* collecting anything, design the sampling so
   the data you'll gather actually answers your team's questions. That's

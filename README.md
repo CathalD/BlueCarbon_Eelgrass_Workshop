@@ -52,13 +52,16 @@ real we measure in the ecosystem — a depth of sediment, a weight, a carbon con
 once the sheet is complete, those numbers let us calculate carbon stock, compare areas, and
 inform decisions.
 
-The workshop therefore focuses on two things:
+The workshop therefore focuses on two jobs, in the order you'd do them:
 
-1. **Collecting the data** following best practices, in line with what the **data sheet** asks for.
-
-2. **Making the data useful** — making sure that *before* you collect anything, the samples you
+1. **Making the data useful** — making sure that *before* you collect anything, the samples you
    plan to take will actually answer your team's questions and contribute to your organizational
    goals.
+
+2. **Collecting the data** following best practices, in line with what the **data sheet** asks for.
+
+These two phrases — *making the data useful* and *collecting the data* — come back throughout the
+workshop as the names for these two jobs.
 
 Take some time to explore the data sheet in both forms: a
 [blank sheet](04_Data_Interpretation/files/Eelgrass_Carbon_DigitalData_BlankSheet.xlsx) to fill
@@ -68,12 +71,13 @@ already entered so you can follow along. The example data is constructed for tea
 from a real survey. Throughout, the workshop covers why we collect each piece of data, what it
 is, how it is measured, and how it connects to your goals.
 
-[**Section 2 — Project Planning**](02_Project_Planning/) covers side 2: designing the sampling
-so the data you'll collect is worth collecting. [**Section 3 — Field Methods**](03_Field_Methods/)
-covers side 1: collecting the cores that fill the sheet. Done together, they ensure your samples
-are collected effectively and with best practices — so the data genuinely supports your project
-and organizational goals. [**Section 4 — Data Interpretation**](04_Data_Interpretation/) then
-turns the completed sheet into carbon estimates.
+[**Section 2 — Project Planning**](02_Project_Planning/) is the **making the data useful** job:
+designing the sampling so the data you'll collect is worth collecting. [**Section 3 — Field
+Methods**](03_Field_Methods/) is the **collecting the data** job: taking the cores that fill the
+sheet. Done together, they ensure your samples are collected effectively and with best
+practices — so the data genuinely supports your project and organizational goals.
+[**Section 4 — Data Interpretation**](04_Data_Interpretation/) then turns the completed sheet
+into carbon estimates.
 
 **👉 The data sheet we're building toward:** [digital data sheet (Google Sheets)](https://docs.google.com/spreadsheets/d/1XMA_zaFNKtxCw2tAiQa3gHaIiT_wJAecmwW7Rz4hhaQ/edit?usp=sharing)
 · a fully worked copy lives in [`Worked_Example/`](Worked_Example/).
