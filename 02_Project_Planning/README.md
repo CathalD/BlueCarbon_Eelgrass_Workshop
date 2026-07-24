@@ -78,7 +78,7 @@ Sampling designs allow for the strategic measurement of smaller sections (i.e., 
 
 Before we dive into sampling design, let's first take a step back and consider what we even mean by sampling.
 
-# A brief overview of sampling - What it is and why we do it?
+## A brief overview of sampling — what it is and why we do it
 
 **Sampling** is based on probability-based estimation methods. It is used when directly measuring an entire population or area is impractical because of its size. Instead, a small sample is measured and used to estimate the value of the whole. Each estimate is accompanied by two measures of uncertainty: a confidence level (the probability that the estimate reflects the true value) and a margin of error (the range within which the true value is expected to fall). As a result, every estimate has three components: the estimate itself, a confidence level, and a margin of error.
 

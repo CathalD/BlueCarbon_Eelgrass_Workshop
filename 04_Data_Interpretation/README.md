@@ -1,4 +1,4 @@
-# Part 4 — Data
+# Part 4 — Data Interpretation
 
 *From sediment samples to carbon-stock estimates.*
 

@@ -41,20 +41,32 @@ The goal of the workshop is to:
 2. **Learn field methods for measuring it** — how to collect and process sediment cores.
 3. **Turn measurements into outputs** — convert field data into carbon analyses to inform decision making.
 
-***<!-- TODO (Cathal): add an "Eelgrass Workshop Skills Checklist" here. -->***
+<!-- TODO (Cathal): add an "Eelgrass Workshop Skills Checklist" here. -->
 
 ## How to think about this workshop
 
-As an "Eelgrass Carbon" workshop, this workshop focuses of the collection of data for quantifying carbon in a ecosystem. A useful way to guide a team in terms of information needs to be collected, is first see the **data sheet** that will inevitably be used for the analysis. Each field on it represents something real we measure in the ecosystem, a depth of sediment, a weight, a carbon
-concentration, and once the sheet is complete, those numbers let us calculate carbon stock, compare areas, and inform decisions.
+This is an *eelgrass carbon* workshop: at its heart, it is about collecting the data needed to
+quantify carbon in an ecosystem. The clearest way to see what a team needs to collect is to
+start from the **data sheet** the analysis is built on. Each field on it represents something
+real we measure in the ecosystem — a depth of sediment, a weight, a carbon concentration — and
+once the sheet is complete, those numbers let us calculate carbon stock, compare areas, and
+inform decisions.
 
- Therfore, this workshop will focus on assisting 2 things:
+The workshop therefore focuses on two things:
 
-1. **Collecting the data** following best practices, in-line with what **data sheet** asks for.
-   
-2. **Making the data useful** by making sure that *before* you collect anything, the samples you plan to take will actually answer your team's questions, and contribute to your organizational goals.
+1. **Collecting the data** following best practices, in line with what the **data sheet** asks for.
 
-Please take some time to explore this example datasheet *** For CLaude (Link in the filled sheet here blank (04_Data_Interpretation/files/Eelgrass_Carbon_DigitalData_BlankSheet.xlsx) and the working example 04_Data_Interpretation/files/Eelgrass_Carbon_DigitalData_Example.xlsx)***. This data was made up to provide a user with a example they can follow along with. This workshop will cover why we collect a bit of data, understand what we are collecting, how it is measured and how it connects with our goals.
+2. **Making the data useful** — making sure that *before* you collect anything, the samples you
+   plan to take will actually answer your team's questions and contribute to your organizational
+   goals.
+
+Take some time to explore the data sheet in both forms: a
+[blank sheet](04_Data_Interpretation/files/Eelgrass_Carbon_DigitalData_BlankSheet.xlsx) to fill
+in for your own site, and a
+[worked example](04_Data_Interpretation/files/Eelgrass_Carbon_DigitalData_Example.xlsx) with data
+already entered so you can follow along. The example data is constructed for teaching — it is not
+from a real survey. Throughout, the workshop covers why we collect each piece of data, what it
+is, how it is measured, and how it connects to your goals.
 
 [**Section 2 — Project Planning**](02_Project_Planning/) covers side 2: designing the sampling
 so the data you'll collect is worth collecting. [**Section 3 — Field Methods**](03_Field_Methods/)
