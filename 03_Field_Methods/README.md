@@ -125,14 +125,25 @@ upon extrusion. For more information, see the [Universal Corer — Aquatic Resea
 
 ## Collecting a core, step by step
 
-Each step below pairs a **field photo** (left) with **what to do** (right), followed by the
-relevant **video** and any field-guide **note**. Steps are separated by a horizontal rule.
+Five steps take you from an empty plot to a cooler of labelled slices. Each step below pairs a
+**field photo** (left) with **what to do** (right), followed by the relevant **video** and any
+field-guide **note**.
+
+| # | Step | Answers |
+|---|------|---------|
+| 1 | **Select the location** and record conditions | *Where in the plot, and how deep do I core?* |
+| 2 | **Insert the corer** | *How do I drive the tube in cleanly?* |
+| 3 | **Measure compaction** | *How much did the sediment squash?* |
+| 4 | **Extract the core** | *How do I get it out without losing sediment?* |
+| 5 | **Extrude and section** | *How do I slice, bag, and label it?* |
 
 <!-- TODO (Cathal): paste a real workshop field photo into each step's left-hand cell. Placeholders are marked "[Paste field photo]". -->
 
 ---
 
 ### 1. Select the location and record conditions
+
+*Where in the plot, and how deep do I core?*
 
 <table>
 <tr>
@@ -167,6 +178,8 @@ achieved, it is likely that the carbon stock will be poorly estimated.
 
 ### 2. Insert the corer
 
+*How do I drive the tube in cleanly?*
+
 <table>
 <tr>
 <td width="45%">
@@ -190,6 +203,8 @@ ruler graduations on the outside of the tube so you can read insertion depth.
 ---
 
 ### 3. Measure compaction
+
+*How much did the sediment squash?*
 
 <table>
 <tr>
@@ -226,6 +241,8 @@ These measurements map onto the analysis fields in [Section 4](../04_Data_Interp
 
 ### 4. Extract the core
 
+*How do I get it out without losing sediment?*
+
 <table>
 <tr>
 <td width="45%">
@@ -252,6 +269,8 @@ again.
 ---
 
 ### 5. Extrude and section
+
+*How do I slice, bag, and label it?*
 
 <table>
 <tr>
