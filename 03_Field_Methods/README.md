@@ -8,10 +8,11 @@
 
 ## Overview
 
-Once the sampling design is set ([Section 2](../02_Project_Planning/)), it's time for the field
-team to collect **sediment cores** at the planned locations. Here we cover the necessary
-equipment, tips for consistent coring, careful compaction measurement, and completing data
-sheets to prevent problems that can't be fixed later.
+This section is the workshop's **collecting the data** job. Once the sampling design is set
+([Section 2](../02_Project_Planning/)), it's time for the field team to collect **sediment
+cores** at the planned locations. Here we cover the necessary equipment, tips for consistent
+coring, careful compaction measurement, and completing data sheets to prevent problems that
+can't be fixed later.
 
 This section follows WWF-Canada's field guide (*Part 2: Obtaining Sediment Cores*,
 pp. 8–14 of the [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)), as well as some accompanying videos. The method shown is push (percussion) coring with a PVC pipe, a method that is commonly used in coastal ecosystems. Note that equipment requirements are

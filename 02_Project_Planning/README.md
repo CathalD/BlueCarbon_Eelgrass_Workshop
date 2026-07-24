@@ -19,7 +19,7 @@
 
 ## Why planning matters
 
-This section is **side 2 of the workshop — making the data useful** (see the
+This section is the workshop's **making the data useful** job (see the
 [main guide](../README.md)). Before you collect a single core to fill in the
 [data sheet](../04_Data_Interpretation/), it's worth making sure the samples you plan to take
 will actually answer your team's questions. That's what a **sampling design** does.
@@ -78,7 +78,7 @@ Sampling designs allow for the strategic measurement of smaller sections (i.e., 
 
 Before we dive into sampling design, let's first take a step back and consider what we even mean by sampling.
 
-# A brief overview of sampling - What it is and why we do it?
+## A brief overview of sampling — what it is and why we do it
 
 **Sampling** is based on probability-based estimation methods. It is used when directly measuring an entire population or area is impractical because of its size. Instead, a small sample is measured and used to estimate the value of the whole. Each estimate is accompanied by two measures of uncertainty: a confidence level (the probability that the estimate reflects the true value) and a margin of error (the range within which the true value is expected to fall). As a result, every estimate has three components: the estimate itself, a confidence level, and a margin of error.
 
@@ -128,7 +128,14 @@ This guide uses ecological notation. If you're cross-referencing the [UNFCCC A6.
 
 ### Rearranging to plan: solving for *n*
 
-The same relationship can be flipped. Instead of collecting samples and *reporting* a margin of error, we set the margin of error we're willing to accept and **solve for the number of plots** needed to get there. For a continuous variable like carbon stock:
+The same relationship can be flipped. Instead of collecting samples and *reporting* a margin of error, we set the margin of error we're willing to accept and **solve for the number of plots** needed to get there. In plain terms: **decide how precise you need to be, describe how variable you expect the meadow to be, and the formula returns the number of cores that gets you there.** You never have to work it by hand — the calculator does it — but the full math is one click away below.
+
+<details>
+<summary>📐 <b>Show the math — solving for <i>n</i></b></summary>
+
+<br>
+
+For a continuous variable like carbon stock:
 
 $$n \geq \frac{z^2\, N\, CV^2}{(N-1)\,E^2 + z^2\, CV^2}, \qquad CV=\frac{s}{\bar{x}}$$
 
@@ -143,6 +150,8 @@ To use it, you supply your best estimate for each input:
 | $s$ | Expected standard deviation | Prior study, regional map, or pilot data |
 
 > **Note on $N$ — this is where the two calculators differ.** The core formula is identical in the WWF-Canada area-based calculator and the UNFCCC A6.4 tool. They only differ in how $N$ is obtained: the WWF tool derives it from **total area ÷ plot size**, while the UNFCCC tool takes a **population count** ($N$) directly. Because $(N-1)$ barely moves the result once $N$ is large, both converge on the same answer.
+
+</details>
 
 Doing this gives a defensible, up-front estimate of how many plots your campaign needs. With that number in hand, we can start asking the important questions...
 
@@ -309,18 +318,27 @@ or the sediment.
 
 ## Step 4: How many samples? — Sample allocation
 
-This step answers **how many cores** you need to meet the project's goals. It uses the exact formula introduced above — as the planner, you set the desired margin of error and confidence level, and provide a prior estimate of the mean and variability of carbon in the ecosystem:
+This step answers **how many cores** you need to meet the project's goals. As the planner, you set the desired margin of error and confidence level and provide a prior estimate of the mean and variability of carbon in the ecosystem; the calculator returns *n*. It's the same relationship introduced above, driven by one number — **CV**, the variability relative to the mean: a patchy meadow needs more cores than a uniform one to reach the same precision.
 
-$$n \geq \frac{z^2\, N\, CV^2}{(N-1)\,E^2 + z^2\, CV^2}, \qquad CV=\frac{s}{\bar{x}}$$
-
-The whole calculation is driven by **CV** (variability relative to the mean): a patchy meadow needs more cores than a uniform one to reach the same precision. Two rules of thumb are worth remembering:
+Two rules of thumb are worth remembering:
 
 - **Halving your margin of error roughly quadruples $n$** — because $E$ is squared in the denominator.
 - **A poor CV prior is the biggest planning risk.** Pad your variability estimate; the UNFCCC tool only accepts a completed survey if the observed SD is within ~10% of the planning SD *and* $n \geq 100$.
 
+<details>
+<summary>📐 <b>Show the math — mean and proportion forms</b></summary>
+
+<br>
+
+For a continuous variable like carbon stock:
+
+$$n \geq \frac{z^2\, N\, CV^2}{(N-1)\,E^2 + z^2\, CV^2}, \qquad CV=\frac{s}{\bar{x}}$$
+
 For a **proportion** parameter instead (e.g. % of cores containing a peat horizon, % meadow still vegetated), swap in the proportion form — use $p = 0.5$ when you have no prior, since it gives the largest, most conservative $n$:
 
 $$n \geq \frac{z^2\, N\, p\,q}{(N-1)\,E^2 p^2 + z^2\, p\, q}, \qquad q = 1-p$$
+
+</details>
 
 This is provided as a spreadsheet calculator:
 
@@ -399,13 +417,22 @@ describes for stratified-random sampling:
 
 ### After the campaign: did you actually hit your precision target?
 
-Sample-size planning uses *expected* variability. Once real cores come back, the observed spread can differ — so before trusting the estimate, check the **achieved** precision against your target. For a mean parameter:
+Sample-size planning uses *expected* variability. Once real cores come back, the observed spread can differ — so before trusting the estimate, check the **achieved** precision against your target. The calculator's post-survey check cells do this for you: they compute a **relative margin of error (RME)** from your actual cores and compare it to the target $E$ you planned for. If RME is at or below your target, the estimate meets its reliability criterion and you're done.
+
+<details>
+<summary>📐 <b>Show the math — achieved precision (RME)</b></summary>
+
+<br>
+
+For a mean parameter:
 
 $$\text{RME} = \frac{z \cdot SE}{\bar{x}}, \qquad SE = \sqrt{\left(1-\tfrac{n}{N}\right)\frac{s^2}{n}}$$
 
-where $s$ and $\bar{x}$ are now the *sample* standard deviation and mean, and $\text{RME}$ (relative margin of error) is compared to your target $E$. If $\text{RME} \le E$, the estimate meets its reliability criterion and you're done.
+where $s$ and $\bar{x}$ are now the *sample* standard deviation and mean, and $\text{RME}$ (relative margin of error) is compared to your target $E$.
 
-**If you miss it:** work down the ladder — scrutinize the raw data for outliers or skew, then post-stratify, then add cores; only as a last resort, report the conservative confidence bound (the interval end that *understates* carbon) so the estimate is defensible. The calculator's post-survey check cells compute $\text{RME}$ for you.
+</details>
+
+**If you miss it:** work down the ladder — scrutinize the raw data for outliers or skew, then post-stratify, then add cores; only as a last resort, report the conservative confidence bound (the interval end that *understates* carbon) so the estimate is defensible.
 
 <!-- TODO (Cathal): a small screenshot/GIF of the calculator's "check precision after survey" cells (SRS-Mean rows for SE, t-value, relative precision) would slot in well here. -->
 
@@ -453,11 +480,18 @@ samples are allocated across them (Sheet 2 above). Stratifying by features that 
 carbon variability — meadow density, water depth, sediment type — gives a more precise
 estimate for the same number of cores and ensures no part of the site is missed.
 
-**How the total $n$ is split across strata.** Once Step 4 gives you a total sample size $n$, each stratum receives a share proportional to its area:
+**How the total $n$ is split across strata.** Once Step 4 gives you a total sample size $n$, each stratum receives a share proportional to its area — a stratum covering half the meadow gets roughly half the cores. Two practical adjustments (both built into the calculator's Stratified tabs): round each share **up** to a whole core, and enforce a **minimum of 5 cores per stratum** so even small strata yield a usable estimate. These two rules mean the strata totals usually sum to slightly more than $n$ — that headroom is a feature, not an error.
+
+<details>
+<summary>📐 <b>Show the math — proportional allocation</b></summary>
+
+<br>
 
 $$n_h = \frac{g_h}{N}\times n$$
 
-where $g_h$ is the size of stratum $h$ and $N$ is the total study area. So a stratum covering half the meadow gets roughly half the cores. Two practical adjustments (both built into the calculator's Stratified tabs): round each $n_h$ **up** to a whole core, and enforce a **minimum of 5 cores per stratum** so even small strata yield a usable estimate. These two rules mean the strata totals usually sum to slightly more than $n$ — that headroom is a feature, not an error.
+where $g_h$ is the size of stratum $h$ and $N$ is the total study area.
+
+</details>
 
 The guide names four sampling strategies for deciding *where* plots go; which one fits
 depends on how much you already know about the site:

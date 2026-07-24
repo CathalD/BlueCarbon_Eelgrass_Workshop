@@ -8,7 +8,7 @@
 
 ---
 
-# Part1 — Background
+# Part 1 — Background
 
 *Intro to blue carbon in eelgrass ecosystems, and why sediment carbon matters.*
 
@@ -51,7 +51,7 @@ sequestration.
 </tr>
 </table>
 
-*** Check out this video -https://www.youtube.com/watch?v=A2es2qv3bPE&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=3 on carbon stocks in sediment cores ***
+> 🎥 **Watch:** [*Carbon stocks in sediment cores*](https://www.youtube.com/watch?v=A2es2qv3bPE&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=3) — workshop playlist
 
 ---
 
@@ -144,7 +144,7 @@ We can visualize this with a graph: The balance of carbon entering the ecosystem
 <tr>
 <td width="60%">
 
-<*** For claude - link to .gif 01_Background/images/download (Null).gif>
+<img width="100%" alt="Ecosystem carbon accumulation curve reaching equilibrium" src="images/download%20(Null).gif">
 
 </td>
 <td width="40%">
@@ -161,8 +161,7 @@ stored in the ecosystem levels off at a "peak," or equilibrium (represented by t
 <tr>
 <td width="60%">
 
-***For claude - fit this .gif
-and here is the .gif for the disturbance 01_Background/images/download (pulse).gif
+<img width="100%" alt="Carbon curve with a single disturbance, then recovery" src="images/download%20(pulse).gif">
 
 </td>
 <td width="40%">
@@ -181,12 +180,15 @@ degrade over time, becoming a net emitter of carbon and losing the carbon it had
 <tr>
 <td width="60%">
 
-<*** For CLaude - Link to .gif file in folder - 01_Background/images/download.gif> ***
+<img width="100%" alt="Overlapping pulse and press disturbances driving ecosystem collapse" src="images/download.gif">
 
 </td>
 <td width="40%">
 
-"Here we see "Pulse" disturbances, such as severe storms, or land clearing, that disturb the ecosystem abruptly, paired with "Press" disturbances, which act slowly over long periods of time, such as warming temperatures or increase in invasive species in the ecosystem, acting together, collapsing the ecosystem.
+Here we see **"pulse"** disturbances — such as severe storms or land clearing, which disturb the
+ecosystem abruptly — paired with **"press"** disturbances, which act slowly over long periods,
+such as warming temperatures or spreading invasive species. Acting together, they collapse the
+ecosystem.
 
 </td>
 </tr>
@@ -226,8 +228,8 @@ Taking a section of the sediment reveals the layers of accumulation over time.
 ## So how do you measure sediment carbon?
 
 Measuring carbon requires collecting a **sediment core**, determining how much
-sediment is there (**volume * weight**), and measuring how much of that sediment
-consists of carbon (**organic carbon concentration**).
+sediment is there (from its **volume** and dry **weight**), and measuring how much of that
+sediment is carbon (its **organic carbon concentration**).
 
 However, as simple as this sounds, aligning the actual measurements with the project's
 larger goals ensures the samples you collect are used as effectively as possible. To
@@ -238,8 +240,7 @@ do this, there are 4 basic steps:
 3. **Analyse** the samples
 4. **Calculate carbon** and **interpret** the results
 
-These four steps map onto the two sides of getting the data sheet right (see the
-[main guide](../README.md)):
+The first two steps are the workshop's two core jobs (see the [main guide](../README.md)):
 
 - **Making the data useful** (step 1) — *before* collecting anything, design the sampling so
   the data you'll gather actually answers your team's questions. That's
