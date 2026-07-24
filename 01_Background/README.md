@@ -144,7 +144,7 @@ We can visualize this with a graph: The balance of carbon entering the ecosystem
 <tr>
 <td width="60%">
 
-<img width="100%" alt="Ecosystem carbon curve — baseline accumulation" src="images/download.gif">
+<*** For claude - link to .gif 01_Background/images/download (Null).gif>
 
 </td>
 <td width="40%">
@@ -161,7 +161,8 @@ stored in the ecosystem levels off at a "peak," or equilibrium (represented by t
 <tr>
 <td width="60%">
 
-<img width="100%" alt="Ecosystem carbon curve — disturbance and recovery" src="images/download%20(1).gif">
+***For claude - fit this .gif
+and here is the .gif for the disturbance 01_Background/images/download (pulse).gif
 
 </td>
 <td width="40%">
@@ -180,12 +181,12 @@ degrade over time, becoming a net emitter of carbon and losing the carbon it had
 <tr>
 <td width="60%">
 
-<Add .Gif here>
+<*** For CLaude - Link to .gif file in folder - 01_Background/images/download.gif> ***
 
 </td>
 <td width="40%">
 
-"Add text here"
+"Here we see "Pulse" disturbances, such as severe storms, or land clearing, that disturb the ecosystem abruptly, paired with "Press" disturbances, which act slowly over long periods of time, such as warming temperatures or increase in invasive species in the ecosystem, acting together, collapsing the ecosystem.
 
 </td>
 </tr>
