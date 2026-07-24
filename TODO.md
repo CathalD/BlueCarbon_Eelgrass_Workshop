@@ -25,6 +25,8 @@ Legend: 📸 image/screenshot needed · 🔗 link needed · ✍️ writing neede
 - [ ] 🔗 Step 5 video callout: swap the playlist link for the **direct** *"Site Selection and Required Materials"* video URL.
 - [ ] ❓ **Two sheets or three?** The intro says the calculator has *three sheets* but only Sheet 1 and Sheet 2 are documented. Either add a "Sheet 3" description or change the count to "two sheets."
 - [ ] 📸 A small screenshot/GIF of the calculator's **"check precision after survey"** cells (SE / t-value / relative precision rows) to sit under the post-survey RME section.
+- [ ] 📸 **Margin-of-error comparison** (new "See it for yourself" block in Step 4): calculator at ±20% vs ±10% side by side, *n* readout circled (~17 vs ~68).
+- [ ] 📸 **Variability comparison** (same block): a smooth vs patchy meadow at the same target precision, showing *n* roughly quadruple as CV goes 0.5 → 1.0.
 - [ ] ❓ Worked example precision target: currently standardised to **±10% → ~68 cores → ~98 padded** throughout. Confirm this is the intended target (an earlier draft had ±20% / ~38, which isn't internally consistent — see the inline comment).
 
 ## Part 3 — Field Methods (`03_Field_Methods/README.md`)
@@ -56,9 +58,11 @@ Legend: 📸 image/screenshot needed · 🔗 link needed · ✍️ writing neede
 
 ---
 
-## Proposed enhancements (awaiting your go-ahead)
+## Enhancements — implemented
 
-Ideas raised in review — not yet implemented. See the review notes for detail.
-
-- [ ] ❓ **Sample Size Visualizer to *show* the math** (Part 2): options to replace stated formulas with the tool demonstrating them. (ideas provided)
-- [ ] ❓ **Reorganize Part 2** around the side-by-side pattern and clearer sectioning. (options provided)
+- [x] **Sample Size Visualizer to *show* the math** (Part 2): added a "What drives sample size?"
+  table with rough approximations (E, CV, confidence, area) and a "See it for yourself" block.
+  Remaining: supply the two comparison screenshots listed under Part 2 above.
+- [x] **Reorganized Part 2** (A + B + C): roadmap table moved up front; sampling theory trimmed to
+  a short primer; all how-many-samples math consolidated into Step 4; steps rebuilt as uniform
+  side-by-side cards each opening with the question they answer.
