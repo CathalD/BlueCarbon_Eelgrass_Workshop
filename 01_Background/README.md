@@ -51,7 +51,7 @@ sequestration.
 </tr>
 </table>
 
-> 🎥 **Watch:** [*Carbon stocks in sediment cores*](https://www.youtube.com/watch?v=A2es2qv3bPE&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=3) — workshop playlist
+> 🎥 **Watch:** [*Carbon stocks in sediment cores*](https://www.youtube.com/watch?v=2qAVE35UbiI&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=1) — workshop playlist
 
 ---
 
