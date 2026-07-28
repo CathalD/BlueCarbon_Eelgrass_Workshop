@@ -52,11 +52,29 @@ Legend: 📸 image/screenshot needed · 🔗 link needed · ✍️ writing neede
 
 ## R pipeline (`04_Data_Interpretation/EelgrassWorkshop/`)
 
-- [ ] ⚠️ **Re-render the report.** `eelgrass_carbon_report.qmd`/`.html` still reflects the previous dataset and the old compaction schema. Re-render against the Tsawwassen data + new compaction model.
-- [ ] ❓ `Untitled.R` is referenced as the "run the whole pipeline" script — consider renaming it something descriptive (e.g. `run_pipeline.R`, which the Worked_Example README already calls it).
-- [ ] ❓ Data dictionary examples still use old IDs (`EG01`, stratum `SG` only) — align with the Tsawwassen `WWF-01-x` / `SM`+`SG` dataset.
+- [ ] 🔴 **Run the pipeline locally and confirm it executes.** R was not available in the environment where the rewrite was done, so the new `mpspline2` / `survey` / `gstat` code is written against documented APIs but **has not been executed**. Run `source("run_pipeline.R")` and fix anything that surfaces before circulating.
+- [ ] ⚠️ **Re-render the report.** `eelgrass_carbon_report.qmd`/`.html` still reflects the previous dataset, the old compaction schema, *and* the old estimator. It must be rebuilt against the current scripts — it's the first artifact a non-R reviewer opens.
+- [ ] 📊 **Set real `STRATUM_AREAS_M2`** in `00_config.R`. The worked example uses 1.8 ha marsh / 3.2 ha eelgrass as placeholders; these are the weights in the stratified estimator, so they drive the headline number.
+- [ ] 📊 **Replace the constructed covariates** (`water_depth_m`, `dist_to_shore_m`, `eelgrass_density`) in `core_locations.csv` with real values, or extract from rasters with `terra`.
+- [ ] ❓ Confirm `PRIMARY_DEPTH_CM = 25` is the right primary reporting depth (it's the depth all six example cores reached, and matches Röhr et al. 2018 / Fourqurean et al. 2012).
+- [ ] ❓ Confirm `UTM_EPSG` per site — 32610 (UTM 10N) for BC, 32621 (UTM 21N) for Newfoundland.
 
 ---
+
+## Reviewer-readiness — remaining judgement calls
+
+- [ ] ❓ **Field→analysis vocabulary.** Part 3 Step 3 still tells the team to record
+  `sampler_length` / `internal_distance` / `external_distance` (the BlueCarbon schema),
+  while the datasheet and pipeline use penetration/recovery depths. Decide on one
+  vocabulary and make Part 3, the datasheet, and the pipeline agree.
+- [ ] ❓ **"Tier 1 / Tier 2" collision.** The calculator uses these to mean *prior
+  quality*; IPCC uses them to mean *method tier*. An Environment Canada reader will
+  read the IPCC meaning — consider renaming.
+- [ ] ❓ **Comparison vs. estimation.** The Part 2 scenario promises comparing areas and
+  detecting change over time, but the sample-size math only solves mean estimation.
+  Consider adding a short minimum-detectable-difference note.
+- [ ] ❓ **Core footprint inconsistency.** Part 2's worked example quotes a 0.0079 m²
+  footprint; the 7.62 cm corer used everywhere else is 0.00456 m². Pick one.
 
 ## Enhancements — implemented
 
@@ -66,3 +84,13 @@ Legend: 📸 image/screenshot needed · 🔗 link needed · ✍️ writing neede
 - [x] **Reorganized Part 2** (A + B + C): roadmap table moved up front; sampling theory trimmed to
   a short primer; all how-many-samples math consolidated into Step 4; steps rebuilt as uniform
   side-by-side cards each opening with the question they answer.
+- [x] **Rebuilt the analysis on established packages** so methods are citable rather than
+  audited line-by-line: `mpspline2` (mass-preserving spline) for depth harmonization,
+  `survey` (design-based stratified estimation) replacing the pooled mean, `gstat` for
+  ordinary **and** regression kriging with a covariate-screening lesson.
+- [x] **Fixed the statistical defects** found in review: strata now drive the estimator;
+  inference runs on per-core totals rather than treating depth slices as independent;
+  the vacuous spline R²/RMSE diagnostics are gone; non-monotonic profiles are flagged,
+  never filtered; extrapolated share of stock is reported per stratum and per core.
+- [x] **Fixed the bugs:** `%||%` defined before use, `Untitled.R` → `run_pipeline.R`,
+  mislabelled "0-100 cm" output, CRS doc/code mismatch, stale data-dictionary examples.
