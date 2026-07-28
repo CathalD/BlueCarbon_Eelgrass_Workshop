@@ -1,7 +1,8 @@
 <p align="center">
-  <img src="images/banner_field_methods.svg" alt="Project Planning — Blue Carbon Eelgrass Workshop banner" width="100%">
+  <img src="images/banner_field_methods.svg" alt="Field Methods — Blue Carbon Eelgrass Workshop banner" width="100%">
 </p>
 
+---
 
 # Part 3 — Field Methods
 
@@ -52,7 +53,7 @@ taking the sediment core, and extruding, packaging and processing the core.
 <tr>
 <td width="45%">
 
-<img width="100%" alt="Equipment for setting up the plot" src="https://github.com/user-attachments/assets/673d1655-c9d4-4a72-904e-da7e4376b58d" />
+<img width="100%" alt="Equipment for setting up the plot" src="https://github.com/user-attachments/assets/673d1655-c9d4-4a72-904e-da7e4376b58d">
 
 </td>
 <td width="55%">
@@ -70,7 +71,7 @@ taking the sediment core, and extruding, packaging and processing the core.
 <tr>
 <td width="45%">
 
-<img width="100%" alt="Equipment for taking a sediment core" src="https://github.com/user-attachments/assets/dffb92ae-fbcc-40e7-97c0-8fc9b032858e" />
+<img width="100%" alt="Equipment for taking a sediment core" src="https://github.com/user-attachments/assets/dffb92ae-fbcc-40e7-97c0-8fc9b032858e">
 
 </td>
 <td width="55%">
@@ -92,7 +93,7 @@ taking the sediment core, and extruding, packaging and processing the core.
 <tr>
 <td width="45%">
 
-<img width="100%" alt="Equipment for core extrusion, packaging and processing" src="https://github.com/user-attachments/assets/d37d326c-2979-4731-ba68-5f9cd84c0f46" />
+<img width="100%" alt="Equipment for core extrusion, packaging and processing" src="https://github.com/user-attachments/assets/d37d326c-2979-4731-ba68-5f9cd84c0f46">
 
 </td>
 <td width="55%">
@@ -117,11 +118,24 @@ additional **stop-cap** mechanism that creates a vacuum seal underwater. This pr
 from flowing in through the top of the corer, and applies a gravimetric force on the core
 upon extrusion. For more information, see the [Universal Corer — Aquatic Research Shop](https://aquaticresearchshop.com/product/universal-corer/).
 
-> 📸 **[PHOTO NEEDED]** — corer photos from Newfoundland (NFLD), for the underwater / stop-cap section.
-<!-- TODO (Cathal): add the NFLD corer photos here. --> *** Photo of kit here: <img width="447" height="447" alt="image" src="https://github.com/user-attachments/assets/db42ba88-1f27-41ef-aa36-69de965c7024" />
+<table>
+<tr>
+<td width="50%">
 
-Photo of using it in the field here - "<img width="480" height="640" alt="image" src="https://github.com/user-attachments/assets/63dbf496-4dbd-4a2c-9d9b-c8d8cba61f48" />
-"
+<img width="100%" alt="Stop-cap corer kit laid out" src="https://github.com/user-attachments/assets/db42ba88-1f27-41ef-aa36-69de965c7024">
+
+**The kit** — the stop-cap corer assembled and ready to go.
+
+</td>
+<td width="50%">
+
+<img width="100%" alt="Using the stop-cap corer in the field" src="https://github.com/user-attachments/assets/63dbf496-4dbd-4a2c-9d9b-c8d8cba61f48">
+
+**In use** — taking an underwater core in the field.
+
+</td>
+</tr>
+</table>
 
 > 🎥 **Watch:** [*"Site Selection and Required Materials"*](https://www.youtube.com/watch?v=C0A0yCbXdhw&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=2)
 > · *Core Extrusion – Required Materials* is video **#7** in the same playlist.
@@ -150,12 +164,9 @@ Five steps take you from an empty plot to a cooler of labelled samples.
 <tr>
 <td width="45%">
 
-*** note for claude Both images to go in same panel, 1 on top of the other ***
-Image 1
-"<img width="101" height="105" alt="image" src="https://github.com/user-attachments/assets/9438e830-8f0b-4a58-96bf-67a3358f18dc" />
+<img width="100%" alt="Probing the sediment to find the depth of refusal" src="https://github.com/user-attachments/assets/9438e830-8f0b-4a58-96bf-67a3358f18dc">
 
-Image 2
-<img width="98" height="96" alt="image" src="https://github.com/user-attachments/assets/f5578eef-03ca-482c-bce3-6f10a93d9fe6" />
+<img width="100%" alt="Selecting a representative coring spot within the plot" src="https://github.com/user-attachments/assets/f5578eef-03ca-482c-bce3-6f10a93d9fe6">
 
 </td>
 <td width="55%">
@@ -165,32 +176,34 @@ sediment on a grid to find the **depth of refusal** — the depth at which the c
 longer be pushed into the sediment, signifying a transition from organic (carbon-rich) to
 mineral (carbon-poor) sediments or bedrock.
 
-Record date and time, site conditions, weather, and tidal conditions — plus the core's
-latitude/longitude (and, for our analysis, its **stratum** and **water depth**).
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="55%">
+
+**📋 Record it on the data sheet — plot notes**
+
+Let the data sheet guide what you need to capture. Fill in the top section now: date and
+time, site conditions, weather, and tidal conditions — plus the core's latitude/longitude
+(and, for our analysis, its **stratum** and **water depth**).
+
+</td>
+<td width="45%">
+
+<img width="100%" alt="Data sheet — plot notes section" src="https://github.com/user-attachments/assets/3fbedb0a-e629-473a-8792-26fa7dc0b09b">
 
 </td>
 </tr>
 </table>
 
-*** For Claude
-Add a second table right below with this image on the right
-<img width="206" height="80" alt="image" src="https://github.com/user-attachments/assets/3fbedb0a-e629-473a-8792-26fa7dc0b09b" />
-
-And this description on the left
-# Use the datasheet to guide what information you need here, fill in the top section at this point
-
-Record date and time, site conditions, weather, and tidal conditions — plus the core's
-latitude/longitude (and, for our analysis, its **stratum** and **water depth**).
-
----
-
 It is important to collect samples to the depth of refusal, as this is the only way to
 measure the true carbon stock of the ecosystem. If sampling to the depth of refusal is not
 achieved, it is likely that the carbon stock will be poorly estimated.
 
-> 🎥 **Watch:** *"Core Depths"* — video **#3** in the [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd).
->
-> <!-- TODO (Cathal): the old "Core Depths" callout pointed to v=C0A0yCbXdhw&index=2, which is the SAME URL/video as "Site Selection and Required Materials". Per the guide's video list, Core Depths is video #3 and needs its own video ID. I've linked the playlist and flagged the position rather than link the wrong clip — please slot the correct direct URL. --> *** for Claude link is here: https://www.youtube.com/watch?v=A2es2qv3bPE&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=3
+> 🎥 **Watch:** [*"Core Depths"*](https://www.youtube.com/watch?v=A2es2qv3bPE&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=3) — video **#3** in the workshop playlist.
 
 ---
 
@@ -202,8 +215,7 @@ achieved, it is likely that the carbon stock will be poorly estimated.
 <tr>
 <td width="45%">
 
-<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/a5c241f2-5382-4ab0-913d-c6e805980250" />
-
+<img width="100%" alt="Hammering the corer in with a team of three" src="https://github.com/user-attachments/assets/a5c241f2-5382-4ab0-913d-c6e805980250">
 
 </td>
 <td width="55%">
@@ -219,10 +231,23 @@ ruler graduations on the outside of the tube so you can read insertion depth.
 
 > 🎥 **Watch:** [*"Sediment Coring"*](https://www.youtube.com/watch?v=TVF1JX2Gdw4&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=4)
 
----
-Field data sheet - You can begin filling in part 2
-<img width="474" height="103" alt="image" src="https://github.com/user-attachments/assets/7d43fc86-9e4d-470d-99cb-6f8b4dd61f74" />
+<table>
+<tr>
+<td width="55%">
 
+**📋 Record it on the data sheet — core notes**
+
+You can begin filling in Part 2 of the sheet: the **Core ID**, and the core's
+latitude/longitude.
+
+</td>
+<td width="45%">
+
+<img width="100%" alt="Data sheet — core notes section" src="https://github.com/user-attachments/assets/7d43fc86-9e4d-470d-99cb-6f8b4dd61f74">
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -230,17 +255,19 @@ Field data sheet - You can begin filling in part 2
 
 *How much did the sediment squash?*
 
-*** For Claude add NOTE: it is important to try and reduce compaction as much as possible. A method to do so is to use the beveled edge of the coring to cut through the top layer of sediment that contains roots and other fibres. This can be achieved using a twisting motion while inserting it"
+> 💡 **Reduce compaction before you have to measure it.** The less the sediment squashes, the
+> less correction the analysis has to apply. Use the **bevelled edge** of the corer to *cut*
+> through the top layer of sediment — the fibrous mat of roots and rhizomes — rather than
+> forcing through it. A gentle **twisting motion** while inserting helps the bevel slice
+> cleanly.
 
 <table>
 <tr>
 <td width="45%">
 
-*** For claude - animated image <img width="405" height="424" alt="image" src="https://github.com/user-attachments/assets/e87bf946-573b-492f-abdc-484f6bd8ec04" />
+<img width="100%" alt="Compaction: sediment column shortening inside the tube" src="https://github.com/user-attachments/assets/e87bf946-573b-492f-abdc-484f6bd8ec04">
 
-field image - 
-<img width="374" height="367" alt="image" src="https://github.com/user-attachments/assets/6806bbdf-f387-4319-838a-4dd873cda829" />
-
+<img width="100%" alt="Measuring compaction in the field" src="https://github.com/user-attachments/assets/6806bbdf-f387-4319-838a-4dd873cda829">
 
 </td>
 <td width="55%">
@@ -302,21 +329,21 @@ Either way, the **difference between the inside and outside measurements is the
 compaction** — and both routes land on the same two data sheet fields, which the
 analysis reads as `outside_depth_cm` (penetration) and `inside_depth_cm` (recovery).
 
-<!-- Cathal: photo / diagram of the two measurement methods goes in the panel below —
-     left cell for Method A, right cell for Method B. Paste or drag images into the
-     cells, keeping the blank lines around them. -->
+<!-- Cathal: Method A's diagram still to come — paste it into the left cell below,
+     keeping the blank lines around it. Method B's diagram is already in place. -->
 
 <table>
 <tr>
 <td width="50%">
 
-Placeholder**
-
+📸 *[Diagram to come — Method A: reading graduations on the tube]*
 
 </td>
 <td width="50%">
-  
-<img width="359" height="380" alt="image" src="https://github.com/user-attachments/assets/b9c176ca-1a37-45ea-a7ec-e4d122b07c08" />
+
+<img width="100%" alt="Method B — measuring inside and outside distances from the top of the tube" src="https://github.com/user-attachments/assets/b9c176ca-1a37-45ea-a7ec-e4d122b07c08">
+
+**Method B** — inside vs. outside distance from the tube top.
 
 </td>
 </tr>
@@ -324,10 +351,23 @@ Placeholder**
 
 > 🎥 **Watch:** [*"Sediment Compaction"*](https://www.youtube.com/watch?v=cW2UIA2Qlp8&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=5)
 
----
-Record on the data sheet in respective section
-<img width="474" height="103" alt="image" src="https://github.com/user-attachments/assets/615ac034-a02f-4306-81db-8985a6c907c0" />
+<table>
+<tr>
+<td width="55%">
 
+**📋 Record it on the data sheet — core notes**
+
+Enter the **depth of corer inserted** and the **length of core extracted** in their
+respective fields. These two numbers are what the analysis uses to decompact the core.
+
+</td>
+<td width="45%">
+
+<img width="100%" alt="Data sheet — compaction measurement fields" src="https://github.com/user-attachments/assets/615ac034-a02f-4306-81db-8985a6c907c0">
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -339,29 +379,33 @@ Record on the data sheet in respective section
 <tr>
 <td width="45%">
 
-Once the core has been inserted to refusal, the core is mostly secure in the tube. Now its time to remove it, which in some cases might be fairly easy, such as in loose sediments, and in other cases might be harder.
+<img width="100%" alt="Digging around the tube to release suction before extraction" src="https://github.com/user-attachments/assets/2435b917-edda-464a-b363-e06d8ccecdad">
 
-In the case where its harder, you may have to dig around the core to release some suction, shown here : <img width="348" height="357" alt="image" src="https://github.com/user-attachments/assets/2435b917-edda-464a-b363-e06d8ccecdad" />
-
-Alternatively, farm jacks and other wench devices can help with the core extractions - such as displayed in this video here from Dr. Erin Peck and other - https://www.youtube.com/watch?v=mXHhzlfCKEQ
-
+**Digging to release suction** — often the difference between a full core and a lost one.
 
 </td>
 <td width="55%">
 
-Dig alongside the tube with a shovel (or rock it gently back and forth) to release the suction
-between the tube and the surrounding sediment. Once the bottom end of the tube is visible, cap
-the **bottom** so no sediment is lost, and keep the core **upright** so the layers don't mix
-within the tube before it is divided into subsections. This is especially challenging in
-standing water and waterlogged seagrass/eelgrass sediments; if you lose sediment from the
-bottom you may end up with a shorter core, and you may want to pick a different spot and try
-again.
+Once the corer has reached refusal the core is mostly secure in the tube, and it's time to
+remove it. In loose sediments this can be straightforward; in others it is considerably harder.
+
+Where it is harder, **dig alongside the tube** with a shovel (or rock it gently back and
+forth) to release the suction between the tube and the surrounding sediment. Once the bottom
+end of the tube is visible, cap the **bottom** so no sediment is lost, and keep the core
+**upright** so the layers don't mix before it is sectioned.
+
+This is especially challenging in standing water and waterlogged seagrass/eelgrass sediments.
+If you lose sediment from the bottom you may end up with a shorter core — in which case pick a
+different spot and try again.
 
 </td>
 </tr>
 </table>
 
 > 🎥 **Watch:** [*"Sediment Core Extraction"*](https://www.youtube.com/watch?v=XUG70s8o5wk&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=6)
+>
+> 🎥 **Stubborn cores:** farm jacks and other winch devices can do the lifting for you —
+> see [this demonstration](https://www.youtube.com/watch?v=mXHhzlfCKEQ) from Dr. Erin Peck and colleagues.
 
 ---
 
@@ -373,14 +417,15 @@ again.
 <tr>
 <td width="45%">
 
-If you have a stop cap mechanism, you can use graviemtric force keeping the sample in the tube to help keep the sample intact while positioning the tube onto the extractor device
+<img width="100%" alt="Positioning the tube onto the extruder using a stop cap" src="https://github.com/user-attachments/assets/dd64a399-8d89-41c0-8791-0e880c4429f5">
 
-*** F0r Claude image here: <img width="480" height="640" alt="image" src="https://github.com/user-attachments/assets/dd64a399-8d89-41c0-8791-0e880c4429f5" />
+**With a stop cap** — gravimetric force holds the sample in the tube, keeping it intact while
+you position it onto the extruder.
 
-If not, carefully remove the end cap smoothly as you position the tube onto the extrusion device. Here its important to remind yourself, slow is smooth, smooth is fast.
+<img width="100%" alt="Positioning the tube onto the extrusion device without a stop cap" src="https://github.com/user-attachments/assets/697f3105-9907-4b8b-a7c3-405b927d002d">
 
-Image of this - <img width="339" height="173" alt="image" src="https://github.com/user-attachments/assets/697f3105-9907-4b8b-a7c3-405b927d002d" />
-
+**Without one** — remove the end cap smoothly as you position the tube. *Slow is smooth,
+smooth is fast.*
 
 </td>
 <td width="55%">
@@ -408,23 +453,42 @@ This step has four short companion videos:
 
 <!-- Video indices 7–10 match the guide's video ordering (p.4). The earlier note about videos "2 and 3 both at index=9" is resolved: they are index 8 and 9. -->
 
-> 📸 **[SCREENSHOT NEEDED]** — the team coring / extruding in the field (a real workshop
-> photo), to anchor these steps visually.
+#### Extruding and sectioning in the field
 
-Screenshots here : of salt marsh - 
-<img width="357" height="351" alt="image" src="https://github.com/user-attachments/assets/95b19d2a-5490-454b-98ee-d4777f837015" />
+<table>
+<tr>
+<td width="50%">
 
-and eelgrass - <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/f673e2ef-783b-4b13-b587-9aae49d9b3be" />
-+
+<img width="100%" alt="Extruding and sectioning a salt marsh core" src="https://github.com/user-attachments/assets/95b19d2a-5490-454b-98ee-d4777f837015">
 
-<img width="456" height="526" alt="image" src="https://github.com/user-attachments/assets/7e229778-b080-4f56-a26e-01a61c1578b7" />
+**Salt marsh**
 
+</td>
+<td width="50%">
 
-+
+<img width="100%" alt="Extruding and sectioning an eelgrass core" src="https://github.com/user-attachments/assets/f673e2ef-783b-4b13-b587-9aae49d9b3be">
 
-<img width="617" height="733" alt="image" src="https://github.com/user-attachments/assets/9febd2d8-e7d9-41a1-8d28-712e19f9518b" />
+**Eelgrass**
 
+</td>
+</tr>
+<tr>
+<td width="50%">
 
+<img width="100%" alt="Slicing a subsection at the top of the tube" src="https://github.com/user-attachments/assets/7e229778-b080-4f56-a26e-01a61c1578b7">
+
+**Slicing a subsection** at the top of the tube.
+
+</td>
+<td width="50%">
+
+<img width="100%" alt="Bagging and labelling a sectioned slice" src="https://github.com/user-attachments/assets/9febd2d8-e7d9-41a1-8d28-712e19f9518b">
+
+**Bagging and labelling** each slice with its depths.
+
+</td>
+</tr>
+</table>
 
 **DIY extrusion device blueprint.** <!-- TODO (Cathal): insert link to the extrusion-device blueprint PDF here. --> *(link to be added)*
 
@@ -440,15 +504,35 @@ and eelgrass - <img width="640" height="480" alt="image" src="https://github.com
 your local home hardware store. Ensure the proportions match those of the PVC pipe you are
 using.*
 
-*** For claude - additional actual image of the tool here: 
-Image of teh too in use - <img width="225" height="379" alt="image" src="https://github.com/user-attachments/assets/4545498b-72a1-4ea5-a75d-08dd27a11b6b" />
+<p align="center">
+  <img width="30%" alt="The DIY extrusion device in use" src="https://github.com/user-attachments/assets/4545498b-72a1-4ea5-a75d-08dd27a11b6b">
+</p>
+
+<p align="center"><em>The finished device in use.</em></p>
+
+<table>
+<tr>
+<td width="55%">
+
+**📋 Record it on the data sheet — sample data**
+
+As you extrude each section, record its **top and bottom depth** — how far the top and bottom
+of that slice sit below the sediment surface.
+
+Depths run continuously down the core, so **the bottom of one slice is the top of the next**:
+if section 2 ends at 5 cm, section 3 starts at 5 cm, and so on.
+
+</td>
+<td width="45%">
+
+📸 *[Crop to come — the* Sample Data *rows of the sheet]*
+
+</td>
+</tr>
+</table>
 
 ---
 
-Note to record on the data sheet
-As you extrude each section, record the top and bottom depth - meaning how deep the top of the section and bottom section of the slice are relative to the surface. Therefore, the bottom of section 2 (lets say 5 for examples) is the top of section 3, and so on
-
---
 ## Field data sheet
 
 The workshop data sheet is included: **[`Eelgrass_Carbon_Datasheet_v2.pdf`](../Eelgrass_Carbon_Datasheet_v2.pdf)**
