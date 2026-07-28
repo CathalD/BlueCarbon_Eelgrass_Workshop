@@ -227,13 +227,69 @@ the tube.
 </tr>
 </table>
 
-These measurements map onto the analysis fields in [Section 4](../04_Data_Interpretation/):
+#### Two ways to get there
 
-| Field-guide measurement | Analysis field |
-|---|---|
-| Total length of the coring tube | `sampler_length` |
-| Top of corer → sediment surface **inside** the tube | `internal_distance` |
-| Top of corer → sediment surface **outside** the tube | `external_distance` |
+Whichever method you use, you are after the **same two numbers** — the two the data
+sheet asks for, and the only two the analysis needs:
+
+- **Depth of corer inserted** — how far the tube went into the sediment (penetration)
+- **Length of core extracted** — how much sediment you actually recovered
+
+<table>
+<tr>
+<td width="50%">
+
+**Method A — mark the tube**
+
+Mark ruler graduations on the outside of the tube before you start. When the tube is
+driven in, read the graduation at the sediment surface: that is the **depth of corer
+inserted**. After extrusion, measure the recovered core directly: that is the **length
+of core extracted**.
+
+*Simplest in the field, and the method the videos show.*
+
+</td>
+<td width="50%">
+
+**Method B — measure both distances while inserted**
+
+With the tube fully inserted, measure from the **top of the tube** down to the sediment
+surface on the **outside** and on the **inside**. Subtract each from the tube's total
+length:
+
+```
+depth of corer inserted = tube length − outside distance
+length of core extracted = tube length − inside distance
+```
+
+*Useful underwater, where the tube's graduations may not be readable.*
+
+</td>
+</tr>
+</table>
+
+Either way, the **difference between the inside and outside measurements is the
+compaction** — and both routes land on the same two data sheet fields, which the
+analysis reads as `outside_depth_cm` (penetration) and `inside_depth_cm` (recovery).
+
+<!-- Cathal: photo / diagram of the two measurement methods goes in the panel below —
+     left cell for Method A, right cell for Method B. Paste or drag images into the
+     cells, keeping the blank lines around them. -->
+
+<table>
+<tr>
+<td width="50%">
+
+📸 *[Paste diagram/photo — Method A: reading graduations on the tube]*
+
+</td>
+<td width="50%">
+
+📸 *[Paste diagram/photo — Method B: inside vs. outside distance from the tube top]*
+
+</td>
+</tr>
+</table>
 
 > 🎥 **Watch:** [*"Sediment Compaction"*](https://www.youtube.com/watch?v=cW2UIA2Qlp8&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=5)
 

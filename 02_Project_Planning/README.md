@@ -289,27 +289,42 @@ hand — but it helps to know which inputs actually move the answer, and by how 
 
 ### What drives sample size?
 
-Four inputs dominate. Because three of them sit **squared** in the formula, small changes have
-outsized effects. The table is anchored on the worked example's baseline — **~68 cores** at ±10%
-margin of error, 90% confidence, and CV 0.5 — changing one knob at a time:
+Four inputs dominate, and two of them sit **squared** in the formula, so small changes have
+outsized effects.
+
+First, one modelling choice that everything else depends on: **each core is taken to represent a
+plot, not a pinprick.** We use a **10 × 10 m plot (100 m²)** per core. That converts your study
+area into the number of possible plot locations, $N$ — a 5 ha inlet holds 500 of them. Change the
+plot size and every number below shifts.
+
+The table is anchored on the worked example: a **5 ha inlet** ($N$ = 500 plots), ±10% margin of
+error, 90% confidence, CV 0.5 → **≈ 60 cores**. One knob at a time:
 
 | Knob | Turn it… | Effect on cores (*n*) | Why |
 |---|---|---|---|
-| **Margin of error, $E$** | tighter: ±10% → ±5% | **~4× more** (68 → ~270) | $E$ is squared — halving it quadruples the work |
-| **Variability, $CV = s/\bar{x}$** | patchier: 0.5 → 1.0 | **~4× more** (68 → ~270) | also squared — a meadow twice as variable needs 4× the cores |
-| **Confidence, $1-\alpha$** | stricter: 90% → 95% | **~40% more** (68 → ~96) | more certainty costs cores, but far less steeply |
-| **Study area, $N$** | bigger: 5 ha → 50 ha | **≈ no change** (68 → 68) | sample size barely depends on area at all |
+| **Margin of error, $E$** | tighter: ±10% → ±5% | **~3× more** (60 → ~176) | $E$ is squared |
+| **Variability, $CV = s/\bar{x}$** | patchier: 0.5 → 1.0 | **~3× more** (60 → ~176) | also squared |
+| **Confidence, $1-\alpha$** | stricter: 90% → 95% | **~35% more** (60 → ~81) | more certainty costs cores, far less steeply |
+| **Study area** | bigger: 5 ha → 50 ha | **~10% more** (60 → ~67) | rises, then plateaus — see below |
 
-Two of these routinely surprise people:
+Three things here routinely surprise people:
 
-- **CV is the hidden driver.** It's squared, exactly like $E$ — so going from a fairly uniform
-  meadow (CV 0.5) to a patchy one (CV 1.0) **quadruples** your core count, ~68 → ~270. (Even a
-  half-step, CV 0.5 → 0.75, more than *doubles* it to ~152.) This is why a good variability prior
-  matters more than almost any other input, and why you pad it when you're unsure.
-- **Area almost doesn't matter.** Intuition says a bigger meadow needs more cores — but once the
-  number of possible plot locations is large (it always is: a core footprint is tiny), the area
-  term drops out. A 5 ha inlet and a 50 ha bay need nearly the same *n*. You're estimating a
-  *mean*, and the effort to pin down a mean depends on its variability, not the size of the field.
+- **CV is the hidden driver.** It's squared, exactly like $E$ — so a meadow twice as variable
+  needs roughly **three times** the cores. This is why a good variability prior matters more than
+  almost any other input, and why you pad it when you're unsure.
+- **Precision is expensive, confidence is cheap.** Tightening your margin of error from ±10% to
+  ±5% nearly triples the fieldwork. Raising confidence from 90% to 95% costs about a third more.
+  If the budget is fixed, loosening $E$ buys back far more cores than dropping confidence.
+- **Area matters at first, then stops.** Going 1 ha → 5 ha → 50 ha → 500 ha gives roughly
+  **41 → 60 → 67 → 68** cores. Sample size climbs while the area is small relative to the plot
+  size, then flattens out. **Doubling a large meadow does not double your cores** — you're
+  estimating a *mean*, and pinning down a mean depends on variability, not on the size of the
+  field.
+
+> **Why "~3×" and not "4×"?** In a large area the squared terms give a clean fourfold: halving
+> $E$ takes *n* from 68 to 271. In a 5 ha inlet there are only 500 possible plots, so the
+> **finite-population correction** — the $(N-1)$ term — pulls the requirement back to about 3×.
+> The smaller your study area, the more it dampens these effects.
 
 <details>
 <summary>📐 <b>Show the math — the sample-size formula and its symbols</b></summary>
@@ -429,9 +444,30 @@ Estimates the total number of plots/cores (*n*) for the whole study area.
 | Size of total study area (m²) | The area you want to characterise |
 | Margin of error | Acceptable relative error (e.g. `0.2` = ±20%) |
 | Confidence level (alpha) | Precision level (e.g. `0.1` → 90% confidence) |
-| Carbon mean & standard deviation | Expected carbon and its variability. Two options: **Tier 2** — use the provided WWF-Canada carbon-map defaults, or **Tier 1** — enter your own measured mean and standard deviation as the prior |
+| Carbon mean & standard deviation | Your **prior** — see below |
 
 **Output:** number of plots *n* needed to hit the target precision.
+
+> 🎯 **Where the mean and SD come from — this is an educated guess, and that's fine.**
+> The calculator needs to know roughly how much carbon is there and how variable it is
+> *before* you've measured anything. That's a chicken-and-egg problem, and the answer is a
+> **prior**: a rough estimate from existing information, used only to size the campaign.
+> The sheet offers two sources, in order of preference:
+>
+> | Source | Use when | How good is it? |
+> |---|---|---|
+> | **Your own data** — measured mean and SD from a pilot, a previous survey, or nearby cores | You have local measurements | Best. Local variability is what actually drives *n*. |
+> | **Regional defaults** — the provided WWF-Canada carbon-map values | You have nothing local | Workable starting point. Regional averages usually *understate* local patchiness, so pad the SD. |
+>
+> You are not committing to these numbers — nothing in your final result depends on them.
+> They only decide how many cores to plan for. After the campaign you check the precision
+> you *actually* achieved (see below), which is what gets reported.
+>
+> ⚠️ **A note on the word "Tier."** The sheet labels these prior sources "Tier 1" and
+> "Tier 2." That numbering refers **only to where your prior came from** and is unrelated
+> to the IPCC Tier 1/2/3 methodological tiers used in national greenhouse gas inventory
+> reporting. If you work with IPCC guidance, read these labels as "prior source," not as a
+> statement about method quality.
 
 #### Sheet 2 — Sample Allocation per Strata
 Splits the total *n* across **strata** (sub-areas — e.g. dense vs. sparse meadow,
@@ -607,27 +643,22 @@ So you begin to implement the steps:
 **Step 3 — What to measure.** You only want to measure sediments in this area.
 
 **Step 4 — How many samples.** You calculate the required number of cores for this area based on:
-- Total area = **50,000 m²** (5 ha inlet) → with a 0.0079 m² core footprint, $N$ is effectively very large, so the finite-population term drops out
+- Total area = **50,000 m²** (5 ha inlet) → at **100 m² per plot** (10 × 10 m), $N$ = **500** possible plots
 - Confidence level = **90%** → $z = 1.645$
 - Margin of error = **±10%** ($E = 0.10$)
-- Prior estimate for C stock and variation = **mean ≈ 120 Mg C ha⁻¹, SD ≈ 60** (from the regional WWF-Canada carbon map, Tier 2) → $CV = 60/120 = 0.5$
+- Prior estimate for C stock and variation = **mean ≈ 120 Mg C ha⁻¹, SD ≈ 60** (from the regional WWF-Canada carbon map) → $CV = 60/120 = 0.5$
 
-Plugging in: $n \geq \dfrac{1.645^2 \times 0.5^2}{0.10^2} \approx 68$ cores. Padding for ~70% usable-sample recovery (attrition, lost cores, non-response) → **≈ 98 cores** to be safe.
-
-<!-- TODO (Cathal): you'd changed this example to "±20%" and "≈ 38 cores" in your edit, but that combination isn't internally consistent:
-       • at E=0.10 (±10%), n ≈ 68  → padded ≈ 98
-       • at E=0.20 (±20%), n ≈ 17  → padded ≈ 25
-     Neither gives 38. Your "$E=0.10$", the "98" padding, and the Summary below all still say ±10%, so I kept the whole example at ±10% / 68 → 98 for consistency. If you meant ±20%, say so and I'll switch every number (target, n, padded n, and the summary) to the 17 → 25 set. -->
+Plugging in gives **≈ 60 cores**. Padding for ~70% usable-sample recovery (attrition, lost cores, damaged samples) → **≈ 86 cores** to collect.
 
 ...using the calculator's built-in calculation function.
 
-**Step 5 — Where to sample.** You allocate those ~98 cores proportionally across the two strata (e.g. a dense meadow twice the area of the sparse fringe gets roughly twice the cores), keeping a **minimum of 5 per stratum**.
+**Step 5 — Where to sample.** You allocate those ~86 cores proportionally across the two strata (e.g. a dense meadow twice the area of the sparse fringe gets roughly twice the cores), keeping a **minimum of 5 per stratum**.
 
 <img width="60%" alt="Allocating samples across strata over the study area" src="images/download%20(6).gif">
 
 Next, you send these coordinates to your team to go and collect the samples.
 
-**Summary of what to expect:** *Given a 5 ha inlet and a target of ±10% at 90% confidence, plan for roughly 70 cores of usable data (about 98 collected after padding), split proportionally between the dense and sparse strata. If the meadow turns out patchier than the CV prior assumed, expect to either add cores or report a slightly wider interval — which is exactly why oversampling at the design stage is worth it.*
+**Summary of what to expect:** *Given a 5 ha inlet and a target of ±10% at 90% confidence, plan for roughly 60 cores of usable data (about 86 collected after padding), split proportionally between the dense and sparse strata. If the meadow turns out patchier than the CV prior assumed, expect to either add cores or report a slightly wider interval — which is exactly why oversampling at the design stage is worth it.*
 
 ---
 

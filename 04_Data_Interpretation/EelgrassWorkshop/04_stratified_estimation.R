@@ -52,14 +52,16 @@ core_totals <- cores_harmonized |>
   mutate(pct_modelled = 100 * (1 - stock_measured / stock_full))
 
 # ── 2. Attach the design information ─────────────────────────────────────────
-# N_h = number of possible plot locations in stratum h = area_h / plot footprint
+# N_h = number of possible plot locations in stratum h = stratum area / plot area.
+# Each core represents a 10 x 10 m plot (PLOT_AREA_M2), not the corer's own
+# cross-section — so N_h is the count of such plots the stratum could hold.
 strata_df <- data.frame(
   stratum   = names(STRATUM_AREAS_M2),
   area_m2   = as.numeric(STRATUM_AREAS_M2),
   stringsAsFactors = FALSE
 ) |>
   mutate(
-    N_h = area_m2 / PLOT_FOOTPRINT_M2,
+    N_h = area_m2 / PLOT_AREA_M2,
     W_h = area_m2 / sum(area_m2)
   )
 
@@ -139,7 +141,32 @@ if (!is.null(AOI_FILE) && file.exists(AOI_FILE)) {
   cat("\nNo AOI file — stratum areas taken from STRATUM_AREAS_M2 in 00_config.R.\n")
 }
 
-# ── 7. Did we hit the precision target? ──────────────────────────────────────
+# ── 7. Comparing strata ──────────────────────────────────────────────────────
+# The Part 2 scenario asks two things: estimate the mean, AND compare between
+# areas. The design object supports the comparison directly — svyttest() uses
+# the same weights and degrees of freedom as the estimates above, so the test
+# is consistent with the design rather than a separate ad-hoc calculation.
+if (n_distinct(core_totals$stratum) == 2) {
+  cat("\n── Comparing strata (design-based t-test) ──\n")
+  tt <- tryCatch(svyttest(stock_primary ~ stratum, design), error = function(e) NULL)
+  if (!is.null(tt)) {
+    cat(sprintf("  Difference in mean stock to %d cm: %.2f kg C/m²\n",
+                PRIMARY_DEPTH_CM, as.numeric(tt$estimate)))
+    cat(sprintf("  t = %.2f, df = %d, p = %.4f\n",
+                as.numeric(tt$statistic), as.integer(tt$parameter), tt$p.value))
+    cat(sprintf("  %.0f%% CI on the difference: [%.2f, %.2f]\n",
+                CONF_LEVEL * 100,
+                confint(tt, level = CONF_LEVEL)[1],
+                confint(tt, level = CONF_LEVEL)[2]))
+    cat("  ⚠ With few cores per stratum this test has very low power —\n")
+    cat("    a non-significant result is not evidence the strata are equal.\n")
+  }
+} else {
+  cat("\n(", n_distinct(core_totals$stratum), " strata — for pairwise comparisons ",
+      "use svyglm() or svycontrast() on the design object.)\n", sep = "")
+}
+
+# ── 8. Did we hit the precision target? ──────────────────────────────────────
 # Mirrors the post-survey check in 02_Project_Planning.
 rme <- 100 * (est_primary$ci[1, 2] - est_primary$estimate) / est_primary$estimate
 cat(sprintf("\n── Achieved precision (0-%d cm) ──\n", PRIMARY_DEPTH_CM))
@@ -151,7 +178,7 @@ if (nrow(core_totals) < 10) {
       degf(design), " degrees of freedom.\n", sep = "")
 }
 
-# ── 8. Plot ──────────────────────────────────────────────────────────────────
+# ── 9. Plot ──────────────────────────────────────────────────────────────────
 library(ggplot2)
 
 plot_df <- as.data.frame(by_stratum) |>

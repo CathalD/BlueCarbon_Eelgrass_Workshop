@@ -33,11 +33,18 @@ STRATUM_LABELS <- c("SM" = "Salt marsh",
 STRATUM_AREAS_M2 <- c("SM" = 18000,   # 1.8 ha
                       "SG" = 32000)   # 3.2 ha   → 5 ha inlet total
 
-# Plot footprint = cross-sectional area of the corer (m²).
-# Used to convert stratum area into a finite population size N_h.
-# 7.62 cm internal diameter → pi * (0.0762/2)^2 = 0.00456 m².
-# NOTE: measure your actual corer ID — nominal pipe size is not internal diameter.
-PLOT_FOOTPRINT_M2 <- pi * (0.0762 / 2)^2
+# Plot area (m²) — the area each core is taken to represent.
+#
+# A core is a few centimetres across, but it is not a measurement of a few
+# centimetres of meadow: it stands in for the plot it was taken from. We use a
+# 10 x 10 m plot, so each core represents 100 m². This is what converts a
+# stratum's area into its finite population size N_h (= how many such plots
+# would fit in the stratum), which in turn sets the sampling fraction.
+#
+# Change this if your design uses a different plot size — it affects N_h, the
+# finite population correction, and therefore the sample size the planning
+# calculator asks for.
+PLOT_AREA_M2 <- 100   # 10 m x 10 m
 
 # ── Analysis methods to run ──────────────────────────────────────────────────
 # "stratified" — design-based stratified estimation (DEFAULT; always runs)

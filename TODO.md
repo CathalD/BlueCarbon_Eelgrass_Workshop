@@ -63,18 +63,16 @@ Legend: 📸 image/screenshot needed · 🔗 link needed · ✍️ writing neede
 
 ## Reviewer-readiness — remaining judgement calls
 
-- [ ] ❓ **Field→analysis vocabulary.** Part 3 Step 3 still tells the team to record
-  `sampler_length` / `internal_distance` / `external_distance` (the BlueCarbon schema),
-  while the datasheet and pipeline use penetration/recovery depths. Decide on one
-  vocabulary and make Part 3, the datasheet, and the pipeline agree.
-- [ ] ❓ **"Tier 1 / Tier 2" collision.** The calculator uses these to mean *prior
-  quality*; IPCC uses them to mean *method tier*. An Environment Canada reader will
-  read the IPCC meaning — consider renaming.
-- [ ] ❓ **Comparison vs. estimation.** The Part 2 scenario promises comparing areas and
-  detecting change over time, but the sample-size math only solves mean estimation.
-  Consider adding a short minimum-detectable-difference note.
-- [ ] ❓ **Core footprint inconsistency.** Part 2's worked example quotes a 0.0079 m²
-  footprint; the 7.62 cm corer used everywhere else is 0.00456 m². Pick one.
+- [ ] 📸 **Compaction method diagrams** (Part 3, Step 3) — a blank two-panel table is in
+  place: left cell for **Method A** (reading graduations on the tube), right cell for
+  **Method B** (inside vs. outside distance from the tube top).
+- [ ] ❓ **Detecting change over time.** Between-stratum comparison is now covered (a
+  design-based t-test in `04`). If the project also needs to detect change between
+  *survey years*, that requires a minimum-detectable-difference calculation at the design
+  stage, which Part 2 does not currently cover. Add only if repeat monitoring is in scope.
+- [ ] ❓ **Confirm the 10 × 10 m plot assumption** (`PLOT_AREA_M2` in `00_config.R`).
+  Every sample-size number in Part 2 now derives from it — a 5 ha inlet holds 500 plots,
+  which is what brings the finite-population correction into play.
 
 ## Enhancements — implemented
 
