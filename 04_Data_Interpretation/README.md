@@ -442,14 +442,34 @@ depth harmonisation, carbon-stock estimation, and spatial interpolation.
 
 The pipeline in brief:
 
-| Stage | Script | Does |
-|-------|--------|------|
-| Data prep | [`01_data_prep.R`](EelgrassWorkshop/01_data_prep.R) | Load, merge, and QC core data |
-| Compaction correction | [`01b_compaction_correction.R`](EelgrassWorkshop/01b_compaction_correction.R) | Correct percussion-core compression (uses the field measurements from [Section 3](../03_Field_Methods/)) |
-| Exploratory analysis | [`02_exploratory_analysis.R`](EelgrassWorkshop/02_exploratory_analysis.R) | Depth profiles, maps, summaries |
-| Depth harmonization | [`03_depth_harmonization.R`](EelgrassWorkshop/03_depth_harmonization.R) | Standardise cores to common depths |
-| Estimation | [`04_simple_extrapolation.R`](EelgrassWorkshop/04_simple_extrapolation.R) | Mean stocks + confidence intervals |
-| Spatial analysis | [`05_kriging.R`](EelgrassWorkshop/05_kriging.R) | Interpolate stocks across the meadow |
+| Stage | Script | Does | Method from |
+|-------|--------|------|-------------|
+| Data prep | [`01_data_prep.R`](EelgrassWorkshop/01_data_prep.R) | Load, merge, and QC core data | — |
+| Compaction correction | [`01b_compaction_correction.R`](EelgrassWorkshop/01b_compaction_correction.R) | Correct percussion-core compression (uses the field measurements from [Section 3](../03_Field_Methods/)) | — |
+| Exploratory analysis | [`02_exploratory_analysis.R`](EelgrassWorkshop/02_exploratory_analysis.R) | Depth profiles, maps, summaries | `ggplot2` |
+| Depth harmonization | [`03_depth_harmonization.R`](EelgrassWorkshop/03_depth_harmonization.R) | Standardise cores to common depths; model the profile below core base | **`mpspline2`** |
+| Estimation | [`04_stratified_estimation.R`](EelgrassWorkshop/04_stratified_estimation.R) | Area-weighted stratified stocks + confidence intervals | **`survey`** |
+| Spatial analysis | [`05_kriging.R`](EelgrassWorkshop/05_kriging.R) | Ordinary and regression kriging across the meadow | **`gstat`** |
+
+The pipeline **defers to established packages** wherever a peer-reviewed
+implementation exists — the mass-preserving spline (Bishop et al. 1999), the
+design-based stratified estimator (Lumley 2004), and kriging (Pebesma 2004) are
+all standard, citable methods rather than bespoke code.
+
+> 🧮 **Why the estimator is stratified.** [Section 2](../02_Project_Planning/) designs a
+> *stratified* sample, so the analysis uses the matching *stratified* estimator: each
+> stratum's mean is weighted by its **area**, not by how many cores happened to land in
+> it. Pooling strata that differ several-fold would produce a mean describing no real
+> place, and would inflate the variance with the between-stratum contrast the design
+> deliberately removed. Stratum areas come from your Step 1–2 boundary and are set in
+> `00_config.R`.
+
+> 📏 **Two stock numbers, not one.** The pipeline reports stock to a **primary depth**
+> every core physically reached (25 cm by default — directly comparable to Röhr et al.
+> 2018 and Fourqurean et al. 2012), *and* stock over the full modelled profile, with the
+> modelled share stated per core. Depths below the base of a core are extrapolated with
+> an **asymptotic** model that fits a recalcitrant-carbon floor rather than decaying to
+> zero, matching the eelgrass profile shape described by Kindeberg et al. (2019).
 
 The two columns the pipeline reads from the spreadsheet are `bulk_density_g_cm3` and
 `soc_g_kg`, which are named exactly that way on the *Sample Data* tab so the sheet can be

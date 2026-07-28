@@ -7,6 +7,13 @@ library(readr)
 
 source("00_config.R")
 
+# Null-coalescing operator. Defined here (not in a later script) so 01 can be
+# run standalone, and defined defensively because `%||%` only entered base R
+# in 4.4.0 while this pipeline targets R >= 4.1.
+if (!exists("%||%")) {
+  `%||%` <- function(a, b) if (is.null(a)) b else a
+}
+
 # ── Load CSVs ────────────────────────────────────────────────────────────────
 locations <- read_csv(LOCATIONS_FILE, show_col_types = FALSE)
 samples   <- read_csv(SAMPLES_FILE,   show_col_types = FALSE)
