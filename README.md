@@ -47,12 +47,12 @@ The goal of the workshop is to:
 
 This is an *eelgrass carbon* workshop: at its heart, it is about collecting the data needed to
 quantify carbon in an ecosystem. The clearest way to see what a team needs to collect is to
-start from the **data sheet** the analysis is built on. Each field on it represents something
-real we measure in the ecosystem — a depth of sediment, a weight, a carbon concentration — and
+start from the **data sheet** the analysis is built on, and work back from there. See the data sheet attached, each heading represents something
+real we measure in the ecosystem, such as a depth of sediment, a weight, a carbon concentration, and
 once the sheet is complete, those numbers let us calculate carbon stock, compare areas, and
 inform decisions.
 
-The workshop therefore focuses on two jobs, in the order you'd do them:
+The workshop therefore focuses on two things, in the order you'd do them:
 
 1. **Making the data useful** — making sure that *before* you collect anything, the samples you
    plan to take will actually answer your team's questions and contribute to your organizational
@@ -71,11 +71,11 @@ already entered so you can follow along. The example data is constructed for tea
 from a real survey. Throughout, the workshop covers why we collect each piece of data, what it
 is, how it is measured, and how it connects to your goals.
 
-[**Section 2 — Project Planning**](02_Project_Planning/) is the **making the data useful** job:
-designing the sampling so the data you'll collect is worth collecting. [**Section 3 — Field
-Methods**](03_Field_Methods/) is the **collecting the data** job: taking the cores that fill the
+[**Section 2 — Project Planning**](02_Project_Planning/) is the **making the data useful** component, covering how anyone can begin
+designing the sampling plan so the data you'll collect is worth collecting. [**Section 3 — Field
+Methods**](03_Field_Methods/) is the **collecting the data** component. It covers taking the cores that fill the
 sheet. Done together, they ensure your samples are collected effectively and with best
-practices — so the data genuinely supports your project and organizational goals.
+practices — so the data best supports your project and organizational goals.
 [**Section 4 — Data Interpretation**](04_Data_Interpretation/) then turns the completed sheet
 into carbon estimates.
 
@@ -90,6 +90,8 @@ into carbon estimates.
 | Bulk density, carbon stock | calculated for you | [Section 4](04_Data_Interpretation/) |
 
 
+---
+# TLDR
 **In a nutshell, once the sheet is filled, how carbon stock is calculated**
 
 Each row of the sheet is one slice of a core. For every slice you [collect a sediment
