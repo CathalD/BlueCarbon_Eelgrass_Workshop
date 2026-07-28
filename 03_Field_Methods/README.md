@@ -525,7 +525,8 @@ if section 2 ends at 5 cm, section 3 starts at 5 cm, and so on.
 </td>
 <td width="45%">
 
-📸 *[Crop to come — the* Sample Data *rows of the sheet]*
+<img width="461" height="232" alt="image" src="https://github.com/user-attachments/assets/f2bcc118-8df2-4a31-ad57-a86bf58e9048" />
+
 
 </td>
 </tr>
