@@ -1,3 +1,5 @@
+Add in baner - 03_Field_Methods/images/banner_field_methods.svg
+
 # Part 3 — Field Methods
 
 *Collecting sediment cores in the field.*
