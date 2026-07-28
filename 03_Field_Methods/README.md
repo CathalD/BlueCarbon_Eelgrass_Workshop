@@ -16,8 +16,7 @@
 This section is the workshop's **collecting the data** job. Once the sampling design is set
 ([Section 2](../02_Project_Planning/)), it's time for the field team to collect **sediment
 cores** at the planned locations. Here we cover the necessary equipment, tips for consistent
-coring, careful compaction measurement, and completing data sheets to prevent problems that
-can't be fixed later.
+coring, careful compaction measurement, and completing data sheets.
 
 This section follows WWF-Canada's field guide (*Part 2: Obtaining Sediment Cores*,
 pp. 8–14 of the [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)), as well as some accompanying videos. The method shown is push (percussion) coring with a PVC pipe, a method that is commonly used in coastal ecosystems. Note that equipment requirements are
@@ -53,7 +52,7 @@ taking the sediment core, and extruding, packaging and processing the core.
 <tr>
 <td width="45%">
 
-<img width="100%" alt="Equipment for setting up the plot" src="https://github.com/user-attachments/assets/207bfdca-fec5-4976-a68d-1c48f2b5a305">
+<img width="100%" alt="Equipment for setting up the plot" src=""https://github.com/user-attachments/assets/673d1655-c9d4-4a72-904e-da7e4376b58d" />
 
 </td>
 <td width="55%">
@@ -65,14 +64,13 @@ taking the sediment core, and extruding, packaging and processing the core.
 - 50 m tape measure
 - Notebook and pencil/pen (or printed datasheet)
 - Quadrat *(optional — for measuring vegetation biomass)*
-- Tide/weather reference
 
 </td>
 </tr>
 <tr>
 <td width="45%">
 
-<img width="100%" alt="Equipment for taking a sediment core" src="https://github.com/user-attachments/assets/27962b3c-742c-45af-908a-8bc58860769a">
+<img width="100%" alt="Equipment for taking a sediment core" src="https://github.com/user-attachments/assets/dffb92ae-fbcc-40e7-97c0-8fc9b032858e" />
 
 </td>
 <td width="55%">
@@ -95,7 +93,7 @@ taking the sediment core, and extruding, packaging and processing the core.
 <tr>
 <td width="45%">
 
-<img width="100%" alt="Equipment for core extrusion, packaging and processing" src="https://github.com/user-attachments/assets/3d851407-b3a1-4947-ab72-d0927fc3fb3c">
+<img width="100%" alt="Equipment for core extrusion, packaging and processing" src="https://github.com/user-attachments/assets/d37d326c-2979-4731-ba68-5f9cd84c0f46" />
 
 </td>
 <td width="55%">
