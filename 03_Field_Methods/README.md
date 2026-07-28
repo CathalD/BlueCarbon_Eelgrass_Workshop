@@ -1,4 +1,7 @@
-Add in baner - 03_Field_Methods/images/banner_field_methods.svg
+<p align="center">
+  <img src="images/banner_field_methods.svg" alt="Project Planning — Blue Carbon Eelgrass Workshop banner" width="100%">
+</p>
+
 
 # Part 3 — Field Methods
 
