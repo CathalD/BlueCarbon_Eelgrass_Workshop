@@ -13,17 +13,17 @@
 
 ## Overview
 
-This section is the workshop's **collecting the data** job. Once the sampling design is set
+This section of the workshop focuses on **collecting the data**. Once the sampling design is set
 ([Section 2](../02_Project_Planning/)), it's time for the field team to collect **sediment
 cores** at the planned locations. Here we cover the necessary equipment, tips for consistent
-coring, careful compaction measurement, and completing data sheets.
+coring, compaction measurement, and completing data sheets.
 
 This section follows WWF-Canada's field guide (*Part 2: Obtaining Sediment Cores*,
-pp. 8–14 of the [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)), as well as some accompanying videos. The method shown is push (percussion) coring with a PVC pipe, a method that is commonly used in coastal ecosystems. Note that equipment requirements are
-similar for both salt marsh and seagrass ecosystems, and the method may need to be adapted for
+pp. 8–14 of the [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)), as well as some accompanying videos. The method shown is push (also known as percussion) coring with a PVC pipe, a cost-effective method that is commonly used in coastal ecosystems. Note that equipment requirements are
+similar for both salt marsh and seagrass ecosystems, and the methods may need to be adapted for
 the conditions you are working in.
 
-**⚠️ Important note — coring underwater.** The videos show coring in tidal marsh ecosystems, *above* the water table, whereas seagrass/eelgrass ecosystems tend to be fully covered by the tides — so coring typically takes place **underwater**. The good news: the method is essentially the same, with **one additional piece of equipment** to take those underwater samples (see [Equipment](#equipment), below).
+**⚠️ Important note — coring underwater.** The videos show coring in tidal marsh ecosystems, *above* the water table, whereas seagrass/eelgrass ecosystems tend to be fully covered by the tides, especially areas further from the coast, where coring takes place **underwater**. The good news: the method is essentially the same, with **one additional piece of equipment** to take those underwater samples (see [Equipment](#equipment), below).
 
 For more detailed information on push coring, please see the WWF-Canada
 *[Measuring Carbon in Coastal Sediments](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)* (2026), p.8.
@@ -84,7 +84,6 @@ taking the sediment core, and extruding, packaging and processing the core.
 - Work gloves
 - Shovel (to dig around the tube for extraction)
 - Soil probe or auger (to find a representative location and the depth of refusal)
-- Prelabelled Ziploc bags, permanent marker
 - Waders / boat, as appropriate for the site
 - **Underwater (eelgrass) only:** a **stop-cap** mechanism (see below)
 
@@ -128,9 +127,7 @@ upon extrusion. For more information, see the [Universal Corer — Aquatic Resea
 
 ## Collecting a core, step by step
 
-Five steps take you from an empty plot to a cooler of labelled slices. Each step below pairs a
-**field photo** (left) with **what to do** (right), followed by the relevant **video** and any
-field-guide **note**.
+Five steps take you from an empty plot to a cooler of labelled samples.
 
 | # | Step | Answers |
 |---|------|---------|
@@ -139,8 +136,6 @@ field-guide **note**.
 | 3 | **Measure compaction** | *How much did the sediment squash?* |
 | 4 | **Extract the core** | *How do I get it out without losing sediment?* |
 | 5 | **Extrude and section** | *How do I slice, bag, and label it?* |
-
-<!-- TODO (Cathal): paste a real workshop field photo into each step's left-hand cell. Placeholders are marked "[Paste field photo]". -->
 
 ---
 
@@ -152,7 +147,12 @@ field-guide **note**.
 <tr>
 <td width="45%">
 
-📸 *[Paste field photo — probing / selecting the coring spot]*
+*** note for claude Both images to go in same panel, 1 on top of the other ***
+Image 1
+"<img width="101" height="105" alt="image" src="https://github.com/user-attachments/assets/9438e830-8f0b-4a58-96bf-67a3358f18dc" />
+
+Image 2
+<img width="98" height="96" alt="image" src="https://github.com/user-attachments/assets/f5578eef-03ca-482c-bce3-6f10a93d9fe6" />
 
 </td>
 <td width="55%">
@@ -169,13 +169,25 @@ latitude/longitude (and, for our analysis, its **stratum** and **water depth**).
 </tr>
 </table>
 
+*** For Claude
+Add a second table right below with this image on the right
+<img width="206" height="80" alt="image" src="https://github.com/user-attachments/assets/3fbedb0a-e629-473a-8792-26fa7dc0b09b" />
+
+And this description on the left
+# Use the datasheet to guide what information you need here, fill in the top section at this point
+
+Record date and time, site conditions, weather, and tidal conditions — plus the core's
+latitude/longitude (and, for our analysis, its **stratum** and **water depth**).
+
+---
+
 It is important to collect samples to the depth of refusal, as this is the only way to
 measure the true carbon stock of the ecosystem. If sampling to the depth of refusal is not
 achieved, it is likely that the carbon stock will be poorly estimated.
 
 > 🎥 **Watch:** *"Core Depths"* — video **#3** in the [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd).
 >
-> <!-- TODO (Cathal): the old "Core Depths" callout pointed to v=C0A0yCbXdhw&index=2, which is the SAME URL/video as "Site Selection and Required Materials". Per the guide's video list, Core Depths is video #3 and needs its own video ID. I've linked the playlist and flagged the position rather than link the wrong clip — please slot the correct direct URL. -->
+> <!-- TODO (Cathal): the old "Core Depths" callout pointed to v=C0A0yCbXdhw&index=2, which is the SAME URL/video as "Site Selection and Required Materials". Per the guide's video list, Core Depths is video #3 and needs its own video ID. I've linked the playlist and flagged the position rather than link the wrong clip — please slot the correct direct URL. --> *** for Claude link is here: https://www.youtube.com/watch?v=A2es2qv3bPE&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=3
 
 ---
 
@@ -187,7 +199,7 @@ achieved, it is likely that the carbon stock will be poorly estimated.
 <tr>
 <td width="45%">
 
-📸 *[Paste field photo — hammering the corer in]*
+📸 
 
 </td>
 <td width="55%">
