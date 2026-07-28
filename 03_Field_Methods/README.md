@@ -52,7 +52,7 @@ taking the sediment core, and extruding, packaging and processing the core.
 <tr>
 <td width="45%">
 
-<img width="100%" alt="Equipment for setting up the plot" src=""https://github.com/user-attachments/assets/673d1655-c9d4-4a72-904e-da7e4376b58d" />
+<img width="100%" alt="Equipment for setting up the plot" src="https://github.com/user-attachments/assets/673d1655-c9d4-4a72-904e-da7e4376b58d" />
 
 </td>
 <td width="55%">
