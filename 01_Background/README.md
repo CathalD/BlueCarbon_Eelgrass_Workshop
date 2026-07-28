@@ -174,7 +174,7 @@ recovery of carbon.
 </table>
 
 However, if/when multiple overlapping disturbances occur, the ecosystem can continue to
-degrade over time, becoming a net emitter of carbon and losing the carbon it had stored. This is common in ecosystems experiencing "multiple stressors", cumulative effects, and/or altered disturbance regimes
+degrade over time, becoming a net emitter of carbon and losing the carbon it had stored. This is common in ecosystems experiencing "multiple stressors", "cumulative effects", and/or "altered disturbance regimes"
 
 <table>
 <tr>
@@ -185,9 +185,9 @@ degrade over time, becoming a net emitter of carbon and losing the carbon it had
 </td>
 <td width="40%">
 
-Here we see **"pulse"** disturbances — such as severe storms or land clearing, which disturb the
-ecosystem abruptly — paired with **"press"** disturbances, which act slowly over long periods,
-such as warming temperatures or spreading invasive species. Acting together, they collapse the
+Here we see **"pulse"** disturbances, such as severe storms or land clearing, which disturb the
+ecosystem abruptly, paired with **"press"** disturbances, which act slowly over long periods,
+such as warming temperatures or spreading invasive species. Acting together, they can collapse the
 ecosystem.
 
 </td>
