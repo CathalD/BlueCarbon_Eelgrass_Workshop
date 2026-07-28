@@ -118,7 +118,10 @@ from flowing in through the top of the corer, and applies a gravimetric force on
 upon extrusion. For more information, see the [Universal Corer — Aquatic Research Shop](https://aquaticresearchshop.com/product/universal-corer/).
 
 > 📸 **[PHOTO NEEDED]** — corer photos from Newfoundland (NFLD), for the underwater / stop-cap section.
-<!-- TODO (Cathal): add the NFLD corer photos here. -->
+<!-- TODO (Cathal): add the NFLD corer photos here. --> *** Photo of kit here: <img width="447" height="447" alt="image" src="https://github.com/user-attachments/assets/db42ba88-1f27-41ef-aa36-69de965c7024" />
+
+Photo of using it in the field here - "<img width="480" height="640" alt="image" src="https://github.com/user-attachments/assets/63dbf496-4dbd-4a2c-9d9b-c8d8cba61f48" />
+"
 
 > 🎥 **Watch:** [*"Site Selection and Required Materials"*](https://www.youtube.com/watch?v=C0A0yCbXdhw&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=2)
 > · *Core Extrusion – Required Materials* is video **#7** in the same playlist.
@@ -199,7 +202,8 @@ achieved, it is likely that the carbon stock will be poorly estimated.
 <tr>
 <td width="45%">
 
-📸 
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/a5c241f2-5382-4ab0-913d-c6e805980250" />
+
 
 </td>
 <td width="55%">
@@ -216,16 +220,27 @@ ruler graduations on the outside of the tube so you can read insertion depth.
 > 🎥 **Watch:** [*"Sediment Coring"*](https://www.youtube.com/watch?v=TVF1JX2Gdw4&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=4)
 
 ---
+Field data sheet - You can begin filling in part 2
+<img width="474" height="103" alt="image" src="https://github.com/user-attachments/assets/7d43fc86-9e4d-470d-99cb-6f8b4dd61f74" />
+
+
+---
 
 ### 3. Measure compaction
 
 *How much did the sediment squash?*
 
+*** For Claude add NOTE: it is important to try and reduce compaction as much as possible. A method to do so is to use the beveled edge of the coring to cut through the top layer of sediment that contains roots and other fibres. This can be achieved using a twisting motion while inserting it"
+
 <table>
 <tr>
 <td width="45%">
 
-📸 *[Paste field photo — measuring inside vs. outside the tube]*
+*** For claude - animated image <img width="405" height="424" alt="image" src="https://github.com/user-attachments/assets/e87bf946-573b-492f-abdc-484f6bd8ec04" />
+
+field image - 
+<img width="374" height="367" alt="image" src="https://github.com/user-attachments/assets/6806bbdf-f387-4319-838a-4dd873cda829" />
+
 
 </td>
 <td width="55%">
@@ -295,18 +310,24 @@ analysis reads as `outside_depth_cm` (penetration) and `inside_depth_cm` (recove
 <tr>
 <td width="50%">
 
-📸 *[Paste diagram/photo — Method A: reading graduations on the tube]*
+Placeholder**
+
 
 </td>
 <td width="50%">
-
-📸 *[Paste diagram/photo — Method B: inside vs. outside distance from the tube top]*
+  
+<img width="359" height="380" alt="image" src="https://github.com/user-attachments/assets/b9c176ca-1a37-45ea-a7ec-e4d122b07c08" />
 
 </td>
 </tr>
 </table>
 
 > 🎥 **Watch:** [*"Sediment Compaction"*](https://www.youtube.com/watch?v=cW2UIA2Qlp8&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=5)
+
+---
+Record on the data sheet in respective section
+<img width="474" height="103" alt="image" src="https://github.com/user-attachments/assets/615ac034-a02f-4306-81db-8985a6c907c0" />
+
 
 ---
 
@@ -318,7 +339,12 @@ analysis reads as `outside_depth_cm` (penetration) and `inside_depth_cm` (recove
 <tr>
 <td width="45%">
 
-📸 *[Paste field photo — extracting and capping the core]*
+Once the core has been inserted to refusal, the core is mostly secure in the tube. Now its time to remove it, which in some cases might be fairly easy, such as in loose sediments, and in other cases might be harder.
+
+In the case where its harder, you may have to dig around the core to release some suction, shown here : <img width="348" height="357" alt="image" src="https://github.com/user-attachments/assets/2435b917-edda-464a-b363-e06d8ccecdad" />
+
+Alternatively, farm jacks and other wench devices can help with the core extractions - such as displayed in this video here from Dr. Erin Peck and other - https://www.youtube.com/watch?v=mXHhzlfCKEQ
+
 
 </td>
 <td width="55%">
@@ -347,7 +373,14 @@ again.
 <tr>
 <td width="45%">
 
-📸 *[Paste field photo — extruding and slicing subsections]*
+If you have a stop cap mechanism, you can use graviemtric force keeping the sample in the tube to help keep the sample intact while positioning the tube onto the extractor device
+
+*** F0r Claude image here: <img width="480" height="640" alt="image" src="https://github.com/user-attachments/assets/dd64a399-8d89-41c0-8791-0e880c4429f5" />
+
+If not, carefully remove the end cap smoothly as you position the tube onto the extrusion device. Here its important to remind yourself, slow is smooth, smooth is fast.
+
+Image of this - <img width="339" height="173" alt="image" src="https://github.com/user-attachments/assets/697f3105-9907-4b8b-a7c3-405b927d002d" />
+
 
 </td>
 <td width="55%">
@@ -378,6 +411,21 @@ This step has four short companion videos:
 > 📸 **[SCREENSHOT NEEDED]** — the team coring / extruding in the field (a real workshop
 > photo), to anchor these steps visually.
 
+Screenshots here : of salt marsh - 
+<img width="357" height="351" alt="image" src="https://github.com/user-attachments/assets/95b19d2a-5490-454b-98ee-d4777f837015" />
+
+and eelgrass - <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/f673e2ef-783b-4b13-b587-9aae49d9b3be" />
++
+
+<img width="456" height="526" alt="image" src="https://github.com/user-attachments/assets/7e229778-b080-4f56-a26e-01a61c1578b7" />
+
+
++
+
+<img width="617" height="733" alt="image" src="https://github.com/user-attachments/assets/9febd2d8-e7d9-41a1-8d28-712e19f9518b" />
+
+
+
 **DIY extrusion device blueprint.** <!-- TODO (Cathal): insert link to the extrusion-device blueprint PDF here. --> *(link to be added)*
 
 <p align="center">
@@ -392,10 +440,15 @@ This step has four short companion videos:
 your local home hardware store. Ensure the proportions match those of the PVC pipe you are
 using.*
 
-<!-- Image order per Cathal: the long/thin parts-detail image now sits ABOVE the blueprint, both centred on a shared axis. Widths: thin image 35%, blueprint 70% (kept at its "good" size). Adjust the two width values if you want a different balance. -->
+*** For claude - additional actual image of the tool here: 
+Image of teh too in use - <img width="225" height="379" alt="image" src="https://github.com/user-attachments/assets/4545498b-72a1-4ea5-a75d-08dd27a11b6b" />
 
 ---
 
+Note to record on the data sheet
+As you extrude each section, record the top and bottom depth - meaning how deep the top of the section and bottom section of the slice are relative to the surface. Therefore, the bottom of section 2 (lets say 5 for examples) is the top of section 3, and so on
+
+--
 ## Field data sheet
 
 The workshop data sheet is included: **[`Eelgrass_Carbon_Datasheet_v2.pdf`](../Eelgrass_Carbon_Datasheet_v2.pdf)**
