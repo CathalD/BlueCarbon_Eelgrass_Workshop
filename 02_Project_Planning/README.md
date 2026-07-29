@@ -16,22 +16,19 @@
 ## Why planning matters
 
 This section is the workshop's **making the data useful** component (see the
-[main guide](../README.md)). Before you collect any sediment samples — the ones that will fill
-in the [data sheet](../04_Data_Interpretation/) — it's worth making sure what you are collecting
-will actually answer your team's questions. That's what a **Project Planning** aims to accomplish..
+[main guide](../README.md)). Before you collect any sediment samples, it's worth making sure what you are collecting
+will answer your team's questions. That's what a **Project Plan** aims to accomplish..
 
-The following methods are based on WWF-Canada's [Sampling Design guide](Sampling-Design-Eng-2026.pdf), as well
-as the sampling-design guidance provided in the [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
-(see [Section 1](../01_Background/)).
-
-Before collecting sediment cores, its worth considering these four questions:
+> following methods are based on WWF-Canada's [Sampling Design guide](Sampling-Design-Eng-2026.pdf), as well
+>as the sampling-design guidance provided in the [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
+>(see [Section 1](../01_Background/)).
+---
+**Before collecting sediment cores** its worth considering these four questions:
 
 1. **What do I want to know?** - Are you collecting baseline data? Interested in comparing different management types?
 2. **Where does that question apply?** What areas do I want to know about? Is it the whole ecosystem? Just the eelgrass? High-meadow vs low?
 3. **How much data do I need?** How many samples is enough? Can I estimate this before planning to see if it fits my budget?
 4. **Where should I collect samples?** Where exactly should I be collecting data from?
-
-This section turns the answer to these questions using a sampling design
 
 ---
 
@@ -110,7 +107,9 @@ But how do you know how many samples to collect and exactly where to take them? 
 
 ---
 
-## Background Information - What is a sampling design?
+## Background Information
+
+### What is a sampling design?
 
 A sampling design in this workshop is a framework for choosing what and where to sample to estimate the carbon stored in a larger ecosystem area.
 
@@ -129,16 +128,9 @@ Sampling designs allow for the strategic measurement of smaller sections (i.e., 
 </tr>
 </table>
 
-
 ---
 
-## Background — what sampling is and why it works
-
-> [!NOTE]
-> **This part is background, not instructions.** It explains *why* the sampling maths works.
-> You do not need to follow the derivation to run a campaign — the five steps above and the
-> calculator will get you there. Read it when you want to understand what the numbers mean, or
-> when you need to defend them to a reviewer.
+### What sampling is and why it works
 
 **Sampling** is based on probability-based estimation methods. It is used when directly measuring an entire population or area is impractical because of its size. Instead, a small sample is measured and used to estimate the value of the whole.
 
@@ -153,7 +145,7 @@ Sampling designs allow for the strategic measurement of smaller sections (i.e., 
 
 **What is sampling?**
 
-Sampling implies we are collecting small portions of a larger whole to estimate a "value" (in this case carbon) of that larger whole.
+= Taking a small portion (sample) of a thing to make an informed estimate of it
 
 </td>
 </tr>
@@ -161,9 +153,11 @@ Sampling implies we are collecting small portions of a larger whole to estimate 
 
 The more samples you collect, the more precisely you can estimate the true value — the value you would obtain if you could measure the entire ecosystem. Because only a subset of the ecosystem is sampled, every estimate contains some uncertainty. A probability-based sampling result is therefore reported as three parts:
 
+***The 3-parts of a sample estimate***
+
 | Component | Symbol | What it tells you |
 |---|---|---|
-| **Estimate** (the mean) | $\bar{x}$ | Your best estimate of the carbon value, calculated as the average across all sampled plots. |
+| **Estimate** | $\bar{x}$ | Your measured estimate of the carbon value, calculated as the average across all sampled plots. |
 | **Confidence level** | $1-\alpha$ | Describes how often the sampling procedure would capture the true value if repeated many times. For example, a 95% confidence level means that about 95 out of every 100 confidence intervals produced by the same sampling method would contain the true value |
 | **Margin of error** | $E$ | Describes the precision of the estimate. It is the distance from the estimate to the edge of the confidence interval and is often reported relative to the estimate (e.g., ±10%). Smaller margins of error indicate more precise estimates |
 
