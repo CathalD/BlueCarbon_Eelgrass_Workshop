@@ -279,7 +279,7 @@ traced what they could see on recent imagery.
 
 </details>
 
-### 🛠 Your turn
+***Note for Claude these steps will go "Side by side slide and explanation, the a ### 🛠 Your turn underneath it with a link to the tool showing how to accomplish it ***
 
 <table>
 <tr>
@@ -290,9 +290,6 @@ traced what they could see on recent imagery.
 </td>
 <td width="55%">
 
-Draw a simple polygon on a map — in the
-[Blue Carbon Hub tool](https://blue-carbon-hub.projects.earthengine.app/), in Google Earth
-Engine, or in whatever GIS you already use — or take a pre-defined area if one exists.
 
 If you run transects, or already know the general area you're interested in, a simple estimate
 of the area is enough. A rough guess is genuinely informative here.
@@ -310,14 +307,15 @@ of the area is enough. A rough guess is genuinely informative here.
 </td>
 <td width="55%">
 
-**In practice:** outlining a rough study area directly on the map in Google Earth Engine.
+Draw a simple polygon on a map — in the
+[Blue Carbon Hub tool](https://blue-carbon-hub.projects.earthengine.app/), in Google Earth
+Engine, or in whatever GIS you already use — or take a pre-defined area if one exists.
 
 </td>
 </tr>
 </table>
 
-> [!TIP]
-> **✅ Before moving on, you should have:**
+Change this to a "What you should have before you move on
 > - A boundary polygon (or a sketched area on a map)
 > - Its **total area in m²** — you'll need this number in Step 4
 
@@ -370,6 +368,10 @@ split it into distinct strata before calculating the sample size (Step 4).
 </tr>
 </table>
 
+
+*** Add in the what you should have
+- 1 large area containing 1 ecosystem type
+- Multiple boundaries contains unique ecosystems, different management area, and other areas you wish to distinguigh for comparison
 ---
 
 ## Step 3: What to measure
