@@ -11,6 +11,19 @@
 # Part 2 — Project Planning
 ## From a carbon question to a sampling design
 
+**Quick links:** [Sampling Design Guide](Sampling-Design-Eng-2026.pdf) · [Sample Allocation Calculator](SampleDesign_SampleAllocationCalculator_WithStrata.xlsx) · [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf) · [Howard et al. (2014) Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
+
+## Why planning matters
+
+This section is the workshop's **making the data useful** component (see the
+[main guide](../README.md)). Before you collect any sediment samples — the ones that will fill
+in the [data sheet](../04_Data_Interpretation/) — it's worth making sure what you are collecting
+will actually answer your team's questions. That's what a **Project Planning** aims to accomplish..
+
+The following methods are based on WWF-Canada's [Sampling Design guide](Sampling-Design-Eng-2026.pdf), as well
+as the sampling-design guidance provided in the [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
+(see [Section 1](../01_Background/)).
+
 Before collecting sediment cores, its worth considering these four questions:
 
 1. **What do I want to know?** - Are you collecting baseline data? Interested in comparing different management types?
@@ -18,9 +31,7 @@ Before collecting sediment cores, its worth considering these four questions:
 3. **How much data do I need?** How many samples is enough? Can I estimate this before planning to see if it fits my budget?
 4. **Where should I collect samples?** Where exactly should I be collecting data from?
 
-This section turns the answer to these questions into a plan
-
-**Quick links:** [Sampling Design Guide](Sampling-Design-Eng-2026.pdf) · [Sample Allocation Calculator](SampleDesign_SampleAllocationCalculator_WithStrata.xlsx) · [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf) · [Howard et al. (2014) Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
+This section turns the answer to these questions using a sampling design
 
 ---
 
@@ -34,6 +45,7 @@ This section turns the answer to these questions into a plan
   ✓  Sampling locations to collect sediment core data                                          
 ```
 
+*** Note for Claude - combine the "What youll have at the end of this section" part and the "The road from here to field" into side as they say the same thing.
 ### The road from here to the field
 
 ```
@@ -58,32 +70,16 @@ This section turns the answer to these questions into a plan
         Field collection  →  Section 3
 ```
 
-Each of the five steps below follows the same shape: **why it matters**, **what the Tsawwassen
-team did**, **your turn**, and **what you should have** before moving on.
+Each of the five steps below follows the same shape: **why it matters**, **Demonstration using our Working Example**, **Tools for you to try**, and **what you should have** before moving on.
 
 ---
 
-## Why planning matters
 
-This section is the workshop's **making the data useful** component (see the
-[main guide](../README.md)). Before you collect any sediment samples — the ones that will fill
-in the [data sheet](../04_Data_Interpretation/) — it's worth making sure what you are collecting
-will actually answer your team's questions. That's what a **sampling design** aims to accomplish.
+## Introducing our Worked example
+*** Note for Claude *** All the worked examples should be in the Worked Example Folder.
+Here they should be in dropdown format along with the link to the part on the folder
+Mark the "Worked Example" using a Blue [Note] See a demonstrated worked example here
 
-Two questions are worth considering: **how many samples should you take, and where should you
-take them?** A sampling design ensures you have enough samples, allocated across the ecosystem,
-to estimate carbon stock and meet the project's goals.
-
-
-The following methods are based on WWF-Canada's [Sampling Design guide](Sampling-Design-Eng-2026.pdf), as well
-as the sampling-design guidance provided in the [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
-(see [Section 1](../01_Background/)).
-
----
-
-## Worked example — meet the team at Tsawwassen Beach
-
-> [!TIP]
 > **This is the worked example.** One small team in British Columbia, followed from planning
 > through fieldwork to carbon estimates. It runs through **every part of this workshop**, so you
 > can watch one project end to end. The complete version — data sheets, analysis and results —
@@ -114,7 +110,7 @@ But how do you know how many samples to collect and exactly where to take them? 
 
 ---
 
-## What is a sampling design?
+## Background Information - What is a sampling design?
 
 A sampling design in this workshop is a framework for choosing what and where to sample to estimate the carbon stored in a larger ecosystem area.
 
@@ -133,22 +129,6 @@ Sampling designs allow for the strategic measurement of smaller sections (i.e., 
 </tr>
 </table>
 
----
-
-## The sampling roadmap in five steps
-
-The guide breaks *applying* a sampling design into **five steps**.
-
-| # | Step | Answers |
-|---|------|---------|
-| 1 | **Identify the boundary** of the study area | *Where, roughly, am I working?* |
-| 2 | **Stratify** the study area (optional) | *Does the site split into distinct areas?* |
-| 3 | **Choose what to measure** — the carbon pool | *Water, plant, or sediment carbon?* |
-| 4 | **Determine how many samples** to take | *How many cores meet my intended goal?* |
-| 5 | **Determine where to sample** — distribution | *Where exactly do I collect sample and data from?* |
-
-Selecting a plot design (the physical layout of each core) follows from these; for eelgrass
-sediment cores, see [Section 3 — Field Methods](../03_Field_Methods/).
 
 ---
 
@@ -265,6 +245,23 @@ matters when the area is small enough that plots are genuinely scarce.
 </details>
 
 ###### ▲ END BACKGROUND — back to implementation. That was the reasoning behind Step 4; now we walk the five steps, starting with the boundary.
+
+---
+
+## The sampling roadmap in five steps
+
+The guide breaks *applying* a sampling design into **five steps**.
+
+| # | Step | Answers |
+|---|------|---------|
+| 1 | **Identify the boundary** of the study area | *Where, roughly, am I working?* |
+| 2 | **Stratify** the study area (optional) | *Does the site split into distinct areas?* |
+| 3 | **Choose what to measure** — the carbon pool | *Water, plant, or sediment carbon?* |
+| 4 | **Determine how many samples** to take | *How many cores meet my intended goal?* |
+| 5 | **Determine where to sample** — distribution | *Where exactly do I collect sample and data from?* |
+
+Selecting a plot design (the physical layout of each core) follows from these; for eelgrass
+sediment cores, see [Section 3 — Field Methods](../03_Field_Methods/).
 
 ---
 
