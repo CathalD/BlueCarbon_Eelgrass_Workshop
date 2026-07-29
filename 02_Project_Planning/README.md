@@ -8,13 +8,64 @@
 
 ---
 
-# Part 2 — Project Planning: Connecting Data to Project Goals
+# Part 2 — Project Planning
+## From a carbon question to a sampling design
 
-*Here we'll determine how many samples to take, and where to take them.*
+Before collecting sediment cores, you need to answer four questions:
 
+1. **What do I want to know?**
+2. **Where does that question apply?**
+3. **How much data do I need?**
+4. **Where should I collect samples?**
+
+This section turns a project goal into a field-ready sampling plan.
 
 **Quick links:** [Sampling Design Guide](Sampling-Design-Eng-2026.pdf) · [Sample Allocation Calculator](SampleDesign_SampleAllocationCalculator_WithStrata.xlsx) · [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf) · [Howard et al. (2014) Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
 
+---
+
+### What you'll have at the end of this section
+
+```
+┌─────────────────────────────────────────────┐
+│  YOUR SAMPLING PLAN                         │
+├─────────────────────────────────────────────┤
+│                                             │
+│   ✓  Study area boundary                    │
+│   ✓  Ecosystem strata (if you need them)    │
+│   ✓  Carbon pool selected                   │
+│   ✓  Required number of cores               │
+│   ✓  Sampling locations to hand to the team │
+│                                             │
+└─────────────────────────────────────────────┘
+```
+
+### The road from here to the field
+
+```
+        Your carbon question
+                 │
+                 ▼
+   1.  Study area boundary          ── where am I working?
+                 │
+                 ▼
+   2.  Stratification               ── does it split into zones?
+                 │
+                 ▼
+   3.  Carbon pool                  ── what am I measuring?
+                 │
+                 ▼
+   4.  Sample size                  ── how many cores?
+                 │
+                 ▼
+   5.  Sample locations             ── where do they go?
+                 │
+                 ▼
+        Field collection  →  Section 3
+```
+
+Each of the five steps below follows the same shape: **why it matters**, **what the Tsawwassen
+team did**, **your turn**, and **what you should have** before moving on.
 
 ---
 
@@ -223,9 +274,32 @@ matters when the area is small enough that plots are genuinely scarce.
 
 ---
 
-## Step 1: Identify the boundary of the study area
+## Step 1 — Define your study area
 
 *Where, roughly, am I working?*
+
+> [!NOTE]
+> **🎓 Why this matters.** Every number you produce later is *per unit area*, so the boundary
+> is what turns a carbon density into a carbon total. It also sets $N$ — the number of possible
+> plot locations — which feeds the sample-size calculation in Step 4.
+>
+> It does **not** need to be precise. A rough outline of where the meadow is beats a perfect
+> outline of the wrong thing.
+
+<details>
+<summary><b>📊 What the Tsawwassen team did</b></summary>
+
+<br>
+
+Using the Google Earth Engine sampling-design tool, they drew a rough outline of the area they
+knew was mostly eelgrass — a **5 ha inlet (50,000 m²)**. They did not survey the edge; they
+traced what they could see on recent imagery.
+
+<img width="60%" alt="Drawing a study area boundary in Google Earth Engine" src="images/download%20(5).gif">
+
+</details>
+
+### 🛠 Your turn
 
 <table>
 <tr>
@@ -236,17 +310,16 @@ matters when the area is small enough that plots are genuinely scarce.
 </td>
 <td width="55%">
 
-This can be a simple polygon drawn on a map — such as a boundary drawn in Google Earth
-Engine *(link to be added)* — or a pre-defined area.
+Draw a simple polygon on a map — in the
+[Blue Carbon Hub tool](https://blue-carbon-hub.projects.earthengine.app/), in Google Earth
+Engine, or in whatever GIS you already use — or take a pre-defined area if one exists.
 
-Alternatively, if you run transects or already know the general area you're interested
-in, a simple estimate of the area can be very informative here. For this step, it's not
-crucial to measure the exact boundary — a rough guess can be very informative.
+If you run transects, or already know the general area you're interested in, a simple estimate
+of the area is enough. A rough guess is genuinely informative here.
 
 </td>
 </tr>
 </table>
-
 
 <table>
 <tr>
@@ -262,6 +335,11 @@ crucial to measure the exact boundary — a rough guess can be very informative.
 </td>
 </tr>
 </table>
+
+> [!TIP]
+> **✅ Before moving on, you should have:**
+> - A boundary polygon (or a sketched area on a map)
+> - Its **total area in m²** — you'll need this number in Step 4
 
 ---
 
@@ -336,14 +414,38 @@ or the sediment. For an eelgrass carbon project, this is the **sediment**.
 
 ---
 
-## Step 4: How many samples? — Sample allocation
+## Step 4 — Decide how many samples
 
 *How many cores meet my precision goal?*
 
-This step answers **how many cores** you need to meet the project's goals. As the planner, you
-set the desired margin of error and confidence level and provide a prior estimate of the mean and
-variability of carbon in the ecosystem; the calculator returns *n*. You never work the formula by
-hand — but it helps to know which inputs actually move the answer, and by how much.
+> [!NOTE]
+> **🎓 Why this matters.** This is the step that decides your budget and your field schedule —
+> and the one most likely to be challenged by a reviewer. Too few cores and your estimate
+> carries an interval too wide to act on; too many and you spend a season collecting data you
+> didn't need.
+>
+> You set two things — **how precise** you need to be, and **how confident** — then describe how
+> variable you expect the meadow to be. The calculator returns the number of cores. You never
+> work the formula by hand, but it pays to know which inputs actually move the answer.
+
+<details>
+<summary><b>📊 What the Tsawwassen team did</b></summary>
+
+<br>
+
+They calculated the required number of cores from:
+
+- Total area = **50,000 m²** (the 5 ha inlet from Step 1) → at **100 m² per plot**, $N$ = **500** possible plots
+- Confidence level = **90%** → $z = 1.645$
+- Margin of error = **±10%** ($E = 0.10$)
+- Prior mean and variation = **≈ 120 Mg C ha⁻¹, SD ≈ 60** (regional WWF-Canada carbon map) → $CV = 0.5$
+
+That returns **≈ 60 cores**. Padding for ~70% usable-sample recovery — attrition, lost cores,
+damaged samples — they planned to collect **≈ 86**.
+
+</details>
+
+### What moves the answer
 
 ### What drives sample size?
 
@@ -357,6 +459,14 @@ plot size and every number below shifts.
 
 The table is anchored on the worked example: a **5 ha inlet** ($N$ = 500 plots), ±10% margin of
 error, 90% confidence, CV 0.5 → **≈ 60 cores**. One knob at a time:
+
+```
+                                              cores needed (from 60)
+  Precision      ±10% → ±5%      ████████████████████████  176
+  Variability    CV 0.5 → 1.0    ████████████████████████  176
+  Confidence     90% → 95%       ███████████               81
+  Study area     5 ha → 50 ha    █████████                 67
+```
 
 | Knob | Turn it… | Effect on cores (*n*) | Why |
 |---|---|---|---|
@@ -563,6 +673,19 @@ where $s$ and $\bar{x}$ are now the *sample* standard deviation and mean, and $\
 
 <!-- TODO (Cathal): a small screenshot/GIF of the calculator's "check precision after survey" cells (SRS-Mean rows for SE, t-value, relative precision) would slot in well here. -->
 
+> [!WARNING]
+> **⚠️ A common mistake.** *"I collected 10 cores, so I have a carbon estimate."*
+>
+> You have an estimate — but not necessarily a **defensible** one. A carbon number without a
+> margin of error can't be compared to another site, to a future survey, or to a target. The
+> sample size is what buys you the interval, and the interval is what makes the number usable.
+
+> [!TIP]
+> **✅ Before moving on, you should have:**
+> - A **target margin of error** and **confidence level** you can justify
+> - A **prior** for mean carbon and its variability, and a note of where it came from
+> - A **required number of cores** from the calculator
+> - That number **padded for recovery losses** — the count you'll actually plan to collect
 
 ---
 
@@ -728,6 +851,26 @@ Next, you send these coordinates to your team to go and collect the samples.
 **Summary of what to expect:** *Given a 5 ha inlet and a target of ±10% at 90% confidence, plan for roughly 60 cores of usable data (about 86 collected after padding), split proportionally between the dense and sparse strata. If the meadow turns out patchier than the CV prior assumed, expect to either add cores or report a slightly wider interval — which is exactly why oversampling at the design stage is worth it.*
 
 </details>
+
+---
+
+## ✅ Sampling design complete
+
+Before heading into the field, check you can answer all six:
+
+```
+  ☑  Study area boundary defined            → Step 1
+  ☑  Strata identified (or ruled out)       → Step 2
+  ☑  Carbon pool selected                   → Step 3
+  ☑  Sample size calculated and padded      → Step 4
+  ☑  Sampling locations generated           → Step 5
+  ☑  Data sheets printed and ready          → Section 3
+```
+
+If any line is still open, it is cheaper to close it now than after a field season.
+
+**Next: [Section 3 — Field Methods →](../03_Field_Methods/)** — collecting the cores your plan
+just specified.
 
 ---
 
