@@ -19,10 +19,10 @@
 
 ## Why planning matters
 
-This section is the workshop's **making the data useful** job (see the
-[main guide](../README.md)). Before you collect a single core to fill in the
-[data sheet](../04_Data_Interpretation/), it's worth making sure the samples you plan to take
-will actually answer your team's questions. That's what a **sampling design** does.
+This section is the workshop's **making the data useful** component (see the
+[main guide](../README.md)). Before you collect any sediment samples
+[data sheet](../04_Data_Interpretation/), it's worth making sure what you are collecting
+will actually answer your team's questions. That's what a **sampling design** aims to accomplish.
 
 Two questions are worth considering: **how many samples should you take, and where should you
 take them?** A sampling design ensures you have enough samples, allocated across the ecosystem,
