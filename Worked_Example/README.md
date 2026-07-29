@@ -25,6 +25,8 @@ own site.**
 
 ## What's here
 
+- **[`02_Project_Planning.md`](02_Project_Planning.md)** — the planning walkthrough: how the team
+  went from a carbon question to ~86 cores and a set of coordinates, step by step.
 - **[`Eelgrass_Carbon_DigitalData_Example.xlsx`](Eelgrass_Carbon_DigitalData_Example.xlsx)** —
   the digital data sheet, filled in: field measurements, lab results, and every calculated
   column (bulk density, carbon stock per slice, per-core totals).

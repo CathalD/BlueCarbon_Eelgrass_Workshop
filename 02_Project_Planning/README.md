@@ -17,13 +17,16 @@
 
 This section is the workshop's **making the data useful** component (see the
 [main guide](../README.md)). Before you collect any sediment samples, it's worth making sure what you are collecting
-will answer your team's questions. That's what a **Project Plan** aims to accomplish..
+will answer your team's questions. That's what a **Project Plan** aims to accomplish.
 
-> following methods are based on WWF-Canada's [Sampling Design guide](Sampling-Design-Eng-2026.pdf), as well
->as the sampling-design guidance provided in the [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
->(see [Section 1](../01_Background/)).
+> The following methods are based on WWF-Canada's [Sampling Design guide](Sampling-Design-Eng-2026.pdf),
+> as well as the sampling-design guidance provided in the
+> [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
+> (see [Section 1](../01_Background/)).
+
 ---
-**Before collecting sediment cores** its worth considering these four questions:
+
+**Before collecting sediment cores** it's worth considering these four questions:
 
 1. **What do I want to know?** - Are you collecting baseline data? Interested in comparing different management types?
 2. **Where does that question apply?** What areas do I want to know about? Is it the whole ecosystem? Just the eelgrass? High-meadow vs low?
@@ -32,57 +35,82 @@ will answer your team's questions. That's what a **Project Plan** aims to accomp
 
 ---
 
-### What you'll have at the end of this section
+### The road from here to the field — and what you'll have at the end
 
-```        
-  ✓  Study area boundary                    
-  ✓  Ecosystem strata (if you need them)    
-  ✓  Carbon pool selected                   
-  ✓  Required number of cores               
-  ✓  Sampling locations to collect sediment core data                                          
-```
+<table>
+<tr>
+<td width="52%">
 
-*** Note for Claude - combine the "What youll have at the end of this section" part and the "The road from here to field" into side as they say the same thing.
-### The road from here to the field
+**The five steps**
 
 ```
-        Your carbon question
-                 │
-                 ▼
-   1.  Study area boundary          ── where am I working?
-                 │
-                 ▼
-   2.  Stratification               ── does it split into zones?
-                 │
-                 ▼
-   3.  Carbon pool                  ── what am I measuring?
-                 │
-                 ▼
-   4.  Sample size                  ── how many cores?
-                 │
-                 ▼
-   5.  Sample locations             ── where do they go?
-                 │
-                 ▼
-        Field collection  →  Section 3
+     Your carbon question
+              │
+              ▼
+  1.  Study area boundary
+              │        where am I working?
+              ▼
+  2.  Stratification
+              │        does it split into zones?
+              ▼
+  3.  Carbon pool
+              │        what am I measuring?
+              ▼
+  4.  Sample size
+              │        how many cores?
+              ▼
+  5.  Sample locations
+              │        where do they go?
+              ▼
+     Field collection → Section 3
 ```
 
-Each of the five steps below follows the same shape: **why it matters**, **Demonstration using our Working Example**, **Tools for you to try**, and **what you should have** before moving on.
+</td>
+<td width="48%">
+
+**What each step leaves you with**
+
+```
+  ✓  Study area boundary
+
+  ✓  Ecosystem strata
+     (if you need them)
+
+  ✓  Carbon pool selected
+
+  ✓  Required number of cores
+
+  ✓  Sampling locations to
+     collect sediment core data
+```
+
+</td>
+</tr>
+</table>
+
+Each of the five steps below follows the same shape: **why it matters**, **a demonstration using our worked example**, **tools for you to try**, and **what you should have** before moving on.
 
 ---
 
 
-## Introducing our Worked example
-*** Note for Claude *** All the worked examples should be in the Worked Example Folder.
-Here they should be in dropdown format along with the link to the part on the folder
-Mark the "Worked Example" using a Blue [Note] See a demonstrated worked example here
+## Introducing our worked example
 
-> **This is the worked example.** One small team in British Columbia, followed from planning
-> through fieldwork to carbon estimates. It runs through **every part of this workshop**, so you
-> can watch one project end to end. The complete version — data sheets, analysis and results —
-> lives in [`Worked_Example/`](../Worked_Example/).
+> [!NOTE]
+> **📊 See a demonstrated worked example here.** One small team in British Columbia, followed
+> from planning through fieldwork to carbon estimates. It runs through **every part of this
+> workshop**, so you can watch one project end to end.
+>
+> The full planning walkthrough lives in
+> **[`Worked_Example/02_Project_Planning.md`](../Worked_Example/02_Project_Planning.md)**, and
+> the complete project — data sheets, analysis and results — in
+> [`Worked_Example/`](../Worked_Example/).
 >
 > Follow it to see the shape of a project. Don't copy its numbers: yours will differ.
+
+<details>
+<summary><b>📊 Meet the team at Tsawwassen Beach</b> &nbsp;·&nbsp; <i>their goal and their questions</i></summary>
+
+<br>
 
 Here we meet a small team working in B.C., aiming to gather baseline carbon data in the
 **Tsawwassen Beach marshes**.
@@ -104,6 +132,8 @@ Let's break the scenario into digestible parts.
 **Second**, you want to collect samples from within these different areas, so you can "measure" the amount of carbon in these ecosystems.
 
 But how do you know how many samples to collect and exactly where to take them? This can be answered with a **sampling design**.
+
+</details>
 
 ---
 
@@ -153,8 +183,10 @@ Sampling designs allow for the strategic measurement of smaller sections (i.e., 
 
 The more samples you collect, the more precisely you can estimate the true value — the value you would obtain if you could measure the entire ecosystem. Because only a subset of the ecosystem is sampled, every estimate contains some uncertainty. A probability-based sampling result is therefore reported as three parts:
 
-*** Note for Claude make this a drop down ***
-***The 3-parts of a sample estimate***
+<details>
+<summary><b>The 3 parts of a sample estimate</b></summary>
+
+<br>
 
 | Component | Symbol | What it tells you |
 |---|---|---|
@@ -162,12 +194,14 @@ The more samples you collect, the more precisely you can estimate the true value
 | **Confidence level** | $1-\alpha$ | Describes how often the sampling procedure would capture the true value if repeated many times. For example, a 95% confidence level means that about 95 out of every 100 confidence intervals produced by the same sampling method would contain the true value |
 | **Margin of error** | $E$ | Describes the precision of the estimate. It is the distance from the estimate to the edge of the confidence interval and is often reported relative to the estimate (e.g., ±10%). Smaller margins of error indicate more precise estimates |
 
-Put together, a example of a result would be: *"mean carbon = 100 ±10 (Confidence level = 95% or Confidence Interval = 90 - 110)*
+Put together, an example of a result would be: *"mean carbon = 100 ±10 (confidence level = 95%, so the confidence interval is 90–110)."*
+
+</details>
 
 
 ### Visualizing Sampling on map
 
-Below are clips taken from the "Sample Size Visualization Tool" *** FOr Claude add link here ***
+Below are clips taken from the **[Sample Size Visualization Tool](https://blue-carbon-hub.projects.earthengine.app/)**.
 
 Here we can see how sampling an area can reveal the "True Map" underlying it
 
@@ -267,7 +301,7 @@ plot locations — which feeds the sample-size calculation in Step 4.
 > outline of the wrong thing.
 
 <details>
-<summary><b> See our Working Example d</b></summary>
+<summary><b>📊 See our worked example</b> &nbsp;·&nbsp; <i>how the Tsawwassen team defined their area</i></summary>
 
 <br>
 
@@ -279,8 +313,6 @@ traced what they could see on recent imagery.
 
 </details>
 
-***Note for Claude these steps will go "Side by side slide and explanation, the a ### 🛠 Your turn underneath it with a link to the tool showing how to accomplish it ***
-
 <table>
 <tr>
 <td width="45%">
@@ -290,6 +322,8 @@ traced what they could see on recent imagery.
 </td>
 <td width="55%">
 
+The boundary can be a simple polygon drawn on a map, or a pre-defined area if one already
+exists for your site.
 
 If you run transects, or already know the general area you're interested in, a simple estimate
 of the area is enough. A rough guess is genuinely informative here.
@@ -297,6 +331,10 @@ of the area is enough. A rough guess is genuinely informative here.
 </td>
 </tr>
 </table>
+
+### 🛠 Your turn
+
+**Tool: [Blue Carbon Hub sampling-design app](https://blue-carbon-hub.projects.earthengine.app/)** — draw your area of interest directly on the map.
 
 <table>
 <tr>
@@ -315,7 +353,8 @@ Engine, or in whatever GIS you already use — or take a pre-defined area if one
 </tr>
 </table>
 
-Change this to a "What you should have before you move on
+> [!TIP]
+> **✅ What you should have before you move on**
 > - A boundary polygon (or a sketched area on a map)
 > - Its **total area in m²** — you'll need this number in Step 4
 
@@ -351,6 +390,10 @@ techniques, restoration years, etc.
 </tr>
 </table>
 
+### 🛠 Your turn
+
+**Tool: [Blue Carbon Hub sampling-design app](https://blue-carbon-hub.projects.earthengine.app/)** — use the auto-stratification function, or draw your strata by hand.
+
 <table>
 <tr>
 <td width="45%">
@@ -368,10 +411,16 @@ split it into distinct strata before calculating the sample size (Step 4).
 </tr>
 </table>
 
+> [!TIP]
+> **✅ What you should have before you move on**
+>
+> Either:
+> - **One** large area containing a single ecosystem type, **or**
+> - **Multiple** boundaries containing unique ecosystems, different management areas, or any
+>   other areas you wish to distinguish for comparison
+>
+> Plus the **area in m² of each** — Step 4 uses these to divide the cores between them.
 
-*** Add in the what you should have
-- 1 large area containing 1 ecosystem type
-- Multiple boundaries contains unique ecosystems, different management area, and other areas you wish to distinguigh for comparison
 ---
 
 ## Step 3: What to measure
@@ -393,6 +442,11 @@ or the sediment. For an eelgrass carbon project, this is the **sediment**.
 </td>
 </tr>
 </table>
+
+> [!TIP]
+> **✅ What you should have before you move on**
+> - The **carbon pool** you're measuring, written down — for this workshop, sediment
+> - A target **core depth**, or a decision to core to refusal (see [Section 3](../03_Field_Methods/))
 
 ---
 
@@ -788,49 +842,30 @@ to divide up (stratify) their study area, and allocate their samples.
 ---
 ## Worked example — planning the Tsawwassen campaign
 
-> [!TIP]
-> Back to the team we met at the top of this section. Here they work through all five steps for
-> their own site, to arrive at a number of cores and a set of coordinates. The fieldwork that
-> follows is in [Section 3](../03_Field_Methods/); the analysis of what they collected is in
-> [Section 4](../04_Data_Interpretation/).
-
-Their planning question is the one they started with:
-
-A) How many samples to take
-B) Where to take them
+> [!NOTE]
+> **📊 See a demonstrated worked example here.** Back to the team we met at the top of this
+> section — here they work through all five steps for their own site, arriving at a number of
+> cores and a set of coordinates.
+>
+> **→ [Read the full planning walkthrough](../Worked_Example/02_Project_Planning.md)**
+>
+> The fieldwork that follows is in [Section 3](../03_Field_Methods/); the analysis of what they
+> collected is in [Section 4](../04_Data_Interpretation/).
 
 <details>
-<summary><b>See how the team worked through all five steps</b> &nbsp;·&nbsp; <i>the full example</i></summary>
+<summary><b>📊 Their answers at a glance</b></summary>
 
 <br>
 
-**Step 1 — Area.** Using the Google Earth Engine sampling-design tool, you draw a rough outline of the area you know is mostly eelgrass.
+| Step | Their decision |
+|---|---|
+| 1 — Study area | A **5 ha inlet** (50,000 m²), traced roughly from imagery |
+| 2 — Stratify | **Two strata** — denser meadow, sparser fringe |
+| 3 — Carbon pool | **Sediment**, cored to refusal |
+| 4 — Sample size | **≈ 60 cores** needed; **≈ 86** planned to collect after padding |
+| 5 — Locations | Allocated proportionally by stratum area, minimum 5 per stratum |
 
-<img width="60%" alt="Drawing a study area boundary in Google Earth Engine" src="images/download%20(5).gif">
-
-**Step 2 — Stratify.** You know there are slight differences across the site, so you use the "Auto-Stratification" tool to help delineate unique areas.
-
-<img width="60%" alt="Auto-stratifying the study area into distinct strata" src="images/download%20(7).gif">
-
-**Step 3 — What to measure.** You only want to measure sediments in this area.
-
-**Step 4 — How many samples.** You calculate the required number of cores for this area based on:
-- Total area = **50,000 m²** (5 ha inlet) → at **100 m² per plot** (10 × 10 m), $N$ = **500** possible plots
-- Confidence level = **90%** → $z = 1.645$
-- Margin of error = **±10%** ($E = 0.10$)
-- Prior estimate for C stock and variation = **mean ≈ 120 Mg C ha⁻¹, SD ≈ 60** (from the regional WWF-Canada carbon map) → $CV = 60/120 = 0.5$
-
-Plugging in gives **≈ 60 cores**. Padding for ~70% usable-sample recovery (attrition, lost cores, damaged samples) → **≈ 86 cores** to collect.
-
-...using the calculator's built-in calculation function.
-
-**Step 5 — Where to sample.** You allocate those ~86 cores proportionally across the two strata (e.g. a dense meadow twice the area of the sparse fringe gets roughly twice the cores), keeping a **minimum of 5 per stratum**.
-
-<img width="60%" alt="Allocating samples across strata over the study area" src="images/download%20(6).gif">
-
-Next, you send these coordinates to your team to go and collect the samples.
-
-**Summary of what to expect:** *Given a 5 ha inlet and a target of ±10% at 90% confidence, plan for roughly 60 cores of usable data (about 86 collected after padding), split proportionally between the dense and sparse strata. If the meadow turns out patchier than the CV prior assumed, expect to either add cores or report a slightly wider interval — which is exactly why oversampling at the design stage is worth it.*
+**→ [See how they got there](../Worked_Example/02_Project_Planning.md)**
 
 </details>
 
