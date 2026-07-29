@@ -190,10 +190,13 @@ Probability-based sampling does two jobs for a project:
 - By **rearranging the formula**, we can work backwards — from the precision we want, to the
   number of samples needed to get there.
 
-That second point is what turns statistics into a planning tool, and it's worth seeing the
-algebra once.
+That second point is what turns statistics into a planning tool. The algebra behind it is worth
+seeing once — but you never have to do it by hand, so it's folded away here.
 
-#### Rearranging to get Cochran's sample size
+<details>
+<summary><b>Rearranging to get Cochran's sample size</b> &nbsp;·&nbsp; <i>show the derivation</i></summary>
+
+<br>
 
 Start from what a margin of error *is* — the z-multiplier times the standard error of the mean:
 
@@ -214,10 +217,9 @@ Read the two forms together and the behaviour of the whole method falls out: $E$
 both **squared**, so precision and patchiness dominate the cost of a campaign — while $N$ only
 matters when the area is small enough that plots are genuinely scarce.
 
----
+</details>
 
-*Back to implementation — that's the reasoning behind Step 4. Now let's walk the five steps,
-starting with the boundary.*
+###### ▲ END BACKGROUND — back to implementation. That was the reasoning behind Step 4; now we walk the five steps, starting with the boundary.
 
 ---
 
@@ -692,7 +694,10 @@ Their planning question is the one they started with:
 A) How many samples to take
 B) Where to take them
 
-So they begin to implement the steps:
+<details>
+<summary><b>See how the team worked through all five steps</b> &nbsp;·&nbsp; <i>the full example</i></summary>
+
+<br>
 
 **Step 1 — Area.** Using the Google Earth Engine sampling-design tool, you draw a rough outline of the area you know is mostly eelgrass.
 
@@ -721,6 +726,8 @@ Plugging in gives **≈ 60 cores**. Padding for ~70% usable-sample recovery (att
 Next, you send these coordinates to your team to go and collect the samples.
 
 **Summary of what to expect:** *Given a 5 ha inlet and a target of ±10% at 90% confidence, plan for roughly 60 cores of usable data (about 86 collected after padding), split proportionally between the dense and sparse strata. If the meadow turns out patchier than the CV prior assumed, expect to either add cores or report a slightly wider interval — which is exactly why oversampling at the design stage is worth it.*
+
+</details>
 
 ---
 
