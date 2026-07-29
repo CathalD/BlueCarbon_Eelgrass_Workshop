@@ -23,19 +23,6 @@ any section you wish.
 | 4 | [**Data Interpretation**](04_Data_Interpretation/) | Submitting samples to a lab, reading lab results, and the full carbon analysis. |
 
 
-### How to read this workshop
-
-Three kinds of content run through every section, each marked so you always know whether
-you're being asked to *do* something, *understand* something, or *watch someone else* do it:
-
-| Marker | Type | What it means |
-|---|---|---|
-| 🛠️ | **Implementation** | What you actually do for your own site. This is the spine — follow only these markers and you can run a complete campaign. |
-| 📘 | **Background** | Why the method works. Useful for defending your numbers, but **skippable** — you can execute every step without it. |
-| 🔬 | **Worked example** | One team's project at Tsawwassen Beach, BC, followed from planning to results. Shows the *shape* of a project; the numbers are constructed for teaching, so follow it rather than copy it. |
-
-The complete worked example lives in [`Worked_Example/`](Worked_Example/).
-
 ### Useful links
 
 - **WWF-Canada Carbon Measurement library** — [wwf.ca/carbon-measurement](https://wwf.ca/carbon-measurement/)
