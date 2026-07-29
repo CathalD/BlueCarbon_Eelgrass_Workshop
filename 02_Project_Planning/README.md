@@ -36,6 +36,12 @@ as the sampling-design guidance provided in the [Howard et al. Blue Carbon Manua
 ---
 ## First, let's consider the following scenario
 
+*** For claude - this will be part of the "Worked example". Lets change this framing as the introduction to this worked example, which we will use throughout. It will also exist as its own folder with the full example for each module.
+
+*** ALso for Claude - the "Worked Examples" throughout the workshop should be in a different style than the educational peices and the implementation pieces. ***
+
+Here, we introduce the small team working in B.C. aiming to gather baseline carbon data in the Tsawwassen Beach Marshes.
+
 You and your team of 4 are tasked with **assessing the baseline measurements of an eelgrass ecosystem before protection and restoration** measures are implemented.
 
 You want to know two things:
@@ -58,7 +64,7 @@ But how do you know how many samples to collect and exactly where to take them? 
 
 ## What is a sampling design?
 
-A sampling design is a framework for choosing what and where to sample to estimate the carbon stored in a larger ecosystem area.
+A sampling design in this workshop is a framework for choosing what and where to sample to estimate the carbon stored in a larger ecosystem area.
 
 <table>
 <tr>
@@ -77,26 +83,23 @@ Sampling designs allow for the strategic measurement of smaller sections (i.e., 
 
 ---
 
-## Your roadmap — the five steps
+## The sampling roadmap in five steps
 
-The guide breaks *applying* a sampling design into **five steps**. The rest of this section is
-one step per heading, in this order:
+The guide breaks *applying* a sampling design into **five steps**.
 
 | # | Step | Answers |
 |---|------|---------|
 | 1 | **Identify the boundary** of the study area | *Where, roughly, am I working?* |
 | 2 | **Stratify** the study area (optional) | *Does the site split into distinct areas?* |
 | 3 | **Choose what to measure** — the carbon pool | *Water, plant, or sediment carbon?* |
-| 4 | **Determine how many samples** to take | *How many cores meet my precision goal?* |
-| 5 | **Determine where to sample** — distribution | *Where exactly do the cores go?* |
+| 4 | **Determine how many samples** to take | *How many cores meet my intended goal?* |
+| 5 | **Determine where to sample** — distribution | *Where exactly do I collect sample and data from?* |
 
 Selecting a plot design (the physical layout of each core) follows from these; for eelgrass
 sediment cores, see [Section 3 — Field Methods](../03_Field_Methods/).
 
-Steps 4 and 5 lean on a little sampling theory — the short primer below explains why sampling
-works before we walk the steps.
-
 ---
+*** for Claude - These purley educational sections should be in a different colour or format to distinguish them between the workshop and the educational peices. You dont need to understand it, you could just implement the steps ***
 
 ## A brief primer — what sampling is and why it works
 
@@ -119,15 +122,19 @@ Sampling implies we are collecting small portions of a larger whole to estimate 
 </tr>
 </table>
 
-The more samples you take, the closer your estimate is likely to be to the **"true value"** — the value you'd get if you could measure the *entire* ecosystem. Because you measured a part and not the whole, every estimate carries uncertainty, so a carbon result is really **three things reported together**, never just a number:
+The more samples you collect, the more precisely you can estimate the true value—the value you would obtain if you could measure the entire ecosystem. Because only a subset of the ecosystem is sampled, every estimate contains some uncertainty. A probability-based sampling result is therefore reported as three parts:
 
-| Component | Symbol | Plain-English meaning |
+
 |---|---|---|
-| **Estimate** (the mean) | $\bar{x}$ | Your best guess at the true carbon value, averaged across all the plots you measured. |
-| **Confidence level** | $1-\alpha$ | How often this *procedure* would capture the true value if you repeated it. "95% confidence" means 95 of every 100 such surveys would bracket the truth. |
-| **Margin of error** | $E$ | The half-width of the interval around your estimate. Reported relative to the mean (e.g. ±10%), it says how tight the estimate is. |
+| **Estimate** (the mean) | $\bar{x}$ | Your best estimate of the carbon value, calculated as the average across all sampled plots.. |
+| **Confidence level** | $1-\alpha$ | Describes how often the sampling procedure would capture the true value if repeated many times. For example, a 95% confidence level means that about 95 out of every 100 confidence intervals produced by the same sampling method would contain the true value |
+| **Margin of error** | $E$ | Describes the precision of the estimate. It is the distance from the estimate to the edge of the confidence interval and is often reported relative to the estimate (e.g., ±10%). Smaller margins of error indicate more precise estimates |
 
 Put together, a result reads: *"mean carbon = $\bar{x}$, with 95% confidence, ±10%."* The estimate is what you use; the confidence and margin of error are what make it defensible.
+
+When designing a sampling campaign, you choose the desired confidence level and margin of error. The required sample size is then calculated to achieve those goals
+
+***For Claude - This is still educational - so requires its own layout and design visually ***
 
 **More samples, tighter estimate — seeing it.** The Sample Allocation Visualizer makes this concrete:
 
@@ -161,8 +168,16 @@ On the right, the dashed blue line is the **true value** we're trying to reach. 
 </tr>
 </table>
 
-That's the core intuition: more samples, tighter estimate. Now let's walk the five steps, starting with the boundary.
 
+***The Takeaway*** We can use probability-based sampling as a project planning tool
+- These methods for estimating something too large to measure also allow us to test whether any changes within or between sites are statistically verifiable.
+- By rearranging these formula's, we can also get a an estimate of how many samples would be required to given a user defined precision and margin of error
+
+*** For claude - Shown teh rearranging to get cochranes area based sample size estimate ***
+
+
+---
+*** transition back to the workshop implementation design ***
 ---
 
 ## Step 1: Identify the boundary of the study area
