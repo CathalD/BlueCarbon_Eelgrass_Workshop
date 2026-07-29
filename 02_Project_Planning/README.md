@@ -15,12 +15,6 @@
 
 **Quick links:** [Sampling Design Guide](Sampling-Design-Eng-2026.pdf) · [Sample Allocation Calculator](SampleDesign_SampleAllocationCalculator_WithStrata.xlsx) · [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf) · [Howard et al. (2014) Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
 
-<!-- Content-type key: repeated at the top of every part. See the main README for the master legend. -->
-> **How to read this section — three kinds of content**
->
-> 🛠️ **Implementation** — what you actually do for your own site. This is the spine of the workshop.
-> 📘 **Background** — why the method works. Useful, but you can skip it and still execute every step.
-> 🔬 **Worked example** — one team's answers at Tsawwassen Beach, BC. Follow it, don't copy it.
 
 ---
 
@@ -42,7 +36,7 @@ as the sampling-design guidance provided in the [Howard et al. Blue Carbon Manua
 
 ---
 
-## 🔬 Worked example — meet the team at Tsawwassen Beach
+## Worked example — meet the team at Tsawwassen Beach
 
 > [!TIP]
 > **This is the worked example.** One small team in British Columbia, followed from planning
@@ -75,7 +69,7 @@ But how do you know how many samples to collect and exactly where to take them? 
 
 ---
 
-## 📘 What is a sampling design?
+## What is a sampling design?
 
 A sampling design in this workshop is a framework for choosing what and where to sample to estimate the carbon stored in a larger ecosystem area.
 
@@ -96,7 +90,7 @@ Sampling designs allow for the strategic measurement of smaller sections (i.e., 
 
 ---
 
-## 🛠️ The sampling roadmap in five steps
+## The sampling roadmap in five steps
 
 The guide breaks *applying* a sampling design into **five steps**.
 
@@ -113,7 +107,7 @@ sediment cores, see [Section 3 — Field Methods](../03_Field_Methods/).
 
 ---
 
-## 📘 Background — what sampling is and why it works
+## Background — what sampling is and why it works
 
 > [!NOTE]
 > **This part is background, not instructions.** It explains *why* the sampling maths works.
@@ -152,7 +146,7 @@ Put together, a result reads: *"mean carbon = $\bar{x}$, with 95% confidence, ±
 
 When designing a sampling campaign, you choose the desired confidence level and margin of error. The required sample size is then calculated to achieve those goals.
 
-### 📘 Seeing it — more samples, tighter estimate
+### Seeing it — more samples, tighter estimate
 
 The Sample Allocation Visualizer makes this concrete:
 
@@ -187,7 +181,7 @@ On the right, the dashed blue line is the **true value** we're trying to reach. 
 </table>
 
 
-### 📘 The takeaway — sampling is a planning tool, not just a reporting one
+### The takeaway — sampling is a planning tool, not just a reporting one
 
 Probability-based sampling does two jobs for a project:
 
@@ -196,10 +190,13 @@ Probability-based sampling does two jobs for a project:
 - By **rearranging the formula**, we can work backwards — from the precision we want, to the
   number of samples needed to get there.
 
-That second point is what turns statistics into a planning tool, and it's worth seeing the
-algebra once.
+That second point is what turns statistics into a planning tool. The algebra behind it is worth
+seeing once — but you never have to do it by hand, so it's folded away here.
 
-#### Rearranging to get Cochran's sample size
+<details>
+<summary><b>Rearranging to get Cochran's sample size</b> &nbsp;·&nbsp; <i>show the derivation</i></summary>
+
+<br>
 
 Start from what a margin of error *is* — the z-multiplier times the standard error of the mean:
 
@@ -220,14 +217,13 @@ Read the two forms together and the behaviour of the whole method falls out: $E$
 both **squared**, so precision and patchiness dominate the cost of a campaign — while $N$ only
 matters when the area is small enough that plots are genuinely scarce.
 
+</details>
+
+###### ▲ END BACKGROUND — back to implementation. That was the reasoning behind Step 4; now we walk the five steps, starting with the boundary.
+
 ---
 
-*Back to implementation — that's the reasoning behind Step 4. Now let's walk the five steps,
-starting with the boundary.*
-
----
-
-## 🛠️ Step 1: Identify the boundary of the study area
+## Step 1: Identify the boundary of the study area
 
 *Where, roughly, am I working?*
 
@@ -269,7 +265,7 @@ crucial to measure the exact boundary — a rough guess can be very informative.
 
 ---
 
-## 🛠️ Step 2: Stratify your site (optional)
+## Step 2: Stratify your site (optional)
 
 *Does the site split into distinct areas?* In other words, divide your site into distinct areas.
 
@@ -318,7 +314,7 @@ split it into distinct strata before calculating the sample size (Step 4).
 
 ---
 
-## 🛠️ Step 3: What to measure
+## Step 3: What to measure
 
 *Water, plant, or sediment carbon?*
 
@@ -340,7 +336,7 @@ or the sediment. For an eelgrass carbon project, this is the **sediment**.
 
 ---
 
-## 🛠️ Step 4: How many samples? — Sample allocation
+## Step 4: How many samples? — Sample allocation
 
 *How many cores meet my precision goal?*
 
@@ -570,7 +566,7 @@ where $s$ and $\bar{x}$ are now the *sample* standard deviation and mean, and $\
 
 ---
 
-## 🛠️ Step 5: Where to sample? — Sample distribution
+## Step 5: Where to sample? — Sample distribution
 
 *Where exactly do the cores go?*
 
@@ -645,7 +641,7 @@ For eelgrass specifically, the field guide recommends a shoreline-aligned transe
 
 ---
 
-## 🛠️ Companion tools — WWF-Canada Blue Carbon Sampling Design Tools
+## Companion tools — WWF-Canada Blue Carbon Sampling Design Tools
 
 The area-based calculator here is part of a broader set of sampling-design tools
 developed previously for blue carbon work:
@@ -685,7 +681,7 @@ to divide up (stratify) their study area, and allocate their samples.
 </table>
 
 ---
-## 🔬 Worked example — planning the Tsawwassen campaign
+## Worked example — planning the Tsawwassen campaign
 
 > [!TIP]
 > Back to the team we met at the top of this section. Here they work through all five steps for
@@ -698,7 +694,10 @@ Their planning question is the one they started with:
 A) How many samples to take
 B) Where to take them
 
-So they begin to implement the steps:
+<details>
+<summary><b>See how the team worked through all five steps</b> &nbsp;·&nbsp; <i>the full example</i></summary>
+
+<br>
 
 **Step 1 — Area.** Using the Google Earth Engine sampling-design tool, you draw a rough outline of the area you know is mostly eelgrass.
 
@@ -727,6 +726,8 @@ Plugging in gives **≈ 60 cores**. Padding for ~70% usable-sample recovery (att
 Next, you send these coordinates to your team to go and collect the samples.
 
 **Summary of what to expect:** *Given a 5 ha inlet and a target of ±10% at 90% confidence, plan for roughly 60 cores of usable data (about 86 collected after padding), split proportionally between the dense and sparse strata. If the meadow turns out patchier than the CV prior assumed, expect to either add cores or report a slightly wider interval — which is exactly why oversampling at the design stage is worth it.*
+
+</details>
 
 ---
 
