@@ -153,6 +153,7 @@ Sampling designs allow for the strategic measurement of smaller sections (i.e., 
 
 The more samples you collect, the more precisely you can estimate the true value — the value you would obtain if you could measure the entire ecosystem. Because only a subset of the ecosystem is sampled, every estimate contains some uncertainty. A probability-based sampling result is therefore reported as three parts:
 
+*** Note for Claude make this a drop down ***
 ***The 3-parts of a sample estimate***
 
 | Component | Symbol | What it tells you |
@@ -161,13 +162,14 @@ The more samples you collect, the more precisely you can estimate the true value
 | **Confidence level** | $1-\alpha$ | Describes how often the sampling procedure would capture the true value if repeated many times. For example, a 95% confidence level means that about 95 out of every 100 confidence intervals produced by the same sampling method would contain the true value |
 | **Margin of error** | $E$ | Describes the precision of the estimate. It is the distance from the estimate to the edge of the confidence interval and is often reported relative to the estimate (e.g., ±10%). Smaller margins of error indicate more precise estimates |
 
-Put together, a result reads: *"mean carbon = $\bar{x}$, with 95% confidence, ±10%."* The estimate is what you use; the confidence and margin of error are what make it defensible.
+Put together, a example of a result would be: *"mean carbon = 100 ±10 (Confidence level = 95% or Confidence Interval = 90 - 110)*
 
-When designing a sampling campaign, you choose the desired confidence level and margin of error. The required sample size is then calculated to achieve those goals.
 
-### Seeing it — more samples, tighter estimate
+### Visualizing Sampling on map
 
-The Sample Allocation Visualizer makes this concrete:
+Below are clips taken from the "Sample Size Visualization Tool" *** FOr Claude add link here ***
+
+Here we can see how sampling an area can reveal the "True Map" underlying it
 
 <table>
 <tr>
@@ -178,7 +180,7 @@ The Sample Allocation Visualizer makes this concrete:
 </td>
 <td width="40%">
 
-Look at the bottom-left map. You can switch between the **"True value"** of carbon across the ecosystem — a hypothetical world where we could measure everything — and the **"Revealed"** view, which shows our estimate. With each sample collected, the estimate updates, and the true map underneath is revealed a little more. It would take thousands of samples to fully uncover it — but we only need a *reasonable* estimate, not a perfect one.
+Look at the bottom-left map aerial map, showing a hypothetical carbon map where each square represents the carbon value at that location. You can switch between the **"True value"** of carbon across the ecosystem and the **"Revealed"** view, which shows how with each sample, we are revealing this map, 1 sample at a time. With each sample collected, the estimate updates, and the true map underneath is revealed a little more. It would take thousands of samples to fully uncover it, but we only need a *reasonable* estimate, not a perfect one.
 
 </td>
 </tr>
@@ -193,27 +195,22 @@ Look at the bottom-left map. You can switch between the **"True value"** of carb
 </td>
 <td width="40%">
 
-On the right, the dashed blue line is the **true value** we're trying to reach. With only a few samples, our estimate is off and the error range (purple) is wide. As samples accumulate, the error shrinks and the estimate closes in on the truth. **That purple band is $E$, your margin of error** — watch it narrow as *n* grows.
+On the right side, the top graph is showing "How many samples we need to collect". Below, we need our estimate relative to **true value**, the dashed blue line we're trying to reach. With only a few samples, our estimate is off and the error range (purple) is wide. As more samples are done, the map is revealed more, and the error on our graph shrinks. **That purple band is $E$, your margin of error**, watch it narrow as *n* grows.
 
 </td>
 </tr>
 </table>
 
 
-### The takeaway — sampling is a planning tool, not just a reporting one
-
-Probability-based sampling does two jobs for a project:
-
-- The same methods that let us **estimate something too large to measure** also let us test
+### The takeaway
+**Sampling** is a tool for estimating things unfeasible to measure
+In addition, the same methods that let us **estimate something too large to measure** also let us test
   whether changes *within* or *between* sites are statistically verifiable.
-- By **rearranging the formula**, we can work backwards — from the precision we want, to the
-  number of samples needed to get there.
-
-That second point is what turns statistics into a planning tool. The algebra behind it is worth
-seeing once — but you never have to do it by hand, so it's folded away here.
+- By **rearranging the formula** (see dropdown menu below), we can work backwards to the
+  number of samples needed to get there
 
 <details>
-<summary><b>Rearranging to get Cochran's sample size</b> &nbsp;·&nbsp; <i>show the derivation</i></summary>
+<summary><b>Rearranging the sample estimate to solve sample size</b> &nbsp;·&nbsp; <i>showing the derivation</i></summary>
 
 <br>
 
@@ -238,9 +235,8 @@ matters when the area is small enough that plots are genuinely scarce.
 
 </details>
 
-###### ▲ END BACKGROUND — back to implementation. That was the reasoning behind Step 4; now we walk the five steps, starting with the boundary.
-
 ---
+# Implementing a Sampling Design
 
 ## The sampling roadmap in five steps
 
@@ -263,16 +259,15 @@ sediment cores, see [Section 3 — Field Methods](../03_Field_Methods/).
 
 *Where, roughly, am I working?*
 
-> [!NOTE]
-> **🎓 Why this matters.** Every number you produce later is *per unit area*, so the boundary
-> is what turns a carbon density into a carbon total. It also sets $N$ — the number of possible
-> plot locations — which feeds the sample-size calculation in Step 4.
->
-> It does **not** need to be precise. A rough outline of where the meadow is beats a perfect
+Why this matters: Every number you produce later is *per unit area*, so the boundary
+is what turns a carbon density into a carbon total. It also sets $N$ — the number of possible
+plot locations — which feeds the sample-size calculation in Step 4.
+> [Note]
+> For sample size planning estimates, the exact boundary does **not** need to be exact. A rough outline of where the meadow is beats a perfect
 > outline of the wrong thing.
 
 <details>
-<summary><b>📊 What the Tsawwassen team did</b></summary>
+<summary><b> See our Working Example d</b></summary>
 
 <br>
 
