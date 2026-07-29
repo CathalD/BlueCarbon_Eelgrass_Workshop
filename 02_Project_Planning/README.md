@@ -11,14 +11,14 @@
 # Part 2 — Project Planning
 ## From a carbon question to a sampling design
 
-Before collecting sediment cores, you need to answer four questions:
+Before collecting sediment cores, its worth considering these four questions:
 
-1. **What do I want to know?**
-2. **Where does that question apply?**
-3. **How much data do I need?**
-4. **Where should I collect samples?**
+1. **What do I want to know?** - Are you collecting baseline data? Interested in comparing different management types?
+2. **Where does that question apply?** What areas do I want to know about? Is it the whole ecosystem? Just the eelgrass? High-meadow vs low?
+3. **How much data do I need?** How many samples is enough? Can I estimate this before planning to see if it fits my budget?
+4. **Where should I collect samples?** Where exactly should I be collecting data from?
 
-This section turns a project goal into a field-ready sampling plan.
+This section turns the answer to these questions into a plan
 
 **Quick links:** [Sampling Design Guide](Sampling-Design-Eng-2026.pdf) · [Sample Allocation Calculator](SampleDesign_SampleAllocationCalculator_WithStrata.xlsx) · [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf) · [Howard et al. (2014) Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
 
@@ -26,18 +26,12 @@ This section turns a project goal into a field-ready sampling plan.
 
 ### What you'll have at the end of this section
 
-```
-┌─────────────────────────────────────────────┐
-│  YOUR SAMPLING PLAN                         │
-├─────────────────────────────────────────────┤
-│                                             │
-│   ✓  Study area boundary                    │
-│   ✓  Ecosystem strata (if you need them)    │
-│   ✓  Carbon pool selected                   │
-│   ✓  Required number of cores               │
-│   ✓  Sampling locations to hand to the team │
-│                                             │
-└─────────────────────────────────────────────┘
+```        
+  ✓  Study area boundary                    
+  ✓  Ecosystem strata (if you need them)    
+  ✓  Carbon pool selected                   
+  ✓  Required number of cores               
+  ✓  Sampling locations to collect sediment core data                                          
 ```
 
 ### The road from here to the field
