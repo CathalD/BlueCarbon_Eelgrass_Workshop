@@ -36,18 +36,6 @@ This section covers five steps. Work through them and you'll leave with a plan y
 
 > The methods here follow WWF-Canada's [Sampling Design guide](Sampling-Design-Eng-2026.pdf) and the sampling guidance in the [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual) (see [Section 1](../01_Background/)).
 
----
-
-## How this section works
-
-Every step follows the same three beats, so you always know where you are:
-
-| | | |
-|---|---|---|
-| **What we're doing** | the step, and the tool that does it | plus a 🎥 video where one exists |
-| 📊 **Worked example** | one B.C. team, followed from planning to carbon estimates | collapsible — open it or skip it |
-| 🛠 **Your turn** | do it for your own site, then a ✅ checkpoint | don't move on until the checkpoint clears |
-
 **Two companion tools** appear throughout:
 
 <table>
@@ -69,7 +57,7 @@ Every step follows the same three beats, so you always know where you are:
 </tr>
 </table>
 
-**And the math sits at the back.** Nothing in Steps 1–5 requires you to work a formula. If you want to know *why* the calculator returns the number it does — or you need to defend it to a reviewer — that's [**Appendix A**](#appendix-a--a-brief-lesson-in-sampling-logic), at the bottom of this page.
+**The math sits at the back.** Nothing in Steps 1–5 requires you to work a formula. If you want to know *why* the calculator returns the number it does — or you need to defend it to a reviewer — that's [**Appendix A**](#appendix-a--a-brief-lesson-in-sampling-logic), at the bottom of this page.
 
 <details>
 <summary><b>📊 Meet the team at Tsawwassen Beach</b> &nbsp;·&nbsp; <i>the worked example, in brief</i></summary>
@@ -169,6 +157,210 @@ On the right, the estimate is chasing the **true value** (dashed blue line). Wit
 - And it runs **backwards**: fix the precision you want, and it returns the number of cores needed to get there. That's Step 4 — and the reversal itself is [Appendix A2](#a2--working-backwards-from-precision-to-sample-size).
 
 ---
+
+# Implementing a sampling design
+
+---
+
+## Step 1 — Define your study area
+
+*Where, roughly, am I working?*
+
+Every number you produce later is **per unit area** — so the boundary is what turns a carbon *density* into a carbon *total*. It also sets $N$, the number of possible plot locations, which feeds the sample-size calculation in Step 4.
+
+<table>
+<tr>
+<td width="45%">
+
+<img width="100%" alt="Study area boundary — example" src="https://github.com/user-attachments/assets/68df05eb-c707-4cab-ab86-ec5117165b06">
+
+</td>
+<td width="55%">
+
+The boundary can be a simple polygon drawn on a map, or a pre-defined area if one already exists for your site.
+
+If you run transects, or already know the general area you're interested in, a simple estimate of the area is enough.
+
+</td>
+</tr>
+</table>
+
+> [!NOTE]
+> **A rough boundary is genuinely fine.** For sample-size planning, the outline does not need to be precise. A rough outline of where the meadow *is* beats a perfect outline of the wrong thing.
+
+<details>
+<summary><b>📊 Worked example</b> &nbsp;·&nbsp; <i>how the Tsawwassen team defined their area</i></summary>
+
+<br>
+
+They opened the sampling-design tool and traced what they could see on recent imagery — a **5 ha inlet (50,000 m²)** they knew was mostly eelgrass. They did not survey the edge.
+
+<img width="60%" alt="Drawing a study area boundary in Google Earth Engine" src="images/download%20(5).gif">
+
+</details>
+
+### 🛠 Your turn
+
+<table>
+<tr>
+<td width="45%">
+
+<img width="100%" alt="Drawing a study area boundary in Google Earth Engine" src="images/download%20(4).gif">
+
+</td>
+<td width="55%">
+
+**Tool: [Blue Carbon Hub sampling-design app](https://blue-carbon-hub.projects.earthengine.app/)**
+
+Draw a simple polygon over your area of interest — in the tool, in Google Earth Engine, or in whatever GIS you already use. Or import a pre-defined boundary if one exists.
+
+Read the **area in m²** off the tool and write it down.
+
+> 🎥 *[VIDEO — drawing a study area]*
+
+</td>
+</tr>
+</table>
+
+> [!TIP]
+> **✅ Before moving on, you should have:**
+> - A boundary polygon (or a sketched area on a map)
+> - Its **total area in m²** — Step 4 needs this number
+
+---
+
+## Step 2 — Stratify your site *(optional)*
+
+*Does the site split into distinct areas?*
+
+We measure at a point and extrapolate across an area — so the more that area resembles where we sampled, the more accurate the estimate. You wouldn't use a core from an eelgrass meadow to estimate carbon in an upland marsh. Splitting the two gives better numbers from the same effort.
+
+<table>
+<tr>
+<td width="45%">
+
+<img width="100%" alt="Stratification example — slide" src="https://github.com/user-attachments/assets/0aec62d8-db94-4ca2-8962-96d74799d016">
+
+</td>
+<td width="55%">
+
+**Stratification** divides the study area into distinct sub-areas, so data collected in one is only applied within that one.
+
+Beyond separating ecosystems, strata let you compare things deliberately: management techniques, restoration years, dense vs sparse meadow, depth zones.
+
+Strata can be drawn by hand or derived from remote sensing.
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>📊 Worked example</b> &nbsp;·&nbsp; <i>how the Tsawwassen team split their inlet</i></summary>
+
+<br>
+
+They split the 5 ha inlet into **two strata** — a denser central meadow and a sparser fringe — because density was the most obvious driver of variation on the imagery, and because their second question (B: comparing areas of the meadow) required the split to exist before fieldwork, not after.
+
+</details>
+
+### 🛠 Your turn
+
+<table>
+<tr>
+<td width="45%">
+
+<img width="100%" alt="Blue Carbon Stratified Sampling Tool — drawing and stratifying a study area" src="images/Screenshot%202026-07-21%20at%2010.46.13.png">
+
+</td>
+<td width="55%">
+
+**Tool: [Blue Carbon Hub sampling-design app](https://blue-carbon-hub.projects.earthengine.app/)**
+
+Take the boundary from Step 1 and either run the **automatic stratification**, or draw your strata by hand.
+
+Record the **area in m² of each stratum** — Step 4 uses these to divide the cores between them.
+
+> 🎥 *[VIDEO — stratifying a study area]*
+
+</td>
+</tr>
+</table>
+
+> [!TIP]
+> **✅ Before moving on, you should have** either:
+> - **One** area containing a single ecosystem type, **or**
+> - **Multiple** boundaries containing distinct ecosystems, management areas, or anything else you want to compare
+>
+> Plus the **area in m² of each**.
+
+---
+
+## Step 3 — Choose what to measure
+
+*Water, plant, or sediment carbon?*
+
+<table>
+<tr>
+<td width="45%">
+
+<img width="100%" alt="Carbon pools — slide" src="https://github.com/user-attachments/assets/a7ea0100-6160-4498-a282-5d44db722a59">
+
+</td>
+<td width="55%">
+
+Carbon in a coastal ecosystem sits in several **pools** — the water column, the living plant, and the sediment.
+
+For an eelgrass carbon project, the pool that matters is the **sediment**. It holds the overwhelming majority of the carbon and it's the pool that persists.
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>📊 Worked example</b> &nbsp;·&nbsp; <i>what the Tsawwassen team chose</i></summary>
+
+<br>
+
+**Sediment**, cored **to refusal** rather than to a fixed depth — so each core captures the full accumulated profile at that location rather than a truncated slice.
+
+</details>
+
+### 🛠 Your turn
+
+<table>
+<tr>
+<td width="45%">
+
+> 📸 **[SCREENSHOT NEEDED]** — the carbon-pool selection, or a sediment core with its depth interval labelled.
+
+</td>
+<td width="55%">
+
+Write down the pool you're measuring — for this workshop, **sediment**.
+
+Then decide on depth: a **target core depth**, or a decision to **core to refusal**. Either is defensible; what matters is that it's consistent across the campaign and recorded.
+
+See [Section 3 — Field Methods](../03_Field_Methods/) for how that decision plays out with a corer in hand.
+
+> 🎥 *[VIDEO — "Site Selection and Required Materials"]* · [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd)
+
+</td>
+</tr>
+</table>
+
+> [!TIP]
+> **✅ Before moving on, you should have:**
+> - The **carbon pool** you're measuring, written down
+> - A **target core depth**, or a decision to core to refusal
+
+---
+
+
+
+
+
+
+
 
 
 
