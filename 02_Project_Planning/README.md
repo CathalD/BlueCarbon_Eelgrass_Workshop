@@ -15,9 +15,8 @@
 
 ## Why planning matters
 
-This section is the workshop's **making the data useful** component (see the
-[main guide](../README.md)). Before you collect any sediment samples, it's worth making sure what you are collecting
-will answer your team's questions. That's what a **Project Plan** aims to accomplish.
+Before you collect any sediment samples, it's worth making sure that what you are collecting
+will answer your team's questions. That's what a **Sampling Design** aims to accomplish.
 
 > The following methods are based on WWF-Canada's [Sampling Design guide](Sampling-Design-Eng-2026.pdf),
 > as well as the sampling-design guidance provided in the
