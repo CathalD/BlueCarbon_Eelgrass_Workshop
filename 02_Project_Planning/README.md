@@ -13,17 +13,6 @@
 
 **Quick links:** [Sampling Design Guide](Sampling-Design-Eng-2026.pdf) · [Sample Allocation Calculator](SampleDesign_SampleAllocationCalculator_WithStrata.xlsx) · [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf) · [Howard et al. (2014) Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
 
-## Why planning matters
-
-Before you collect any sediment samples, it's worth making sure that what you are collecting
-will answer your team's questions. That's what a **Sampling Design** aims to accomplish.
-
-> The following methods are based on WWF-Canada's [Sampling Design guide](Sampling-Design-Eng-2026.pdf),
-> as well as the sampling-design guidance provided in the
-> [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
-> (see [Section 1](../01_Background/)).
-
----
 
 **Before collecting sediment cores** it's worth considering these four questions:
 
@@ -34,106 +23,31 @@ will answer your team's questions. That's what a **Sampling Design** aims to acc
 
 ---
 
-### The road from here to the field — and what you'll have at the end
+## Why planning matters
 
-<table>
-<tr>
-<td width="52%">
+It's worth making sure that what you are collecting will answer your team's questions. That's what a **Sampling Design** aims to accomplish. Through this process, you will be able to address the questions above, and convert your plan into actionable next steps. 
 
-**The five steps**
-
-```
-     Your carbon question
-              │
-              ▼
-  1.  Study area boundary
-              │        where am I working?
-              ▼
-  2.  Stratification
-              │        does it split into zones?
-              ▼
-  3.  Carbon pool
-              │        what am I measuring?
-              ▼
-  4.  Sample size
-              │        how many cores?
-              ▼
-  5.  Sample locations
-              │        where do they go?
-              ▼
-     Field collection → Section 3
-```
-
-</td>
-<td width="48%">
-
-**What each step leaves you with**
-
-```
-  ✓  Study area boundary
-
-  ✓  Ecosystem strata
-     (if you need them)
-
-  ✓  Carbon pool selected
-
-  ✓  Required number of cores
-
-  ✓  Sampling locations to
-     collect sediment core data
-```
-
-</td>
-</tr>
-</table>
-
-Each of the five steps below follows the same shape: **why it matters**, **a demonstration using our worked example**, **tools for you to try**, and **what you should have** before moving on.
+> The following methods are based on WWF-Canada's [Sampling Design guide](Sampling-Design-Eng-2026.pdf),
+> as well as the sampling-design guidance provided in the
+> [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
+> (see [Section 1](../01_Background/)).
 
 ---
 
+### The road from here to the field — and what you'll have at the end
 
-## Introducing our worked example
+After this module, you will have the knowledge, tools, and applicable skills to accomplish the 5 steps to making a sampling plan, these are:
 
-> [!NOTE]
-> **📊 See a demonstrated worked example here.** One small team in British Columbia, followed
-> from planning through fieldwork to carbon estimates. It runs through **every part of this
-> workshop**, so you can watch one project end to end.
->
-> The full planning walkthrough lives in
-> **[`Worked_Example/02_Project_Planning.md`](../Worked_Example/02_Project_Planning.md)**, and
-> the complete project — data sheets, analysis and results — in
-> [`Worked_Example/`](../Worked_Example/).
->
-> Follow it to see the shape of a project. Don't copy its numbers: yours will differ.
+1. Draw/upload a study area boundary
+2. Divide your study area into unique sites (stratify)
+3. Decide what exactly you want to measure
+4. Estimate how many samples it will require to reach your goals
+5. Choose where to take this number of samples
 
-<details>
-<summary><b>📊 Meet the team at Tsawwassen Beach</b> &nbsp;·&nbsp; <i>their goal and their questions</i></summary>
+In the coming sections, we will discuss **why it matters**, provide **a demonstration using our worked example**, show and provide **tools for you to try** to apply these steps, and **what you should have** before moving on.
 
-<br>
-
-Here we meet a small team working in B.C., aiming to gather baseline carbon data in the
-**Tsawwassen Beach marshes**.
-
-You and your team of 4 are tasked with **assessing the baseline measurements of an eelgrass ecosystem before protection and restoration** measures are implemented.
-
-You want to know two things:
-
-A) The **average carbon stock** across the meadow, and want to be able to
-
-B) **Compare these measurements** between different areas of the eelgrass, as well as to future measurements
-to assess how different management practices are affecting the ecosystem.
-
-**How would you accomplish this?**
-Let's break the scenario into digestible parts.
-
-**First**, you want a rough idea of the different areas you're interested in. *This doesn't have to be precise, but it helps to have a general understanding of where those areas are and their boundaries. This helps constrain "where" the measurements will be made. By dividing up the ecosystem, you not only ensure all areas of interest are measured, but you also sample more effectively.*
-
-**Second**, you want to collect samples from within these different areas, so you can "measure" the amount of carbon in these ecosystems.
-
-But how do you know how many samples to collect and exactly where to take them? This can be answered with a **sampling design**.
-
-</details>
-
+---
+But first, lets step back and all get on the same page with some background info
 ---
 
 ## Background Information
@@ -265,6 +179,49 @@ $$n \geq \frac{z^2\, N\, CV^2}{(N-1)\,E^2 + z^2\, CV^2}$$
 Read the two forms together and the behaviour of the whole method falls out: $E$ and $CV$ are
 both **squared**, so precision and patchiness dominate the cost of a campaign — while $N$ only
 matters when the area is small enough that plots are genuinely scarce.
+
+</details>
+
+---
+## Introducing our worked example
+
+> [!NOTE]
+> **📊 See a demonstrated worked example here.** One small team in British Columbia, followed
+> from planning through fieldwork to carbon estimates. It runs through **every part of this
+> workshop**, so you can watch one project end to end.
+>
+> The full planning walkthrough lives in
+> **[`Worked_Example/02_Project_Planning.md`](../Worked_Example/02_Project_Planning.md)**, and
+> the complete project — data sheets, analysis and results — in
+> [`Worked_Example/`](../Worked_Example/).
+>
+> Follow it to see the shape of a project. Don't copy its numbers: yours will differ.
+
+<details>
+<summary><b>📊 Meet the team at Tsawwassen Beach</b> &nbsp;·&nbsp; <i>their goal and their questions</i></summary>
+
+<br>
+
+Here we meet a small team working in B.C., aiming to gather baseline carbon data in the
+**Tsawwassen Beach marshes**.
+
+You and your team of 4 are tasked with **assessing the baseline measurements of an eelgrass ecosystem before protection and restoration** measures are implemented.
+
+You want to know two things:
+
+A) The **average carbon stock** across the meadow, and want to be able to
+
+B) **Compare these measurements** between different areas of the eelgrass, as well as to future measurements
+to assess how different management practices are affecting the ecosystem.
+
+**How would you accomplish this?**
+Let's break the scenario into digestible parts.
+
+**First**, you want a rough idea of the different areas you're interested in. *This doesn't have to be precise, but it helps to have a general understanding of where those areas are and their boundaries. This helps constrain "where" the measurements will be made. By dividing up the ecosystem, you not only ensure all areas of interest are measured, but you also sample more effectively.*
+
+**Second**, you want to collect samples from within these different areas, so you can "measure" the amount of carbon in these ecosystems.
+
+But how do you know how many samples to collect and exactly where to take them? This can be answered with a **sampling design**.
 
 </details>
 
