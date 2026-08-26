@@ -11,6 +11,182 @@
 # Part 2 — Project Planning
 ## From a carbon question to a sampling design
 
+**Quick links:** [Sampling Design Guide](Sampling-Design-Eng-2026.pdf) · [Sample Allocation Calculator](SampleDesign_SampleAllocationCalculator_WithStrata.xlsx) · [Blue Carbon Hub tool](https://blue-carbon-hub.projects.earthengine.app/) · [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf) · [Appendix A — sampling logic](#appendix-a--a-brief-lesson-in-sampling-logic)
+
+---
+
+**Before collecting sediment cores**, four questions are worth settling:
+
+1. **What do I want to know?** Baseline data? A comparison between management types?
+2. **Where does that question apply?** The whole ecosystem, just the eelgrass, high meadow vs low?
+3. **How much data do I need?** How many samples is enough — and does that fit the budget?
+4. **Where should the samples come from?**
+
+Answering these is what a **sampling design** does. It turns a carbon question into a field plan: a number of cores, and a set of coordinates.
+
+This section covers five steps. Work through them and you'll leave with a plan you can hand to a field team.
+
+| # | Step | Answers |
+|---|------|---------|
+| 1 | **Define the study area** | *Where, roughly, am I working?* |
+| 2 | **Stratify** (optional) | *Does the site split into distinct areas?* |
+| 3 | **Choose the carbon pool** | *Water, plant, or sediment?* |
+| 4 | **Determine how many samples** | *How many cores meet my goal?* |
+| 5 | **Determine where they go** | *Exactly where do I core?* |
+
+> The methods here follow WWF-Canada's [Sampling Design guide](Sampling-Design-Eng-2026.pdf) and the sampling guidance in the [Howard et al. Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual) (see [Section 1](../01_Background/)).
+
+---
+
+## How this section works
+
+Every step follows the same three beats, so you always know where you are:
+
+| | | |
+|---|---|---|
+| **What we're doing** | the step, and the tool that does it | plus a 🎥 video where one exists |
+| 📊 **Worked example** | one B.C. team, followed from planning to carbon estimates | collapsible — open it or skip it |
+| 🛠 **Your turn** | do it for your own site, then a ✅ checkpoint | don't move on until the checkpoint clears |
+
+**Two companion tools** appear throughout:
+
+<table>
+<tr>
+<td width="50%">
+
+**🗺 [Blue Carbon Hub sampling-design app](https://blue-carbon-hub.projects.earthengine.app/)** — the spatial tool. Draw your boundary, stratify it, place your samples on a map.
+
+*Used in Steps 1, 2 and 5.*
+
+</td>
+<td width="50%">
+
+**📄 [Sample Allocation Calculator](SampleDesign_SampleAllocationCalculator_WithStrata.xlsx)** — the numbers tool. Give it an area, a precision target and a rough prior; it returns a core count.
+
+*Used in Step 4.*
+
+</td>
+</tr>
+</table>
+
+**And the math sits at the back.** Nothing in Steps 1–5 requires you to work a formula. If you want to know *why* the calculator returns the number it does — or you need to defend it to a reviewer — that's [**Appendix A**](#appendix-a--a-brief-lesson-in-sampling-logic), at the bottom of this page.
+
+<details>
+<summary><b>📊 Meet the team at Tsawwassen Beach</b> &nbsp;·&nbsp; <i>the worked example, in brief</i></summary>
+
+<br>
+
+A team of four in B.C. is gathering **baseline carbon data in the Tsawwassen Beach eelgrass meadows**, before protection and restoration measures go in.
+
+They want two things:
+
+**A)** the **average carbon stock** across the meadow, and
+**B)** the ability to **compare** areas of the meadow against each other, and against future surveys.
+
+Both need the same thing first: a sampling design. They appear at every step below.
+
+**→ [Full planning walkthrough](../Worked_Example/02_Project_Planning.md)** · **→ [The whole project](../Worked_Example/)**
+
+*Follow it for the shape of a project. Don't copy its numbers — yours will differ.*
+
+</details>
+
+---
+
+## Background — what sampling is, and why it works
+
+Measuring every square metre of a meadow isn't feasible. So we measure a **small portion** of it and use that to estimate the whole. That's sampling, and it's probability-based: the estimate comes with a stated reliability rather than a claim of exactness.
+
+<table>
+<tr>
+<td width="60%">
+
+<img width="100%" alt="What is sampling? — probability-based sampling explainer" src="https://github.com/user-attachments/assets/0c8db857-b05b-4969-936c-711d563e1978">
+
+</td>
+<td width="40%">
+
+**Sampling** = taking a small portion of a thing to make an informed estimate of the whole.
+
+A **sampling design** is the framework for choosing *what* and *where* to sample — dividing the study area into sites and plots, measuring those, and combining them into an estimate for the full area.
+
+</td>
+</tr>
+</table>
+
+The more samples you take, the closer your estimate sits to the true value. Because you never measure everything, every estimate carries uncertainty — which is why a result is reported as **three parts**, not one number:
+
+| Component | | What it tells you |
+|---|---|---|
+| **Estimate** | $\bar{x}$ | The average carbon value across your sampled plots. |
+| **Confidence level** | $1-\alpha$ | How often this procedure would capture the true value if repeated. At 95%, about 95 of every 100 intervals built this way contain it. |
+| **Margin of error** | $E$ | How precise that estimate is — the distance from the estimate to the edge of the interval, usually given relative to the mean (e.g. ±10%). |
+
+> Put together: *"mean carbon = 100 ±10, at 95% confidence"* — an interval of 90–110.
+
+### Seeing it on a map
+
+These clips come from the **[Sample Size Visualization Tool](https://blue-carbon-hub.projects.earthengine.app/)**.
+
+<table>
+<tr>
+<td width="60%">
+
+<img width="100%" alt="Sample Allocation Visualizer — revealing the true carbon map as samples accumulate" src="images/download%20(2).gif">
+
+</td>
+<td width="40%">
+
+The bottom-left map is a hypothetical carbon map — each square is the carbon value at that location. Switch between the **True value** and the **Revealed** view to watch the map uncover itself one sample at a time.
+
+Fully uncovering it would take thousands of cores. You only need a *reasonable* estimate, not a perfect one.
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="60%">
+
+<img width="100%" alt="Sample Allocation Visualizer — estimate converging on the true value as sample size grows" src="images/download%20(3).gif">
+
+</td>
+<td width="40%">
+
+On the right, the estimate is chasing the **true value** (dashed blue line). With a few samples the estimate is off and the error range (purple) is wide. As samples accumulate, it narrows.
+
+**That purple band is $E$, your margin of error** — watch it shrink as *n* grows.
+
+</td>
+</tr>
+</table>
+
+### The takeaway
+
+- Sampling estimates what's impractical to measure directly.
+- The same machinery that produces an estimate also tells you whether differences *within* or *between* sites are statistically real.
+- And it runs **backwards**: fix the precision you want, and it returns the number of cores needed to get there. That's Step 4 — and the reversal itself is [Appendix A2](#a2--working-backwards-from-precision-to-sample-size).
+
+---
+
+
+
+
+
+<p align="center">
+  <img src="images/banner_planning.svg" alt="Project Planning — Blue Carbon Eelgrass Workshop banner" width="100%">
+</p>
+
+---
+
+[← 1 — Background](../01_Background/) · [Back to main guide](../README.md) · Next: [3 — Field Methods →](../03_Field_Methods/)
+
+---
+
+# Part 2 — Project Planning
+## From a carbon question to a sampling design
+
 **Quick links:** [Sampling Design Guide](Sampling-Design-Eng-2026.pdf) · [Sample Allocation Calculator](SampleDesign_SampleAllocationCalculator_WithStrata.xlsx) · [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf) · [Howard et al. (2014) Blue Carbon Manual](https://www.thebluecarboninitiative.org/manual)
 
 
