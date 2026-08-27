@@ -63,7 +63,7 @@ If you want to know *why* the calculator returns the number it does, and dive de
 
 ## Background — what sampling is, and why it works
 
-Measuring every square metre of a meadow isn't feasible. So we measure a **small portion** of it and use that to estimate the whole. That's sampling, and it's probability-based: the estimate comes with a stated reliability rather than a claim of exactness.
+Measuring every square metre of a entire ecosystem isn't always (or ever) feasible. So we measure a **small portion** of it and use that small portion to estimate the whole. Because every estimate of the whole that uses a smaller portion will never be 100% accurate every single time, we also want to know the probability that the estimate is equal to the actual value, this is called **probability-based sampling**.
 
 <table>
 <tr>
@@ -76,21 +76,21 @@ Measuring every square metre of a meadow isn't feasible. So we measure a **small
 
 **Sampling** = taking a small portion of a thing to make an informed estimate of the whole.
 
-A **sampling design** is the framework for choosing *what* and *where* to sample — dividing the study area into sites and plots, measuring those, and combining them into an estimate for the full area.
+A **sampling design** is the framework for choosing *what* and *where* to sample by dividing the study area into sites and plots, measuring those, and combining them into an estimate for the full area.
 
 </td>
 </tr>
 </table>
 
-The more samples you take, the closer your estimate sits to the true value. Because you never measure everything, every estimate carries uncertainty — which is why a result is reported as **three parts**, not one number:
+The more samples you take, the closer your estimate is likely to be to the true value. Because you never measure everything, every estimate carries uncertainty, which is why you will usually see a result reported in **three parts**, not one number:
 
 | Component | | What it tells you |
 |---|---|---|
 | **Estimate** | $\bar{x}$ | The average carbon value across your sampled plots. |
-| **Confidence level** | $1-\alpha$ | How often this procedure would capture the true value if repeated. At 95%, about 95 of every 100 intervals built this way contain it. |
-| **Margin of error** | $E$ | How precise that estimate is — the distance from the estimate to the edge of the interval, usually given relative to the mean (e.g. ±10%). |
+| **Confidence level** | $1-\alpha$ | How often this procedure would capture the true value if repeated. At 95% confidence, about 95 out of 100  times the estimate will contain the true value |
+| **Margin of error** | $E$ | How precise that estimate is, the distance from the estimate to the edge of the interval, usually given relative to the mean (e.g. ±10%). |
 
-> Put together: *"mean carbon = 100 ±10, at 95% confidence"* — an interval of 90–110.
+> Put together: *"mean carbon = 100 ±10, at 95% confidence.
 
 ### Seeing it on a map
 
@@ -105,9 +105,7 @@ These clips come from the **[Sample Size Visualization Tool](https://blue-carbon
 </td>
 <td width="40%">
 
-The bottom-left map is a hypothetical carbon map — each square is the carbon value at that location. Switch between the **True value** and the **Revealed** view to watch the map uncover itself one sample at a time.
-
-Fully uncovering it would take thousands of cores. You only need a *reasonable* estimate, not a perfect one.
+The bottom-left map is a hypothetical carbon map, where each square is the carbon value at that location. Switch between the **True value** and the **Revealed** view to watch the map uncover itself one sample at a time.
 
 </td>
 </tr>
@@ -122,9 +120,9 @@ Fully uncovering it would take thousands of cores. You only need a *reasonable* 
 </td>
 <td width="40%">
 
-On the right, the estimate is chasing the **true value** (dashed blue line). With a few samples the estimate is off and the error range (purple) is wide. As samples accumulate, it narrows.
+On the right, we see how each sample on the math is combined together to estimate the **true value** (dashed blue line). With a few samples the estimate is off and the error range (purple) is wide. As samples accumulate, it narrows.
 
-**That purple band is $E$, your margin of error** — watch it shrink as *n* grows.
+**That purple band is your margin of error**, watch it shrink as the number of samples grows.
 
 </td>
 </tr>
@@ -133,33 +131,31 @@ On the right, the estimate is chasing the **true value** (dashed blue line). Wit
 ### The takeaway
 
 - Sampling estimates what's impractical to measure directly.
-- The same machinery that produces an estimate also tells you whether differences *within* or *between* sites are statistically real.
-- And it runs **backwards**: fix the precision you want, and it returns the number of cores needed to get there. That's Step 4 — and the reversal itself is [Appendix A2](#a2--working-backwards-from-precision-to-sample-size).
+- The same process that produces an estimate can also tell you whether differences *within* or *between* sites are statistically real.
+- And it runs **backwards**: fix the precision you want, and it returns the number of cores needed to get there. That's Step 4 [Appendix A2](#a2--working-backwards-from-precision-to-sample-size).
 
 ---
 
 # Implementing a sampling design
 
----
-
-**** Moved the intro to worked example here****
 <details>
 <summary><b>📊 Meet the team at Tsawwassen Beach</b> &nbsp;·&nbsp; <i>the worked example, in brief</i></summary>
 
 <br>
 
+These drop down menu's contain a brief descriptions from a hypothetical worked example. If you want to see how each of these steps can be  applied to site, look for these tabs.
+
 A team of four in B.C. is gathering **baseline carbon data in the Tsawwassen Beach eelgrass meadows**, before protection and restoration measures go in.
 
-They want two things:
+They want gather information on two specific things:
 
 **A)** the **average carbon stock** across the meadow, and
+
 **B)** the ability to **compare** areas of the meadow against each other, and against future surveys.
 
 Both need the same thing first: a sampling design. They appear at every step below.
 
 **→ [Full planning walkthrough](../Worked_Example/02_Project_Planning.md)** · **→ [The whole project](../Worked_Example/)**
-
-*Follow it for the shape of a project. Don't copy its numbers — yours will differ.*
 
 </details>
 
