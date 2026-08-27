@@ -15,16 +15,16 @@
 
 ---
 
-**Before collecting sediment cores**, four questions are worth settling:
+**Before collecting sediment cores**, four questions are worth addressing:
 
-1. **What do I want to know?** Baseline data? A comparison between management types?
+1. **What do I want to know?** Am I interested in collecting baseline data? Making a comparison between management types? Tracking restoration success? All of the above?
 2. **Where does that question apply?** The whole ecosystem, just the eelgrass, high meadow vs low?
-3. **How much data do I need?** How many samples is enough — and does that fit the budget?
-4. **Where should the samples come from?**
+3. **How much data do I need?** How many samples is enough? What is our capacity to meet this?
+4. **Where should the samples be collected from**
 
-Answering these is what a **sampling design** does. It turns a carbon question into a field plan: a number of cores, and a set of coordinates.
+Answering these is what a **sampling design** aims to achieve. It turns a carbon question into a field plan: a number of cores, and a set of sampling coordinates.
 
-This section covers five steps. Work through them and you'll leave with a plan you can hand to a field team.
+This section covers the five steps of a sampling design. Work through them and you'll leave with a plan for the field.
 
 | # | Step | Answers |
 |---|------|---------|
@@ -57,27 +57,7 @@ This section covers five steps. Work through them and you'll leave with a plan y
 </tr>
 </table>
 
-**The math sits at the back.** Nothing in Steps 1–5 requires you to work a formula. If you want to know *why* the calculator returns the number it does — or you need to defend it to a reviewer — that's [**Appendix A**](#appendix-a--a-brief-lesson-in-sampling-logic), at the bottom of this page.
-
-<details>
-<summary><b>📊 Meet the team at Tsawwassen Beach</b> &nbsp;·&nbsp; <i>the worked example, in brief</i></summary>
-
-<br>
-
-A team of four in B.C. is gathering **baseline carbon data in the Tsawwassen Beach eelgrass meadows**, before protection and restoration measures go in.
-
-They want two things:
-
-**A)** the **average carbon stock** across the meadow, and
-**B)** the ability to **compare** areas of the meadow against each other, and against future surveys.
-
-Both need the same thing first: a sampling design. They appear at every step below.
-
-**→ [Full planning walkthrough](../Worked_Example/02_Project_Planning.md)** · **→ [The whole project](../Worked_Example/)**
-
-*Follow it for the shape of a project. Don't copy its numbers — yours will differ.*
-
-</details>
+If you want to know *why* the calculator returns the number it does, and dive deeper into the math behind the tools, look to [**Appendix A**](#appendix-a--a-brief-lesson-in-sampling-logic), at the bottom of this page.
 
 ---
 
@@ -161,6 +141,27 @@ On the right, the estimate is chasing the **true value** (dashed blue line). Wit
 # Implementing a sampling design
 
 ---
+
+**** Moved the intro to worked example here****
+<details>
+<summary><b>📊 Meet the team at Tsawwassen Beach</b> &nbsp;·&nbsp; <i>the worked example, in brief</i></summary>
+
+<br>
+
+A team of four in B.C. is gathering **baseline carbon data in the Tsawwassen Beach eelgrass meadows**, before protection and restoration measures go in.
+
+They want two things:
+
+**A)** the **average carbon stock** across the meadow, and
+**B)** the ability to **compare** areas of the meadow against each other, and against future surveys.
+
+Both need the same thing first: a sampling design. They appear at every step below.
+
+**→ [Full planning walkthrough](../Worked_Example/02_Project_Planning.md)** · **→ [The whole project](../Worked_Example/)**
+
+*Follow it for the shape of a project. Don't copy its numbers — yours will differ.*
+
+</details>
 
 ## Step 1 — Define your study area
 
