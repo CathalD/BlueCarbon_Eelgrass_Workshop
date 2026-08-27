@@ -17,10 +17,10 @@
 
 **Before collecting sediment cores**, four questions are worth addressing:
 
-1. **What do I want to know?** Am I interested in collecting baseline data? Making a comparison between management types? Tracking restoration success? All of the above?
+1. **What do I want to know?** Am I interested in collecting baseline data? Making a comparison between different management types? Tracking restoration success? All of the above?
 2. **Where does that question apply?** The whole ecosystem, just the eelgrass, high meadow vs low?
 3. **How much data do I need?** How many samples is enough? What is our capacity to meet this?
-4. **Where should the samples be collected from**
+4. **Where should the samples be collected from?**
 
 Answering these is what a **sampling design** aims to achieve. It turns a carbon question into a field plan: a number of cores, and a set of sampling coordinates.
 
@@ -57,13 +57,13 @@ This section covers the five steps of a sampling design. Work through them and y
 </tr>
 </table>
 
-If you want to know *why* the calculator returns the number it does, and dive deeper into the math behind the tools, look to [**Appendix A**](#appendix-a--a-brief-lesson-in-sampling-logic), at the bottom of this page.
+If you want to know how the calculator returns the number it does and dive deeper into the math behind the tools, look to [**Appendix A**](#appendix-a--a-brief-lesson-in-sampling-logic), at the bottom of this page where we go through how sample size is estimated before sampling, and how we can see if our sampling met our goals after sampling too.
 
 ---
 
 ## Background — what sampling is, and why it works
 
-Measuring every square metre of a entire ecosystem isn't always (or ever) feasible. So we measure a **small portion** of it and use that small portion to estimate the whole. Because every estimate of the whole that uses a smaller portion will never be 100% accurate every single time, we also want to know the probability that the estimate is equal to the actual value, this is called **probability-based sampling**.
+Measuring every square metre of a entire ecosystem isn't always feasible. So, we measure a **small portion** of it and use that to estimate the whole. Because every estimate of the whole that uses a smaller portion will never be 100% accurate every single time, we also want to know the probability that the estimate is equal to the actual value, this is called **probability-based sampling**.
 
 <table>
 <tr>
@@ -82,7 +82,7 @@ A **sampling design** is the framework for choosing *what* and *where* to sample
 </tr>
 </table>
 
-The more samples you take, the closer your estimate is likely to be to the true value. Because you never measure everything, every estimate carries uncertainty, which is why you will usually see a result reported in **three parts**, not one number:
+The more samples you take, the closer your estimate is likely to be to the true value. Because you don't measure everything, every estimate carries uncertainty, which is why you will usually see a result reported in **three parts**:
 
 | Component | | What it tells you |
 |---|---|---|
@@ -120,7 +120,7 @@ The bottom-left map is a hypothetical carbon map, where each square is the carbo
 </td>
 <td width="40%">
 
-On the right, we see how each sample on the math is combined together to estimate the **true value** (dashed blue line). With a few samples the estimate is off and the error range (purple) is wide. As samples accumulate, it narrows.
+On the right, we see how each sample on the map is combined together to estimate the **true value** (dashed blue line). With a few samples the estimate is off and the error range (purple) is wide. As samples accumulate, it narrows.
 
 **That purple band is your margin of error**, watch it shrink as the number of samples grows.
 
@@ -131,7 +131,7 @@ On the right, we see how each sample on the math is combined together to estimat
 ### The takeaway
 
 - Sampling estimates what's impractical to measure directly.
-- The same process that produces an estimate can also tell you whether differences *within* or *between* sites are statistically real.
+- The same process that produces an estimate can also tell you whether differences *within* or *between* sites are statistically significant
 - And it runs **backwards**: fix the precision you want, and it returns the number of cores needed to get there. That's Step 4 [Appendix A2](#a2--working-backwards-from-precision-to-sample-size).
 
 ---
@@ -143,7 +143,7 @@ On the right, we see how each sample on the math is combined together to estimat
 
 <br>
 
-These drop down menu's contain a brief descriptions from a hypothetical worked example. If you want to see how each of these steps can be  applied to site, look for these tabs.
+These drop down menu's contain a brief descriptions from a hypothetical worked example. If you want to see how each of these steps can be  applied to, find them here or in the **→ [Worked Example](../Worked_Example/) folder**
 
 A team of four in B.C. is gathering **baseline carbon data in the Tsawwassen Beach eelgrass meadows**, before protection and restoration measures go in.
 
