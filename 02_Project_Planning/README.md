@@ -163,7 +163,7 @@ Both need the same thing first: a sampling design. They appear at every step bel
 
 *Where, roughly, am I working?*
 
-Every number you produce later is **per unit area** — so the boundary is what turns a carbon *density* into a carbon *total*. It also sets $N$, the number of possible plot locations, which feeds the sample-size calculation in Step 4.
+Every carbon value you produce from collecting cores is reported **per unit area**, so the boundary of the area in this step is what turns a carbon *density* into a carbon *total*. It also sets $N$, the number of possible plot locations, which will determine how many plots to set-up to meet your desired goals.
 
 <table>
 <tr>
@@ -181,9 +181,6 @@ If you run transects, or already know the general area you're interested in, a s
 </td>
 </tr>
 </table>
-
-> [!NOTE]
-> **A rough boundary is genuinely fine.** For sample-size planning, the outline does not need to be precise. A rough outline of where the meadow *is* beats a perfect outline of the wrong thing.
 
 <details>
 <summary><b>📊 Worked example</b> &nbsp;·&nbsp; <i>how the Tsawwassen team defined their area</i></summary>
@@ -213,8 +210,6 @@ Draw a simple polygon over your area of interest — in the tool, in Google Eart
 
 Read the **area in m²** off the tool and write it down.
 
-> 🎥 *[VIDEO — drawing a study area]*
-
 </td>
 </tr>
 </table>
@@ -222,7 +217,7 @@ Read the **area in m²** off the tool and write it down.
 > [!TIP]
 > **✅ Before moving on, you should have:**
 > - A boundary polygon (or a sketched area on a map)
-> - Its **total area in m²** — Step 4 needs this number
+> - Its **total area in m²** (Step 4 - Sample Allocation needs this number)
 
 ---
 
@@ -230,7 +225,7 @@ Read the **area in m²** off the tool and write it down.
 
 *Does the site split into distinct areas?*
 
-We measure at a point and extrapolate across an area — so the more that area resembles where we sampled, the more accurate the estimate. You wouldn't use a core from an eelgrass meadow to estimate carbon in an upland marsh. Splitting the two gives better numbers from the same effort.
+When we measure carbon stock, we measure at a point and extrapolate this across a larger area, so the more that area resembles where we sampled, the more accurate the estimate will be. You wouldn't use a core from an eelgrass meadow to estimate carbon in an upland marsh, or vis versa. Splitting the two gives better numbers from the same effort.
 
 <table>
 <tr>
