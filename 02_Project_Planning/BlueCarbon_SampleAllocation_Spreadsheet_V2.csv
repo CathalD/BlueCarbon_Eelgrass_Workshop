@@ -1,0 +1,29 @@
+,,,,,
+,Blue Carbon Sample Allocation Calculator — 2026,,,,
+,,,,,
+,WWF-Canada · Coastal Blue Carbon Hub,,,,
+,,,,,
+,"This workbook turns a study area and a precision target into a number of sediment cores, then checks after fieldwork whether that precision was actually achieved.",,,,
+,,,,,
+,,,,,
+,How to use it,,,,
+,Sheet,What it does,,,Where it maps in the workshop
+,1 Sample Size,"One uniform area. Enter area, precision and a prior; get a core count.",,,Workshop Step 4
+,2 Stratified,Two or more strata. Same inputs per stratum; cores allocated by area.,,,Workshop Steps 2 + 5
+,3 Priors,Published mean / SD / CV by ecosystem and region. Feeds sheets 1 and 2.,,,Workshop Step 4
+,4 Precision Check,After fieldwork: did you hit your target margin of error?,,,Appendix A8
+,5 Sensitivity,How the core count responds to precision and variability.,,,Appendix A4
+,Notes and Sources,"Formulas, symbol crosswalk, citations, assumptions.",,,"Appendix A2, A3, A6"
+,,,,,
+,Cell colours,,,,
+,You type here,Sand fill — every input in this workbook looks like this.,,,
+,Calculated,Teal fill — formulas. Do not overwrite; they will not recalculate if you do.,,,
+,,,,,
+,Before you start,,,,
+,•  Have your study area in square metres (Workshop Step 1) and your strata areas if you stratified (Step 2).,,,,
+,"•  Decide your margin of error and confidence level before you look at any numbers, not after.",,,,
+,"•  Plot size defaults to 100 m² (a 10 × 10 m plot per core), matching the workshop. Change it on each sheet if yours differs.",,,,
+,•  The priors in sheet 3 are regional averages. They understate local patchiness — round the SD up.,,,,
+,,,,,
+,,,,,
+,Version 2026.1  ·  Built for the Blue Carbon Eelgrass Workshop  ·  Priors from Janousek et al. (2025),,,,
