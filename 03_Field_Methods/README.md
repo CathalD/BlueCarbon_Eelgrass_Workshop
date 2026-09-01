@@ -347,7 +347,7 @@ length of core extracted = tube length − inside distance
 <tr>
 <td width="50%">
 
-<img width="100%" alt="Method A — reading graduations on the tube at the sediment surface, then measuring the recovered core" src="03_Field_Methods/method_a_graduations.svg">
+<img width="100%" alt="Method A — reading graduations on the tube at the sediment surface, then measuring the recovered core" src="method_a_graduations.svg">
 
 **Method A** — graduation read at the sediment surface, then the recovered core measured.
 
@@ -584,4 +584,5 @@ exactly the fields the analysis expects:
 - [`Eelgrass_Carbon_Datasheet_v2.pdf`](../Eelgrass_Carbon_Datasheet_v2.pdf) — the workshop field data sheet.
 - [`datasheets/`](datasheets/) — blank/printable data sheets.
 - [`Making a soil core extractor doc.pdf`](Making%20a%20soil%20core%20extractor%20doc.pdf) — DIY extrusion device build instructions.
-- `images/` — field method photos and diagrams, including `method_a_graduations.svg`.
+- [`method_a_graduations.svg`](method_a_graduations.svg) — Method A compaction diagram (reading graduations on the tube).
+- `images/` — field method photos and diagrams.
