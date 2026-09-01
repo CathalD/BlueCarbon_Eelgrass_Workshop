@@ -347,7 +347,7 @@ length of core extracted = tube length − inside distance
 <tr>
 <td width="50%">
 
-<img width="100%" alt="Method A — reading graduations on the tube at the sediment surface, then measuring the recovered core" src="images/method_a_graduations.svg">
+<img width="100%" alt="Method A — reading graduations on the tube at the sediment surface, then measuring the recovered core" src="03_Field_Methods/method_a_graduations.svg">
 
 **Method A** — graduation read at the sediment surface, then the recovered core measured.
 
