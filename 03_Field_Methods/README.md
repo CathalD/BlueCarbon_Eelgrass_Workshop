@@ -14,18 +14,23 @@
 
 ## Overview
 
-This section of the workshop focuses on **collecting the data**. Once the sampling design is set
+This section of the workshop focuses on **collecting the data** in the field. Once the sampling design is set
 ([Section 2](../02_Project_Planning/)), it's time for the field team to collect **sediment
 cores** at the planned locations. Here we cover the necessary equipment, tips for consistent
-coring, compaction measurement, and completing data sheets.
+coring, compaction measurement, and completing the data sheets (for claude Link the data sheets in here).
 
-This section follows WWF-Canada's field guide (*Part 2: Obtaining Sediment Cores*,
-pp. 8–14 of the [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)), as well as some accompanying videos. The method shown is push (also known as percussion) coring with a PVC pipe, a cost-effective method that is commonly used in coastal ecosystems. Note that equipment requirements are
+
+The method shown is push (also known as percussion) coring with a PVC pipe, a cost-effective method that is commonly used in coastal ecosystems. Note that equipment requirements are
 similar for both salt marsh and seagrass ecosystems, and the methods may need to be adapted for
 the conditions you are working in.
 
-**⚠️ Important note — coring underwater.** The videos show coring in tidal marsh ecosystems, *above* the water table, whereas seagrass/eelgrass ecosystems tend to be fully covered by the tides, especially areas further from the coast, where coring takes place **underwater**. The good news: the method is essentially the same, with **one additional piece of equipment** to take those underwater samples (see [Equipment](#equipment), below).
+**Important note when coring underwater.** The videos show coring in tidal marsh ecosystems, *above* the water table, whereas seagrass/eelgrass ecosystems tend to be fully covered by the tides, especially areas further from the coast, where coring takes place **underwater**. The good news: the method is essentially the same, with **one additional piece of equipment** to take those underwater samples (see [Equipment](#equipment), below).
 
+
+For Claude Combine this - This section follows WWF-Canada's field guide (*Part 2: Obtaining Sediment Cores*,
+pp. 8–14 of the [Coastal Blue Carbon Field Guide](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)), as well as some accompanying videos (for claudelink the video playlist here). 
+
+And this - 
 For more detailed information on push coring, please see the WWF-Canada
 *[Measuring Carbon in Coastal Sediments](../Coastal-Blue-Carbon-Field-Guide-FINAL.pdf)* (2026), p.8.
 
@@ -39,15 +44,14 @@ And watch the following video playlists:
 
 ## Equipment
 
-Before heading out, gather and lay out the coring kit. There are many types of corers
+Before heading out, gather and lay out the coring equipment. There are many types of corers
 available, each with distinct advantages and limitations; here we use a push coring method
-with a PVC pipe. Per the guide, the corer is made from PVC tubing, which should be as long as
+with a PVC pipe. The PVC tubing used to to core should be as long as
 the target depth for the core (usually between 30 cm and 1 m), with approximately 20 cm of
 additional headspace. Three- or four-inch diameter tubing is usually used, and you will need
 top and bottom endcaps to fit each tube.
 
-The kit breaks into three groups: setting up the plot,
-taking the sediment core, and extruding, packaging and processing the core.
+For a full list of recommended equipment see here:
 
 <table>
 <tr>
@@ -113,7 +117,7 @@ taking the sediment core, and extruding, packaging and processing the core.
 </tr>
 </table>
 
-**Coring underwater — the stop cap.** For coring underwater, the tool we recommend is an
+**Coring underwater**, the tool we recommend is an
 additional **stop-cap** mechanism that creates a vacuum seal underwater. This prevents water
 from flowing in through the top of the corer, and applies a gravimetric force on the core
 upon extrusion. For more information, see the [Universal Corer — Aquatic Research Shop](https://aquaticresearchshop.com/product/universal-corer/).
@@ -137,22 +141,19 @@ upon extrusion. For more information, see the [Universal Corer — Aquatic Resea
 </tr>
 </table>
 
-> 🎥 **Watch:** [*"Site Selection and Required Materials"*](https://www.youtube.com/watch?v=C0A0yCbXdhw&list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd&index=2)
-> · *Core Extrusion – Required Materials* is video **#7** in the same playlist.
-
 ---
 
 ## Collecting a core, step by step
 
-Five steps take you from an empty plot to a cooler of labelled samples.
+Five steps take you from a site location to a cooler full of samples.
 
 | # | Step | Answers |
 |---|------|---------|
 | 1 | **Select the location** and record conditions | *Where in the plot, and how deep do I core?* |
-| 2 | **Insert the corer** | *How do I drive the tube in cleanly?* |
+| 2 | **Insert the corer** | *How to drive the tube in cleanly?* |
 | 3 | **Measure compaction** | *How much did the sediment squash?* |
-| 4 | **Extract the core** | *How do I get it out without losing sediment?* |
-| 5 | **Extrude and section** | *How do I slice, bag, and label it?* |
+| 4 | **Extract the core** | *How do I get the samples out without losing sediment?* |
+| 5 | **Extrude and section** | *How do I slice, bag, and label each sub-subsection?* |
 
 ---
 
@@ -160,21 +161,22 @@ Five steps take you from an empty plot to a cooler of labelled samples.
 
 *Where in the plot, and how deep do I core?*
 
+For Claude - Make the table a 2x2 table and separate the images. The size of each could be reduced as well to make it fit. Next to the first image state the following - you canmake slight edits for clarity and concisleness "Across your plot, you can use a metal rod or soil probe to test how deep the sediment is. This provides you with a rough idea of how far you want to insert the corer, and where to take the core in a "representtative area", meaning a spot consistent with the average depth of sediemtn in the area"
+
+text next to second image reads "A soil probe inserted into the soil (like the image to the right) can help gauge the transition from sediments to parent materials. This might be obvious, such as when there is gravel or bedrock, or sometimes the depth is clay or mineral deposits, where the density of the sediement will drastically increase"
 <table>
 <tr>
 <td width="45%">
 
+This should be the second image
 <img width="100%" alt="Probing the sediment to find the depth of refusal" src="https://github.com/user-attachments/assets/9438e830-8f0b-4a58-96bf-67a3358f18dc">
 
+This should be the first
 <img width="100%" alt="Selecting a representative coring spot within the plot" src="https://github.com/user-attachments/assets/f5578eef-03ca-482c-bce3-6f10a93d9fe6">
 
 </td>
 <td width="55%">
 
-Within each plot, pick a spot representative of the plot. The guide recommends probing the
-sediment on a grid to find the **depth of refusal** — the depth at which the corer can no
-longer be pushed into the sediment, signifying a transition from organic (carbon-rich) to
-mineral (carbon-poor) sediments or bedrock.
 
 </td>
 </tr>
@@ -187,8 +189,7 @@ mineral (carbon-poor) sediments or bedrock.
 **📋 Record it on the data sheet — plot notes**
 
 Let the data sheet guide what you need to capture. Fill in the top section now: date and
-time, site conditions, weather, and tidal conditions — plus the core's latitude/longitude
-(and, for our analysis, its **stratum** and **water depth**).
+time, site conditions, weather, and tidal conditions — plus the core's latitude/longitude.
 
 </td>
 <td width="45%">
@@ -261,13 +262,13 @@ latitude/longitude.
 > forcing through it. A gentle **twisting motion** while inserting helps the bevel slice
 > cleanly.
 
+
 <table>
 <tr>
 <td width="45%">
 
 <img width="100%" alt="Compaction: sediment column shortening inside the tube" src="https://github.com/user-attachments/assets/e87bf946-573b-492f-abdc-484f6bd8ec04">
 
-<img width="100%" alt="Measuring compaction in the field" src="https://github.com/user-attachments/assets/6806bbdf-f387-4319-838a-4dd873cda829">
 
 </td>
 <td width="55%">
@@ -291,6 +292,10 @@ sheet asks for, and the only two the analysis needs:
 
 - **Depth of corer inserted** — how far the tube went into the sediment (penetration)
 - **Length of core extracted** — how much sediment you actually recovered
+
+Either way, the **difference between the inside and outside measurements is the
+compaction** — and both routes land on the same two data sheet fields, which the
+analysis reads as `outside_depth_cm` (penetration) and `inside_depth_cm` (recovery).
 
 <table>
 <tr>
@@ -325,11 +330,8 @@ length of core extracted = tube length − inside distance
 </tr>
 </table>
 
-Either way, the **difference between the inside and outside measurements is the
-compaction** — and both routes land on the same two data sheet fields, which the
-analysis reads as `outside_depth_cm` (penetration) and `inside_depth_cm` (recovery).
 
-<!-- Cathal: Method A's diagram still to come — paste it into the left cell below,
+For Claude - Can you make simple diagram image I can add in  here as a filler <!-- Cathal: Method A's diagram still to come — paste it into the left cell below,
      keeping the blank lines around it. Method B's diagram is already in place. -->
 
 <table>
@@ -431,7 +433,7 @@ smooth is fast.*
 <td width="55%">
 
 Transfer the core onto the extruding device, then push it up from the base and slice off each
-subsection at the top of the tube with a PVC collar (typically 2 cm). Slide each slice into
+subsection at the top of the tube with a PVC collar (typically 2-5 cm). Slide each slice into
 its prelabelled bag, recording the **Core ID**, **sample number**, and **top/bottom depths**.
 The Core ID is a unique identifier for the date, core location, and section depth — for
 example, *UC-02-B: 0–2 cm* denotes a core taken in "Ucluelet", "Plot 2", "Sampling location
@@ -490,7 +492,7 @@ This step has four short companion videos:
 </tr>
 </table>
 
-**DIY extrusion device blueprint.** <!-- TODO (Cathal): insert link to the extrusion-device blueprint PDF here. --> *(link to be added)*
+**DIY extrusion device blueprint.** Link is a pdf in this folder with doc titled "03_Field_Methods/Making a soil core extractor doc.pdf"
 
 <p align="center">
   <img width="35%" alt="DIY extrusion device — parts detail" src="https://github.com/user-attachments/assets/b849b512-b5db-4665-b90f-903955985c6a">
@@ -571,7 +573,3 @@ exactly the fields the analysis expects:
 - [`Eelgrass_Carbon_Datasheet_v2.pdf`](../Eelgrass_Carbon_Datasheet_v2.pdf) — the workshop field data sheet.
 - [`datasheets/`](datasheets/) — blank/printable data sheets.
 - `images/` — field method photos and diagrams.
-
-> **Iteration note:** video callouts now link the specific per-video URLs where provided,
-> alongside the [workshop playlist](https://www.youtube.com/playlist?list=PLLsjpJMfNDP5w78ZJNDUvMj1VoRG_qSwd).
-> Language is aligned to the field-guide PDF (pp. 8–14).
